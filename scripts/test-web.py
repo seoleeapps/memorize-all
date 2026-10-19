@@ -52,7 +52,17 @@ async def main():
   await page.reload()
   await page.get_by_role('button',name='Continue',exact=True).wait_for()
   assert (await state())==before
+  legacy={**before,'interests':['history','geography']}
+  await page.evaluate('([key,value])=>localStorage.setItem(key,JSON.stringify(value))',[KEY,legacy])
+  await page.reload()
+  await page.get_by_role('button',name='Continue',exact=True).wait_for()
+  # Loading does not rewrite the original file; the next explicit commit saves
+  # normalized interests while preserving the answered feedback and records.
+  assert (await state())==legacy
   await button('Continue')
+  upgraded=await state()
+  assert upgraded['interests']==['geography']
+  assert upgraded['progress']==before['progress'] and upgraded['attempts']==before['attempts']
   for _ in range(20):
    st=await state()
    if st['session']['cursor']>=len(st['session']['items']):break
@@ -101,6 +111,18 @@ async def main():
   await button('Confirm restore')
   await button('Dismiss')
   assert (await state())==original
+  legacy_backup=OUT/'legacy-backup.json'
+  legacy_backup.write_text(json.dumps({**original,'interests':['geography','history']}))
+  async with page.expect_file_chooser() as chooser:
+   await button('Import backup')
+  await (await chooser.value).set_files(legacy_backup)
+  await button('Confirm restore')
+  await button('Dismiss')
+  assert (await state())==original
+  await page.reload()
+  await page.get_by_test_id('tab-settings').click()
+  await page.get_by_role('button',name='Export backup',exact=True).wait_for()
+  assert (await state())==original
   invalid=OUT/'invalid.json';invalid.write_text('{invalid')
   async with page.expect_file_chooser() as chooser:
    await button('Import backup')
@@ -109,6 +131,7 @@ async def main():
   assert (await state())==original
   await button('Dismiss')
   checks.append('language continuity, flashcard unsure, backup export, import cancel, restore and invalid backup')
+  checks.append('schema 1 retired interests: restart and backup import preserve progress and normalize only retired selections')
   await page.evaluate("() => {window.qaSetItem = Storage.prototype.setItem; Storage.prototype.setItem = function(){throw new DOMException('QA quota','QuotaExceededError')};}")
   await button('한국어')
   await page.get_by_text('Could not save.',exact=False).wait_for()

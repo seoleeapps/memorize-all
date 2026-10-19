@@ -1,0 +1,133 @@
+{
+  "sourceSha": "9cbeb20dbf011cac768a4901fbc6bff862947bcd",
+  "categories": [
+    {
+      "id": "geography",
+      "title": {
+        "ko": "지리",
+        "en": "Geography"
+      },
+      "mark": "◎"
+    },
+    {
+      "id": "history",
+      "title": {
+        "ko": "세계사",
+        "en": "World history"
+      },
+      "mark": "⌛"
+    },
+    {
+      "id": "math",
+      "title": {
+        "ko": "수학",
+        "en": "Mathematics"
+      },
+      "mark": "π"
+    },
+    {
+      "id": "physics",
+      "title": {
+        "ko": "물리",
+        "en": "Physics"
+      },
+      "mark": "↗"
+    },
+    {
+      "id": "elements",
+      "title": {
+        "ko": "화학·원소",
+        "en": "Chemistry"
+      },
+      "mark": "Na"
+    },
+    {
+      "id": "astronomy",
+      "title": {
+        "ko": "천문",
+        "en": "Astronomy"
+      },
+      "mark": "✦"
+    },
+    {
+      "id": "moon",
+      "title": {
+        "ko": "달",
+        "en": "The Moon"
+      },
+      "mark": "◐"
+    },
+    {
+      "id": "nature",
+      "title": {
+        "ko": "생물·자연",
+        "en": "Nature"
+      },
+      "mark": "♧"
+    },
+    {
+      "id": "coffee",
+      "title": {
+        "ko": "커피",
+        "en": "Coffee"
+      },
+      "mark": "☕"
+    },
+    {
+      "id": "wine",
+      "title": {
+        "ko": "와인",
+        "en": "Wine"
+      },
+      "mark": "◇"
+    },
+    {
+      "id": "beer",
+      "title": {
+        "ko": "맥주",
+        "en": "Beer"
+      },
+      "mark": "▥"
+    },
+    {
+      "id": "games",
+      "title": {
+        "ko": "게임",
+        "en": "Games"
+      },
+      "mark": "♟"
+    },
+    {
+      "id": "art",
+      "title": {
+        "ko": "미술",
+        "en": "Art"
+      },
+      "mark": "▨"
+    },
+    {
+      "id": "music",
+      "title": {
+        "ko": "음악",
+        "en": "Music"
+      },
+      "mark": "♫"
+    },
+    {
+      "id": "literature",
+      "title": {
+        "ko": "문학·신화",
+        "en": "Literature & myths"
+      },
+      "mark": "Aa"
+    },
+    {
+      "id": "food",
+      "title": {
+        "ko": "음식·요리",
+        "en": "Food"
+      },
+      "mark": "≋"
+    }
+  ]
+}

@@ -1,6 +1,22 @@
 import { Catalog, Grade, Knowledge, SessionItem, State, stateSchema } from './model';
 export const DAY = 86_400_000;
 
+// Schema 1 backups from 0.1.1 accepted these unpopulated topics. Keep reading
+// those backups while removing only the retired selections, never their records.
+const retiredSchema1Interests = new Set([
+  'history',
+  'math',
+  'physics',
+  'astronomy',
+  'nature',
+  'beer',
+  'games',
+  'art',
+  'music',
+  'literature',
+  'food',
+]);
+
 export function setStudyMode(state: State, mode: State['mode']): State {
   return {
     ...state,
@@ -283,9 +299,10 @@ export function reconcile(state: State, catalog: Catalog): State {
 export function parseBackup(text: string, catalog: Catalog): State {
   if (text.length > 10_000_000) throw new Error('Backup too large');
   const parsed = stateSchema.parse(JSON.parse(text));
+  const activeInterests = new Set(catalog.categories.map((category) => category.id));
   if (
     new Set(parsed.interests).size !== parsed.interests.length ||
-    parsed.interests.some((id) => !catalog.categories.some((c) => c.id === id))
+    parsed.interests.some((id) => !activeInterests.has(id) && !retiredSchema1Interests.has(id))
   )
     throw new Error('Invalid interests');
   if (parsed.session) {
@@ -316,5 +333,8 @@ export function parseBackup(text: string, catalog: Catalog): State {
         throw new Error('Inconsistent feedback');
     }
   }
-  return reconcile(parsed, catalog);
+  return reconcile(
+    { ...parsed, interests: parsed.interests.filter((id) => activeInterests.has(id)) },
+    catalog,
+  );
 }

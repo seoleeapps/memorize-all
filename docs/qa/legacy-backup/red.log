@@ -1,0 +1,35 @@
+✖ previously valid interests keep progress, history, completion and active feedback on upgrade (4.324042ms)
+✖ only retired interests restore without resetting records and allow daily learning (0.162584ms)
+✔ retired interests do not permit unknown or duplicate IDs in a backup (0.161625ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 1
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 197.08325
+
+✖ failing tests:
+
+test at tests/learning.test.ts:2:14457
+✖ previously valid interests keep progress, history, completion and active feedback on upgrade (4.324042ms)
+  Error: Invalid interests
+      at parseBackup (/private/tmp/memorize-legacy-state/src/core/learning.ts:290:11)
+      at TestContext.<anonymous> (/private/tmp/memorize-legacy-state/tests/learning.test.ts:264:22)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.start (node:internal/test_runner/test:1177:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)
+
+test at tests/learning.test.ts:2:15432
+✖ only retired interests restore without resetting records and allow daily learning (0.162584ms)
+  Error: Invalid interests
+      at parseBackup (/private/tmp/memorize-legacy-state/src/core/learning.ts:290:11)
+      at TestContext.<anonymous> (/private/tmp/memorize-legacy-state/tests/learning.test.ts:275:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
