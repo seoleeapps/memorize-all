@@ -34,7 +34,7 @@
       "status": "pass",
       "evidence": [
         "ad439207a29b4a8d4c809ef99a0219418e6931cb",
-        "https://github.com/seoleeapps/memorize-all/releases/tag/v1.0.0"
+        "https://github.com/seoleeapps/memorize-all/tree/v1.0.0"
       ],
       "checkedAt": "2026-10-19T16:56:17.388264+00:00",
       "blocker": null
@@ -76,18 +76,20 @@
           "status": "pass",
           "evidence": [
             "ad439207a29b4a8d4c809ef99a0219418e6931cb",
-            "https://github.com/seoleeapps/memorize-all/releases/tag/v1.0.0"
+            "https://github.com/seoleeapps/memorize-all/tree/v1.0.0"
           ],
           "checkedAt": "2026-10-19T16:56:17.388264+00:00",
           "blocker": null
         },
         "artifact": {
           "status": "pass",
-          "checkedAt": "2026-10-19T17:18:49.138092+00:00",
+          "checkedAt": "2026-10-19T17:28:53.233198Z",
           "evidence": [
             "release/evidence/2026-10-20/static-validation.json",
             "release/evidence/2026-10-20/github-artifact.json",
-            "release/evidence/2026-10-20/artifact-validation-archive.json"
+            "release/evidence/2026-10-20/artifact-validation-archive.json",
+            "docs/qa/independent-artifact-ad43920.json",
+            "release/evidence/2026-10-20/independent-artifact-archive.json"
           ],
           "blocker": null
         },

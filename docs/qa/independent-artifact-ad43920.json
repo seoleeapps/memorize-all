@@ -1,0 +1,431 @@
+{
+  "recordSchemaVersion": 1,
+  "scope": "final-aab-static-addendum-to-approved-L3",
+  "sourceSha": "ad439207a29b4a8d4c809ef99a0219418e6931cb",
+  "executor": "content_review",
+  "implementer": "root",
+  "status": "passed",
+  "environment": "dev-static-tools",
+  "plannedAt": "2026-10-19T17:26:15.676319Z",
+  "startedAt": "2026-10-19T17:26:15.859900Z",
+  "completedAt": "2026-10-19T17:28:53.233198Z",
+  "artifact": {
+    "path": "LOCAL_RELEASE_EVIDENCE/artifact-signed/memorize-all-production.aab",
+    "sha256": "fd8a520c86c5a5b23c4401dadb12637852135f5bf5317cb36cd0b00902492e14",
+    "bytes": 76794738,
+    "sourceMarkerMatches": true
+  },
+  "independence": "Actual AAB reads and independent command execution; no reliance on parent static-validation.json conclusion. No signing, key access or native runtime.",
+  "manifest": {
+    "package": "com.seorilabs.memorizeall",
+    "versionName": "1.0.0",
+    "versionCode": 3,
+    "debuggableAttribute": null,
+    "effectiveDebuggable": false,
+    "debuggableReason": "android:debuggable absent, Android default false"
+  },
+  "advertising": {
+    "manifestAppId": "ca-app-pub-9932778305312246~8005768438",
+    "releaseChannel": "production",
+    "mode": "live",
+    "androidBannerId": "ca-app-pub-9932778305312246/1437414097",
+    "bannerIdStorage": "base/assets/app.config, read dynamically through Constants.expoConfig.extra.advertising.androidBannerId",
+    "bannerFullLiteralInRuntimeBundle": false,
+    "runtimeConfigurationPropertyNamesPresent": true,
+    "runtimeRequests": "unrun"
+  },
+  "signature": {
+    "jarsignerVerified": true,
+    "signerCertificateSha256": "4E:35:39:69:2D:9D:81:F9:AC:6C:C5:3B:3D:B4:7E:F4:88:DC:28:1F:4C:D1:6F:3D:67:FC:79:88:69:DE:E9:15",
+    "certificateCount": 1,
+    "signedEntryDigestsVerified": 1409,
+    "warnings": [
+      "This jar contains entries whose certificate chain is invalid. Reason: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target",
+      "This jar contains entries whose signer certificate is self-signed.",
+      "This jar contains signatures that do not include a timestamp. Without a timestamp, users may not be able to validate this jar after any of the signer certificates expire (as early as 2054-02-20).",
+      "POSIX file permission and/or symlink attributes detected. These attributes are ignored when signing and are not protected by the signature."
+    ],
+    "interpretation": "The self-signed upload certificate is not a public CA trust chain and has no timestamp; JAR cryptographic verification passed and its SHA-256 fingerprint exactly matches the expected upload signer. No private key or credential file was read."
+  },
+  "bundleAlignment": "PAGE_ALIGNMENT_16K",
+  "elf64": {
+    "libraries": 46,
+    "abis": [
+      "arm64-v8a",
+      "x86_64"
+    ],
+    "failures": 0,
+    "exclusiveRelroExceptionSegments": 37,
+    "noRelroLibraries": 0
+  },
+  "apkComparison": {
+    "apkSha256": "e577f31395fef5806577eb46294a5fc67a7861a6a73712ed1731fd8482b0c077",
+    "source": "Existing static-universal.apks, extracted without signing or rebuilding",
+    "nativeLibrariesByteIdentical": 92,
+    "appConfigByteIdentical": true,
+    "runtimeBundleByteIdentical": true,
+    "zipAlignedNativeLibraries": 92
+  },
+  "commands": [
+    {
+      "command": [
+        "/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java",
+        "-jar",
+        "/opt/homebrew/Cellar/bundletool/1.18.3/libexec/bundletool-all.jar",
+        "dump",
+        "manifest",
+        "--bundle=LOCAL_RELEASE_EVIDENCE/artifact-signed/memorize-all-production.aab",
+        "--module=base"
+      ],
+      "startedAt": "2026-10-19T17:26:15.862384Z",
+      "completedAt": "2026-10-19T17:26:16.284155Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/artifact-ad43920/manifest.log"
+    },
+    {
+      "command": [
+        "/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java",
+        "-jar",
+        "/opt/homebrew/Cellar/bundletool/1.18.3/libexec/bundletool-all.jar",
+        "dump",
+        "config",
+        "--bundle=LOCAL_RELEASE_EVIDENCE/artifact-signed/memorize-all-production.aab"
+      ],
+      "startedAt": "2026-10-19T17:26:15.862440Z",
+      "completedAt": "2026-10-19T17:26:16.271749Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/artifact-ad43920/bundle-config.log"
+    },
+    {
+      "command": [
+        "/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/jarsigner",
+        "-verify",
+        "-verbose",
+        "-certs",
+        "LOCAL_RELEASE_EVIDENCE/artifact-signed/memorize-all-production.aab"
+      ],
+      "startedAt": "2026-10-19T17:26:15.863394Z",
+      "completedAt": "2026-10-19T17:26:17.059869Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/artifact-ad43920/signature.log"
+    },
+    {
+      "command": [
+        "/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/keytool",
+        "-printcert",
+        "-rfc",
+        "-jarfile",
+        "LOCAL_RELEASE_EVIDENCE/artifact-signed/memorize-all-production.aab",
+        "-cacerts"
+      ],
+      "startedAt": "2026-10-19T17:26:15.864474Z",
+      "completedAt": "2026-10-19T17:26:16.987678Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/artifact-ad43920/signer-certificate.log"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/verify-android-artifact.py",
+        "LOCAL_RELEASE_EVIDENCE/artifact-signed/memorize-all-production.aab",
+        "--output",
+        "build/qa-independent/artifact-ad43920/elf-check-results.json"
+      ],
+      "startedAt": "2026-10-19T17:26:16.272492Z",
+      "completedAt": "2026-10-19T17:26:16.417034Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/artifact-ad43920/elf-check.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_android_artifact.py",
+        "-v"
+      ],
+      "startedAt": "2026-10-19T17:26:16.284685Z",
+      "completedAt": "2026-10-19T17:26:16.337007Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/artifact-ad43920/checker-tests.log"
+    },
+    {
+      "command": [
+        "LOCAL_USER_HOME/Library/Android/sdk/build-tools/37.0.0/zipalign",
+        "-v",
+        "-c",
+        "-P",
+        "16",
+        "4",
+        "build/qa-independent/artifact-ad43920/universal.apk"
+      ],
+      "startedAt": "2026-10-19T17:26:48.278614Z",
+      "completedAt": "2026-10-19T17:26:48.332228Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/artifact-ad43920/zipalign.log"
+    },
+    {
+      "command": [
+        "/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java",
+        "-jar",
+        "/opt/homebrew/Cellar/bundletool/1.18.3/libexec/bundletool-all.jar",
+        "validate",
+        "--bundle=LOCAL_RELEASE_EVIDENCE/artifact-signed/memorize-all-production.aab"
+      ],
+      "startedAt": "2026-10-19T17:26:48.278901Z",
+      "completedAt": "2026-10-19T17:26:48.784355Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/artifact-ad43920/bundle-validate.log"
+    },
+    {
+      "command": [
+        "LOCAL_USER_HOME/Library/Android/sdk/build-tools/37.0.0/aapt2",
+        "dump",
+        "badging",
+        "build/qa-independent/artifact-ad43920/universal.apk"
+      ],
+      "startedAt": "2026-10-19T17:26:48.279970Z",
+      "completedAt": "2026-10-19T17:26:48.363578Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/artifact-ad43920/apk-manifest.log"
+    },
+    {
+      "command": [
+        "python3",
+        "build/qa-independent/artifact-ad43920/inspect-static.py"
+      ],
+      "startedAt": "2026-10-19T17:27:50.743199Z",
+      "completedAt": "2026-10-19T17:27:51.505068Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/artifact-ad43920/independent-inspection.log"
+    }
+  ],
+  "checkerUnitTests": {
+    "tests": 3,
+    "passed": 3,
+    "evidence": "build/qa-independent/artifact-ad43920/checker-tests.log"
+  },
+  "failedAttempt": {
+    "status": "failed-harness-assumption-preserved",
+    "script": "build/qa-independent/artifact-ad43920/inspect-static-attempt1.py",
+    "log": "build/qa-independent/artifact-ad43920/independent-inspection-attempt1.log",
+    "commandMetadata": "build/qa-independent/artifact-ad43920/independent-inspection-attempt1.json",
+    "reason": "The first independent helper also demanded the full banner ID as a literal inside Hermes JS. This app stores the ID in embedded app.config and reads Constants.expoConfig.extra.advertising.androidBannerId. The demanded literal is not required by its implementation.",
+    "resolution": "Preserved failed script/log and inspected the embedded production config, runtime configuration property names and exact-SHA native ad consumer source. Updated only this independent helper; the corrected actual-file inspection passed. No product or AAB bytes changed.",
+    "passingEvidence": "build/qa-independent/artifact-ad43920/independent-inspection-results.json"
+  },
+  "nativeRuntime": "unrun",
+  "notRun": [
+    "Device or emulator lookup/install/launch/logs/screenshots",
+    "adb or native app execution",
+    "Actual UMP/AdMob consent UI or banner request/rendering",
+    "16KB native runtime",
+    "Play-installed app runtime"
+  ],
+  "marketState": "Not inspected by this subtask. This static pass does not certify upload, review, approval or public availability.",
+  "existingArtifactFiles": {
+    "before": [
+      {
+        "path": "LOCAL_RELEASE_EVIDENCE/artifact-signed/memorize-all-production.aab",
+        "bytes": 76794738,
+        "sha256": "fd8a520c86c5a5b23c4401dadb12637852135f5bf5317cb36cd0b00902492e14"
+      },
+      {
+        "path": "LOCAL_RELEASE_EVIDENCE/artifact-signed/static-universal.apks",
+        "bytes": 109740696,
+        "sha256": "244d2fb8689c3b8142c7a65fd9ddd0d455f2f648c76b2e0147fc8bd07e8d9744"
+      }
+    ],
+    "after": [
+      {
+        "path": "LOCAL_RELEASE_EVIDENCE/artifact-signed/memorize-all-production.aab",
+        "bytes": 76794738,
+        "sha256": "fd8a520c86c5a5b23c4401dadb12637852135f5bf5317cb36cd0b00902492e14"
+      },
+      {
+        "path": "LOCAL_RELEASE_EVIDENCE/artifact-signed/static-universal.apks",
+        "bytes": 109740696,
+        "sha256": "244d2fb8689c3b8142c7a65fd9ddd0d455f2f648c76b2e0147fc8bd07e8d9744"
+      }
+    ],
+    "unchanged": true
+  },
+  "worktree": {
+    "sourceShaUnchanged": true,
+    "productTrackedDiffEmpty": true,
+    "before": "?? docs/qa/independent-ad43920.json\n?? docs/qa/independent-ad43920.md\n?? docs/qa/independent-f542483.json\n?? docs/qa/independent-f542483.md\n",
+    "after": "?? docs/qa/independent-ad43920.json\n?? docs/qa/independent-ad43920.md\n?? docs/qa/independent-f542483.json\n?? docs/qa/independent-f542483.md\n"
+  },
+  "officialSources": [
+    "https://developer.android.com/guide/practices/page-sizes#check-relro",
+    "https://developer.android.com/tools/zipalign",
+    "https://developer.android.com/guide/topics/manifest/application-element#debug"
+  ],
+  "evidence": {
+    "rawDirectory": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920",
+    "detail": "build/qa-independent/artifact-ad43920/independent-inspection-results.json",
+    "sourceConsumer": "build/qa-independent/artifact-ad43920/source-Advertising.native.tsx"
+  },
+  "artifacts": [
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/apk-manifest.json",
+      "sha256": "d7cfe09859c7c37bd63775af27d64d19f39f1c806a7a0b27837489896e4d5de0",
+      "bytes": 373
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/apk-manifest.log",
+      "sha256": "f5399af3b76a5bd849fd59efe707b1c8f2fe4a389a84e698406ca8afea8bcbd3",
+      "bytes": 6033
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/bundle-config.json",
+      "sha256": "a5fde3619f9dcb62e579f6c4be327837507b73f55439f10081b9a1467bc42187",
+      "bytes": 586
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/bundle-config.log",
+      "sha256": "c050ac241584887c43e487f1225563de07bfd8c1617b8be3d75f51dadec1d646",
+      "bytes": 1008
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/bundle-validate.json",
+      "sha256": "c03b0c320b3dc6bef568f77b99cdcd49e3af96b624aaf8cbcc47d6d1979b5223",
+      "bytes": 578
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/bundle-validate.log",
+      "sha256": "7aabf8bdb456a747728241a00de700c3cdf97bb43b63b69beab887d8d818f21a",
+      "bytes": 78615
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/checker-tests.json",
+      "sha256": "5d91cab3edb546ffb071f04f3dfd5a665bbceb8f4f345aa850ea5d4e46e7681c",
+      "bytes": 355
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/checker-tests.log",
+      "sha256": "7e701b9ebb69bd1b1498e72560258d020d212ec42a244553a919c92105b93338",
+      "bytes": 496
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/elf-check-results.json",
+      "sha256": "6791148a2653f2769f0fd7f692e50e8f133b528f84a926e0af01194cb29fb6aa",
+      "bytes": 76955
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/elf-check.json",
+      "sha256": "cedddfe340142afdbaa189feb61e70f96c495e7b3f8f7d511c0498a459a66f64",
+      "bytes": 524
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/elf-check.log",
+      "sha256": "a52c43433333466e30ef29e0c23d64beea6b8cee810cd70d9232786baff57579",
+      "bytes": 55
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/independent-inspection-attempt1.json",
+      "sha256": "fac8177b8fee0a75c10c8b3aeb64a13e97315541900ac1a9b41e33786e0e2199",
+      "bytes": 310
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/independent-inspection-attempt1.log",
+      "sha256": "8e83099c326ad2d729b75896a6d68221ab1963c7114dd40929038d18bc7fa215",
+      "bytes": 810
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/independent-inspection-results.json",
+      "sha256": "70fd5692808e7d24745f6a0d6a6bf97923dd3eed0480feb57ab44925468c62d0",
+      "bytes": 154344
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/independent-inspection.json",
+      "sha256": "117b84774b9e31ed42c8b047bfbcd25e459307dfb4f51895f8e7ce23daf15ea9",
+      "bytes": 310
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/independent-inspection.log",
+      "sha256": "3d0196fa954154b5bee2127a41a0b8a377813ddcbd72e31bd4f12b9537337929",
+      "bytes": 2583
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/inspect-static-attempt1.py",
+      "sha256": "9437c07115d28a1444b8a09e28ba61ad730cf88dea5e580fdd1c89b663b445fc",
+      "bytes": 7642
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/inspect-static.py",
+      "sha256": "c40998f779b034ca9517da6ae772a811ce606d6d029ca7537af36827c732785d",
+      "bytes": 7865
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/manifest.json",
+      "sha256": "56f24e6746ba96447da7bec2984ebb987b0062690eb9d8c3c946e58c6d116c07",
+      "bytes": 604
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/manifest.log",
+      "sha256": "6c869466de3ffc04b3fc7bfbc9f860e2138b5015916c880d27564a3962f04a4e",
+      "bytes": 15109
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/plan.json",
+      "sha256": "c855b08f2c9e78270a880b60c9a28dde61fc2da12b270573cabb1e215ad51ec3",
+      "bytes": 2086
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/signature.json",
+      "sha256": "3593c05640b6a0d50383c209b0a35426a58982ba3fec74b9d1db08b5409b741e",
+      "bytes": 512
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/signature.log",
+      "sha256": "9685c35cc33d9e28eb18294318a232d160279fd8575718dc66c0bf80802d5748",
+      "bytes": 712652
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/signer-certificate.json",
+      "sha256": "e2f54b65661a9f600706ed686281f7e347c492fb7b5429d745f03d9d84da1c86",
+      "bytes": 536
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/signer-certificate.log",
+      "sha256": "a99551fc7e1cb1693d24c225665fda54d522ebe70b2a0f36ecd53a5c46d6d216",
+      "bytes": 1308
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/source-Advertising.native.tsx",
+      "sha256": "8e19d0f4d37a875e3ec311c15e2e501f24b48d4c45df229b4ef3cea99f0f4b79",
+      "bytes": 4122
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/universal.apk",
+      "sha256": "e577f31395fef5806577eb46294a5fc67a7861a6a73712ed1731fd8482b0c077",
+      "bytes": 109740386
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/zipalign.json",
+      "sha256": "0ddae77dab58db25333717d4ae7bca53fb4c2e8595070d572d3c151d638a9878",
+      "bytes": 394
+    },
+    {
+      "path": "LOCAL_QA_CHECKOUT/build/qa-independent/artifact-ad43920/zipalign.log",
+      "sha256": "c1e9fc80fe6d2a3f2ea950041fa2eda340e043604a202836fdcd162e8bafbe83",
+      "bytes": 98846
+    }
+  ],
+  "publishedPathNote": "Public copy uses LOCAL_RELEASE_EVIDENCE, LOCAL_QA_CHECKOUT and LOCAL_USER_HOME. Exact original reports and commands are archived and hash-verified."
+}

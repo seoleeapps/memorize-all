@@ -35,11 +35,11 @@ AdMob의 `Memorize All Android GDPR`과 `Memorize All Android US states` 메시�
 
 정확한 Play 패키지 검색에는 아직 앱이 나오지 않는다. 스토어 연결과 앱별 app-ads.txt 인증, 광고 준비 상태 심사는 미완료다. 공개 app-ads.txt는 www와 루트 도메인에서 HTTP 200이고 게시자 행이 일치하며 robots는 크롤링을 허용한다. 이것을 이 앱의 인증 완료로 기록하지 않는다. 공개 후 검색 결과를 다시 확인한다.
 
-## 산출물 검증과 진행 중인 업로드
+## 산출물 검증과 내부 배포
 
 Linux 릴리스 실행 https://github.com/seoleeapps/memorize-all/actions/runs/39289597630 의 검사와 서명 빌드가 모두 성공했다. 최종 AAB는 76,794,738바이트이고 SHA-256은 `fd8a520c86c5a5b23c4401dadb12637852135f5bf5317cb36cd0b00902492e14`다. AAB, SOURCE_SHA, SHA256SUMS와 ELF 검사 결과를 Actions의 3일 보존 기한 전에 체크아웃 밖에 내려받아 파일을 다시 읽고 대조했다.
 
-실제 manifest에서 패키지, 버전 `1.0.0 (3)`, minSdk 24와 targetSdk 36, 비디버그 상태와 운영 AdMob 앱 ID를 확인했다. AAB의 Expo native 설정에서 운영 모드와 배너 ID를 확인했다. 업로드 키 서명은 Play에서 직접 내려받은 업로드 인증서와 일치했다. 64비트 ELF 46개와 bundle 16KB 설정을 확인했고, 기기 연결 없이 만든 universal APK의 zipalign 16KB 검사를 통과했다. RELRO에는 공식 예외 조건을 적용했다. 실제 16KB 기기 실행은 미실행이다.
+실제 manifest에서 패키지, 버전 `1.0.0 (3)`, minSdk 24와 targetSdk 36, 비디버그 상태와 운영 AdMob 앱 ID를 확인했다. AAB의 Expo native 설정에서 운영 모드와 배너 ID를 확인했다. 업로드 키 서명은 Play에서 직접 내려받은 업로드 인증서와 일치했다. 64비트 ELF 46개와 bundle 16KB 설정을 확인했고, 기기 연결 없이 만든 universal APK의 zipalign 16KB 검사를 통과했다. RELRO에는 공식 예외 조건을 적용했다. 실제 16KB 기기 실행은 미실행이다. 독립 검수도 실제 AAB의 서명 엔트리 1,409개와 ELF 46개, 기존 APK의 native 파일 92개와 설정, JS bundle 동일성, 16KB 정렬을 통과했다. 원본 근거 31개 파일을 다시 읽어 해시를 대조했다. `docs/qa/independent-artifact-ad43920.json`에 도구 경고와 잘못된 helper 가정의 수정 이력을 남겼다.
 
 최초 로컬 keytool 실행은 기본 .keystore 파일 부재로 인증서를 출력한 뒤 실패했다. CI와 같은 `-cacerts` 옵션으로 재실행해 검증했다. 키를 새로 만들거나 원본 키를 변경하지 않았다. 산출물 결함으로 기록하지 않으며 이 실행 이력은 정적 검증 근거에 남겼다.
 
