@@ -58,7 +58,10 @@
     "release/evidence/2026-10-20/policy-http.json",
     "release/evidence/2026-10-20/static-validation.json",
     "release/evidence/2026-10-20/internal-console-readback.json",
-    "release/evidence/2026-10-20/publishing-before-submission.json"
+    "release/evidence/2026-10-20/publishing-before-submission.json",
+    "release/evidence/2026-10-20/submission-detail-readback.json",
+    "release/evidence/2026-10-20/publishing-in-review.json",
+    "release/evidence/2026-10-20/public-store-after-submission.json"
   ],
   "contactWebsite": "https://www.seorilabs.com/apps/memorize-all/support/"
 }

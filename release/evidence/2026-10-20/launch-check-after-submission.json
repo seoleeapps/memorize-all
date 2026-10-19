@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-19T17:38:54.308006+00:00",
+  "exitCode": 1,
+  "result": {
+    "complete": false,
+    "objective": "public_live",
+    "markets": [
+      {
+        "market": "google_play",
+        "state": "submission",
+        "objective": "public_live"
+      }
+    ],
+    "errors": [],
+    "incomplete": [
+      "commonGates.production_dependencies=blocked",
+      "markets.google_play.gates.approval=pending",
+      "markets.google_play.gates.release=pending",
+      "markets.google_play.gates.live_smoke=pending"
+    ]
+  }
+}

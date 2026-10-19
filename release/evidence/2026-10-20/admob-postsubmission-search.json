@@ -1,0 +1,24 @@
+{
+  "searches": [
+    {
+      "checkedAt": "2026-10-19T17:37:35.546010+00:00",
+      "url": "https://admob.google.com/v2/apps/8005768438/update?ctp=%2Fapps%2F8005768438%2Fsettings&appPlatform=2",
+      "androidAppId": "ca-app-pub-9932778305312246~8005768438",
+      "packageName": "com.seorilabs.memorizeall",
+      "query": "com.seorilabs.memorizeall",
+      "matchingAppFound": false,
+      "body": "메인 콘텐츠로 건너뛰기\nclose\n앱에 앱 스토어 추가\nmore_vert\n1\n앱 스토어 선택\n2\n패키지 이름 확인\nMemorize All\nAndroid\n앱 스토어 \nhelp_outline\n\nGoogle Play\n\n앱이 Play 스토어에 등록된 경우 앱을 찾아서 연결하세요. 패키지 이름 또는 앱 URL로 검색하여 결과를 좁힐 수 있습니다. 앱 URL로 검색하는 경우 앱 스토어 등록정보에서 URL을 복사하세요. 앱 URL에 대해 자세히 알아보기\nsearch\nclear\n검색\n앱\n개발자\n앱스토어\n앱 추가\n앱을 찾을 수 없는 경우 앱 스토어 세부사항을 확인한 후 다시 시도해 보세요.\n\n다른 Android 스토어\n\n앱이 다른 Android 앱 스토어에 등록된 경우 여기에서 해당 앱 스토어를 선택하세요. 앱 스토어를 찾을 수 없나요?\ncheck_box_outline_blank\nAmazon Appstore\ncheck_box_outline_blank\nOPPO App Market\ncheck_box_outline_blank\n삼성 Galaxy Store\ncheck_box_outline_blank\nVIVO App Store\ncheck_box_outline_blank\nXiaomi GetApps\n계속\n취소\n© 2026 Google 개인정보처리방침 약관"
+    },
+    {
+      "checkedAt": "2026-10-19T17:37:40.017244+00:00",
+      "url": "https://admob.google.com/v2/apps/8005768438/update?ctp=%2Fapps%2F8005768438%2Fsettings&appPlatform=2",
+      "androidAppId": "ca-app-pub-9932778305312246~8005768438",
+      "packageName": "com.seorilabs.memorizeall",
+      "query": "https://play.google.com/store/apps/details?id=com.seorilabs.memorizeall",
+      "matchingAppFound": false,
+      "body": "메인 콘텐츠로 건너뛰기\nclose\n앱에 앱 스토어 추가\nmore_vert\n1\n앱 스토어 선택\n2\n패키지 이름 확인\nMemorize All\nAndroid\n앱 스토어 \nhelp_outline\n\nGoogle Play\n\n앱이 Play 스토어에 등록된 경우 앱을 찾아서 연결하세요. 패키지 이름 또는 앱 URL로 검색하여 결과를 좁힐 수 있습니다. 앱 URL로 검색하는 경우 앱 스토어 등록정보에서 URL을 복사하세요. 앱 URL에 대해 자세히 알아보기\nsearch\nclear\n검색\n앱\n개발자\n앱스토어\n앱 추가\n앱을 찾을 수 없는 경우 앱 스토어 세부사항을 확인한 후 다시 시도해 보세요.\n\n다른 Android 스토어\n\n앱이 다른 Android 앱 스토어에 등록된 경우 여기에서 해당 앱 스토어를 선택하세요. 앱 스토어를 찾을 수 없나요?\ncheck_box_outline_blank\nAmazon Appstore\ncheck_box_outline_blank\nOPPO App Market\ncheck_box_outline_blank\n삼성 Galaxy Store\ncheck_box_outline_blank\nVIVO App Store\ncheck_box_outline_blank\nXiaomi GetApps\n계속\n취소\n© 2026 Google 개인정보처리방침 약관"
+    }
+  ],
+  "storeLinked": false,
+  "matchingAppFound": false
+}

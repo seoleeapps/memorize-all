@@ -53,10 +53,12 @@
       "status": "blocked",
       "evidence": [
         "release/evidence/2026-10-20/policy-http.json",
-        "release/evidence/2026-10-20/admob-readback.json"
+        "release/evidence/2026-10-20/admob-readback.json",
+        "release/evidence/2026-10-20/admob-postsubmission-search.json",
+        "release/evidence/2026-10-20/admob-final-console.json"
       ],
-      "checkedAt": "2026-10-19T16:56:17.388264+00:00",
-      "blocker": "App-specific European and US states messages are published and policy pages are live. Exact package search still returns no app; store link, app-specific app-ads.txt verification and AdMob review remain pending. These are tracked separately from Play submission."
+      "checkedAt": "2026-10-19T17:37:40.017244+00:00",
+      "blocker": "App-specific European and US states messages are published and policy pages are live. After Play submission, exact package and Play URL searches still return no app. Store link, app-specific app-ads.txt verification and AdMob readiness review remain pending; Play review is separately in progress."
     },
     "observability": {
       "status": "na",
@@ -145,28 +147,43 @@
           "blocker": null
         },
         "submission": {
-          "status": "pending",
-          "evidence": [],
-          "checkedAt": null,
+          "status": "pass",
+          "checkedAt": "2026-10-19T17:37:12.681889+00:00",
+          "evidence": [
+            "release/evidence/2026-10-20/submission-detail-readback.json",
+            "release/evidence/2026-10-20/submission-activity-readback.json"
+          ],
           "blocker": null
         },
         "approval": {
           "status": "pending",
-          "evidence": [],
-          "checkedAt": null,
-          "blocker": null
+          "evidence": [
+            "release/evidence/2026-10-20/submission-detail-readback.json",
+            "release/evidence/2026-10-20/publishing-in-review.json",
+            "release/evidence/2026-10-20/public-store-after-submission.json"
+          ],
+          "checkedAt": "2026-10-19T17:38:42.822311+00:00",
+          "blocker": "Google review is in progress; approval and public availability have not been verified."
         },
         "release": {
           "status": "pending",
-          "evidence": [],
-          "checkedAt": null,
-          "blocker": null
+          "evidence": [
+            "release/evidence/2026-10-20/submission-detail-readback.json",
+            "release/evidence/2026-10-20/publishing-in-review.json",
+            "release/evidence/2026-10-20/public-store-after-submission.json"
+          ],
+          "checkedAt": "2026-10-19T17:38:42.822311+00:00",
+          "blocker": "Google review is in progress; approval and public availability have not been verified."
         },
         "live_smoke": {
           "status": "pending",
-          "evidence": [],
-          "checkedAt": null,
-          "blocker": null
+          "evidence": [
+            "release/evidence/2026-10-20/submission-detail-readback.json",
+            "release/evidence/2026-10-20/publishing-in-review.json",
+            "release/evidence/2026-10-20/public-store-after-submission.json"
+          ],
+          "checkedAt": "2026-10-19T17:38:42.822311+00:00",
+          "blocker": "Google review is in progress; approval and public availability have not been verified."
         }
       },
       "identity": {
@@ -175,7 +192,7 @@
         "build": "3"
       },
       "objective": "public_live",
-      "state": "policy",
+      "state": "submission",
       "category": "EDUCATION",
       "managedPublishing": "disabled; approval automatically publishes approved changes",
       "artifactSha256": "fd8a520c86c5a5b23c4401dadb12637852135f5bf5317cb36cd0b00902492e14",
@@ -189,10 +206,18 @@
       "productionRelease": {
         "version": "1.0.0",
         "versionCode": 3,
-        "status": "prepared; not submitted",
+        "status": "in_review",
         "rollout": "full",
         "source": "promoted from internal with identical bundle",
-        "beforeSubmissionEvidence": "release/evidence/2026-10-20/publishing-before-submission.json"
+        "beforeSubmissionEvidence": "release/evidence/2026-10-20/publishing-before-submission.json",
+        "submissionId": "1",
+        "submittedAt": "2026-10-20T02:36+09:00",
+        "submittedAtPrecision": "minute; Console display",
+        "changeCount": 12,
+        "reviewStateEvidence": "release/evidence/2026-10-20/submission-detail-readback.json",
+        "nextTransition": "Managed publishing disabled: approval automatically publishes approved full rollout.",
+        "latestReadbackAt": "2026-10-19T17:38:22.966109+00:00",
+        "managedPublishingReadback": "release/evidence/2026-10-20/publishing-in-review.json"
       }
     }
   },
@@ -208,11 +233,13 @@
   },
   "admob": {
     "androidAppId": "ca-app-pub-9932778305312246~8005768438",
-    "storeLink": "not found by package search",
-    "approval": "needs review; limited serving",
+    "storeLink": "not found by package or exact Play URL after Play submission",
+    "approval": "needs review; store is unlinked",
     "privacyMessage": "Memorize All Android GDPR and US states messages published; reject or opt-out enabled; native UMP unrun",
     "appAdsTxt": "HTTP200 publisher row matches; app-specific verification unavailable before linking",
-    "checkedAt": "2026-10-19T17:04:10.182035+00:00"
+    "checkedAt": "2026-10-19T17:38:22.968587+00:00",
+    "searchEvidence": "release/evidence/2026-10-20/admob-postsubmission-search.json",
+    "nextAction": "After the Play listing becomes searchable, link the exact package, then verify this app app-ads.txt and AdMob readiness status. Do not treat public HTTP 200 or another app verification as this app approval."
   },
   "policyPages": {
     "pullRequest": "https://github.com/seorilabs/seorilabs-official/pull/79",

@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-19T17:38:42.822311+00:00",
+  "packageName": "com.seorilabs.memorizeall",
+  "anonymousPublicReadback": [
+    {
+      "country": "US",
+      "language": "en",
+      "url": "https://play.google.com/store/apps/details?id=com.seorilabs.memorizeall&gl=US&hl=en",
+      "status": 404,
+      "title": "Not Found",
+      "appTitlePresent": false
+    },
+    {
+      "country": "KR",
+      "language": "ko",
+      "url": "https://play.google.com/store/apps/details?id=com.seorilabs.memorizeall&gl=KR&hl=ko",
+      "status": 404,
+      "title": "찾을 수 없음",
+      "appTitlePresent": false
+    }
+  ],
+  "publicAvailabilityVerified": false
+}

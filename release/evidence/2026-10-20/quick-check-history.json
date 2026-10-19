@@ -1,0 +1,135 @@
+{
+  "checks": [
+    {
+      "checkedAt": "2026-10-19T17:23:35.726311+00:00",
+      "url": "https://play.google.com/console/u/0/developers/5547060480954653351/app/4974075050392290867/publishing",
+      "quickChecksRunning": true,
+      "timeRemaining": [
+        "최대 13분 남음"
+      ],
+      "submitButtonCount": 1,
+      "submitEnabled": true,
+      "notSubmitted": true
+    },
+    {
+      "checkedAt": "2026-10-19T17:24:27.065246+00:00",
+      "url": "https://play.google.com/console/u/0/developers/5547060480954653351/app/4974075050392290867/publishing",
+      "quickChecksRunning": true,
+      "timeRemaining": [
+        "최대 12분 남음"
+      ],
+      "submitButtonCount": 1,
+      "submitEnabled": true,
+      "notSubmitted": true
+    },
+    {
+      "checkedAt": "2026-10-19T17:28:12.269198+00:00",
+      "url": "https://play.google.com/console/u/0/developers/5547060480954653351/app/4974075050392290867/publishing",
+      "quickChecksRunning": true,
+      "timeRemaining": [
+        "최대 8분 남음"
+      ],
+      "submitButtonCount": 1,
+      "submitEnabled": true,
+      "notSubmitted": true
+    },
+    {
+      "checkedAt": "2026-10-19T17:28:51.752842+00:00",
+      "url": "https://play.google.com/console/u/0/developers/5547060480954653351/app/4974075050392290867/publishing",
+      "quickChecksRunning": true,
+      "timeRemaining": [
+        "최대 8분 남음"
+      ],
+      "submitButtonCount": 1,
+      "submitEnabled": true,
+      "notSubmitted": true
+    },
+    {
+      "checkedAt": "2026-10-19T17:29:18.898376+00:00",
+      "url": "https://play.google.com/console/u/0/developers/5547060480954653351/app/4974075050392290867/publishing",
+      "quickChecksRunning": true,
+      "timeRemaining": [
+        "최대 7분 남음"
+      ],
+      "submitButtonCount": 1,
+      "submitEnabled": true,
+      "notSubmitted": true
+    },
+    {
+      "checkedAt": "2026-10-19T17:30:09.588769+00:00",
+      "url": "https://play.google.com/console/u/0/developers/5547060480954653351/app/4974075050392290867/publishing",
+      "quickChecksRunning": true,
+      "timeRemaining": [
+        "최대 6분 남음"
+      ],
+      "submitButtonCount": 1,
+      "submitEnabled": true,
+      "notSubmitted": true
+    },
+    {
+      "checkedAt": "2026-10-19T17:30:38.740841+00:00",
+      "url": "https://play.google.com/console/u/0/developers/5547060480954653351/app/4974075050392290867/publishing",
+      "quickChecksRunning": true,
+      "timeRemaining": [
+        "최대 6분 남음"
+      ],
+      "submitButtonCount": 1,
+      "submitEnabled": true,
+      "notSubmitted": true
+    },
+    {
+      "checkedAt": "2026-10-19T17:31:30.615728+00:00",
+      "url": "https://play.google.com/console/u/0/developers/5547060480954653351/app/4974075050392290867/publishing",
+      "quickChecksRunning": true,
+      "timeRemaining": [
+        "최대 5분 남음"
+      ],
+      "submitButtonCount": 1,
+      "submitEnabled": true,
+      "notSubmitted": true
+    },
+    {
+      "checkedAt": "2026-10-19T17:32:40.896918+00:00",
+      "url": "https://play.google.com/console/u/0/developers/5547060480954653351/app/4974075050392290867/publishing",
+      "quickChecksRunning": true,
+      "timeRemaining": [
+        "최대 4분 남음"
+      ],
+      "submitButtonCount": 1,
+      "submitEnabled": true,
+      "notSubmitted": true
+    },
+    {
+      "checkedAt": "2026-10-19T17:33:44.073463+00:00",
+      "url": "https://play.google.com/console/u/0/developers/5547060480954653351/app/4974075050392290867/publishing",
+      "quickChecksRunning": true,
+      "timeRemaining": [
+        "최대 3분 남음"
+      ],
+      "submitButtonCount": 1,
+      "submitEnabled": true,
+      "notSubmitted": true
+    },
+    {
+      "checkedAt": "2026-10-19T17:34:54.812445+00:00",
+      "url": "https://play.google.com/console/u/0/developers/5547060480954653351/app/4974075050392290867/publishing",
+      "quickChecksRunning": true,
+      "timeRemaining": [
+        "최대 2분 남음"
+      ],
+      "submitButtonCount": 1,
+      "submitEnabled": true,
+      "notSubmitted": true
+    },
+    {
+      "checkedAt": "2026-10-19T17:36:04.247492+00:00",
+      "url": "https://play.google.com/console/u/0/developers/5547060480954653351/app/4974075050392290867/publishing",
+      "quickChecksRunning": false,
+      "timeRemaining": [],
+      "submitButtonCount": 1,
+      "submitEnabled": true,
+      "notSubmitted": true
+    }
+  ],
+  "quickChecksFinishedBeforeSubmit": true
+}
