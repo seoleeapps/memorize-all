@@ -33,7 +33,7 @@
     "tenInchTabletScreenshots": []
   },
   "contentDeclarations": {
-    "dataSafety": "확정 필요",
+    "dataSafety": "Saved in Play Console: approximate location, app interactions, diagnostics and device or other IDs collected and shared by Google Mobile Ads; encrypted in transit; no accounts; SDK analytics, advertising and fraud prevention. See release/evidence/2026-10-20/content-final-readback.json.",
     "contentRating": "IARC saved: ESRB Everyone 10+, PEGI 3, Korea 3+; adult target 18+",
     "targetAudience": "18 and over",
     "ads": "yes",
@@ -51,8 +51,11 @@
   },
   "manualEvidence": [
     "docs/advertising.md",
-    "docs/android-native-qa.md",
-    "docs/qa-advertising/play-internal-readback.json"
+    "release/market-launch-state.json",
+    "release/evidence/2026-10-20/content-final-readback.json",
+    "release/evidence/2026-10-20/iarc-readback.json",
+    "release/evidence/2026-10-20/countries-readback.json",
+    "release/evidence/2026-10-20/policy-http.json"
   ],
   "contactWebsite": "https://www.seorilabs.com/apps/memorize-all/support/"
 }

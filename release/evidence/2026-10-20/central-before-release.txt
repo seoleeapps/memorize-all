@@ -1,1 +1,1 @@
-개발 검수 근거 통과(L3): google-play before-release 3c600c50f2a63a96976671f6bbcc47963f4ac304
+개발 검수 근거 통과(L3): google-play before-release ad439207a29b4a8d4c809ef99a0219418e6931cb

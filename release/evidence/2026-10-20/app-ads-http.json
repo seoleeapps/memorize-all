@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-19T17:04:11.305441+00:00",
+  "responses": [
+    {
+      "url": "https://www.seorilabs.com/app-ads.txt",
+      "finalUrl": "https://www.seorilabs.com/app-ads.txt",
+      "status": 200,
+      "publisherRowMatches": true,
+      "body": null
+    },
+    {
+      "url": "https://seorilabs.com/app-ads.txt",
+      "finalUrl": "https://www.seorilabs.com/app-ads.txt",
+      "status": 200,
+      "publisherRowMatches": true,
+      "body": null
+    },
+    {
+      "url": "https://www.seorilabs.com/robots.txt",
+      "finalUrl": "https://www.seorilabs.com/robots.txt",
+      "status": 200,
+      "publisherRowMatches": null,
+      "body": "User-agent: *\nAllow: /\n\nSitemap: https://www.seorilabs.com/sitemap.xml\n"
+    }
+  ],
+  "appSpecificAdMobCrawler": "not verified; store link absent"
+}

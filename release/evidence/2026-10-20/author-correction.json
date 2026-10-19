@@ -1,0 +1,26 @@
+{
+  "commits": [
+    {
+      "old": "f542483e6f84827f0b5ca05e350e8848aefd845b",
+      "new": "ad439207a29b4a8d4c809ef99a0219418e6931cb",
+      "tree": "d1a8b1f2fd4d72ec874b4c725d241b7ba36e6d47",
+      "contentUnchanged": true
+    },
+    {
+      "old": "b99653f322076d6fa27be910d54ae1d1dbdc8dd4",
+      "new": "bb415d3455a3e7f99df23d9bf12866d81d97659f",
+      "tree": "0b5fba71dc02cdcc3b49e0e8e8dd73fafd98c22b",
+      "contentUnchanged": true
+    }
+  ],
+  "backupAndRestore": "passed",
+  "scope": "Only two new agent-created public-copy commits; no original repository or global identity changes.",
+  "activeAuthorAudit": {
+    "personalEmailPresent": false,
+    "allAuthorAndCommitterDomains": [
+      "users.noreply.github.com"
+    ]
+  },
+  "candidateSourceSha": "ad439207a29b4a8d4c809ef99a0219418e6931cb",
+  "retentionLimit": "Active branches use public no-reply identities. GitHub retention or caches of replaced commit objects are not verified as erased."
+}

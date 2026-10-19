@@ -1,0 +1,1208 @@
+{
+  "recordSchemaVersion": 1,
+  "repository": "seoleeapps/memorize-all",
+  "sourceSha": "ad439207a29b4a8d4c809ef99a0219418e6931cb",
+  "status": "passed",
+  "testLevel": "L3",
+  "environment": "dev",
+  "implementer": "root",
+  "executor": "content_review",
+  "plannedAt": "2026-10-19T16:42:48.287548Z",
+  "startedAt": "2026-10-19T16:42:48.343302Z",
+  "completedAt": "2026-10-19T16:44:24.653426Z",
+  "featureIds": [
+    "onboarding",
+    "study",
+    "collection",
+    "settings-backup",
+    "advertising",
+    "content"
+  ],
+  "planDocument": "docs/design/2026-10-20-android-public/test-plan.json",
+  "policySourceSha": "37447a7ed225d957b75ceb24cc8f2331f236a0d8",
+  "independence": "Actual fresh execution by content_review, different from implementer root. All commands and browser scenarios rerun after author-only commit identity correction. Product tree is byte-identical to f542483, but old source-SHA evidence was preserved rather than relabeled. No product edits, commits, pushes or market actions.",
+  "counts": {
+    "nodeTests": 28,
+    "pythonTests": 7,
+    "mainBrowserScenarioGroups": 7,
+    "supplementalBrowserScenarioGroups": 7,
+    "targetedLegacyBrowserScenarioGroups": 3,
+    "screenshotsInspected": 28,
+    "reviewedFacts": 100,
+    "questionVariants": 200,
+    "awaitingEditorialApproval": 0,
+    "knownRetiredCategoryIdsCoveredByNode": 11,
+    "supplementalOldOptionsBrowserCases": 1
+  },
+  "browser": {
+    "startedAt": "2026-10-19T16:43:04.084317+00:00",
+    "completedAt": "2026-10-19T16:43:08.060275+00:00",
+    "passed": [
+      "onboarding, five populated topics, old empty topic link recovery",
+      "wrong answer, one retry, exact restart restoration, ten unique facts, atlas and source detail",
+      "language continuity, flashcard unsure, backup export, import cancel, restore and invalid backup",
+      "schema 1 retired interests: restart and backup import preserve progress and normalize only retired selections",
+      "failed write keeps state, retry persists, corrupt load preserves raw data and recovers",
+      "eight-day due review selection and offline learning",
+      "320px enlarged text and 768px layout; native font scaling unrun"
+    ],
+    "runtimeErrors": [],
+    "nativeSdk": "unrun",
+    "isolatedData": "fresh browser context; localhost origin; synthetic backup"
+  },
+  "additionalBrowser": {
+    "startedAt": "2026-10-19T16:43:08.132202+00:00",
+    "completedAt": "2026-10-19T16:43:12.401689+00:00",
+    "passed": [
+      "fresh topic pack start and first correct answer: geography",
+      "fresh topic pack start and first correct answer: elements",
+      "fresh topic pack start and first correct answer: moon",
+      "fresh topic pack start and first correct answer: coffee",
+      "fresh topic pack start and first correct answer: wine",
+      "320px Korean empty atlas and element, Moon, coffee and wine detail visuals",
+      "320px 200% CSS text: fifth topic remains reachable and opens its pack"
+    ],
+    "screenshots": [
+      "independent-onboarding.png",
+      "independent-onboarding-selected.png",
+      "independent-geography-quiz.png",
+      "independent-elements-quiz.png",
+      "independent-moon-quiz.png",
+      "independent-coffee-quiz.png",
+      "independent-wine-quiz.png",
+      "independent-empty-collection-ko.png",
+      "independent-elements.sodium-detail-ko.png",
+      "independent-moon.first-quarter-detail-ko.png",
+      "independent-coffee.cherry-detail-ko.png",
+      "independent-wine.fermentation-detail-ko.png"
+    ],
+    "runtimeErrors": [],
+    "isolation": "fresh browser contexts, localhost origin, synthetic localStorage only"
+  },
+  "legacyBrowser": {
+    "startedAt": "2026-10-19T16:43:12.532673+00:00",
+    "completedAt": "2026-10-19T16:43:15.621246+00:00",
+    "passed": [
+      "initial onboarded state containing only retired selections loads without rewrite, normalizes on learning start and completes 10 unique facts across all five current topics",
+      "mixed selections preserve progress, active answered session, attempts, completions, Korean locale and flashcard preference exactly through load, export, import and restart; original synthetic file remains unchanged",
+      "unknown ID, duplicate retired ID, duplicate active ID, corrupt session cursor and malformed JSON imports are rejected without changing saved records or input files"
+    ],
+    "retiredIds": [
+      "history",
+      "math",
+      "physics",
+      "astronomy",
+      "nature",
+      "beer",
+      "games",
+      "art",
+      "music",
+      "literature",
+      "food"
+    ],
+    "dailyLearning": {
+      "uniqueFacts": 10,
+      "categories": [
+        "coffee",
+        "elements",
+        "geography",
+        "moon",
+        "wine"
+      ],
+      "attempts": 10,
+      "completions": 1
+    },
+    "mixedPreserved": {
+      "progress": true,
+      "session": true,
+      "attempts": true,
+      "completions": true,
+      "locale": true,
+      "mode": true
+    },
+    "mixedState": {
+      "locale": "ko",
+      "mode": "card",
+      "sessionMode": "quiz",
+      "feedbackGrade": "correct",
+      "progressCount": 11,
+      "attemptCount": 12,
+      "completionCount": 1
+    },
+    "invalidCasesRejected": [
+      "unknown-id",
+      "duplicate-retired",
+      "duplicate-active",
+      "corrupt-session",
+      "corrupt-json"
+    ],
+    "screenshots": [
+      "legacy-only-start.png",
+      "legacy-only-complete.png",
+      "legacy-mixed-restored.png",
+      "legacy-invalid-preserves.png"
+    ],
+    "runtimeErrors": [],
+    "syntheticInputSha256": "f26a0ff081fb43a76ecee78a77653a6c2e16f740f89efa0d5a880a8ecea4164a",
+    "originalSyntheticFileUnchanged": true,
+    "isolation": "fresh browser context, localhost origin, synthetic state and synthetic files only"
+  },
+  "visualInspection": {
+    "status": "passed",
+    "inspectedAt": "2026-10-19T16:44:24.653163Z",
+    "screenshotsInspected": 28,
+    "evidence": [
+      "build/qa-independent/ad43920/legacy-invalid-preserves.png",
+      "build/qa-independent/ad43920/legacy-mixed-restored.png",
+      "build/qa-independent/ad43920/legacy-only-complete.png",
+      "build/qa-independent/ad43920/legacy-only-start.png",
+      "build/qa-independent/ad43920/old-options-new-learning.png",
+      "build/qa-independent/ad43920/old-options-recovered-today.png",
+      "build/qa-independent/ad43920/web/card-back.png",
+      "build/qa-independent/ad43920/web/collection.png",
+      "build/qa-independent/ad43920/web/complete.png",
+      "build/qa-independent/ad43920/web/detail.png",
+      "build/qa-independent/ad43920/web/explore.png",
+      "build/qa-independent/ad43920/web/independent-coffee-quiz.png",
+      "build/qa-independent/ad43920/web/independent-coffee.cherry-detail-ko.png",
+      "build/qa-independent/ad43920/web/independent-elements-quiz.png",
+      "build/qa-independent/ad43920/web/independent-elements.sodium-detail-ko.png",
+      "build/qa-independent/ad43920/web/independent-empty-collection-ko.png",
+      "build/qa-independent/ad43920/web/independent-geography-quiz.png",
+      "build/qa-independent/ad43920/web/independent-moon-quiz.png",
+      "build/qa-independent/ad43920/web/independent-moon.first-quarter-detail-ko.png",
+      "build/qa-independent/ad43920/web/independent-onboarding-selected.png",
+      "build/qa-independent/ad43920/web/independent-onboarding.png",
+      "build/qa-independent/ad43920/web/independent-wine-quiz.png",
+      "build/qa-independent/ad43920/web/independent-wine.fermentation-detail-ko.png",
+      "build/qa-independent/ad43920/web/large-screen.png",
+      "build/qa-independent/ad43920/web/quiz-feedback.png",
+      "build/qa-independent/ad43920/web/save-failure.png",
+      "build/qa-independent/ad43920/web/small-large-text.png",
+      "build/qa-independent/ad43920/web/today.png"
+    ],
+    "observed": "Directly viewed all 28 newly produced captures from this exact-SHA rerun. Text and primary actions remain readable at 320px, 390px and 768px; long content scrolls vertically; CSS 200% text enlargement is not native OS font scaling. The retired-only completion, mixed Korean/card restoration, invalid import preservation, and recovered old-option session/new quiz captures match expected states."
+  },
+  "servedExport": {
+    "verifiedAt": "2026-10-19T16:44:24.568935Z",
+    "url": "http://127.0.0.1:18767",
+    "sourceSha": "ad439207a29b4a8d4c809ef99a0219418e6931cb",
+    "indexMatches": true,
+    "bundleMatches": true,
+    "bundle": "_expo/static/js/web/entry-6c713f2c143160db72b6a0b35054c208.js",
+    "bundleSha256": "e2ce2062497644f70193161c087a96d5e6e4d10d9313163bb9e3d80268c9a0cf"
+  },
+  "legacyProvenance": {
+    "verifiedAt": "2026-10-19T16:44:24.569787Z",
+    "method": "Read-only git show in original repository, raw bytes and SHA-256 comparison",
+    "artifactSourceSha": "29ab776577e02209c7d6a55f2d141441c3e50968",
+    "fixtureSourceSha": "9cbeb20dbf011cac768a4901fbc6bff862947bcd",
+    "files": [
+      {
+        "path": "src/content/catalog.json",
+        "identical": true,
+        "sha256": "cec016163414bf49fd25989c1cdc073a9b9086775721c9ccdf248617583c06b5",
+        "bytes": 275823
+      },
+      {
+        "path": "src/core/learning.ts",
+        "identical": true,
+        "sha256": "a5a4be729c4ffb0d79881902de4a73702aa6b8e680b6f497b2017743a52a9890",
+        "bytes": 10773
+      },
+      {
+        "path": "src/adapters/storage.ts",
+        "identical": true,
+        "sha256": "d604e41191254ecb64ab2b60a78497d78b3b300903c4de68ad9eaf240940da7f",
+        "bytes": 574
+      }
+    ],
+    "fixtureCategoryListIdentical": true,
+    "categoryIds": [
+      "geography",
+      "history",
+      "math",
+      "physics",
+      "elements",
+      "astronomy",
+      "moon",
+      "nature",
+      "coffee",
+      "wine",
+      "beer",
+      "games",
+      "art",
+      "music",
+      "literature",
+      "food"
+    ],
+    "scope": "These three files and category list only; no native runtime or full historical-source equality claim."
+  },
+  "knownCompatibilityFix": {
+    "before": "Previously valid schema-1 backups containing the 11 removed category IDs were rejected with Invalid interests.",
+    "redEvidence": "docs/qa/legacy-backup/red.log",
+    "redResult": "Historical pre-fix regression: 2 failures, 1 pass; preserved unchanged.",
+    "after": "All 11 known retired IDs are accepted and removed from interests only. Unknown and duplicate IDs remain rejected. No rewrite on read; explicit user save/import persists normalized state. Empty interests after retirement allow 10 daily facts across all five current topics.",
+    "currentEvidence": [
+      "build/qa-independent/ad43920/check.log",
+      "build/qa-independent/ad43920/web/results.json",
+      "build/qa-independent/ad43920/legacy-browser-results.json"
+    ]
+  },
+  "advertising": {
+    "status": "passed-pure-boundary-only",
+    "tests": 6,
+    "evidence": [
+      "build/qa-independent/ad43920/check.log",
+      "tests/ads-session.test.ts"
+    ],
+    "covered": [
+      "consent precedes initialization",
+      "no request permission leaves SDK uninitialized",
+      "previous consent and first-offline retry",
+      "initialization failure and retry",
+      "unavailable consent keeps ads off",
+      "changed consent denies future requests"
+    ],
+    "nativeUmp": "unrun",
+    "nativeAdMobBanner": "unrun"
+  },
+  "canonicalCatalogCheck": {
+    "status": "passed",
+    "evidence": [
+      "build/qa-independent/ad43920/check.log",
+      "tests/test_content_pipeline.py"
+    ],
+    "result": "Canonical regeneration comparison passed. Exact-snapshot approval, incomplete review rejection and tamper rejection without overwriting the test fixture passed."
+  },
+  "androidStaticChecker": {
+    "status": "passed-checker-tests-only",
+    "tests": 3,
+    "evidence": [
+      "build/qa-independent/ad43920/check.log",
+      "tests/test_android_artifact.py"
+    ],
+    "scope": "RELRO exclusive-page exception, writable overlap, LOAD alignment and absent RELRO are unit-tested. This run did not inspect or execute a candidate AAB."
+  },
+  "notRun": [
+    {
+      "id": "native-sdk-device-and-emulator",
+      "status": "unrun",
+      "reason": "User explicitly excluded device and emulator use; no device lookup, install, interaction, logs or screenshots.",
+      "items": [
+        "Actual UMP message and native consent behavior",
+        "Native AdMob initialization and banner rendering",
+        "Android OS backup share sheet and file picker",
+        "Google Play installed launch",
+        "Native OS font scaling and accessibility",
+        "16KB runtime"
+      ]
+    },
+    {
+      "id": "candidate-aab",
+      "status": "unrun",
+      "reason": "No final signed AAB for this exact source SHA was supplied to this run. Package, version, signing certificate, production ad IDs, packaging and ELF alignment remain separate final-artifact checks."
+    }
+  ],
+  "codeCrossReview": {
+    "status": "separate",
+    "note": "Parent operates independent code cross-review; this execution record does not replace or claim its completion."
+  },
+  "treeSha": "d1a8b1f2fd4d72ec874b4c725d241b7ba36e6d47",
+  "previousCandidateEvidence": "docs/qa/independent-f542483.json",
+  "commands": [
+    {
+      "command": "npm run check",
+      "startedAt": "2026-10-19T16:42:48.344817Z",
+      "completedAt": "2026-10-19T16:42:55.531196Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/ad43920/check.log"
+    },
+    {
+      "command": "npm run check:release",
+      "startedAt": "2026-10-19T16:42:48.345959Z",
+      "completedAt": "2026-10-19T16:42:48.749404Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/ad43920/check-release.log"
+    },
+    {
+      "command": "npm run export:web",
+      "startedAt": "2026-10-19T16:42:48.347125Z",
+      "completedAt": "2026-10-19T16:42:50.193631Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/ad43920/export-web.log"
+    },
+    {
+      "command": "QA_URL=http://127.0.0.1:18767 $PLAYWRIGHT_PYTHON scripts/test-web.py",
+      "startedAt": "2026-10-19T16:43:04.022307Z",
+      "completedAt": "2026-10-19T16:43:08.073013Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/ad43920/test-web.log"
+    },
+    {
+      "command": "$PLAYWRIGHT_PYTHON build/qa-independent/ad43920/extra-browser.py",
+      "startedAt": "2026-10-19T16:43:08.073448Z",
+      "completedAt": "2026-10-19T16:43:12.414389Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/ad43920/extra-browser.log"
+    },
+    {
+      "command": "$PLAYWRIGHT_PYTHON build/qa-independent/ad43920/legacy-browser.py",
+      "startedAt": "2026-10-19T16:43:12.457950Z",
+      "completedAt": "2026-10-19T16:43:15.635277Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/ad43920/legacy-browser.log"
+    },
+    {
+      "command": "node_modules/.bin/tsx build/qa-independent/ad43920/old-options-parse.ts",
+      "startedAt": "2026-10-19T16:43:15.635712Z",
+      "completedAt": "2026-10-19T16:43:15.800207Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/ad43920/old-options-parse.log"
+    },
+    {
+      "command": "$PLAYWRIGHT_PYTHON build/qa-independent/ad43920/old-options-browser.py",
+      "startedAt": "2026-10-19T16:43:15.800635Z",
+      "completedAt": "2026-10-19T16:43:17.137438Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/ad43920/old-options-browser.log"
+    }
+  ],
+  "oldOptionsBrowser": {
+    "startedAt": "2026-10-19T16:43:15.861888+00:00",
+    "completedAt": "2026-10-19T16:43:17.124971+00:00",
+    "status": "passed",
+    "case": "actual 0.1.1 moon.maria.forward option IDs no longer valid in current catalog",
+    "rawStoragePreservedOnLoad": true,
+    "normalizedExport": {
+      "session": null,
+      "interests": [
+        "geography"
+      ],
+      "allOtherFieldsPreserved": true
+    },
+    "freshSession": {
+      "items": 10,
+      "usesCurrentOptionIds": true,
+      "firstAnswer": "correct",
+      "advancedCursor": 1
+    },
+    "preserved": {
+      "progress": true,
+      "attempts": true,
+      "completions": true,
+      "locale": true,
+      "mode": true
+    },
+    "originalProgressCount": 10,
+    "originalAttemptCount": 11,
+    "originalCompletionCount": 1,
+    "attemptCountAfterAnswer": 12,
+    "inputSha256": "219e91fe46ee14d84d6df8b89da05e697826b06e919243a1c2acaa36402348a6",
+    "inputFilesUnchanged": true,
+    "runtimeErrors": [],
+    "screenshots": [
+      "old-options-recovered-today.png",
+      "old-options-new-learning.png"
+    ],
+    "isolation": "Fresh Edge context, localhost, copied synthetic fixture and original synthetic file only; no real user file."
+  },
+  "oldOptionsParser": {
+    "status": "passed",
+    "historicalSourceSha": "29ab776577e02209c7d6a55f2d141441c3e50968",
+    "historicalParserAcceptsUnchanged": true,
+    "currentParserInvalidatesOnlyIncompatibleSessionAndRetiredInterests": true,
+    "progressCount": 10,
+    "attemptCount": 11,
+    "completionCount": 1,
+    "locale": "en",
+    "mode": "quiz"
+  },
+  "catalogComparison": {
+    "verifiedAt": "2026-10-19T16:44:24.651785Z",
+    "historicalSourceSha": "29ab776577e02209c7d6a55f2d141441c3e50968",
+    "candidateSourceSha": "ad439207a29b4a8d4c809ef99a0219418e6931cb",
+    "factIdsAndRevisionsIdentical": true,
+    "factCount": 100,
+    "questionIdsAndKnowledgeIdsIdentical": true,
+    "questionCount": 200,
+    "changedOptionIdSets": [
+      {
+        "id": "moon.maria.forward",
+        "knowledgeId": "moon.maria",
+        "oldOptions": [
+          "moon.maria",
+          "moon.crater",
+          "moon.new",
+          "moon.last-quarter"
+        ],
+        "newOptions": [
+          "moon.maria",
+          "moon.new",
+          "moon.last-quarter",
+          "moon.regolith"
+        ]
+      },
+      {
+        "id": "moon.maria.reverse",
+        "knowledgeId": "moon.maria",
+        "oldOptions": [
+          "moon.maria",
+          "moon.crater",
+          "moon.new",
+          "moon.last-quarter"
+        ],
+        "newOptions": [
+          "moon.maria",
+          "moon.new",
+          "moon.last-quarter",
+          "moon.regolith"
+        ]
+      },
+      {
+        "id": "coffee.bean.forward",
+        "knowledgeId": "coffee.bean",
+        "oldOptions": [
+          "coffee.bean",
+          "coffee.green",
+          "coffee.immersion",
+          "coffee.decaf"
+        ],
+        "newOptions": [
+          "coffee.bean",
+          "coffee.immersion",
+          "coffee.decaf",
+          "coffee.roasting"
+        ]
+      },
+      {
+        "id": "coffee.bean.reverse",
+        "knowledgeId": "coffee.bean",
+        "oldOptions": [
+          "coffee.bean",
+          "coffee.green",
+          "coffee.immersion",
+          "coffee.decaf"
+        ],
+        "newOptions": [
+          "coffee.bean",
+          "coffee.immersion",
+          "coffee.decaf",
+          "coffee.roasting"
+        ]
+      },
+      {
+        "id": "coffee.extraction.forward",
+        "knowledgeId": "coffee.extraction",
+        "oldOptions": [
+          "coffee.extraction",
+          "coffee.espresso",
+          "coffee.latte",
+          "coffee.arabica"
+        ],
+        "newOptions": [
+          "coffee.extraction",
+          "coffee.latte",
+          "coffee.arabica",
+          "coffee.americano"
+        ]
+      },
+      {
+        "id": "coffee.extraction.reverse",
+        "knowledgeId": "coffee.extraction",
+        "oldOptions": [
+          "coffee.extraction",
+          "coffee.espresso",
+          "coffee.latte",
+          "coffee.arabica"
+        ],
+        "newOptions": [
+          "coffee.extraction",
+          "coffee.latte",
+          "coffee.arabica",
+          "coffee.americano"
+        ]
+      },
+      {
+        "id": "coffee.espresso.forward",
+        "knowledgeId": "coffee.espresso",
+        "oldOptions": [
+          "coffee.espresso",
+          "coffee.filter",
+          "coffee.cappuccino",
+          "coffee.robusta"
+        ],
+        "newOptions": [
+          "coffee.espresso",
+          "coffee.cappuccino",
+          "coffee.robusta",
+          "coffee.immersion"
+        ]
+      },
+      {
+        "id": "coffee.espresso.reverse",
+        "knowledgeId": "coffee.espresso",
+        "oldOptions": [
+          "coffee.espresso",
+          "coffee.filter",
+          "coffee.cappuccino",
+          "coffee.robusta"
+        ],
+        "newOptions": [
+          "coffee.espresso",
+          "coffee.cappuccino",
+          "coffee.robusta",
+          "coffee.immersion"
+        ]
+      },
+      {
+        "id": "coffee.immersion.forward",
+        "knowledgeId": "coffee.immersion",
+        "oldOptions": [
+          "coffee.immersion",
+          "coffee.french-press",
+          "coffee.natural",
+          "coffee.bean"
+        ],
+        "newOptions": [
+          "coffee.immersion",
+          "coffee.natural",
+          "coffee.bean",
+          "coffee.americano"
+        ]
+      },
+      {
+        "id": "coffee.immersion.reverse",
+        "knowledgeId": "coffee.immersion",
+        "oldOptions": [
+          "coffee.immersion",
+          "coffee.french-press",
+          "coffee.natural",
+          "coffee.bean"
+        ],
+        "newOptions": [
+          "coffee.immersion",
+          "coffee.natural",
+          "coffee.bean",
+          "coffee.americano"
+        ]
+      }
+    ]
+  },
+  "previousEvidencePreservation": {
+    "verifiedAt": "2026-10-19T16:44:24.553996Z",
+    "status": "passed",
+    "preservedFiles": 82,
+    "oldSourceSha": "f542483e6f84827f0b5ca05e350e8848aefd845b",
+    "scope": "80 raw files plus original JSON and Markdown reports byte-unchanged. Prior source SHA was not relabeled."
+  },
+  "sourceIdentityCorrection": {
+    "commits": [
+      {
+        "old": "f542483e6f84827f0b5ca05e350e8848aefd845b",
+        "new": "ad439207a29b4a8d4c809ef99a0219418e6931cb",
+        "tree": "d1a8b1f2fd4d72ec874b4c725d241b7ba36e6d47",
+        "contentUnchanged": true
+      },
+      {
+        "old": "b99653f322076d6fa27be910d54ae1d1dbdc8dd4",
+        "new": "bb415d3455a3e7f99df23d9bf12866d81d97659f",
+        "tree": "0b5fba71dc02cdcc3b49e0e8e8dd73fafd98c22b",
+        "contentUnchanged": true
+      }
+    ],
+    "backupAndRestore": "passed",
+    "scope": "Only two new agent-created public-copy commits; no original repository or global identity changes."
+  },
+  "scriptProvenance": {
+    "source": "build/qa-independent/f542483",
+    "changes": "Output folder substitution f542483 to ad43920 only; scenarios and assertions unchanged. extra-browser.py is byte-identical.",
+    "files": [
+      {
+        "path": "extra-browser.py",
+        "pathOnlyChangesVerified": true
+      },
+      {
+        "path": "legacy-browser.py",
+        "pathOnlyChangesVerified": true
+      },
+      {
+        "path": "old-options-browser.py",
+        "pathOnlyChangesVerified": true
+      },
+      {
+        "path": "old-options-parse.ts",
+        "pathOnlyChangesVerified": true
+      }
+    ]
+  },
+  "historicalFailedAttempt": {
+    "status": "preserved-not-repeated",
+    "evidence": "build/qa-independent/f542483/legacy-browser-attempt1.log",
+    "note": "Earlier f542483 supplemental harness asserted completion before See my collection; corrected harness was used unchanged in this rerun. All commands in this ad43920 run passed on their first execution."
+  },
+  "workingTree": {
+    "before": "?? docs/qa/independent-f542483.json\n?? docs/qa/independent-f542483.md\n",
+    "afterBeforeNewReports": "?? docs/qa/independent-f542483.json\n?? docs/qa/independent-f542483.md\n",
+    "productCodeMatchesHead": true,
+    "sourceShaUnchanged": true,
+    "note": "Untracked prior independent reports preserved; new evidence documents and ignored artifacts are outside candidate source SHA."
+  },
+  "artifactPreservation": {
+    "rawLocation": "build/qa-independent/ad43920",
+    "note": "Raw executable paths are retained. Public evidence JSON replaces only the shared Python executable path with $PLAYWRIGHT_PYTHON. Prior 82 files retain identical SHA-256."
+  },
+  "runs": [
+    {
+      "id": "independent-l3-ad43920",
+      "kind": "web-browser",
+      "sourceSha": "ad439207a29b4a8d4c809ef99a0219418e6931cb",
+      "executor": "content_review",
+      "plannedAt": "2026-10-19T16:42:48.287548Z",
+      "startedAt": "2026-10-19T16:42:48.343302Z",
+      "completedAt": "2026-10-19T16:44:24.653426Z",
+      "isolatedData": "Fresh Edge headless contexts; http://127.0.0.1:18767 origin; synthetic localStorage and synthetic backup files only; eight-day clock change isolated. Six mocked-port AdsSession tests are pure boundary checks, not native execution.",
+      "scenarios": [
+        {
+          "id": "onboarding-and-five-topic-selection",
+          "status": "passed",
+          "featureIds": [
+            "onboarding"
+          ],
+          "evidence": [
+            "build/qa-independent/ad43920/web/independent-onboarding.png",
+            "build/qa-independent/ad43920/web/independent-onboarding-selected.png",
+            "build/qa-independent/ad43920/web/explore.png",
+            "build/qa-independent/ad43920/web/independent-extra-results.json"
+          ]
+        },
+        {
+          "id": "quiz-card-delayed-review-offline-and-exact-resume",
+          "status": "passed",
+          "featureIds": [
+            "study"
+          ],
+          "evidence": [
+            "build/qa-independent/ad43920/web/results.json",
+            "build/qa-independent/ad43920/web/quiz-feedback.png",
+            "build/qa-independent/ad43920/web/card-back.png",
+            "build/qa-independent/ad43920/web/complete.png"
+          ]
+        },
+        {
+          "id": "atlas-source-details-and-reviewed-content",
+          "status": "passed",
+          "featureIds": [
+            "collection",
+            "content"
+          ],
+          "evidence": [
+            "build/qa-independent/ad43920/web/collection.png",
+            "build/qa-independent/ad43920/web/detail.png",
+            "build/qa-independent/ad43920/web/independent-extra-results.json",
+            "build/qa-independent/ad43920/check.log"
+          ]
+        },
+        {
+          "id": "language-backup-save-failure-corrupt-load-and-retry",
+          "status": "passed",
+          "featureIds": [
+            "settings-backup"
+          ],
+          "evidence": [
+            "build/qa-independent/ad43920/web/results.json",
+            "build/qa-independent/ad43920/web/save-failure.png"
+          ]
+        },
+        {
+          "id": "known-retired-interest-compatibility-all-11",
+          "status": "passed",
+          "featureIds": [
+            "settings-backup",
+            "onboarding",
+            "study"
+          ],
+          "evidence": [
+            "build/qa-independent/ad43920/check.log",
+            "tests/fixtures/legacy-categories-v0.1.1.json",
+            "tests/learning.test.ts",
+            "build/qa-independent/ad43920/legacy-provenance.json"
+          ]
+        },
+        {
+          "id": "only-retired-interests-complete-ten-across-five-topics",
+          "status": "passed",
+          "featureIds": [
+            "onboarding",
+            "study",
+            "collection",
+            "settings-backup"
+          ],
+          "evidence": [
+            "build/qa-independent/ad43920/legacy-browser-results.json",
+            "build/qa-independent/ad43920/legacy-only-start.png",
+            "build/qa-independent/ad43920/legacy-only-complete.png"
+          ]
+        },
+        {
+          "id": "mixed-legacy-interests-preserve-all-six-state-components",
+          "status": "passed",
+          "featureIds": [
+            "study",
+            "settings-backup"
+          ],
+          "evidence": [
+            "build/qa-independent/ad43920/legacy-browser-results.json",
+            "build/qa-independent/ad43920/legacy-mixed-restored.png",
+            "build/qa-independent/ad43920/synthetic/legacy-mixed.json",
+            "build/qa-independent/ad43920/synthetic/normalized-from-load.json"
+          ]
+        },
+        {
+          "id": "invalid-imports-do-not-mutate-saved-or-input-files",
+          "status": "passed",
+          "featureIds": [
+            "settings-backup"
+          ],
+          "evidence": [
+            "build/qa-independent/ad43920/legacy-browser-results.json",
+            "build/qa-independent/ad43920/legacy-invalid-preserves.png"
+          ]
+        },
+        {
+          "id": "ads-pure-boundary-consent-and-retry",
+          "status": "passed",
+          "featureIds": [
+            "advertising"
+          ],
+          "evidence": [
+            "build/qa-independent/ad43920/check.log",
+            "tests/ads-session.test.ts"
+          ],
+          "scope": "Six mocked-port AdsSession state tests only; actual UMP and native AdMob banner unrun."
+        },
+        {
+          "id": "small-large-text-and-768px-direct-visual-review",
+          "status": "passed",
+          "featureIds": [
+            "onboarding",
+            "study",
+            "collection",
+            "settings-backup",
+            "content"
+          ],
+          "evidence": [
+            "build/qa-independent/ad43920/visual-inspection.json",
+            "build/qa-independent/ad43920/web/small-large-text.png",
+            "build/qa-independent/ad43920/web/large-screen.png"
+          ]
+        },
+        {
+          "id": "historically-valid-incompatible-option-session-preserves-history-and-restarts-study",
+          "status": "passed",
+          "featureIds": [
+            "study",
+            "collection",
+            "settings-backup"
+          ],
+          "evidence": [
+            "build/qa-independent/ad43920/old-options-parse-results.json",
+            "build/qa-independent/ad43920/old-options-browser-results.json",
+            "build/qa-independent/ad43920/visual-inspection.json",
+            "build/qa-independent/ad43920/old-catalog-diff.json"
+          ]
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "build/qa-independent/ad43920/check-release.json",
+      "sha256": "a271b17558b65c24062af454ce2967fbcabb6ff5e72122629dff7455fd5808ab",
+      "bytes": 233
+    },
+    {
+      "path": "build/qa-independent/ad43920/check-release.log",
+      "sha256": "1df6831de96c7ce22388c10bef937482848ebf515a20361d90c4477a38ee193b",
+      "bytes": 324
+    },
+    {
+      "path": "build/qa-independent/ad43920/check.json",
+      "sha256": "68d4a4fed97346eb607979d867521cd5d28611fe60f53342ec9bcfb5f831668b",
+      "bytes": 217
+    },
+    {
+      "path": "build/qa-independent/ad43920/check.log",
+      "sha256": "feae518fc926625799046d9a63deef14bce3cdf2b122b9b3146ba2626bea4f1b",
+      "bytes": 4458
+    },
+    {
+      "path": "build/qa-independent/ad43920/export-web.json",
+      "sha256": "efc74f5bb16da4a021f94b6cb7cdc33e6fbfa1f85a9ff3edcbedee38da572689",
+      "bytes": 227
+    },
+    {
+      "path": "build/qa-independent/ad43920/export-web.log",
+      "sha256": "0c0a1af7b94ed309475b423ad2b9c6ab76fe332b0d963906d4a6e9ec3b1e07a2",
+      "bytes": 2369
+    },
+    {
+      "path": "build/qa-independent/ad43920/extra-browser.json",
+      "sha256": "b14d1b47f830da099b2b6e87330322a816c6d1965b8e0a6d86337fcf4b57e96c",
+      "bytes": 320
+    },
+    {
+      "path": "build/qa-independent/ad43920/extra-browser.log",
+      "sha256": "e090a21a5db1568dacde4c2659a9b8e309bc2eb86f4a68030e27f377b789d39f",
+      "bytes": 1131
+    },
+    {
+      "path": "build/qa-independent/ad43920/extra-browser.py",
+      "sha256": "7f869ad431d5e3d9a6c6a9b2a5a748371deac7822b8e0117be7509bb38b9c031",
+      "bytes": 4605
+    },
+    {
+      "path": "build/qa-independent/ad43920/legacy-browser-results.json",
+      "sha256": "2389558a4108eef26920011fb9ae7f57cc18374bee89107bfe8e0223be27057c",
+      "bytes": 1972
+    },
+    {
+      "path": "build/qa-independent/ad43920/legacy-browser.json",
+      "sha256": "c8ae6facfb4a44ddc77644b36139cae9955ef164962b36f7a9b1aa46c5acdd85",
+      "bytes": 322
+    },
+    {
+      "path": "build/qa-independent/ad43920/legacy-browser.log",
+      "sha256": "b009871263feb085a87c21ea990b17fb9761301e0f1dde3b2b0222fb6af8d78f",
+      "bytes": 1720
+    },
+    {
+      "path": "build/qa-independent/ad43920/legacy-browser.py",
+      "sha256": "bd6d242d37f331fbf5211f24dc37748478dbaa0028d5805ec3979d42114d9d7d",
+      "bytes": 8641
+    },
+    {
+      "path": "build/qa-independent/ad43920/legacy-invalid-preserves.png",
+      "sha256": "07564f6e6e7efd36c0caba95bf151216155d890d12532b6605f69a07383649dd",
+      "bytes": 49559
+    },
+    {
+      "path": "build/qa-independent/ad43920/legacy-mixed-restored.png",
+      "sha256": "f951c250d79e24d5e8ea09328a4e52f5a4a9dd60f90d239cb1a4d2c51ae12c75",
+      "bytes": 46602
+    },
+    {
+      "path": "build/qa-independent/ad43920/legacy-only-complete.png",
+      "sha256": "09d414c89e5bd290664a36ef5c7c0e7657f6905847236fa505e8bdf2ff3989d2",
+      "bytes": 30912
+    },
+    {
+      "path": "build/qa-independent/ad43920/legacy-only-start.png",
+      "sha256": "52d5c2dffa271943d9065bbe7e7db406726d73f0c63bcec28befc6d65ece49e4",
+      "bytes": 29349
+    },
+    {
+      "path": "build/qa-independent/ad43920/legacy-provenance.json",
+      "sha256": "d16a2cff93e3ed987c4bab85b45822a8026a77f1e916adbdf6b05c14ed5ebf48",
+      "bytes": 1242
+    },
+    {
+      "path": "build/qa-independent/ad43920/old-catalog-diff.json",
+      "sha256": "fbff65c79849e808eb347b3b692e4653ef83fb34ce506c97fa546d754c5b8cf0",
+      "bytes": 3903
+    },
+    {
+      "path": "build/qa-independent/ad43920/old-options-browser-results.json",
+      "sha256": "04f45e64026de098ace77d20e29d0c23682c2578999d85eeae2bb109fbfd7caf",
+      "bytes": 1135
+    },
+    {
+      "path": "build/qa-independent/ad43920/old-options-browser.json",
+      "sha256": "68536e0d65f8b44b2520aa16f6d7e2251b2e7907275ce9319e44dc3a8eb82ad6",
+      "bytes": 332
+    },
+    {
+      "path": "build/qa-independent/ad43920/old-options-browser.log",
+      "sha256": "6e07bf2a7426a4103287306615a1aff0ec02574050e8a12476b4d3320ee0ce7c",
+      "bytes": 1015
+    },
+    {
+      "path": "build/qa-independent/ad43920/old-options-browser.py",
+      "sha256": "e604d5846cd9c4aeaca7da3525de6400c15f025143d90477be1cbc4113ef8908",
+      "bytes": 4507
+    },
+    {
+      "path": "build/qa-independent/ad43920/old-options-new-learning.png",
+      "sha256": "cb0a1c63a801d67950f1a6e5b88d6763e01985c6c3e092d42c3868d5f34728fa",
+      "bytes": 41206
+    },
+    {
+      "path": "build/qa-independent/ad43920/old-options-parse-results.json",
+      "sha256": "ba05789390d4b24cf87817b398a0dd0266901a30ebf0d41c1d804471b9fb2f9f",
+      "bytes": 321
+    },
+    {
+      "path": "build/qa-independent/ad43920/old-options-parse.json",
+      "sha256": "042e0f4300fdc98aa207273b2edfe044a48b8b3ffb8af44a1ab4dbcf0140b4ff",
+      "bytes": 287
+    },
+    {
+      "path": "build/qa-independent/ad43920/old-options-parse.log",
+      "sha256": "b78cd4279981ef40a873f23701c8adf17ea036035eecd728a828cd0da4b64305",
+      "bytes": 284
+    },
+    {
+      "path": "build/qa-independent/ad43920/old-options-parse.ts",
+      "sha256": "be7d8a0948b8906610c8cda4159f8351fe181e676aa6b98d5f23e2076a39d814",
+      "bytes": 1390
+    },
+    {
+      "path": "build/qa-independent/ad43920/old-options-recovered-today.png",
+      "sha256": "f4bb0f4bd50ba063846c2337dc413634e290915da4e46096f466265ff6963fac",
+      "bytes": 30330
+    },
+    {
+      "path": "build/qa-independent/ad43920/old-source/catalog.json",
+      "sha256": "cec016163414bf49fd25989c1cdc073a9b9086775721c9ccdf248617583c06b5",
+      "bytes": 275823
+    },
+    {
+      "path": "build/qa-independent/ad43920/old-source/learning.ts",
+      "sha256": "a5a4be729c4ffb0d79881902de4a73702aa6b8e680b6f497b2017743a52a9890",
+      "bytes": 10773
+    },
+    {
+      "path": "build/qa-independent/ad43920/old-source/model.ts",
+      "sha256": "02d5efd1e9e45c5a8c078302534386adaf93a91ccfe8070bc018bb93a43ed21f",
+      "bytes": 2991
+    },
+    {
+      "path": "build/qa-independent/ad43920/plan.json",
+      "sha256": "b4287e4bd0a4fc46c70a6a780344a9fb9b1fc08a727592d1a117714127a50d9e",
+      "bytes": 1686
+    },
+    {
+      "path": "build/qa-independent/ad43920/previous-evidence-manifest.json",
+      "sha256": "8c05041dcbfd0693a40577088de319c4882727b01af98a196a60a135e2648087",
+      "bytes": 14631
+    },
+    {
+      "path": "build/qa-independent/ad43920/previous-evidence-preservation.json",
+      "sha256": "0f5bc17d1752bf8f67606e17b487349045f8b6dd95af57b385168a275babd711",
+      "bytes": 277
+    },
+    {
+      "path": "build/qa-independent/ad43920/scripts-provenance.json",
+      "sha256": "2f195b21a3dee7c2cf0a905205ac6c94c5f784a6d26dcecb2cefc002406eacc5",
+      "bytes": 555
+    },
+    {
+      "path": "build/qa-independent/ad43920/served-export.json",
+      "sha256": "82e0be90e0bc16fd8dda86c29ea4da9c4fa3685261af9329691f897f8d63b9cb",
+      "bytes": 356
+    },
+    {
+      "path": "build/qa-independent/ad43920/synthetic/corrupt-json.json",
+      "sha256": "40b5cafe045b9c9e31a1c3fdcfbc89f934906ff06a6276b55c2a0e517be21655",
+      "bytes": 8
+    },
+    {
+      "path": "build/qa-independent/ad43920/synthetic/corrupt-session.json",
+      "sha256": "32609c76953248a0cf7fca2c0bf85c1dae416b45e0bbc64c2436982e529dd960",
+      "bytes": 7583
+    },
+    {
+      "path": "build/qa-independent/ad43920/synthetic/duplicate-active.json",
+      "sha256": "c1e88ad7f327c4d9360c4e3e4ce5c334a7d29b7f37612b7a688552b284573d33",
+      "bytes": 7573
+    },
+    {
+      "path": "build/qa-independent/ad43920/synthetic/duplicate-retired.json",
+      "sha256": "1854df31cab73d4adba108d8f5613f8d51142d1ca560bb6b56e837f0c33a1342",
+      "bytes": 7571
+    },
+    {
+      "path": "build/qa-independent/ad43920/synthetic/legacy-active-old-options.json",
+      "sha256": "219e91fe46ee14d84d6df8b89da05e697826b06e919243a1c2acaa36402348a6",
+      "bytes": 6791
+    },
+    {
+      "path": "build/qa-independent/ad43920/synthetic/legacy-mixed.json",
+      "sha256": "f26a0ff081fb43a76ecee78a77653a6c2e16f740f89efa0d5a880a8ecea4164a",
+      "bytes": 7582
+    },
+    {
+      "path": "build/qa-independent/ad43920/synthetic/normalized-from-load.json",
+      "sha256": "8a631baba9d4d2586a11dc8e6f1298ade22828410c2354ead50663c90004ec04",
+      "bytes": 10215
+    },
+    {
+      "path": "build/qa-independent/ad43920/synthetic/old-options-normalized-export.json",
+      "sha256": "58871908824a3998952b6bbcb9943632611f38df0f9003970bb85b474b26002b",
+      "bytes": 6352
+    },
+    {
+      "path": "build/qa-independent/ad43920/synthetic/unknown-id.json",
+      "sha256": "427b25a4877ee9f7f88d943057555ce40ab4e442595986c7ce88da2337d885cd",
+      "bytes": 7571
+    },
+    {
+      "path": "build/qa-independent/ad43920/test-web.json",
+      "sha256": "23c568d27cbf6c083445f14c1e797ab7a7dad773ac5b83f602e2a1f60e7740b8",
+      "bytes": 319
+    },
+    {
+      "path": "build/qa-independent/ad43920/test-web.log",
+      "sha256": "b21b71bdfa99e6fad854f93992ea826f1011a40cd01d8c608e8825590a61d7cd",
+      "bytes": 822
+    },
+    {
+      "path": "build/qa-independent/ad43920/visual-inspection.json",
+      "sha256": "1abcc4e432ba632faf3cf4716e3f7da9d4bb9a465809d4a6c90a8de1f8bb41a7",
+      "bytes": 2353
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/backup.json",
+      "sha256": "a118e8cc1a42eb0f35b3f3611e9dd6ec17e9da1246b725fbf9ae60434754078a",
+      "bytes": 6355
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/card-back.png",
+      "sha256": "d9bc70a25e6f0baa43b2427d74794808c2b051cfc91ffba212b4dc93242ac60c",
+      "bytes": 39153
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/collection.png",
+      "sha256": "bdadcdaa95f62993bc722b9be7795966da7d840a68339d845b4170909e0a6888",
+      "bytes": 55450
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/complete.png",
+      "sha256": "896ab6c069ce3a7c1f536098a0d8f1c942c221beedf27ad03c7b31d6871a5fc4",
+      "bytes": 30412
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/detail.png",
+      "sha256": "338477464d31b062ed24c629ad9a2685aa30df0b335042baff0e79247be6afa8",
+      "bytes": 33123
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/explore.png",
+      "sha256": "37528e6e3de4b8c3d73a54e36682f190679959a4f2ccf1c339096da1c64d64c4",
+      "bytes": 43344
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/independent-coffee-quiz.png",
+      "sha256": "13b5ef0fa321e88ff5a61a4f637afe222be20d49d2619e1c49cbb99828634ae1",
+      "bytes": 54861
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/independent-coffee.cherry-detail-ko.png",
+      "sha256": "a55158827980a2fdc5153907cd49b2cb83b31818703e523cca4aa4a50f8fbae4",
+      "bytes": 28515
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/independent-elements-quiz.png",
+      "sha256": "74393a76455fb44444905612c927621275e899b168836b5850dc4ebd9d64445f",
+      "bytes": 47239
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/independent-elements.sodium-detail-ko.png",
+      "sha256": "7f0ed7aad6a78982d9584681ac6b83e1222d853ae8592a62e950758cbd211e66",
+      "bytes": 28095
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/independent-empty-collection-ko.png",
+      "sha256": "d0290d6302817179d067f9623f08d9273ea92f564c34801dc547ee2921ef336d",
+      "bytes": 32283
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/independent-extra-results.json",
+      "sha256": "96067f9884aa5b9d253cb8e1ec39dc0513cf91720929c47bc3e77e9fc5b68745",
+      "bytes": 1229
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/independent-geography-quiz.png",
+      "sha256": "fad501696c9af6e6392f4121e097d5be9096f488529f85267e5fcf17264ea64b",
+      "bytes": 41782
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/independent-moon-quiz.png",
+      "sha256": "4dcd296c1358127e133ea9a2123db12e2cdecf3dc9cb6e4f4146bb23240886d3",
+      "bytes": 51573
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/independent-moon.first-quarter-detail-ko.png",
+      "sha256": "f07d8ed0537e99e7662bc68c82eb75f02442ce008ecec0b6e27fb2181c751b4a",
+      "bytes": 25664
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/independent-onboarding-selected.png",
+      "sha256": "8009767c13470c8ba82cd880add3d0a1025ccc9ceb3f903407917a919cd97df5",
+      "bytes": 52042
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/independent-onboarding.png",
+      "sha256": "e63421a39669e63bce85a82e4ca9cf5f38d0648a85b28c677168d73685a4a47f",
+      "bytes": 50581
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/independent-wine-quiz.png",
+      "sha256": "66b574b2528a444326cbfc3ba0ebb413e0bd774a83c68be333d36b0dd8480a6f",
+      "bytes": 54793
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/independent-wine.fermentation-detail-ko.png",
+      "sha256": "25f6fd637a133c8a2cee31c76ee12ab6d3863d3e5119850f39806ea2dfeba47f",
+      "bytes": 28833
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/invalid.json",
+      "sha256": "40b5cafe045b9c9e31a1c3fdcfbc89f934906ff06a6276b55c2a0e517be21655",
+      "bytes": 8
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/large-screen.png",
+      "sha256": "38a9ce1174b0cf6341560c7e237f0a9dcdab0824ca32ffa42ea86b98efd2a5a6",
+      "bytes": 56841
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/legacy-backup.json",
+      "sha256": "b6ca51e280ad826942264d427f34567987e0507574725c7977bc5d55cf6b51b2",
+      "bytes": 4946
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/quiz-feedback.png",
+      "sha256": "0a13acbfe357162dfd6f85157703c25d0d8e02f49103d78a61270ac0be58978f",
+      "bytes": 42281
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/results.json",
+      "sha256": "67e32739bec628d0ef28b40dfc02db795b185c7c2550ac6e3e94cc85552e3460",
+      "bytes": 868
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/save-failure.png",
+      "sha256": "ee5d2e48eba8df6230f04381f262dca156e2ba19205eb827bab0ece150a718d2",
+      "bytes": 58083
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/small-large-text.png",
+      "sha256": "7d9cffa94eaa037707fb93643a98aeb9151ea647c7540a6e4635ae9acc3eed57",
+      "bytes": 31755
+    },
+    {
+      "path": "build/qa-independent/ad43920/web/today.png",
+      "sha256": "a03ef02e10d88e6773848b1cd47aeee9df12759b36d4de1ad7281d1e3e86943c",
+      "bytes": 29302
+    }
+  ]
+}

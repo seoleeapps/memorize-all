@@ -1,34 +1,10 @@
 {
-  "checkedAt": "2026-10-19T16:26:12.788868+00:00",
-  "sourceSha": "3c600c50f2a63a96976671f6bbcc47963f4ac304",
-  "pullRequestMergeSha": "64ce61f4c63f0feab59044b221e367b73c48b172",
-  "treeSha": "0b059d4aad0532fdc8a865cd3ad3596e103fbfe7",
-  "treeComparison": "HEAD and PR merge commit trees match exactly",
-  "runUrl": "https://github.com/seoleeapps/memorize-all/actions/runs/39283358402",
-  "jobId": 118162383127,
-  "checkState": "queued",
-  "checkConclusion": null,
-  "artifactId": 12202790763,
-  "artifactName": "development-qa-64ce61f4c63f0feab59044b221e367b73c48b172",
-  "artifactDigest": "sha256:7e21e73dba55cc5a214a221fd5f7e654e3f66964761d8a51ab8e45f09784840c",
-  "artifactCreatedAt": "2026-10-19T16:11:51Z",
-  "artifactExpiresAt": "2026-10-22T16:11:49Z",
-  "artifactReadback": "downloaded successfully; web results show six scenario groups passed, runtimeErrors empty and nativeSdk unrun",
-  "webResults": {
-    "startedAt": "2026-10-19T16:11:44.865305+00:00",
-    "completedAt": "2026-10-19T16:11:49.382386+00:00",
-    "passed": [
-      "onboarding, five populated topics, old empty topic link recovery",
-      "wrong answer, one retry, exact restart restoration, ten unique facts, atlas and source detail",
-      "language continuity, flashcard unsure, backup export, import cancel, restore and invalid backup",
-      "failed write keeps state, retry persists, corrupt load preserves raw data and recovers",
-      "eight-day due review selection and offline learning",
-      "320px enlarged text and 768px layout; native font scaling unrun"
-    ],
-    "runtimeErrors": [],
-    "nativeSdk": "unrun",
-    "isolatedData": "fresh browser context; localhost origin; synthetic backup"
-  },
-  "jobLogReadback": "Unavailable; API log requests failed during GitHub incident. This does not establish full job completion.",
-  "interpretation": "Linux browser execution evidence exists, but current required check completion is not confirmed. CI is not recorded as passed. AAB is unbuilt."
+  "checkedAt": "2026-10-19T16:56:17.388264+00:00",
+  "sourceSha": "ad439207a29b4a8d4c809ef99a0219418e6931cb",
+  "runUrl": "https://github.com/seoleeapps/memorize-all/actions/runs/39289278297",
+  "status": "completed",
+  "conclusion": "success",
+  "event": "pull_request",
+  "checks": "lint, TypeScript, Node 28 and Python 7, content, architecture, catalog regeneration, web export and browser regression",
+  "nativeSdk": "unrun"
 }

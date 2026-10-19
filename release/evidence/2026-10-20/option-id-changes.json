@@ -1,0 +1,162 @@
+[
+  {
+    "id": "moon.maria.forward",
+    "knowledgeId": "moon.maria",
+    "oldOptions": [
+      "moon.maria",
+      "moon.crater",
+      "moon.new",
+      "moon.last-quarter"
+    ],
+    "newOptions": [
+      "moon.maria",
+      "moon.new",
+      "moon.last-quarter",
+      "moon.regolith"
+    ]
+  },
+  {
+    "id": "moon.maria.reverse",
+    "knowledgeId": "moon.maria",
+    "oldOptions": [
+      "moon.maria",
+      "moon.crater",
+      "moon.new",
+      "moon.last-quarter"
+    ],
+    "newOptions": [
+      "moon.maria",
+      "moon.new",
+      "moon.last-quarter",
+      "moon.regolith"
+    ]
+  },
+  {
+    "id": "coffee.bean.forward",
+    "knowledgeId": "coffee.bean",
+    "oldOptions": [
+      "coffee.bean",
+      "coffee.green",
+      "coffee.immersion",
+      "coffee.decaf"
+    ],
+    "newOptions": [
+      "coffee.bean",
+      "coffee.immersion",
+      "coffee.decaf",
+      "coffee.roasting"
+    ]
+  },
+  {
+    "id": "coffee.bean.reverse",
+    "knowledgeId": "coffee.bean",
+    "oldOptions": [
+      "coffee.bean",
+      "coffee.green",
+      "coffee.immersion",
+      "coffee.decaf"
+    ],
+    "newOptions": [
+      "coffee.bean",
+      "coffee.immersion",
+      "coffee.decaf",
+      "coffee.roasting"
+    ]
+  },
+  {
+    "id": "coffee.extraction.forward",
+    "knowledgeId": "coffee.extraction",
+    "oldOptions": [
+      "coffee.extraction",
+      "coffee.espresso",
+      "coffee.latte",
+      "coffee.arabica"
+    ],
+    "newOptions": [
+      "coffee.extraction",
+      "coffee.latte",
+      "coffee.arabica",
+      "coffee.americano"
+    ]
+  },
+  {
+    "id": "coffee.extraction.reverse",
+    "knowledgeId": "coffee.extraction",
+    "oldOptions": [
+      "coffee.extraction",
+      "coffee.espresso",
+      "coffee.latte",
+      "coffee.arabica"
+    ],
+    "newOptions": [
+      "coffee.extraction",
+      "coffee.latte",
+      "coffee.arabica",
+      "coffee.americano"
+    ]
+  },
+  {
+    "id": "coffee.espresso.forward",
+    "knowledgeId": "coffee.espresso",
+    "oldOptions": [
+      "coffee.espresso",
+      "coffee.filter",
+      "coffee.cappuccino",
+      "coffee.robusta"
+    ],
+    "newOptions": [
+      "coffee.espresso",
+      "coffee.cappuccino",
+      "coffee.robusta",
+      "coffee.immersion"
+    ]
+  },
+  {
+    "id": "coffee.espresso.reverse",
+    "knowledgeId": "coffee.espresso",
+    "oldOptions": [
+      "coffee.espresso",
+      "coffee.filter",
+      "coffee.cappuccino",
+      "coffee.robusta"
+    ],
+    "newOptions": [
+      "coffee.espresso",
+      "coffee.cappuccino",
+      "coffee.robusta",
+      "coffee.immersion"
+    ]
+  },
+  {
+    "id": "coffee.immersion.forward",
+    "knowledgeId": "coffee.immersion",
+    "oldOptions": [
+      "coffee.immersion",
+      "coffee.french-press",
+      "coffee.natural",
+      "coffee.bean"
+    ],
+    "newOptions": [
+      "coffee.immersion",
+      "coffee.natural",
+      "coffee.bean",
+      "coffee.americano"
+    ]
+  },
+  {
+    "id": "coffee.immersion.reverse",
+    "knowledgeId": "coffee.immersion",
+    "oldOptions": [
+      "coffee.immersion",
+      "coffee.french-press",
+      "coffee.natural",
+      "coffee.bean"
+    ],
+    "newOptions": [
+      "coffee.immersion",
+      "coffee.natural",
+      "coffee.bean",
+      "coffee.americano"
+    ]
+  }
+]

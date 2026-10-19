@@ -1,0 +1,17 @@
+{
+  "sourceRevision": "ad439207a29b4a8d4c809ef99a0219418e6931cb",
+  "archives": [
+    {
+      "archiveName": "independent-ad43920.tar.gz",
+      "sha256": "68677b2f456b0705f5280569997da344d1a13314868113eb5b72f5aa526dc584",
+      "fileCount": 78,
+      "allFilesReadBack": true
+    },
+    {
+      "archiveName": "independent-f542483.tar.gz",
+      "sha256": "53a3970f0fac991c9364d5955aaeea4d320bbe816a3a57429d7668800997a2a7",
+      "fileCount": 82,
+      "allFilesReadBack": true
+    }
+  ]
+}

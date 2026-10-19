@@ -1,0 +1,67 @@
+{
+  "artifactSourceSha": "29ab776577e02209c7d6a55f2d141441c3e50968",
+  "fixtureSourceSha": "9cbeb20dbf011cac768a4901fbc6bff862947bcd",
+  "status": "identical category list and byte-identical catalog, learning parser and storage loader",
+  "comparison": [
+    {
+      "sha": "29ab776577e02209c7d6a55f2d141441c3e50968",
+      "src/content/catalog.json": {
+        "sha256": "cec016163414bf49fd25989c1cdc073a9b9086775721c9ccdf248617583c06b5"
+      },
+      "categoryIds": [
+        "geography",
+        "history",
+        "math",
+        "physics",
+        "elements",
+        "astronomy",
+        "moon",
+        "nature",
+        "coffee",
+        "wine",
+        "beer",
+        "games",
+        "art",
+        "music",
+        "literature",
+        "food"
+      ],
+      "src/core/learning.ts": {
+        "sha256": "a5a4be729c4ffb0d79881902de4a73702aa6b8e680b6f497b2017743a52a9890"
+      },
+      "src/adapters/storage.ts": {
+        "sha256": "d604e41191254ecb64ab2b60a78497d78b3b300903c4de68ad9eaf240940da7f"
+      }
+    },
+    {
+      "sha": "9cbeb20dbf011cac768a4901fbc6bff862947bcd",
+      "src/content/catalog.json": {
+        "sha256": "cec016163414bf49fd25989c1cdc073a9b9086775721c9ccdf248617583c06b5"
+      },
+      "categoryIds": [
+        "geography",
+        "history",
+        "math",
+        "physics",
+        "elements",
+        "astronomy",
+        "moon",
+        "nature",
+        "coffee",
+        "wine",
+        "beer",
+        "games",
+        "art",
+        "music",
+        "literature",
+        "food"
+      ],
+      "src/core/learning.ts": {
+        "sha256": "a5a4be729c4ffb0d79881902de4a73702aa6b8e680b6f497b2017743a52a9890"
+      },
+      "src/adapters/storage.ts": {
+        "sha256": "d604e41191254ecb64ab2b60a78497d78b3b300903c4de68ad9eaf240940da7f"
+      }
+    }
+  ]
+}

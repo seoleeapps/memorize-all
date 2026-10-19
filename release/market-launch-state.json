@@ -3,7 +3,7 @@
   "app": {
     "name": "Memorize All",
     "repo": "seoleeapps/memorize-all",
-    "sourceRevision": "3c600c50f2a63a96976671f6bbcc47963f4ac304"
+    "sourceRevision": "ad439207a29b4a8d4c809ef99a0219418e6931cb"
   },
   "release": {
     "version": "1.0.0",
@@ -33,32 +33,30 @@
     "candidate": {
       "status": "pass",
       "evidence": [
-        "docs/design/2026-10-20-android-public/design.md",
-        "3c600c50f2a63a96976671f6bbcc47963f4ac304"
+        "ad439207a29b4a8d4c809ef99a0219418e6931cb",
+        "https://github.com/seoleeapps/memorize-all/releases/tag/v1.0.0"
       ],
-      "checkedAt": "2026-10-19T16:20:32.165620+00:00",
+      "checkedAt": "2026-10-19T16:56:17.388264+00:00",
       "blocker": null
     },
     "quality": {
-      "status": "blocked",
+      "status": "pass",
       "evidence": [
-        "docs/qa/independent-3c600c5.json",
-        "Central L3 before-build and before-release pass",
-        "https://github.com/seoleeapps/memorize-all/actions/runs/39283358402",
+        "docs/qa/independent-ad43920.json",
+        "release/evidence/2026-10-20/development-evidence.json",
         "release/evidence/2026-10-20/ci-state-readback.json"
       ],
-      "checkedAt": "2026-10-19T16:26:12.788868+00:00",
-      "blocker": "GitHub incident: required check remains queued with no conclusion. Downloaded Linux browser artifact passed and source trees match, but full CI completion is unconfirmed; job logs unavailable. No 1.0.0 AAB exists."
+      "checkedAt": "2026-10-19T16:56:17.388264+00:00",
+      "blocker": null
     },
     "production_dependencies": {
       "status": "blocked",
       "evidence": [
-        "https://github.com/seorilabs/seorilabs-official/pull/79",
-        "release/evidence/2026-10-20/admob-readback.json",
-        "https://github.com/seorilabs/seorilabs-official/actions/runs/39284177459"
+        "release/evidence/2026-10-20/policy-http.json",
+        "release/evidence/2026-10-20/admob-readback.json"
       ],
-      "checkedAt": "2026-10-19T16:20:32.165620+00:00",
-      "blocker": "App privacy/support pages are not deployed; AdMob store link and app consent message remain incomplete."
+      "checkedAt": "2026-10-19T16:56:17.388264+00:00",
+      "blocker": "App-specific European and US states messages are published and policy pages are live. Exact package search still returns no app; store link, app-specific app-ads.txt verification and AdMob review remain pending. These are tracked separately from Play submission."
     },
     "observability": {
       "status": "na",
@@ -77,20 +75,19 @@
         "candidate": {
           "status": "pass",
           "evidence": [
-            "docs/design/2026-10-20-android-public/design.md",
-            "3c600c50f2a63a96976671f6bbcc47963f4ac304"
+            "ad439207a29b4a8d4c809ef99a0219418e6931cb",
+            "https://github.com/seoleeapps/memorize-all/releases/tag/v1.0.0"
           ],
-          "checkedAt": "2026-10-19T16:20:32.165620+00:00",
+          "checkedAt": "2026-10-19T16:56:17.388264+00:00",
           "blocker": null
         },
         "artifact": {
-          "status": "blocked",
+          "status": "pending",
           "evidence": [
-            "https://github.com/seoleeapps/memorize-all/pull/2"
+            "https://github.com/seoleeapps/memorize-all/actions/runs/39289597630"
           ],
-          "checkedAt": "2026-10-19T16:20:32.165620+00:00",
-          "blocker": "Required PR check completion is unconfirmed during the GitHub incident. No release tag or new signed 1.0.0 AAB has been created.",
-          "preservationRequirement": "After the Linux build succeeds, immediately download and separately retain the unchanged signed AAB, SHA256SUMS, SOURCE_SHA and validation evidence before the 3-day Actions artifact expiry. Recheck the SHA-256 before each upload. No artifact has been created or archived yet."
+          "checkedAt": "2026-10-19T16:56:17.388264+00:00",
+          "blocker": "Tag build running on Linux; signed AAB has not been downloaded or verified."
         },
         "upload": {
           "status": "pending",
@@ -107,34 +104,36 @@
         "qa": {
           "status": "pass",
           "evidence": [
-            "docs/qa/independent-3c600c5.json",
-            "release/evidence/2026-10-20/development-evidence.json"
+            "docs/qa/independent-ad43920.json",
+            "release/evidence/2026-10-20/development-evidence.json",
+            "release/evidence/2026-10-20/ci-state-readback.json"
           ],
-          "checkedAt": "2026-10-19T16:20:32.165620+00:00",
+          "checkedAt": "2026-10-19T16:56:17.388264+00:00",
           "blocker": null
         },
         "metadata": {
-          "status": "blocked",
+          "status": "pass",
           "evidence": [
-            "Play Publisher listing edit 18216700802690530867",
-            "Korean image edit 07021868551691134483"
+            "release/evidence/2026-10-20/listing-verify.json",
+            "release/evidence/2026-10-20/policy-http.json",
+            "release/evidence/2026-10-20/contact-website-readback.json",
+            "release/evidence/2026-10-20/category-readback.json"
           ],
-          "checkedAt": "2026-10-19T16:20:32.165620+00:00",
-          "blocker": "Listing text and assets are saved and read back; app privacy and support URLs return 404 until Pages deployment completes."
+          "checkedAt": "2026-10-19T16:56:17.388264+00:00",
+          "blocker": null
         },
         "policy": {
-          "status": "blocked",
+          "status": "pass",
           "evidence": [
-            "release/evidence/2026-10-20/iarc-readback.json",
-            "release/evidence/2026-10-20/declarations-readback.json",
-            "release/evidence/2026-10-20/data-safety-draft.json",
-            "release/evidence/2026-10-20/countries-readback.json",
+            "release/evidence/2026-10-20/content-final-readback.json",
+            "release/evidence/2026-10-20/data-safety-final-save.json",
             "release/evidence/2026-10-20/data-safety-persistence.json",
-            "release/evidence/2026-10-20/adid-readback.json",
+            "release/evidence/2026-10-20/iarc-readback.json",
+            "release/evidence/2026-10-20/countries-readback.json",
             "release/evidence/2026-10-20/pricing-readback.json"
           ],
-          "checkedAt": "2026-10-19T16:20:32.165620+00:00",
-          "blocker": "Eight app content declarations saved. All 178 available country rows targeted. Data safety draft completes four SDK data types; final Save disabled until the privacy policy URL is provided. Four policy/support URLs still return 404 pending Pages deployment."
+          "checkedAt": "2026-10-19T16:56:17.388264+00:00",
+          "blocker": null
         },
         "submission": {
           "status": "pending",
@@ -167,7 +166,9 @@
         "build": "3"
       },
       "objective": "public_live",
-      "state": "candidate"
+      "state": "candidate",
+      "category": "EDUCATION",
+      "managedPublishing": "disabled; approval automatically publishes approved changes"
     }
   },
   "nativeValidation": {
@@ -184,22 +185,22 @@
     "androidAppId": "ca-app-pub-9932778305312246~8005768438",
     "storeLink": "not found by package search",
     "approval": "needs review; limited serving",
-    "privacyMessage": "Memorize All not selected in published shared GDPR message; app privacy URL missing",
+    "privacyMessage": "Memorize All Android GDPR and US states messages published; reject or opt-out enabled; native UMP unrun",
     "appAdsTxt": "HTTP200 publisher row matches; app-specific verification unavailable before linking",
-    "checkedAt": "2026-10-19T15:55:04.988323+00:00"
+    "checkedAt": "2026-10-19T17:04:10.182035+00:00"
   },
   "policyPages": {
     "pullRequest": "https://github.com/seorilabs/seorilabs-official/pull/79",
     "mergeSha": "ac4705e8db71710f120c53d347947d87934cfbf9",
     "mergeStatus": "merged after Static checks success",
     "deploymentRun": "https://github.com/seorilabs/seorilabs-official/actions/runs/39284177459",
-    "deploymentStatus": "queued during GitHub Actions and Pages incident",
+    "deploymentStatus": "success; all four URLs HTTP 200 and app text verified",
     "liveHttp": "release/evidence/2026-10-20/policy-http.json"
   },
   "crossReview": {
     "rounds": 2,
     "status": "completed; accepted findings fixed; round 2 found no new code defect",
-    "sourceSha": "3c600c50f2a63a96976671f6bbcc47963f4ac304",
+    "sourceSha": "ad439207a29b4a8d4c809ef99a0219418e6931cb",
     "reviews": [
       "https://github.com/seoleeapps/memorize-all/pull/2#issuecomment-6271647807",
       "https://github.com/seoleeapps/memorize-all/pull/2#issuecomment-6271782420"
@@ -207,6 +208,13 @@
     "remainingDocumentationChecks": [
       "AAB archive requirement recorded in artifact gate",
       "Local executor paths redacted from public QA record; raw local evidence retained"
-    ]
+    ],
+    "legacyBackupReview": {
+      "pullRequest": "https://github.com/seoleeapps/memorize-all/pull/5",
+      "review": "https://github.com/seoleeapps/memorize-all/pull/5#issuecomment-6272160846",
+      "response": "https://github.com/seoleeapps/memorize-all/pull/5#issuecomment-6272172356",
+      "treeSha": "d1a8b1f2fd4d72ec874b4c725d241b7ba36e6d47",
+      "status": "completed; provenance concern answered with original Git object hashes; metadata-only author correction preserves code tree"
+    }
   }
 }

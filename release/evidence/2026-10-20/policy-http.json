@@ -1,21 +1,29 @@
 {
-  "checkedAt": "2026-10-19T16:19:37.590451+00:00",
+  "checkedAt": "2026-10-19T16:44:56.901807+00:00",
   "urls": [
     {
       "url": "https://www.seorilabs.com/apps/memorize-all/privacy/",
-      "status": 404
+      "status": 200,
+      "appNameFound": true,
+      "actualUrl": "https://www.seorilabs.com/apps/memorize-all/privacy/"
     },
     {
       "url": "https://www.seorilabs.com/en/apps/memorize-all/privacy/",
-      "status": 404
+      "status": 200,
+      "appNameFound": true,
+      "actualUrl": "https://www.seorilabs.com/en/apps/memorize-all/privacy/"
     },
     {
       "url": "https://www.seorilabs.com/apps/memorize-all/support/",
-      "status": 404
+      "status": 200,
+      "appNameFound": true,
+      "actualUrl": "https://www.seorilabs.com/apps/memorize-all/support/"
     },
     {
       "url": "https://www.seorilabs.com/en/apps/memorize-all/support/",
-      "status": 404
+      "status": 200,
+      "appNameFound": true,
+      "actualUrl": "https://www.seorilabs.com/en/apps/memorize-all/support/"
     }
   ]
 }

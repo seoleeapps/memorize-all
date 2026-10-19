@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-19T16:58:50.595471+00:00",
+  "androidAppId": "ca-app-pub-9932778305312246~8005768438",
+  "messageName": "Memorize All Android GDPR",
+  "row": [
+    "Memorize All Android GDPRmy_location지역\n\nGDPR이 적용되는 국가(EEA, 영국 및 스위스)의 방문자에게 이 메시지를 표시합니다.\n\n자세히 알아보기\n영어(en)Memorize All2026. 10. 20.게시됨more_vert옵션 더보기"
+  ],
+  "scope": "only Memorize All Android; iOS and existing 32-app shared message unchanged",
+  "privacyUrl": "https://www.seorilabs.com/en/apps/memorize-all/privacy/",
+  "language": "en; ko absent from provider supported-language picker",
+  "rejectButton": "enabled for every region in this message",
+  "nativeUmp": "unrun"
+}
