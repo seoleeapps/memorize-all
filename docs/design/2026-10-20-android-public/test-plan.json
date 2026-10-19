@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "level": "L3",
+  "baseline": null,
+  "changedFeatures": [
+    "onboarding",
+    "study",
+    "collection",
+    "settings-backup",
+    "advertising",
+    "content"
+  ],
+  "environments": [
+    "dev"
+  ],
+  "redesign": false,
+  "foundationRerun": true,
+  "floorOverrides": [
+    {
+      "rule": "foundation",
+      "featureId": "settings-backup",
+      "reason": "사용자가 에뮬레이터와 실기기 사용을 명시적으로 제외했다. RN Web 전체 흐름과 오류 복구, 광고 경계 상태를 개발 환경에서 확인하며 네이티브 SDK와 OS 동작은 미실행으로 기록한다."
+    },
+    {
+      "rule": "foundation",
+      "featureId": "advertising",
+      "reason": "사용자가 에뮬레이터와 실기기 사용을 명시적으로 제외했다. RN Web 전체 흐름과 오류 복구, 광고 경계 상태를 개발 환경에서 확인하며 네이티브 SDK와 OS 동작은 미실행으로 기록한다."
+    }
+  ],
+  "release": {
+    "markets": [
+      "google-play"
+    ],
+    "until": "public",
+    "rollout": 1
+  }
+}

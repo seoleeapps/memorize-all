@@ -1,0 +1,10 @@
+from pathlib import Path
+async def main(session):
+    page=session.page()
+    root=Path(__file__).resolve().parents[1]
+    svg='''<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024"><rect width="1024" height="1024" rx="220" fill="#245C45"/><path d="M260 305 Q390 270 512 340 Q634 270 764 305 L764 700 Q640 665 512 735 Q384 665 260 700 Z" fill="#F7F5EF"/><path d="M512 340V735" stroke="#245C45" stroke-width="20"/><path d="m377 462 45 49 91-110" fill="none" stroke="#245C45" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/><path d="M577 437h105M577 505h105M577 573h75" stroke="#B6CAB7" stroke-width="18" stroke-linecap="round"/></svg>'''
+    (root/'assets/brand.svg').write_text(svg)
+    await page.set_viewport_size({'width':1024,'height':1024})
+    await page.set_content('<html><body style="margin:0">'+svg+'</body></html>')
+    await page.screenshot(path=str(root/'assets/icon.png'))
+    return {'created':'assets/icon.png','size':1024}

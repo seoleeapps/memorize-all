@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "regressionPaths": [
+    "package-lock.json",
+    "app.json",
+    "app.config.ts",
+    "src/core/**"
+  ],
+  "features": [
+    {
+      "id": "onboarding",
+      "core": true,
+      "foundation": false,
+      "paths": [
+        "src/ui/Main.tsx"
+      ]
+    },
+    {
+      "id": "study",
+      "core": true,
+      "foundation": false,
+      "paths": [
+        "src/core/**",
+        "src/ui/StudyMode.tsx"
+      ]
+    },
+    {
+      "id": "collection",
+      "core": true,
+      "foundation": false,
+      "paths": [
+        "src/ui/Main.tsx"
+      ]
+    },
+    {
+      "id": "settings-backup",
+      "core": true,
+      "foundation": true,
+      "paths": [
+        "src/adapters/storage.ts",
+        "src/adapters/backup.ts",
+        "src/ui/useLearning.ts"
+      ]
+    },
+    {
+      "id": "advertising",
+      "core": true,
+      "foundation": true,
+      "paths": [
+        "src/adapters/ads-session.ts",
+        "src/ui/Advertising*",
+        "src/ui/AdPrivacyControls.tsx",
+        "config/advertising.json"
+      ]
+    },
+    {
+      "id": "content",
+      "core": true,
+      "foundation": false,
+      "paths": [
+        "src/content/**",
+        "content/**"
+      ]
+    }
+  ]
+}

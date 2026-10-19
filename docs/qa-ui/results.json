@@ -1,0 +1,35 @@
+{
+  "passed": [
+    "mode change during active study",
+    "quiz options visible",
+    "card front and reveal",
+    "switching back hides the revealed answer",
+    "card source disclosure",
+    "grade advances once",
+    "quiz feedback survives mode change and reload",
+    "interest edit cancellation",
+    "save failure and retry",
+    "restart and resume",
+    "two bounded retries",
+    "no immediate mastery",
+    "filtered collection empty state",
+    "language preserves facts",
+    "backup export/restore/cancel/error",
+    "completed pack practice",
+    "offline interactions",
+    "320px and enlarged text",
+    "missing fact recovery"
+  ],
+  "screenshots": {
+    "home": "docs/qa-ui/home.png",
+    "card-front": "docs/qa-ui/card-front.png",
+    "card-back": "docs/qa-ui/card-back.png",
+    "save-error": "docs/qa-ui/save-error.png",
+    "complete": "docs/qa-ui/complete.png",
+    "detail": "docs/qa-ui/detail.png",
+    "explore": "docs/qa-ui/explore.png",
+    "small-card-front": "docs/qa-ui/small-card-front.png",
+    "large-text": "docs/qa-ui/large-text.png"
+  },
+  "runtimeErrors": []
+}

@@ -1,0 +1,51 @@
+{
+  "packageName": "com.seorilabs.memorizeall",
+  "defaultLanguage": "en-US",
+  "appType": "app",
+  "freeOrPaid": "free",
+  "contactEmail": "cs@seorilabs.com",
+  "contactPhone": "+821050675746",
+  "privacyPolicyUrl": "확정 필요",
+  "storeListing": {
+    "appName": {
+      "ko-KR": "Memorize All",
+      "en-US": "Memorize All"
+    },
+    "shortDescription": {
+      "ko-KR": "짧은 퀴즈와 플래시카드로 배우고, 다시 기억하며 지식 도감을 채워요.",
+      "en-US": "Learn with quick quizzes and flashcards, then review and grow your collection."
+    },
+    "fullDescription": {
+      "ko-KR": "관심 있는 분야를 고르고 짧게 학습하세요. 퀴즈와 플래시카드를 오가며 기억을 확인하고, 헷갈린 지식을 나중에 다시 복습할 수 있습니다. 지식 도감에서 학습한 항목과 복습 상태를 확인하세요.\n\n한국어와 영어를 지원하며 언어를 바꿔도 같은 지식의 진도가 이어집니다. 로그인 없이 이용하고 학습 기록을 기기에 저장합니다. 설정에서 백업 파일을 내보내거나 가져올 수 있습니다. 모든 학습은 무료이며 배너광고를 포함합니다.\n\n현재 내부 테스트에는 지리, 원소, 달, 커피, 와인의 검수용 지식 100개가 포함됩니다. 공개 콘텐츠는 검수 후 확정합니다.",
+      "en-US": "Choose your interests and learn in short sessions. Use quizzes or flashcards to recall facts, then revisit the ones you found difficult. Track learned facts and review status in your knowledge collection.\n\nLearn in Korean or English without losing progress when switching languages. No account is required. Learning records stay on your device, with backup export and import in Settings. All learning is free and the app includes banner ads.\n\nThe internal test contains 100 review-sample facts about geography, elements, the Moon, coffee and wine. Public content will be finalized after review."
+    }
+  },
+  "assets": {
+    "playIcon": "확정 필요",
+    "featureGraphic": "확정 필요",
+    "phoneScreenshots": [],
+    "sevenInchTabletScreenshots": [],
+    "tenInchTabletScreenshots": []
+  },
+  "contentDeclarations": {
+    "dataSafety": "확정 필요",
+    "contentRating": "확정 필요",
+    "targetAudience": "확정 필요",
+    "ads": "yes",
+    "koreaDistribution": "확정 필요",
+    "koreaGameRating": "not-applicable: non-game app"
+  },
+  "release": {
+    "track": "internal",
+    "versionName": "0.1.1",
+    "versionCode": 2,
+    "releaseNotes": {
+      "en-US": "Quizzes, flashcards, automatic reviews and a knowledge atlas. All learning is free, with test banner ads. The home learning button is easier to reach on small screens with large text."
+    }
+  },
+  "manualEvidence": [
+    "docs/advertising.md",
+    "docs/android-native-qa.md",
+    "docs/qa-advertising/play-internal-readback.json"
+  ]
+}

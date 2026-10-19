@@ -1,0 +1,45 @@
+{
+  "observedAt": "2026-10-05T05:15:59.508405+00:00",
+  "account": "Google 계정: [private account]  \n([private account])",
+  "developerName": "Seolee Apps",
+  "developerType": "personal",
+  "developerId": "5547060480954653351",
+  "consoleAppId": "4974075050392290867",
+  "packageName": "com.seorilabs.memorizeall",
+  "track": "internal",
+  "trackId": "4701156134419290610",
+  "releaseName": "0.1.1 (2) — banner-only internal test",
+  "versionCodes": [
+    2
+  ],
+  "consoleStatus": "active / available to internal testers / unreviewed",
+  "releaseUrl": "https://play.google.com/console/u/0/developers/5547060480954653351/app/4974075050392290867/tracks/4701156134419290610?tab=releases",
+  "testerUrl": "https://play.google.com/console/u/0/developers/5547060480954653351/app/4974075050392290867/tracks/4701156134419290610?tab=testers",
+  "releaseText": "활성 · 최신 출시 버전: 0.1.1 (2) — banner-only internal test\n내부 테스터에게 제공됨 · 버전 코드 1개 · 게시일: 10월 5일 오후 2:15 · 검토되지 않음\n앱의 임시 이름: com.seorilabs.memorizeall (unreviewed)",
+  "testerText": "Memorize All owner QA · 사용자 1명 · 선택 저장됨",
+  "links": [
+    {
+      "text": "internal test opt-in",
+      "href": "https://play.google.com/apps/internaltest/4701156134419290610"
+    }
+  ],
+  "testerSelections": [
+    {
+      "checked": "true",
+      "label": "Memorize All owner QA",
+      "text": ""
+    }
+  ],
+  "publicReleased": false,
+  "playInstalledQa": false,
+  "optInUrl": "https://play.google.com/apps/internaltest/4701156134419290610",
+  "optInPageText": "You’re invited to test com.seorilabs.memorizeall (unreviewed)\n\nIf you accept, the app on your device may update internal test versions as they become available.\nThese versions may not be stable, and may include unreleased features.\nThey may not have been reviewed by Google, and may not meet the Google Play Terms of Service.\n\nBy accepting this invite, you agree that Google may share your email address and information about your use of com.seorilabs.memorizeall (unreviewed) with the developer.\n\n© 2026 Google  - Google Play Terms of Service  - Devices Terms of Sale  - Privacy Policy  - Developers",
+  "optInAccepted": false,
+  "releaseNotes": {
+    "en-US": "Quizzes, flashcards, automatic reviews and a knowledge atlas. All learning is free, with test banner ads. The home learning button is easier to reach on small screens with large text."
+  },
+  "previewWarnings": [
+    "No deobfuscation file for version code 2; informational warning when R8/proguard is used."
+  ],
+  "previousVersionCode1": "Uploaded and processed, removed from draft before activating internal test; never released."
+}

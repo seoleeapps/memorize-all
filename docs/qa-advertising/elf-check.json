@@ -1,0 +1,564 @@
+{
+  "checked": 46,
+  "aligned": false,
+  "libraries": [
+    {
+      "library": "base/lib/arm64-v8a/libandroidx.graphics.path.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libappmodules.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        0
+      ],
+      "aligned": true
+    },
+    {
+      "library": "base/lib/arm64-v8a/libc++_shared.so",
+      "loadAlignment": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        12288
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libexpo-modules-core.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        4096
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libfbjni.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        12288
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libgesturehandler.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libgifimage.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libhermestooling.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libhermesvm.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        4096
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libimagepipeline.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libjsi.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        4096
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libnative-filters.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libnative-imagetranscoder.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        12288
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libreact_codegen_rngesturehandler_codegen.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libreact_codegen_rnscreens.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        4096
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libreact_codegen_rnsvg.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        4096
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libreact_codegen_safeareacontext.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        12288
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libreactnative.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        0
+      ],
+      "aligned": true
+    },
+    {
+      "library": "base/lib/arm64-v8a/libreanimated.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/librnscreens.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        4096
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libstatic-webp.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libworklets.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        4096
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/arm64-v8a/libzstd-kmp.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        12288
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libandroidx.graphics.path.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        12288
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libappmodules.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        0
+      ],
+      "aligned": true
+    },
+    {
+      "library": "base/lib/x86_64/libc++_shared.so",
+      "loadAlignment": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        4096
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libexpo-modules-core.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        0
+      ],
+      "aligned": true
+    },
+    {
+      "library": "base/lib/x86_64/libfbjni.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libgesturehandler.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        4096
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libgifimage.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libhermestooling.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libhermesvm.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        4096
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libimagepipeline.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libjsi.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libnative-filters.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        12288
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libnative-imagetranscoder.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        0
+      ],
+      "aligned": true
+    },
+    {
+      "library": "base/lib/x86_64/libreact_codegen_rngesturehandler_codegen.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        0
+      ],
+      "aligned": true
+    },
+    {
+      "library": "base/lib/x86_64/libreact_codegen_rnscreens.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        12288
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libreact_codegen_rnsvg.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        12288
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libreact_codegen_safeareacontext.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        12288
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libreactnative.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        0
+      ],
+      "aligned": true
+    },
+    {
+      "library": "base/lib/x86_64/libreanimated.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        0
+      ],
+      "aligned": true
+    },
+    {
+      "library": "base/lib/x86_64/librnscreens.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        0
+      ],
+      "aligned": true
+    },
+    {
+      "library": "base/lib/x86_64/libstatic-webp.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        4096
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libworklets.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        8192
+      ],
+      "aligned": false
+    },
+    {
+      "library": "base/lib/x86_64/libzstd-kmp.so",
+      "loadAlignment": [
+        14,
+        14,
+        14
+      ],
+      "relroEndRemainders": [
+        12288
+      ],
+      "aligned": false
+    }
+  ],
+  "buildSourceSha": "29ab776577e02209c7d6a55f2d141441c3e50968",
+  "aabSha256": "2e4f34ca833cc1563c276bc10edeb5a51ae16585f75ddd2e35e219ad62c6ab7d",
+  "loadAligned": true,
+  "relroUnalignedCount": 37
+}

@@ -1,0 +1,48 @@
+{
+  "appId": "memorize-all",
+  "version": "0.1.1",
+  "stage": "internal-testing",
+  "deploymentAuthorized": false,
+  "markets": {
+    "google_play": {
+      "nativeArtifact": "dist/android/memorize-all-internal.aab",
+      "uploaded": true,
+      "publicVerified": false,
+      "artifactSha256": "2e4f34ca833cc1563c276bc10edeb5a51ae16585f75ddd2e35e219ad62c6ab7d",
+      "versionCode": 2,
+      "advertisingMode": "test",
+      "processing": "completed",
+      "track": "internal",
+      "trackStatus": "active / available to internal testers / unreviewed",
+      "optInUrl": "https://play.google.com/apps/internaltest/4701156134419290610",
+      "playInstalledQa": false
+    },
+    "app_store": {
+      "nativeArtifact": null,
+      "uploaded": false,
+      "publicVerified": false
+    }
+  },
+  "blockers": [
+    "100개 표본의 전수 사실·한영·이용 조건 검수 미완료",
+    "16KB 페이지 호환성: 64비트 라이브러리 37개 RELRO 미정렬, 라이브러리 갱신·재빌드와 16KB 런타임 검수 필요",
+    "지역별 UMP 양식·개인정보 선택 변경과 최초 오프라인 SDK 복구 검수 미완료",
+    "AdMob 스토어 연결·앱 검토와 개인정보 메시지 확인 필요",
+    "Android Play 설치·실기기·시스템 백업 공유 및 iOS·VoiceOver/TalkBack 검증 미완료",
+    "Expo 도구 체인의 npm audit 경고 검토 필요",
+    "스토어 메타데이터·정책·공개 배포 승인 없음"
+  ],
+  "monetization": "banner-only",
+  "evidence": [
+    "docs/qa.md",
+    "docs/content.md",
+    "docs/advertising.md",
+    "docs/android-native-qa.md",
+    "docs/qa-advertising/android-artifact.json",
+    "docs/qa-advertising/play-internal-readback.json",
+    "docs/qa-advertising/elf-check.json"
+  ],
+  "updatedAt": "2026-10-05T05:21:41.683324+00:00",
+  "sourceSha": "29ab776577e02209c7d6a55f2d141441c3e50968",
+  "internalTestingAuthorized": true
+}

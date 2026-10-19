@@ -1,0 +1,288 @@
+{
+  "observedAt": "2026-10-04T10:18:16.962162+00:00",
+  "license": "CC0",
+  "results": [
+    {
+      "knowledgeId": "geography.france",
+      "entity": "Q142",
+      "revision": 2550939492,
+      "property": "P36",
+      "capitalIds": [
+        "Q90"
+      ],
+      "labels": [
+        "Paris"
+      ],
+      "expected": "Paris",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.japan",
+      "entity": "Q17",
+      "revision": 2552994031,
+      "property": "P36",
+      "capitalIds": [
+        "Q1490"
+      ],
+      "labels": [
+        "Tokyo"
+      ],
+      "expected": "Tokyo",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.canada",
+      "entity": "Q16",
+      "revision": 2551371814,
+      "property": "P36",
+      "capitalIds": [
+        "Q1930"
+      ],
+      "labels": [
+        "Ottawa"
+      ],
+      "expected": "Ottawa",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.australia",
+      "entity": "Q408",
+      "revision": 2552305021,
+      "property": "P36",
+      "capitalIds": [
+        "Q3114"
+      ],
+      "labels": [
+        "Canberra"
+      ],
+      "expected": "Canberra",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.brazil",
+      "entity": "Q155",
+      "revision": 2547610501,
+      "property": "P36",
+      "capitalIds": [
+        "Q2844"
+      ],
+      "labels": [
+        "Brasília"
+      ],
+      "expected": "Brasília",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.egypt",
+      "entity": "Q79",
+      "revision": 2549942388,
+      "property": "P36",
+      "capitalIds": [
+        "Q85"
+      ],
+      "labels": [
+        "Cairo"
+      ],
+      "expected": "Cairo",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.italy",
+      "entity": "Q38",
+      "revision": 2551588933,
+      "property": "P36",
+      "capitalIds": [
+        "Q220"
+      ],
+      "labels": [
+        "Rome"
+      ],
+      "expected": "Rome",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.spain",
+      "entity": "Q29",
+      "revision": 2552100888,
+      "property": "P36",
+      "capitalIds": [
+        "Q2807"
+      ],
+      "labels": [
+        "Madrid"
+      ],
+      "expected": "Madrid",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.portugal",
+      "entity": "Q45",
+      "revision": 2548359773,
+      "property": "P36",
+      "capitalIds": [
+        "Q597"
+      ],
+      "labels": [
+        "Lisbon"
+      ],
+      "expected": "Lisbon",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.germany",
+      "entity": "Q183",
+      "revision": 2550634001,
+      "property": "P36",
+      "capitalIds": [
+        "Q64",
+        "Q64"
+      ],
+      "labels": [
+        "Berlin",
+        "Berlin"
+      ],
+      "expected": "Berlin",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.norway",
+      "entity": "Q20",
+      "revision": 2552025448,
+      "property": "P36",
+      "capitalIds": [
+        "Q585"
+      ],
+      "labels": [
+        "Oslo"
+      ],
+      "expected": "Oslo",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.sweden",
+      "entity": "Q34",
+      "revision": 2547805093,
+      "property": "P36",
+      "capitalIds": [
+        "Q1754"
+      ],
+      "labels": [
+        "Stockholm"
+      ],
+      "expected": "Stockholm",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.finland",
+      "entity": "Q33",
+      "revision": 2547805152,
+      "property": "P36",
+      "capitalIds": [
+        "Q1757"
+      ],
+      "labels": [
+        "Helsinki"
+      ],
+      "expected": "Helsinki",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.greece",
+      "entity": "Q41",
+      "revision": 2547805317,
+      "property": "P36",
+      "capitalIds": [
+        "Q1524"
+      ],
+      "labels": [
+        "Athens"
+      ],
+      "expected": "Athens",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.kenya",
+      "entity": "Q114",
+      "revision": 2547884341,
+      "property": "P36",
+      "capitalIds": [
+        "Q3870"
+      ],
+      "labels": [
+        "Nairobi"
+      ],
+      "expected": "Nairobi",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.thailand",
+      "entity": "Q869",
+      "revision": 2548885763,
+      "property": "P36",
+      "capitalIds": [
+        "Q1861"
+      ],
+      "labels": [
+        "Bangkok"
+      ],
+      "expected": "Bangkok",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.vietnam",
+      "entity": "Q881",
+      "revision": 2552657909,
+      "property": "P36",
+      "capitalIds": [
+        "Q1858"
+      ],
+      "labels": [
+        "Hanoi"
+      ],
+      "expected": "Hanoi",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.argentina",
+      "entity": "Q414",
+      "revision": 2547806749,
+      "property": "P36",
+      "capitalIds": [
+        "Q1486"
+      ],
+      "labels": [
+        "Buenos Aires"
+      ],
+      "expected": "Buenos Aires",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.peru",
+      "entity": "Q419",
+      "revision": 2551120082,
+      "property": "P36",
+      "capitalIds": [
+        "Q2868"
+      ],
+      "labels": [
+        "Lima"
+      ],
+      "expected": "Lima",
+      "match": true
+    },
+    {
+      "knowledgeId": "geography.new-zealand",
+      "entity": "Q664",
+      "revision": 2547959036,
+      "property": "P36",
+      "capitalIds": [
+        "Q23661"
+      ],
+      "labels": [
+        "Wellington"
+      ],
+      "expected": "Wellington",
+      "match": true
+    }
+  ]
+}
