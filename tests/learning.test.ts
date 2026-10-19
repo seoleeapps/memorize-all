@@ -16,6 +16,7 @@ import {
   setStudyMode,
 } from '../src/core/learning';
 import { initialState, State } from '../src/core/model';
+import legacyCatalog from './fixtures/legacy-categories-v0.1.1.json';
 const t0 = Date.UTC(2026, 9, 4);
 const random = () => 0.3;
 const start = (state = initialState(), at = t0, id = 's1') =>
@@ -243,4 +244,46 @@ test('legacy backup with an unanswered quiz follows its saved flashcard preferen
   assert.deepEqual(recovered.attempts, saved.attempts);
   assert.equal(beginSession(saved, catalog, t0, 'ignored').session!.id, saved.session!.id);
   assert.equal(beginSession(saved, catalog, t0, 'ignored').session!.mode, 'card');
+});
+
+const retiredInterests = legacyCatalog.categories
+  .map((category) => category.id)
+  .filter((id) => !catalog.categories.some((category) => category.id === id));
+
+test('previously valid interests keep progress, history, completion and active feedback on upgrade', () => {
+  assert.equal(retiredInterests.length, 11);
+  let completed = start({ ...initialState('en'), onboarded: true });
+  while (completed.session!.cursor < completed.session!.items.length)
+    completed = advance(respond(completed), catalog, random);
+  completed = finish(completed, t0);
+  for (const retired of retiredInterests) {
+    const saved = respond(start({ ...completed, interests: [retired, 'elements'] }, t0 + 1, 'next'));
+    const text = JSON.stringify(saved);
+    // These inputs passed the exact category list shipped in 0.1.1.
+    assert.deepEqual(parseBackup(text, { ...catalog, categories: legacyCatalog.categories }), saved);
+    assert.deepEqual(parseBackup(text, catalog), { ...saved, interests: ['elements'] });
+    assert.equal(JSON.stringify(saved), text);
+  }
+});
+
+test('only retired interests restore without resetting records and allow daily learning', () => {
+  const saved = {
+    ...respond(start({ ...initialState('en'), onboarded: true })),
+    session: null,
+    interests: retiredInterests.slice(0, 3),
+  };
+  const restored = parseBackup(JSON.stringify(saved), catalog);
+  assert.deepEqual(restored, { ...saved, interests: [] });
+  const daily = beginSession(restored, catalog, t0, 'upgraded-daily', random);
+  assert.equal(daily.session!.items.length, 10);
+  assert.equal(new Set(daily.session!.items.map((item) => item.knowledgeId.split('.')[0])).size, 5);
+});
+
+test('retired interests do not permit unknown or duplicate IDs in a backup', () => {
+  for (const interests of [
+    [retiredInterests[0], 'unknown'],
+    [retiredInterests[0], retiredInterests[0]],
+    ['elements', 'elements'],
+  ])
+    assert.throws(() => parseBackup(JSON.stringify({ ...initialState(), interests }), catalog));
 });
