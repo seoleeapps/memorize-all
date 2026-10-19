@@ -1,0 +1,526 @@
+{
+  "recordSchemaVersion": 1,
+  "repository": "seoleeapps/memorize-all",
+  "sourceSha": "3c600c50f2a63a96976671f6bbcc47963f4ac304",
+  "status": "passed",
+  "testLevel": "L3",
+  "environment": "dev",
+  "implementer": "root",
+  "executor": "content_review",
+  "plannedAt": "2026-10-19T16:11:23.762741Z",
+  "startedAt": "2026-10-19T16:11:34.082077Z",
+  "completedAt": "2026-10-19T16:13:13.412260Z",
+  "featureIds": [
+    "onboarding",
+    "study",
+    "collection",
+    "settings-backup",
+    "advertising",
+    "content"
+  ],
+  "planDocument": "docs/design/2026-10-20-android-public/test-plan.json",
+  "policySourceSha": "37447a7ed225d957b75ceb24cc8f2331f236a0d8",
+  "independence": "Actual execution by a different agent from root; no product source changes or commits during the run.",
+  "previousCandidateEvidence": "docs/qa/independent-20261020-final.json",
+  "commands": [
+    {
+      "command": "npm run check",
+      "startedAt": "2026-10-19T16:11:34.082523Z",
+      "completedAt": "2026-10-19T16:11:40.934904Z",
+      "exitCode": 0,
+      "status": "passed",
+      "log": "build/qa-independent/3c600c5/check.log"
+    },
+    {
+      "command": "npm run check:release",
+      "startedAt": "2026-10-19T16:11:34.082583Z",
+      "completedAt": "2026-10-19T16:11:34.493527Z",
+      "exitCode": 0,
+      "status": "passed",
+      "log": "build/qa-independent/3c600c5/check-release.log"
+    },
+    {
+      "command": "npm run export:web",
+      "startedAt": "2026-10-19T16:11:34.082633Z",
+      "completedAt": "2026-10-19T16:11:36.057798Z",
+      "exitCode": 0,
+      "status": "passed",
+      "log": "build/qa-independent/3c600c5/export-web.log"
+    },
+    {
+      "command": "$PLAYWRIGHT_PYTHON scripts/test-web.py",
+      "startedAt": "2026-10-19T16:11:48.347224Z",
+      "completedAt": "2026-10-19T16:11:53.302048Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/3c600c5/test-web.log"
+    },
+    {
+      "command": "$PLAYWRIGHT_PYTHON build/qa-independent/3c600c5/extra-browser.py",
+      "startedAt": "2026-10-19T16:12:04.259150Z",
+      "completedAt": "2026-10-19T16:12:08.398017Z",
+      "status": "passed",
+      "exitCode": 0,
+      "log": "build/qa-independent/3c600c5/extra-browser.log"
+    }
+  ],
+  "runs": [
+    {
+      "id": "independent-l3-3c600c5",
+      "kind": "web-browser",
+      "sourceSha": "3c600c50f2a63a96976671f6bbcc47963f4ac304",
+      "executor": "content_review",
+      "plannedAt": "2026-10-19T16:11:23.762741Z",
+      "startedAt": "2026-10-19T16:11:34.082077Z",
+      "completedAt": "2026-10-19T16:13:13.412260Z",
+      "isolatedData": "Fresh Edge headless contexts; http://127.0.0.1:18766 origin; synthetic memorize-all.state.v1 only. Eight-day clock change affects one isolated context. AdsSession tests use mocked ports; no native SDK invoked.",
+      "scenarios": [
+        {
+          "id": "onboarding-and-topics",
+          "status": "passed",
+          "featureIds": [
+            "onboarding"
+          ],
+          "evidence": [
+            "build/qa-independent/3c600c5/web/independent-onboarding.png",
+            "build/qa-independent/3c600c5/web/explore.png",
+            "build/qa-independent/3c600c5/web/independent-extra-results.json"
+          ]
+        },
+        {
+          "id": "quiz-card-delayed-review-and-resume",
+          "status": "passed",
+          "featureIds": [
+            "study"
+          ],
+          "evidence": [
+            "build/qa-independent/3c600c5/web/results.json",
+            "build/qa-independent/3c600c5/web/quiz-feedback.png",
+            "build/qa-independent/3c600c5/web/card-back.png",
+            "build/qa-independent/3c600c5/web/complete.png"
+          ]
+        },
+        {
+          "id": "atlas-source-details-and-five-content-categories",
+          "status": "passed",
+          "featureIds": [
+            "collection",
+            "content"
+          ],
+          "evidence": [
+            "build/qa-independent/3c600c5/web/collection.png",
+            "build/qa-independent/3c600c5/web/detail.png",
+            "build/qa-independent/3c600c5/web/independent-extra-results.json",
+            "content/evidence/editorial-2026-10-20.json"
+          ]
+        },
+        {
+          "id": "language-backup-save-failure-and-corrupt-load-recovery",
+          "status": "passed",
+          "featureIds": [
+            "settings-backup"
+          ],
+          "evidence": [
+            "build/qa-independent/3c600c5/web/results.json",
+            "build/qa-independent/3c600c5/web/save-failure.png"
+          ]
+        },
+        {
+          "id": "ads-pure-boundary-consent-and-retry",
+          "status": "passed",
+          "featureIds": [
+            "advertising"
+          ],
+          "evidence": [
+            "build/qa-independent/3c600c5/check.log",
+            "tests/ads-session.test.ts; six pure mocked-port AdsSession state tests; actual UMP and native banner runtime unrun"
+          ]
+        },
+        {
+          "id": "small-large-text-and-768px-visual-review",
+          "status": "passed",
+          "featureIds": [
+            "onboarding",
+            "study",
+            "collection",
+            "settings-backup",
+            "content"
+          ],
+          "evidence": [
+            "build/qa-independent/3c600c5/web/small-large-text.png",
+            "build/qa-independent/3c600c5/web/large-screen.png",
+            "build/qa-independent/3c600c5/web/independent-extra-results.json"
+          ]
+        }
+      ]
+    }
+  ],
+  "browser": {
+    "startedAt": "2026-10-19T16:11:48.428952+00:00",
+    "completedAt": "2026-10-19T16:11:53.288713+00:00",
+    "passed": [
+      "onboarding, five populated topics, old empty topic link recovery",
+      "wrong answer, one retry, exact restart restoration, ten unique facts, atlas and source detail",
+      "language continuity, flashcard unsure, backup export, import cancel, restore and invalid backup",
+      "failed write keeps state, retry persists, corrupt load preserves raw data and recovers",
+      "eight-day due review selection and offline learning",
+      "320px enlarged text and 768px layout; native font scaling unrun"
+    ],
+    "runtimeErrors": [],
+    "nativeSdk": "unrun",
+    "isolatedData": "fresh browser context; localhost origin; synthetic backup"
+  },
+  "additionalBrowser": {
+    "startedAt": "2026-10-19T16:12:04.322545+00:00",
+    "completedAt": "2026-10-19T16:12:08.383330+00:00",
+    "passed": [
+      "fresh topic pack start and first correct answer: geography",
+      "fresh topic pack start and first correct answer: elements",
+      "fresh topic pack start and first correct answer: moon",
+      "fresh topic pack start and first correct answer: coffee",
+      "fresh topic pack start and first correct answer: wine",
+      "320px Korean empty atlas and element, Moon, coffee and wine detail visuals",
+      "320px 200% CSS text: fifth topic remains reachable and opens its pack"
+    ],
+    "screenshots": [
+      "independent-onboarding.png",
+      "independent-onboarding-selected.png",
+      "independent-geography-quiz.png",
+      "independent-elements-quiz.png",
+      "independent-moon-quiz.png",
+      "independent-coffee-quiz.png",
+      "independent-wine-quiz.png",
+      "independent-empty-collection-ko.png",
+      "independent-elements.sodium-detail-ko.png",
+      "independent-moon.first-quarter-detail-ko.png",
+      "independent-coffee.cherry-detail-ko.png",
+      "independent-wine.fermentation-detail-ko.png"
+    ],
+    "runtimeErrors": [],
+    "isolation": "fresh browser contexts, localhost origin, synthetic localStorage only"
+  },
+  "visualInspection": {
+    "status": "passed",
+    "screenshotsInspected": 22,
+    "evidence": [
+      "build/qa-independent/3c600c5/web/card-back.png",
+      "build/qa-independent/3c600c5/web/collection.png",
+      "build/qa-independent/3c600c5/web/complete.png",
+      "build/qa-independent/3c600c5/web/detail.png",
+      "build/qa-independent/3c600c5/web/explore.png",
+      "build/qa-independent/3c600c5/web/independent-coffee-quiz.png",
+      "build/qa-independent/3c600c5/web/independent-coffee.cherry-detail-ko.png",
+      "build/qa-independent/3c600c5/web/independent-elements-quiz.png",
+      "build/qa-independent/3c600c5/web/independent-elements.sodium-detail-ko.png",
+      "build/qa-independent/3c600c5/web/independent-empty-collection-ko.png",
+      "build/qa-independent/3c600c5/web/independent-geography-quiz.png",
+      "build/qa-independent/3c600c5/web/independent-moon-quiz.png",
+      "build/qa-independent/3c600c5/web/independent-moon.first-quarter-detail-ko.png",
+      "build/qa-independent/3c600c5/web/independent-onboarding-selected.png",
+      "build/qa-independent/3c600c5/web/independent-onboarding.png",
+      "build/qa-independent/3c600c5/web/independent-wine-quiz.png",
+      "build/qa-independent/3c600c5/web/independent-wine.fermentation-detail-ko.png",
+      "build/qa-independent/3c600c5/web/large-screen.png",
+      "build/qa-independent/3c600c5/web/quiz-feedback.png",
+      "build/qa-independent/3c600c5/web/save-failure.png",
+      "build/qa-independent/3c600c5/web/small-large-text.png",
+      "build/qa-independent/3c600c5/web/today.png"
+    ],
+    "observed": "Directly viewed all 22 captures. Primary actions and content are readable; vertical scrolling reaches long content; no horizontal clipping observed at 320px, 390px or 768px. CSS text enlargement is not native OS font scaling."
+  },
+  "servedExport": {
+    "indexMatches": true,
+    "bundleMatches": true,
+    "bundle": "_expo/static/js/web/entry-7734076e239a2b1940b373416d206264.js",
+    "bundleSha256": "73ce761ab6c515e4cf6a622d75fb49a1500d080ed2eee111e0a02bcad9f0a8ca"
+  },
+  "resolvedObservations": [
+    {
+      "id": "english-topic-singular",
+      "previousSourceSha": "c6d3019ad285986a2f3b41b86d05f7f449f8b7c1",
+      "previousActual": "Start with 1 topics",
+      "status": "resolved",
+      "actual": "Start learning appears before selection and with exactly one selected topic; enabled state follows selection.",
+      "evidence": [
+        "build/qa-independent/3c600c5/web/independent-onboarding.png",
+        "build/qa-independent/3c600c5/web/independent-onboarding-selected.png",
+        "build/qa-independent/3c600c5/web/independent-extra-results.json"
+      ]
+    }
+  ],
+  "advertising": {
+    "status": "passed-pure-boundary-only",
+    "tests": 6,
+    "evidence": [
+      "build/qa-independent/3c600c5/check.log",
+      "tests/ads-session.test.ts"
+    ],
+    "covered": [
+      "consent precedes initialization",
+      "no request permission keeps SDK uninitialized",
+      "previous consent and offline retry",
+      "initialization failure and retry",
+      "unavailable consent keeps ads off",
+      "changed consent denies future requests"
+    ],
+    "nativeUmp": "unrun",
+    "nativeAdMobBanner": "unrun"
+  },
+  "historicalArtifactReview": {
+    "status": "reviewed",
+    "artifactSourceSha": "29ab776577e02209c7d6a55f2d141441c3e50968",
+    "aabSha256": "2e4f34ca833cc1563c276bc10edeb5a51ae16585f75ddd2e35e219ad62c6ab7d",
+    "version": "0.1.1 (2)",
+    "advertisingMode": "test",
+    "elf64Libraries": 46,
+    "elfFailures": 0,
+    "evidence": [
+      "docs/qa-advertising/android-artifact.json",
+      "docs/qa-advertising/elf-recheck-20261020.json",
+      "tests/test_android_artifact.py"
+    ],
+    "officialRule": "https://developer.android.com/guide/practices/page-sizes#check-relro",
+    "interpretation": "An exclusive RELRO LOAD may have an unaligned end when no writable LOAD shares its protected pages. The three checker tests cover that exception, padded RELRO, unsafe writable overlap, LOAD alignment and absent RELRO. Historical static success does not validate the new candidate AAB."
+  },
+  "notRun": [
+    {
+      "id": "native-sdk-and-device",
+      "status": "unrun",
+      "reason": "User explicitly excluded emulators and physical devices. No device enumeration, install, interaction, logs or screen collection performed.",
+      "items": [
+        "Actual UMP message and consent behavior",
+        "Native AdMob initialization and banner rendering",
+        "Android OS backup sharing and file picker",
+        "Google Play installed app launch",
+        "Native OS font scaling and accessibility",
+        "16KB runtime"
+      ]
+    },
+    {
+      "id": "candidate-aab",
+      "status": "unrun",
+      "reason": "The signed 1.0.0 AAB for 3c600c5 was not available to this independent run. Package, version, signing certificate, production ad IDs, packaging and ELF alignment need final-artifact evidence."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "build/qa-independent/3c600c5/check-release.json",
+      "sha256": "a85b92bedd1eca7c248166e68b8ee3cfcd6139bfa0c628654971eaeb331cc198",
+      "bytes": 233
+    },
+    {
+      "path": "build/qa-independent/3c600c5/check-release.log",
+      "sha256": "1df6831de96c7ce22388c10bef937482848ebf515a20361d90c4477a38ee193b",
+      "bytes": 324
+    },
+    {
+      "path": "build/qa-independent/3c600c5/check.json",
+      "sha256": "a2d579a6d3441f43f45181cfb59187e926620564baa985ffc0c1daa1142d7f98",
+      "bytes": 217
+    },
+    {
+      "path": "build/qa-independent/3c600c5/check.log",
+      "sha256": "51a384e9bb4a6e3b2da178f63c0e9ece665d5088159eab41d1bdef00e264274b",
+      "bytes": 4162
+    },
+    {
+      "path": "build/qa-independent/3c600c5/export-web.json",
+      "sha256": "d3d63d9526b028d634b5efcc93895c73ec772710fd415640091038dbe51769c3",
+      "bytes": 227
+    },
+    {
+      "path": "build/qa-independent/3c600c5/export-web.log",
+      "sha256": "776ff508c37598b7a23d2ee9dba439e2ef909d05a5b392040135b35ecf503470",
+      "bytes": 1615
+    },
+    {
+      "path": "build/qa-independent/3c600c5/extra-browser.json",
+      "sha256": "7ae40399788f3db10d523d5aab1ebb9a311346cd1529d6ca420926b33c95fe0f",
+      "bytes": 320
+    },
+    {
+      "path": "build/qa-independent/3c600c5/extra-browser.log",
+      "sha256": "bb6c03301369cf7cfdf80f3cd0a2dc21ad1082df425441be2aa0a77d2350055f",
+      "bytes": 1131
+    },
+    {
+      "path": "build/qa-independent/3c600c5/extra-browser.py",
+      "sha256": "52dc3c0ffec2bdc474eead20c8aab153889eee61bf72b01693a552c2bcdd4a1f",
+      "bytes": 4605
+    },
+    {
+      "path": "build/qa-independent/3c600c5/plan.json",
+      "sha256": "a56189e9595d95a38f89afb58b4503d37f8255f0a1ff2a2dde01a086d6dbde4f",
+      "bytes": 777
+    },
+    {
+      "path": "build/qa-independent/3c600c5/test-web.json",
+      "sha256": "213fca67730fe7829a737acaf7692637a0a3f2750ee63f645084fe5505668ffc",
+      "bytes": 289
+    },
+    {
+      "path": "build/qa-independent/3c600c5/test-web.log",
+      "sha256": "a8669092425ced5711a966de5e5daed562fa212744fc6c952c415f22a76e3483",
+      "bytes": 709
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/backup.json",
+      "sha256": "d4dd2b12c3b357b3063f49fa01f6bc3ed2bc84e137d93fc4c61d45e65f425e80",
+      "bytes": 6368
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/card-back.png",
+      "sha256": "8984918f2887b5c6bd474023ad1aa45b5ea2125c255dcc15d5b2c283c74aabc0",
+      "bytes": 37366
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/collection.png",
+      "sha256": "2409e925f879ff91f50a01134025deacd26d87277d26bb6640f1d20d8022bbe8",
+      "bytes": 55036
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/complete.png",
+      "sha256": "896ab6c069ce3a7c1f536098a0d8f1c942c221beedf27ad03c7b31d6871a5fc4",
+      "bytes": 30412
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/detail.png",
+      "sha256": "60e86961d29a082f05a32e9291f7568b89a1dfbaa1bee365186ff0031db57fa1",
+      "bytes": 30690
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/explore.png",
+      "sha256": "37528e6e3de4b8c3d73a54e36682f190679959a4f2ccf1c339096da1c64d64c4",
+      "bytes": 43344
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/independent-coffee-quiz.png",
+      "sha256": "71b493f68493e0da98bfd8310950e967cca05cc192fa2f7c955cf4e9d078fde8",
+      "bytes": 47083
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/independent-coffee.cherry-detail-ko.png",
+      "sha256": "a55158827980a2fdc5153907cd49b2cb83b31818703e523cca4aa4a50f8fbae4",
+      "bytes": 28515
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/independent-elements-quiz.png",
+      "sha256": "d79067759ab94728648c7122a119c4c8d7499acf7834287e894b1034cc7024e7",
+      "bytes": 45899
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/independent-elements.sodium-detail-ko.png",
+      "sha256": "7f0ed7aad6a78982d9584681ac6b83e1222d853ae8592a62e950758cbd211e66",
+      "bytes": 28095
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/independent-empty-collection-ko.png",
+      "sha256": "d0290d6302817179d067f9623f08d9273ea92f564c34801dc547ee2921ef336d",
+      "bytes": 32283
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/independent-extra-results.json",
+      "sha256": "8991d5290ace4193caf025ea69bb986574d09dcbeb91b38604f81578094fc74c",
+      "bytes": 1229
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/independent-geography-quiz.png",
+      "sha256": "fb329c48981cc74f29754bbd42fabf893da0b9dccd6febadd7c25f1b913e7022",
+      "bytes": 41947
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/independent-moon-quiz.png",
+      "sha256": "d56ceb009c0ea04436be349cc0f39697e75a2d312910d3a851d1fd5cedeba1e8",
+      "bytes": 59282
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/independent-moon.first-quarter-detail-ko.png",
+      "sha256": "f07d8ed0537e99e7662bc68c82eb75f02442ce008ecec0b6e27fb2181c751b4a",
+      "bytes": 25664
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/independent-onboarding-selected.png",
+      "sha256": "8009767c13470c8ba82cd880add3d0a1025ccc9ceb3f903407917a919cd97df5",
+      "bytes": 52042
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/independent-onboarding.png",
+      "sha256": "e63421a39669e63bce85a82e4ca9cf5f38d0648a85b28c677168d73685a4a47f",
+      "bytes": 50581
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/independent-wine-quiz.png",
+      "sha256": "41e9d3378cb2e38feb9fb8308891eba0333414537d51149745f0a2010b7b47b3",
+      "bytes": 57017
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/independent-wine.fermentation-detail-ko.png",
+      "sha256": "25f6fd637a133c8a2cee31c76ee12ab6d3863d3e5119850f39806ea2dfeba47f",
+      "bytes": 28833
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/invalid.json",
+      "sha256": "40b5cafe045b9c9e31a1c3fdcfbc89f934906ff06a6276b55c2a0e517be21655",
+      "bytes": 8
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/large-screen.png",
+      "sha256": "38a9ce1174b0cf6341560c7e237f0a9dcdab0824ca32ffa42ea86b98efd2a5a6",
+      "bytes": 56841
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/quiz-feedback.png",
+      "sha256": "4be9e637404cc84cc7f040ab9541cc65d4a4018e4effde8a94132bdc8e0e71f3",
+      "bytes": 41735
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/results.json",
+      "sha256": "2946ba6752a952d5c6dd5353fa484fe483e1567ba1a24d9e1313269a3bbca88a",
+      "bytes": 751
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/save-failure.png",
+      "sha256": "ee5d2e48eba8df6230f04381f262dca156e2ba19205eb827bab0ece150a718d2",
+      "bytes": 58083
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/small-large-text.png",
+      "sha256": "840ae2518499309afcd17658fd1f0c173e78aa9bc8190dfe29a147b286bee51f",
+      "bytes": 31530
+    },
+    {
+      "path": "build/qa-independent/3c600c5/web/today.png",
+      "sha256": "a03ef02e10d88e6773848b1cd47aeee9df12759b36d4de1ad7281d1e3e86943c",
+      "bytes": 29302
+    }
+  ],
+  "workingTree": {
+    "before": " M release/market-launch-state.json\n?? docs/qa/independent-20261020-final.json\n?? docs/qa/independent-20261020-final.md\n?? docs/qa/independent-20261020.json\n?? docs/qa/independent-20261020.md\n?? release/evidence/\n",
+    "after": " M release/market-launch-state.json\n?? docs/qa/independent-20261020-final.json\n?? docs/qa/independent-20261020-final.md\n?? docs/qa/independent-20261020.json\n?? docs/qa/independent-20261020.md\n?? release/evidence/\n",
+    "productCodeMatchesHead": true,
+    "excludedAuthorDocuments": [
+      "release/market-launch-state.json",
+      "docs/qa/independent-20261020*.json",
+      "docs/qa/independent-20261020*.md",
+      "release/evidence/"
+    ],
+    "explanation": "These author documents are not included in the candidate source SHA. They were preserved and were not used as proof of native or market completion."
+  },
+  "canonicalCatalogCheck": {
+    "status": "passed",
+    "command": "npm run check:catalog, included in npm run check",
+    "evidence": [
+      "build/qa-independent/3c600c5/check.log",
+      "tests/test_content_pipeline.py::test_catalog_tampering_is_rejected_without_overwriting_it"
+    ],
+    "tests": {
+      "node": 25,
+      "python": 7
+    },
+    "result": "Current catalog exactly matches regenerated reviewed source; tampering is rejected without overwriting the tampered test fixture."
+  },
+  "codeCrossReview": {
+    "status": "separate",
+    "note": "The parent is operating code cross-review round 2. This execution record does not claim its completion or replace it."
+  }
+}

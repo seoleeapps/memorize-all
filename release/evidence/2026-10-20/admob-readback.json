@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-19T16:01:07.950636+00:00",
+  "androidAppId": "ca-app-pub-9932778305312246~8005768438",
+  "gdprSharedMessage": "published; Memorize All is not selected",
+  "apps": [
+    {
+      "text": "Memorize All\nID: — | Android\nURL 추가",
+      "selected": "false"
+    },
+    {
+      "text": "Memorize All\nID: — | iOS\nURL 추가",
+      "selected": "false"
+    }
+  ],
+  "storeSearch": "com.seorilabs.memorizeall not found",
+  "serving": "needs review; limited",
+  "appAdsTxt": "www.seorilabs.com/app-ads.txt HTTP 200 includes this publisher; app-specific crawler validation unavailable before store link"
+}

@@ -1,0 +1,44 @@
+{
+  "saveEnabled": false,
+  "text": "Google Play Console 로드 중\nnotifications_unread\n읽지 않은 알림\nmore_vert\nhome\nbadge\nplay_prism\ndashboard\nbar_chart\noverview\nshield\nrocket_launch\nvital_signs\nfinance_mode\nsell\nkeyboard_backspace\n앱 콘텐츠\n데이터 보안\nCSV 파일로 내보내기\nCSV에서 가져오기\n앱 데이터 수집 및 공유 방식에 관한 사용자의 이해 증진 더보기\ncheck\n개요\ncheck\n데이터 수집 및 보안\ncheck\n데이터 유형\ncheck\n데이터 취급 및 처리\n5\n미리보기\n스토어 등록정보 미리보기\n모두 펼치기\n알려주신 내용을 바탕으로 Google Play에서 다음 정보가 사용자에게 표시됩니다.\n공유되는 데이터\n다른 회사나 조직과 공유될 수 있는 데이터\nlocation_on\n위치\n대략적인 위치\nbrightness_1\n세부 정보 표시\nexpand_more\nperformance_max\n앱 정보 및 성능\n진단\nbrightness_1\n세부 정보 표시\nexpand_more\ntouch_app\n앱 활동\n앱 상호작용\nbrightness_1\n세부 정보 표시\nexpand_more\nperm_device_information\n기기 또는 기타 ID\n기기 또는 기타 ID\nbrightness_1\n세부 정보 표시\nexpand_more\n수집되는 데이터\n이 앱에서 수집할 수 있는 데이터\nlocation_on\n위치\n대략적인 위치\nbrightness_1\n세부 정보 표시\nexpand_more\nperformance_max\n앱 정보 및 성능\n진단\nbrightness_1\n세부 정보 표시\nexpand_more\ntouch_app\n앱 활동\n앱 상호작용\nbrightness_1\n세부 정보 표시\nexpand_more\nperm_device_information\n기기 또는 기타 ID\n기기 또는 기타 ID\nbrightness_1\n세부 정보 표시\nexpand_more\n데이터 삭제\n사용자가 삭제할 수 있는 데이터입니다.\ninsert_chart\n개발자가 데이터 삭제 요청 방법을 제공하지 않음\n\n데이터 처리 방식에 관한 자세한 내용은 개발자의 개인정보처리방침을 참고하세요.\n\n보안 권장사항\nlock\n전송 중 데이터 암호화됨\n\n데이터가 보안 연결을 통해 전송됩니다\n\n개인정보처리방침\nerror\n제출하려면 개인정보처리방침 페이지에서 개인정보처리방침 링크를 제공하세요.\n개인정보처리방침으로 이동\n5/5단계, 미리보기\ncheck_circle\n변경사항이 저장되었습니다. 게시 개요에서 전송하여 검토를 받으세요.\n삭제\n뒤로\n임시보관함에 저장\n저장\n제품 업데이트\n상태 대시보드\n도움말\n© 2026 Google\n개인 정보 보호\n개발자 배포 계약\n서비스 약관",
+  "links": [
+    {
+      "text": "",
+      "href": "/console/u/0/developers/5547060480954653351/home"
+    },
+    {
+      "text": "keyboard_backspace\n앱 콘텐츠",
+      "href": "/console/u/0/developers/5547060480954653351/app/4974075050392290867/app-content/overview"
+    },
+    {
+      "text": "개인정보처리방침으로 이동",
+      "href": "/console/u/0/developers/5547060480954653351/app/4974075050392290867/app-content/privacy-policy"
+    },
+    {
+      "text": "제품 업데이트",
+      "href": "https://play.google.com/console/about/whats-new/"
+    },
+    {
+      "text": "상태 대시보드",
+      "href": "https://status.play.google.com/"
+    },
+    {
+      "text": "도움말",
+      "href": "/console/u/0/developers/5547060480954653351/help-and-support?app=4974075050392290867"
+    },
+    {
+      "text": "개인 정보 보호",
+      "href": "https://www.google.com/policies/privacy/"
+    },
+    {
+      "text": "개발자 배포 계약",
+      "href": "https://play.google.com/about/developer-distribution-agreement.html"
+    },
+    {
+      "text": "서비스 약관",
+      "href": "https://play.google.com/about/console/terms-of-service/"
+    }
+  ],
+  "after": "Google Play Console 로드 중\nnotifications_unread\n읽지 않은 알림\nmore_vert\nhome\nbadge\nplay_prism\ndashboard\nbar_chart\noverview\nshield\nrocket_launch\nvital_signs\nfinance_mode\nsell\nkeyboard_backspace\n앱 콘텐츠\n데이터 보안\nCSV 파일로 내보내기\nCSV에서 가져오기\n앱 데이터 수집 및 공유 방식에 관한 사용자의 이해 증진 더보기\ncheck\n개요\ncheck\n데이터 수집 및 보안\ncheck\n데이터 유형\ncheck\n데이터 취급 및 처리\n5\n미리보기\n스토어 등록정보 미리보기\n모두 펼치기\n알려주신 내용을 바탕으로 Google Play에서 다음 정보가 사용자에게 표시됩니다.\n공유되는 데이터\n다른 회사나 조직과 공유될 수 있는 데이터\nlocation_on\n위치\n대략적인 위치\nbrightness_1\n세부 정보 표시\nexpand_more\nperformance_max\n앱 정보 및 성능\n진단\nbrightness_1\n세부 정보 표시\nexpand_more\ntouch_app\n앱 활동\n앱 상호작용\nbrightness_1\n세부 정보 표시\nexpand_more\nperm_device_information\n기기 또는 기타 ID\n기기 또는 기타 ID\nbrightness_1\n세부 정보 표시\nexpand_more\n수집되는 데이터\n이 앱에서 수집할 수 있는 데이터\nlocation_on\n위치\n대략적인 위치\nbrightness_1\n세부 정보 표시\nexpand_more\nperformance_max\n앱 정보 및 성능\n진단\nbrightness_1\n세부 정보 표시\nexpand_more\ntouch_app\n앱 활동\n앱 상호작용\nbrightness_1\n세부 정보 표시\nexpand_more\nperm_device_information\n기기 또는 기타 ID\n기기 또는 기타 ID\nbrightness_1\n세부 정보 표시\nexpand_more\n데이터 삭제\n사용자가 삭제할 수 있는 데이터입니다.\ninsert_chart\n개발자가 데이터 삭제 요청 방법을 제공하지 않음\n\n데이터 처리 방식에 관한 자세한 내용은 개발자의 개인정보처리방침을 참고하세요.\n\n보안 권장사항\nlock\n전송 중 데이터 암호화됨\n\n데이터가 보안 연결을 통해 전송됩니다\n\n개인정보처리방침\nerror\n제출하려면 개인정보처리방침 페이지에서 개인정보처리방침 링크를 제공하세요.\n개인정보처리방침으로 이동\n5/5단계, 미리보기\n삭제\n뒤로\n임시보관함에 저장\n저장\n제품 업데이트\n상태 대시보드\n도움말\n© 2026 Google\n개인 정보 보호\n개발자 배포 계약\n서비스 약관",
+  "checkedAt": "2026-10-19T16:19:21.117169+00:00"
+}

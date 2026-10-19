@@ -1,0 +1,75 @@
+{
+  "mode": "verify",
+  "result": {
+    "packageName": "com.seorilabs.memorizeall",
+    "checks": [
+      {
+        "field": "details.defaultLanguage",
+        "expected": "en-US",
+        "actual": "en-US",
+        "ok": true
+      },
+      {
+        "field": "details.contactEmail",
+        "expected": "cs@seorilabs.com",
+        "actual": "cs@seorilabs.com",
+        "ok": true
+      },
+      {
+        "field": "listing.en-US.title",
+        "expected": "Memorize All",
+        "actual": "Memorize All",
+        "ok": true
+      },
+      {
+        "field": "listing.en-US.shortDescription",
+        "expected": "Learn with quick quizzes and flashcards, then review and grow your collection.",
+        "actual": "Learn with quick quizzes and flashcards, then review and grow your collection.",
+        "ok": true
+      },
+      {
+        "field": "listing.en-US.fullDescription",
+        "expected": "Choose your interests and learn in short sessions. Use quizzes or flashcards to recall facts, then revisit the ones you found difficult. Track learned facts and review status in your knowledge collection.\n\nLearn in Korean or English without losing progress when switching languages. No account is required. Learning records stay on your device, with backup export and import in Settings. All learning is free and the app includes banner ads.\n\nExplore 100 facts and 200 questions across geography, elements, the Moon, coffee and wine. Designed for adults, with a source link for every fact.",
+        "actual": "Choose your interests and learn in short sessions. Use quizzes or flashcards to recall facts, then revisit the ones you found difficult. Track learned facts and review status in your knowledge collection.\n\nLearn in Korean or English without losing progress when switching languages. No account is required. Learning records stay on your device, with backup export and import in Settings. All learning is free and the app includes banner ads.\n\nExplore 100 facts and 200 questions across geography, elements, the Moon, coffee and wine. Designed for adults, with a source link for every fact.",
+        "ok": true
+      },
+      {
+        "field": "listing.ko-KR.title",
+        "expected": "Memorize All",
+        "actual": "Memorize All",
+        "ok": true
+      },
+      {
+        "field": "listing.ko-KR.shortDescription",
+        "expected": "짧은 퀴즈와 플래시카드로 배우고, 다시 기억하며 지식 도감을 채워요.",
+        "actual": "짧은 퀴즈와 플래시카드로 배우고, 다시 기억하며 지식 도감을 채워요.",
+        "ok": true
+      },
+      {
+        "field": "listing.ko-KR.fullDescription",
+        "expected": "관심 있는 분야를 고르고 짧게 학습하세요. 퀴즈와 플래시카드를 오가며 기억을 확인하고, 헷갈린 지식을 나중에 다시 복습할 수 있습니다. 지식 도감에서 학습한 항목과 복습 상태를 확인하세요.\n\n한국어와 영어를 지원하며 언어를 바꿔도 같은 지식의 진도가 이어집니다. 로그인 없이 이용하고 학습 기록을 기기에 저장합니다. 설정에서 백업 파일을 내보내거나 가져올 수 있습니다. 모든 학습은 무료이며 배너광고를 포함합니다.\n\n지리, 원소, 달, 커피, 와인의 5개 분야에서 지식 100개와 문제 200개를 제공합니다. 성인을 위한 학습 앱이며 모든 콘텐츠의 출처를 확인할 수 있습니다.",
+        "actual": "관심 있는 분야를 고르고 짧게 학습하세요. 퀴즈와 플래시카드를 오가며 기억을 확인하고, 헷갈린 지식을 나중에 다시 복습할 수 있습니다. 지식 도감에서 학습한 항목과 복습 상태를 확인하세요.\n\n한국어와 영어를 지원하며 언어를 바꿔도 같은 지식의 진도가 이어집니다. 로그인 없이 이용하고 학습 기록을 기기에 저장합니다. 설정에서 백업 파일을 내보내거나 가져올 수 있습니다. 모든 학습은 무료이며 배너광고를 포함합니다.\n\n지리, 원소, 달, 커피, 와인의 5개 분야에서 지식 100개와 문제 200개를 제공합니다. 성인을 위한 학습 앱이며 모든 콘텐츠의 출처를 확인할 수 있습니다.",
+        "ok": true
+      },
+      {
+        "field": "images.icon.count",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "field": "images.featureGraphic.count",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "field": "images.phoneScreenshots.count",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      }
+    ],
+    "ok": true
+  }
+}

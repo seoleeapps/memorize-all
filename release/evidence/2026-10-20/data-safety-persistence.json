@@ -1,0 +1,358 @@
+{
+  "checkedAt": "2026-10-19T16:25:05.650854+00:00",
+  "source": "CSV exported from exact app Console after draft save and page reload",
+  "packageName": "com.seorilabs.memorizeall",
+  "csvSha256": "eef7f34d036d5b816fb5f78f53b053148e8253e9840f292447cf4a8fb735a5bc",
+  "verifiedTypes": [
+    "PSL_APPROX_LOCATION",
+    "PSL_PERFORMANCE_DIAGNOSTICS",
+    "PSL_USER_INTERACTION",
+    "PSL_DEVICE_ID"
+  ],
+  "finalSubmission": "blocked: privacy policy URL missing; not sent for review",
+  "answeredRows": [
+    {
+      "Question ID (machine readable)": "PSL_DATA_COLLECTION_COLLECTS_PERSONAL_DATA",
+      "Response ID (machine readable)": "",
+      "Response value": "true",
+      "Answer requirement": "REQUIRED",
+      "Human-friendly question label": "앱에서 필수 사용자 데이터 유형을 수집하거나 공유하나요?"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_COLLECTION_ENCRYPTED_IN_TRANSIT",
+      "Response ID (machine readable)": "",
+      "Response value": "true",
+      "Answer requirement": "MAYBE_REQUIRED",
+      "Human-friendly question label": "앱에서 수집하는 모든 사용자 데이터를 암호화하여 전송하나요?"
+    },
+    {
+      "Question ID (machine readable)": "PSL_SUPPORTED_ACCOUNT_CREATION_METHODS",
+      "Response ID (machine readable)": "PSL_ACM_NONE",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "다음 중 앱에서 지원하는 계정 생성 방법은 무엇인가요? 해당되는 항목을 모두 선택해 주세요./앱에서 사용자가 계정을 만들도록 허용하지 않음"
+    },
+    {
+      "Question ID (machine readable)": "PSL_SUPPORT_DATA_DELETION_BY_USER",
+      "Response ID (machine readable)": "DATA_DELETION_NO",
+      "Response value": "true",
+      "Answer requirement": "SINGLE_CHOICE",
+      "Human-friendly question label": "사용자가 데이터 삭제를 요청할 수 있는 방편을 제공하나요?/아니요"
+    },
+    {
+      "Question ID (machine readable)": "PSL_HAS_OUTSIDE_APP_ACCOUNTS",
+      "Response ID (machine readable)": "",
+      "Response value": "false",
+      "Answer requirement": "OPTIONAL",
+      "Human-friendly question label": "사용자가 앱 외부에서 만든 계정으로 앱에 로그인할 수 있나요?"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_TYPES_LOCATION",
+      "Response ID (machine readable)": "PSL_APPROX_LOCATION",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "위치/대략적인 위치"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_TYPES_APP_PERFORMANCE",
+      "Response ID (machine readable)": "PSL_PERFORMANCE_DIAGNOSTICS",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "앱 정보 및 성능/진단"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_TYPES_APP_ACTIVITY",
+      "Response ID (machine readable)": "PSL_USER_INTERACTION",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "앱 활동/앱 상호작용"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_TYPES_IDENTIFIERS",
+      "Response ID (machine readable)": "PSL_DEVICE_ID",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "기기 또는 기타 ID/기기 또는 기타 ID"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_APPROX_LOCATION:PSL_DATA_USAGE_COLLECTION_AND_SHARING",
+      "Response ID (machine readable)": "PSL_DATA_USAGE_ONLY_COLLECTED",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(대략적인 위치)/데이터를 수집 또는 공유하나요? 아니면 수집과 공유를 모두 하나요?/수집됨"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_APPROX_LOCATION:PSL_DATA_USAGE_COLLECTION_AND_SHARING",
+      "Response ID (machine readable)": "PSL_DATA_USAGE_ONLY_SHARED",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(대략적인 위치)/데이터를 수집 또는 공유하나요? 아니면 수집과 공유를 모두 하나요?/공유됨"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_APPROX_LOCATION:PSL_DATA_USAGE_EPHEMERAL",
+      "Response ID (machine readable)": "",
+      "Response value": "false",
+      "Answer requirement": "MAYBE_REQUIRED",
+      "Human-friendly question label": "데이터 취급 및 처리(대략적인 위치)/이 데이터는 임시로 처리되나요?"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_APPROX_LOCATION:DATA_USAGE_USER_CONTROL",
+      "Response ID (machine readable)": "PSL_DATA_USAGE_USER_CONTROL_REQUIRED",
+      "Response value": "true",
+      "Answer requirement": "SINGLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(대략적인 위치)/이 데이터는 앱에 필수인가요? 아니면 사용자가 수집 여부를 선택할 수 있나요?/데이터 수집은 필수입니다(사용자가 이 데이터 수집을 중지할 수 없음)"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_APPROX_LOCATION:DATA_USAGE_COLLECTION_PURPOSE",
+      "Response ID (machine readable)": "PSL_ANALYTICS",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(대략적인 위치)/이 사용자 데이터가 수집되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./애널리틱스"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_APPROX_LOCATION:DATA_USAGE_COLLECTION_PURPOSE",
+      "Response ID (machine readable)": "PSL_FRAUD_PREVENTION_SECURITY",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(대략적인 위치)/이 사용자 데이터가 수집되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./사기 예방, 보안, 규정 준수"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_APPROX_LOCATION:DATA_USAGE_COLLECTION_PURPOSE",
+      "Response ID (machine readable)": "PSL_ADVERTISING",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(대략적인 위치)/이 사용자 데이터가 수집되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./광고 또는 마케팅"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_APPROX_LOCATION:DATA_USAGE_SHARING_PURPOSE",
+      "Response ID (machine readable)": "PSL_ANALYTICS",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(대략적인 위치)/이 사용자 데이터가 공유되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./애널리틱스"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_APPROX_LOCATION:DATA_USAGE_SHARING_PURPOSE",
+      "Response ID (machine readable)": "PSL_FRAUD_PREVENTION_SECURITY",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(대략적인 위치)/이 사용자 데이터가 공유되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./사기 예방, 보안, 규정 준수"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_APPROX_LOCATION:DATA_USAGE_SHARING_PURPOSE",
+      "Response ID (machine readable)": "PSL_ADVERTISING",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(대략적인 위치)/이 사용자 데이터가 공유되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./광고 또는 마케팅"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_PERFORMANCE_DIAGNOSTICS:PSL_DATA_USAGE_COLLECTION_AND_SHARING",
+      "Response ID (machine readable)": "PSL_DATA_USAGE_ONLY_COLLECTED",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(진단)/데이터를 수집 또는 공유하나요? 아니면 수집과 공유를 모두 하나요?/수집됨"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_PERFORMANCE_DIAGNOSTICS:PSL_DATA_USAGE_COLLECTION_AND_SHARING",
+      "Response ID (machine readable)": "PSL_DATA_USAGE_ONLY_SHARED",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(진단)/데이터를 수집 또는 공유하나요? 아니면 수집과 공유를 모두 하나요?/공유됨"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_PERFORMANCE_DIAGNOSTICS:PSL_DATA_USAGE_EPHEMERAL",
+      "Response ID (machine readable)": "",
+      "Response value": "false",
+      "Answer requirement": "MAYBE_REQUIRED",
+      "Human-friendly question label": "데이터 취급 및 처리(진단)/이 데이터는 임시로 처리되나요?"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_PERFORMANCE_DIAGNOSTICS:DATA_USAGE_USER_CONTROL",
+      "Response ID (machine readable)": "PSL_DATA_USAGE_USER_CONTROL_REQUIRED",
+      "Response value": "true",
+      "Answer requirement": "SINGLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(진단)/이 데이터는 앱에 필수인가요? 아니면 사용자가 수집 여부를 선택할 수 있나요?/데이터 수집은 필수입니다(사용자가 이 데이터 수집을 중지할 수 없음)"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_PERFORMANCE_DIAGNOSTICS:DATA_USAGE_COLLECTION_PURPOSE",
+      "Response ID (machine readable)": "PSL_ANALYTICS",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(진단)/이 사용자 데이터가 수집되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./애널리틱스"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_PERFORMANCE_DIAGNOSTICS:DATA_USAGE_COLLECTION_PURPOSE",
+      "Response ID (machine readable)": "PSL_FRAUD_PREVENTION_SECURITY",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(진단)/이 사용자 데이터가 수집되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./사기 예방, 보안, 규정 준수"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_PERFORMANCE_DIAGNOSTICS:DATA_USAGE_COLLECTION_PURPOSE",
+      "Response ID (machine readable)": "PSL_ADVERTISING",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(진단)/이 사용자 데이터가 수집되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./광고 또는 마케팅"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_PERFORMANCE_DIAGNOSTICS:DATA_USAGE_SHARING_PURPOSE",
+      "Response ID (machine readable)": "PSL_ANALYTICS",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(진단)/이 사용자 데이터가 공유되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./애널리틱스"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_PERFORMANCE_DIAGNOSTICS:DATA_USAGE_SHARING_PURPOSE",
+      "Response ID (machine readable)": "PSL_FRAUD_PREVENTION_SECURITY",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(진단)/이 사용자 데이터가 공유되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./사기 예방, 보안, 규정 준수"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_PERFORMANCE_DIAGNOSTICS:DATA_USAGE_SHARING_PURPOSE",
+      "Response ID (machine readable)": "PSL_ADVERTISING",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(진단)/이 사용자 데이터가 공유되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./광고 또는 마케팅"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_USER_INTERACTION:PSL_DATA_USAGE_COLLECTION_AND_SHARING",
+      "Response ID (machine readable)": "PSL_DATA_USAGE_ONLY_COLLECTED",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(앱 상호작용)/데이터를 수집 또는 공유하나요? 아니면 수집과 공유를 모두 하나요?/수집됨"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_USER_INTERACTION:PSL_DATA_USAGE_COLLECTION_AND_SHARING",
+      "Response ID (machine readable)": "PSL_DATA_USAGE_ONLY_SHARED",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(앱 상호작용)/데이터를 수집 또는 공유하나요? 아니면 수집과 공유를 모두 하나요?/공유됨"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_USER_INTERACTION:PSL_DATA_USAGE_EPHEMERAL",
+      "Response ID (machine readable)": "",
+      "Response value": "false",
+      "Answer requirement": "MAYBE_REQUIRED",
+      "Human-friendly question label": "데이터 취급 및 처리(앱 상호작용)/이 데이터는 임시로 처리되나요?"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_USER_INTERACTION:DATA_USAGE_USER_CONTROL",
+      "Response ID (machine readable)": "PSL_DATA_USAGE_USER_CONTROL_REQUIRED",
+      "Response value": "true",
+      "Answer requirement": "SINGLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(앱 상호작용)/이 데이터는 앱에 필수인가요? 아니면 사용자가 수집 여부를 선택할 수 있나요?/데이터 수집은 필수입니다(사용자가 이 데이터 수집을 중지할 수 없음)"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_USER_INTERACTION:DATA_USAGE_COLLECTION_PURPOSE",
+      "Response ID (machine readable)": "PSL_ANALYTICS",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(앱 상호작용)/이 사용자 데이터가 수집되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./애널리틱스"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_USER_INTERACTION:DATA_USAGE_COLLECTION_PURPOSE",
+      "Response ID (machine readable)": "PSL_FRAUD_PREVENTION_SECURITY",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(앱 상호작용)/이 사용자 데이터가 수집되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./사기 예방, 보안, 규정 준수"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_USER_INTERACTION:DATA_USAGE_COLLECTION_PURPOSE",
+      "Response ID (machine readable)": "PSL_ADVERTISING",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(앱 상호작용)/이 사용자 데이터가 수집되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./광고 또는 마케팅"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_USER_INTERACTION:DATA_USAGE_SHARING_PURPOSE",
+      "Response ID (machine readable)": "PSL_ANALYTICS",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(앱 상호작용)/이 사용자 데이터가 공유되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./애널리틱스"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_USER_INTERACTION:DATA_USAGE_SHARING_PURPOSE",
+      "Response ID (machine readable)": "PSL_FRAUD_PREVENTION_SECURITY",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(앱 상호작용)/이 사용자 데이터가 공유되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./사기 예방, 보안, 규정 준수"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_USER_INTERACTION:DATA_USAGE_SHARING_PURPOSE",
+      "Response ID (machine readable)": "PSL_ADVERTISING",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(앱 상호작용)/이 사용자 데이터가 공유되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./광고 또는 마케팅"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:PSL_DATA_USAGE_COLLECTION_AND_SHARING",
+      "Response ID (machine readable)": "PSL_DATA_USAGE_ONLY_COLLECTED",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(기기 또는 기타 ID)/데이터를 수집 또는 공유하나요? 아니면 수집과 공유를 모두 하나요?/수집됨"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:PSL_DATA_USAGE_COLLECTION_AND_SHARING",
+      "Response ID (machine readable)": "PSL_DATA_USAGE_ONLY_SHARED",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(기기 또는 기타 ID)/데이터를 수집 또는 공유하나요? 아니면 수집과 공유를 모두 하나요?/공유됨"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:PSL_DATA_USAGE_EPHEMERAL",
+      "Response ID (machine readable)": "",
+      "Response value": "false",
+      "Answer requirement": "MAYBE_REQUIRED",
+      "Human-friendly question label": "데이터 취급 및 처리(기기 또는 기타 ID)/이 데이터는 임시로 처리되나요?"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:DATA_USAGE_USER_CONTROL",
+      "Response ID (machine readable)": "PSL_DATA_USAGE_USER_CONTROL_REQUIRED",
+      "Response value": "true",
+      "Answer requirement": "SINGLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(기기 또는 기타 ID)/이 데이터는 앱에 필수인가요? 아니면 사용자가 수집 여부를 선택할 수 있나요?/데이터 수집은 필수입니다(사용자가 이 데이터 수집을 중지할 수 없음)"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:DATA_USAGE_COLLECTION_PURPOSE",
+      "Response ID (machine readable)": "PSL_ANALYTICS",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(기기 또는 기타 ID)/이 사용자 데이터가 수집되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./애널리틱스"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:DATA_USAGE_COLLECTION_PURPOSE",
+      "Response ID (machine readable)": "PSL_FRAUD_PREVENTION_SECURITY",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(기기 또는 기타 ID)/이 사용자 데이터가 수집되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./사기 예방, 보안, 규정 준수"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:DATA_USAGE_COLLECTION_PURPOSE",
+      "Response ID (machine readable)": "PSL_ADVERTISING",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(기기 또는 기타 ID)/이 사용자 데이터가 수집되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./광고 또는 마케팅"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:DATA_USAGE_SHARING_PURPOSE",
+      "Response ID (machine readable)": "PSL_ANALYTICS",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(기기 또는 기타 ID)/이 사용자 데이터가 공유되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./애널리틱스"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:DATA_USAGE_SHARING_PURPOSE",
+      "Response ID (machine readable)": "PSL_FRAUD_PREVENTION_SECURITY",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(기기 또는 기타 ID)/이 사용자 데이터가 공유되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./사기 예방, 보안, 규정 준수"
+    },
+    {
+      "Question ID (machine readable)": "PSL_DATA_USAGE_RESPONSES:PSL_DEVICE_ID:DATA_USAGE_SHARING_PURPOSE",
+      "Response ID (machine readable)": "PSL_ADVERTISING",
+      "Response value": "true",
+      "Answer requirement": "MULTIPLE_CHOICE",
+      "Human-friendly question label": "데이터 취급 및 처리(기기 또는 기타 ID)/이 사용자 데이터가 공유되는 이유는 무엇인가요? 해당하는 항목을 모두 선택해 주세요./광고 또는 마케팅"
+    }
+  ]
+}

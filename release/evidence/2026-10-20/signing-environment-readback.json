@@ -1,0 +1,17 @@
+{
+  "environment": "android-release",
+  "policies": [
+    {
+      "name": "v*",
+      "type": "tag"
+    }
+  ],
+  "secretNames": [
+    "ANDROID_KEYSTORE_PASSWORD",
+    "ANDROID_KEY_PASSWORD",
+    "ANDROID_UPLOAD_KEY_BASE64"
+  ],
+  "repositorySecretNames": [],
+  "credential": "app/memorize-all/google-play/upload-key",
+  "backupAndRestore": "local and BeeStation restore checks passed before execution-copy migration"
+}

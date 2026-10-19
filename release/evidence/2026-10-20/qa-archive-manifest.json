@@ -1,0 +1,10 @@
+{
+  "sourceSha": "3c600c50f2a63a96976671f6bbcc47963f4ac304",
+  "checkedAt": "2026-10-19T16:20:32.165620+00:00",
+  "file": "independent-development-qa.tar.gz",
+  "sha256": "32b69ae8b75ccf2e965d6bd6f932f9ccf5d169c16496b177466345a7c0ed12ac",
+  "bytes": 878821,
+  "verification": "Every archived execution file read back and SHA-256 compared with its source. This archive contains synthetic browser data and actual raw local execution metadata; public QA records redact only the executor path.",
+  "candidateAab": "unbuilt",
+  "location": "Local release-evidence storage outside the checkout; actual account path is intentionally omitted."
+}

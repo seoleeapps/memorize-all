@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 2,
+  "repository": "seoleeapps/memorize-all",
+  "sourceSha": "3c600c50f2a63a96976671f6bbcc47963f4ac304",
+  "target": "google-play",
+  "productKind": "ui",
+  "implementer": "root",
+  "designs": [
+    {
+      "id": "memorize-all-android-public",
+      "document": "docs/design/2026-10-20-android-public/design.md",
+      "testPlan": "docs/design/2026-10-20-android-public/test-plan.json",
+      "approvedCommit": "cb6d6991618d0103285008b9bac24b55860fea5b",
+      "approverKind": "human",
+      "approver": "repository owner",
+      "approvalEvidence": "User message on 2026-10-20 explicitly requests implementing the supplied public launch plan; scope transcribed in the approved design."
+    }
+  ],
+  "acceptance": [
+    {
+      "id": "AC-1",
+      "status": "passed",
+      "evidence": [
+        "docs/qa/independent-3c600c5.json",
+        "docs/content-review.md"
+      ]
+    },
+    {
+      "id": "AC-2",
+      "status": "passed",
+      "evidence": [
+        "docs/qa/independent-3c600c5.json",
+        "docs/content-review.md"
+      ]
+    },
+    {
+      "id": "AC-3",
+      "status": "passed",
+      "evidence": [
+        "docs/qa/independent-3c600c5.json",
+        "docs/content-review.md"
+      ]
+    }
+  ],
+  "tdd": [
+    {
+      "acceptanceId": "AC-1",
+      "mode": "alternative",
+      "reason": "Existing UI and learning behavior are preserved. Editorial and copy corrections use full semantic review and independent real browser regression; existing boundary regression tests are rerun. Native SDK execution is not claimed.",
+      "replacementEvidence": "docs/qa/independent-3c600c5.json"
+    },
+    {
+      "acceptanceId": "AC-2",
+      "mode": "alternative",
+      "reason": "Existing UI and learning behavior are preserved. Editorial and copy corrections use full semantic review and independent real browser regression; existing boundary regression tests are rerun. Native SDK execution is not claimed.",
+      "replacementEvidence": "docs/qa/independent-3c600c5.json"
+    },
+    {
+      "acceptanceId": "AC-3",
+      "mode": "alternative",
+      "reason": "Existing UI and learning behavior are preserved. Editorial and copy corrections use full semantic review and independent real browser regression; existing boundary regression tests are rerun. Native SDK execution is not claimed.",
+      "replacementEvidence": "docs/qa/independent-3c600c5.json"
+    }
+  ],
+  "reviewRounds": [],
+  "additionalIterationApproval": null,
+  "runs": [
+    {
+      "id": "independent-l3-3c600c5",
+      "kind": "web-browser",
+      "sourceSha": "3c600c50f2a63a96976671f6bbcc47963f4ac304",
+      "executor": "content_review",
+      "plannedAt": "2026-10-19T16:11:23.762741Z",
+      "startedAt": "2026-10-19T16:11:34.082077Z",
+      "completedAt": "2026-10-19T16:13:13.412260Z",
+      "isolatedData": "Fresh Edge headless contexts; http://127.0.0.1:18766 origin; synthetic memorize-all.state.v1 only. Eight-day clock change affects one isolated context. AdsSession tests use mocked ports; no native SDK invoked.",
+      "scenarios": [
+        {
+          "id": "onboarding-and-topics",
+          "status": "passed",
+          "featureIds": [
+            "onboarding"
+          ],
+          "evidence": [
+            "build/qa-independent/3c600c5/web/independent-onboarding.png",
+            "build/qa-independent/3c600c5/web/explore.png",
+            "build/qa-independent/3c600c5/web/independent-extra-results.json"
+          ]
+        },
+        {
+          "id": "quiz-card-delayed-review-and-resume",
+          "status": "passed",
+          "featureIds": [
+            "study"
+          ],
+          "evidence": [
+            "build/qa-independent/3c600c5/web/results.json",
+            "build/qa-independent/3c600c5/web/quiz-feedback.png",
+            "build/qa-independent/3c600c5/web/card-back.png",
+            "build/qa-independent/3c600c5/web/complete.png"
+          ]
+        },
+        {
+          "id": "atlas-source-details-and-five-content-categories",
+          "status": "passed",
+          "featureIds": [
+            "collection",
+            "content"
+          ],
+          "evidence": [
+            "build/qa-independent/3c600c5/web/collection.png",
+            "build/qa-independent/3c600c5/web/detail.png",
+            "build/qa-independent/3c600c5/web/independent-extra-results.json",
+            "content/evidence/editorial-2026-10-20.json"
+          ]
+        },
+        {
+          "id": "language-backup-save-failure-and-corrupt-load-recovery",
+          "status": "passed",
+          "featureIds": [
+            "settings-backup"
+          ],
+          "evidence": [
+            "build/qa-independent/3c600c5/web/results.json",
+            "build/qa-independent/3c600c5/web/save-failure.png"
+          ]
+        },
+        {
+          "id": "ads-pure-boundary-consent-and-retry",
+          "status": "passed",
+          "featureIds": [
+            "advertising"
+          ],
+          "evidence": [
+            "build/qa-independent/3c600c5/check.log",
+            "tests/ads-session.test.ts; six pure mocked-port AdsSession state tests; actual UMP and native banner runtime unrun"
+          ]
+        },
+        {
+          "id": "small-large-text-and-768px-visual-review",
+          "status": "passed",
+          "featureIds": [
+            "onboarding",
+            "study",
+            "collection",
+            "settings-backup",
+            "content"
+          ],
+          "evidence": [
+            "build/qa-independent/3c600c5/web/small-large-text.png",
+            "build/qa-independent/3c600c5/web/large-screen.png",
+            "build/qa-independent/3c600c5/web/independent-extra-results.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

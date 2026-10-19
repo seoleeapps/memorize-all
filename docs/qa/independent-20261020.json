@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "repository": "seoleeapps/memorize-all",
+  "testLevel": "L3",
+  "environment": "dev",
+  "implementer": "root",
+  "executor": "content_review",
+  "independence": "Actual execution by a different agent from root. No product code modified during regression.",
+  "planDocument": "docs/design/2026-10-20-android-public/test-plan.json",
+  "policySourceSha": "37447a7ed225d957b75ceb24cc8f2331f236a0d8",
+  "policyRead": "Latest remote contract, plan schema, execution document and evidence schema read via GitHub contents API.",
+  "latestVerifiedSourceSha": "c6d3019ad285986a2f3b41b86d05f7f449f8b7c1",
+  "candidates": [
+    {
+      "sourceSha": "c6d3019ad285986a2f3b41b86d05f7f449f8b7c1",
+      "status": "passed",
+      "plannedAt": "2026-10-19T15:55:19Z",
+      "startedAt": "2026-10-19T15:55:19Z",
+      "completedAt": "2026-10-19T15:58:20Z",
+      "executor": "content_review",
+      "featureIds": [
+        "onboarding",
+        "study",
+        "collection",
+        "settings-backup",
+        "advertising",
+        "content"
+      ],
+      "commands": [
+        {
+          "command": "npm run check",
+          "status": "passed",
+          "exitCode": 0,
+          "evidence": [
+            "build/qa-independent/c6d3019/check.log"
+          ],
+          "result": "lint and TypeScript passed; 25 Node tests and 6 Python tests passed; 100 facts, 200 question variants and architecture checks passed"
+        },
+        {
+          "command": "npm run check:release",
+          "status": "passed",
+          "exitCode": 0,
+          "evidence": [
+            "build/qa-independent/c6d3019/check-release.log"
+          ],
+          "result": "Source build checks passed; market and artifact gates remain separate"
+        },
+        {
+          "command": "npm run export:web",
+          "status": "passed",
+          "exitCode": 0,
+          "evidence": [
+            "build/qa-independent/c6d3019/export-web.log"
+          ],
+          "result": "749 modules; 18 assets; one web bundle"
+        },
+        {
+          "command": "$PLAYWRIGHT_PYTHON scripts/test-web.py",
+          "status": "passed",
+          "exitCode": 0,
+          "evidence": [
+            "build/qa-independent/c6d3019/test-web.log",
+            "build/qa-independent/c6d3019/web/results.json"
+          ],
+          "result": "6 grouped full-flow checks; zero page errors"
+        },
+        {
+          "command": "Shared Playwright Python inline additional flow inspection",
+          "status": "passed",
+          "exitCode": 0,
+          "evidence": [
+            "build/qa-independent/c6d3019/web/independent-extra-results.json"
+          ],
+          "result": "All five topic packs start and accept a correct answer; 320px Korean detail visuals and enlarged fifth-topic navigation pass"
+        }
+      ],
+      "run": {
+        "id": "independent-l3-c6d3019",
+        "kind": "web-browser",
+        "sourceSha": "c6d3019ad285986a2f3b41b86d05f7f449f8b7c1",
+        "executor": "content_review",
+        "plannedAt": "2026-10-19T15:55:19Z",
+        "startedAt": "2026-10-19T15:55:19Z",
+        "completedAt": "2026-10-19T15:58:20Z",
+        "isolatedData": "Fresh Edge headless browser contexts; http://127.0.0.1:18766 origin; memorize-all.state.v1 contains synthetic data only. Eight-day browser clock shift is scoped to one context.",
+        "scenarios": [
+          {
+            "id": "onboarding-and-topics",
+            "status": "passed",
+            "featureIds": [
+              "onboarding"
+            ],
+            "evidence": [
+              "build/qa-independent/c6d3019/web/independent-onboarding.png",
+              "build/qa-independent/c6d3019/web/explore.png",
+              "build/qa-independent/c6d3019/web/independent-extra-results.json"
+            ]
+          },
+          {
+            "id": "quiz-card-delayed-review-and-resume",
+            "status": "passed",
+            "featureIds": [
+              "study"
+            ],
+            "evidence": [
+              "build/qa-independent/c6d3019/web/results.json",
+              "build/qa-independent/c6d3019/web/quiz-feedback.png",
+              "build/qa-independent/c6d3019/web/card-back.png",
+              "build/qa-independent/c6d3019/web/complete.png"
+            ]
+          },
+          {
+            "id": "atlas-source-details-and-five-content-categories",
+            "status": "passed",
+            "featureIds": [
+              "collection",
+              "content"
+            ],
+            "evidence": [
+              "build/qa-independent/c6d3019/web/collection.png",
+              "build/qa-independent/c6d3019/web/detail.png",
+              "build/qa-independent/c6d3019/web/independent-extra-results.json",
+              "content/evidence/editorial-2026-10-20.json"
+            ]
+          },
+          {
+            "id": "language-backup-save-failure-and-corrupt-load-recovery",
+            "status": "passed",
+            "featureIds": [
+              "settings-backup"
+            ],
+            "evidence": [
+              "build/qa-independent/c6d3019/web/results.json",
+              "build/qa-independent/c6d3019/web/save-failure.png"
+            ]
+          },
+          {
+            "id": "ads-pure-boundary-consent-and-retry",
+            "status": "passed",
+            "featureIds": [
+              "advertising"
+            ],
+            "evidence": [
+              "build/qa-independent/c6d3019/check.log",
+              "tests/ads-session.test.ts; six pure mocked-port AdsSession state tests; actual UMP and native banner runtime unrun"
+            ]
+          },
+          {
+            "id": "small-large-text-and-768px-visual-review",
+            "status": "passed",
+            "featureIds": [
+              "onboarding",
+              "study",
+              "collection",
+              "settings-backup",
+              "content"
+            ],
+            "evidence": [
+              "build/qa-independent/c6d3019/web/small-large-text.png",
+              "build/qa-independent/c6d3019/web/large-screen.png",
+              "build/qa-independent/c6d3019/web/independent-extra-results.json"
+            ]
+          }
+        ]
+      },
+      "browser": {
+        "startedAt": "2026-10-19T15:56:04.302131+00:00",
+        "completedAt": "2026-10-19T15:56:08.258408+00:00",
+        "passed": [
+          "onboarding, five populated topics, old empty topic link recovery",
+          "wrong answer, one retry, exact restart restoration, ten unique facts, atlas and source detail",
+          "language continuity, flashcard unsure, backup export, import cancel, restore and invalid backup",
+          "failed write keeps state, retry persists, corrupt load preserves raw data and recovers",
+          "eight-day due review selection and offline learning",
+          "320px enlarged text and 768px layout; native font scaling unrun"
+        ],
+        "runtimeErrors": [],
+        "nativeSdk": "unrun",
+        "isolatedData": "fresh browser context; localhost origin; synthetic backup"
+      },
+      "additionalBrowser": {
+        "startedAt": "2026-10-19T15:57:16.539528+00:00",
+        "completedAt": "2026-10-19T15:57:21.029930+00:00",
+        "passed": [
+          "fresh topic pack start and first correct answer: geography",
+          "fresh topic pack start and first correct answer: elements",
+          "fresh topic pack start and first correct answer: moon",
+          "fresh topic pack start and first correct answer: coffee",
+          "fresh topic pack start and first correct answer: wine",
+          "320px Korean empty atlas and element, Moon, coffee and wine detail visuals",
+          "320px 200% CSS text: fifth topic remains reachable and opens its pack"
+        ],
+        "screenshots": [
+          "independent-onboarding.png",
+          "independent-geography-quiz.png",
+          "independent-elements-quiz.png",
+          "independent-moon-quiz.png",
+          "independent-coffee-quiz.png",
+          "independent-wine-quiz.png",
+          "independent-empty-collection-ko.png",
+          "independent-elements.sodium-detail-ko.png",
+          "independent-moon.first-quarter-detail-ko.png",
+          "independent-coffee.cherry-detail-ko.png",
+          "independent-wine.fermentation-detail-ko.png"
+        ],
+        "runtimeErrors": [],
+        "isolation": "fresh browser contexts, localhost origin, synthetic localStorage only"
+      },
+      "visualInspection": {
+        "status": "passed",
+        "screenshotsInspected": 21,
+        "observed": "All captured screens were viewed directly. Text and primary actions are readable; longer small-screen content can scroll; no horizontal clipping observed. CSS text enlargement is not native OS font scaling."
+      },
+      "servedExport": {
+        "indexMatches": true,
+        "bundleMatches": true,
+        "bundle": "_expo/static/js/web/entry-c252b557d7531b86f4bb065cb4618ea0.js",
+        "bundleSha256": "f6a700adaedd93fed720644df04740f30c5576f05480d75d157b7f2e27f9afaa"
+      },
+      "observations": [
+        {
+          "id": "english-topic-singular",
+          "severity": "low",
+          "status": "observed",
+          "reproduction": "On a fresh English onboarding screen, select exactly one topic.",
+          "actual": "Start with 1 topics",
+          "expected": "A grammatically correct singular or number-independent action label.",
+          "impact": "Cosmetic wording; selection and learning start work.",
+          "evidence": [
+            "src/ui/Main.tsx at this source SHA",
+            "scripts/test-web.py at this source SHA selects this exact runtime label."
+          ]
+        }
+      ],
+      "historicalArtifactReview": {
+        "status": "reviewed",
+        "artifactSourceSha": "29ab776577e02209c7d6a55f2d141441c3e50968",
+        "aabSha256": "2e4f34ca833cc1563c276bc10edeb5a51ae16585f75ddd2e35e219ad62c6ab7d",
+        "version": "0.1.1 (2)",
+        "advertisingMode": "test",
+        "elf64Libraries": 46,
+        "elfFailures": 0,
+        "evidence": [
+          "docs/qa-advertising/android-artifact.json",
+          "docs/qa-advertising/elf-recheck-20261020.json",
+          "tests/test_android_artifact.py"
+        ],
+        "officialRule": "https://developer.android.com/guide/practices/page-sizes#check-relro",
+        "interpretation": "An exclusive RELRO LOAD may have an unaligned end when no writable LOAD shares its protected pages. The three checker tests cover that exception, padded RELRO, unsafe writable overlap, LOAD alignment and absent RELRO. Historical static success does not validate the new candidate AAB."
+      },
+      "notRun": [
+        {
+          "id": "native-sdk-and-device",
+          "status": "unrun",
+          "reason": "User explicitly excluded emulators and physical devices. No device enumeration, install, interaction, logs or screen collection performed.",
+          "items": [
+            "Actual UMP message and consent behavior",
+            "Native AdMob initialization and banner rendering",
+            "Android OS backup sharing and file picker",
+            "Google Play installed app launch",
+            "Native OS font scaling and accessibility",
+            "16KB runtime"
+          ]
+        },
+        {
+          "id": "candidate-aab",
+          "status": "unrun",
+          "reason": "The c6d3019 signed 1.0.0 AAB was not available to this independent run. Package, version, signing certificate, production ad IDs, packaging and ELF alignment must be checked on the final artifact."
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "build/qa-independent/c6d3019/check-release.log",
+          "sha256": "570864564a3687f5a7ef843e4fd92a9321478db1b04a68015c2ed73d0c11556a",
+          "bytes": 170
+        },
+        {
+          "path": "build/qa-independent/c6d3019/check.log",
+          "sha256": "253a64a2d15c105d418120d034425a6e660d3b0a703e711db71bd07235a5826f",
+          "bytes": 3837
+        },
+        {
+          "path": "build/qa-independent/c6d3019/export-web.log",
+          "sha256": "c4ca8f86481c6d8def24a3a82a5b963698c927ea74f598a829d5521208c92e1f",
+          "bytes": 1615
+        },
+        {
+          "path": "build/qa-independent/c6d3019/test-web.log",
+          "sha256": "0ec62ff204ecf60acd1bb954f299805b804f5e0cbd13163ffb87050f98ef02c0",
+          "bytes": 709
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/backup.json",
+          "sha256": "e3da1a0e181536ec904fcea01f471fb7b0c88dffe7edd43cb67093005557eb75",
+          "bytes": 6360
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/card-back.png",
+          "sha256": "60f394c551f719ae5ab37fa9b25f665e283678f596170e4eca9992aa9b4035a6",
+          "bytes": 36739
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/collection.png",
+          "sha256": "b62b85fcecb263534597ea96e0f1be07463359d2261ab53c656557cae9967a20",
+          "bytes": 55090
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/complete.png",
+          "sha256": "896ab6c069ce3a7c1f536098a0d8f1c942c221beedf27ad03c7b31d6871a5fc4",
+          "bytes": 30412
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/detail.png",
+          "sha256": "60e86961d29a082f05a32e9291f7568b89a1dfbaa1bee365186ff0031db57fa1",
+          "bytes": 30690
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/explore.png",
+          "sha256": "37528e6e3de4b8c3d73a54e36682f190679959a4f2ccf1c339096da1c64d64c4",
+          "bytes": 43344
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/independent-coffee-quiz.png",
+          "sha256": "b4b6b79e40ddb93a0c9570235ed9ecf3822612475cbc7d13024b997105316640",
+          "bytes": 53262
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/independent-coffee.cherry-detail-ko.png",
+          "sha256": "a55158827980a2fdc5153907cd49b2cb83b31818703e523cca4aa4a50f8fbae4",
+          "bytes": 28515
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/independent-elements-quiz.png",
+          "sha256": "d79067759ab94728648c7122a119c4c8d7499acf7834287e894b1034cc7024e7",
+          "bytes": 45899
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/independent-elements.sodium-detail-ko.png",
+          "sha256": "7f0ed7aad6a78982d9584681ac6b83e1222d853ae8592a62e950758cbd211e66",
+          "bytes": 28095
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/independent-empty-collection-ko.png",
+          "sha256": "d0290d6302817179d067f9623f08d9273ea92f564c34801dc547ee2921ef336d",
+          "bytes": 32283
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/independent-extra-results.json",
+          "sha256": "b7eba723e32cbd9cbfe3326c5107eb28585305c0895aa5fb4517ab5bef326e34",
+          "bytes": 1186
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/independent-geography-quiz.png",
+          "sha256": "cb0a1c63a801d67950f1a6e5b88d6763e01985c6c3e092d42c3868d5f34728fa",
+          "bytes": 41206
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/independent-moon-quiz.png",
+          "sha256": "bd6296c2da48ccf3ca8080456ea7f2f29c7f5dc0bba97fd5c99edcaa93cc38e6",
+          "bytes": 50273
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/independent-moon.first-quarter-detail-ko.png",
+          "sha256": "f07d8ed0537e99e7662bc68c82eb75f02442ce008ecec0b6e27fb2181c751b4a",
+          "bytes": 25664
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/independent-onboarding.png",
+          "sha256": "87104c675471e950a83b803b506cf25ad0595dbaced75f8f3f79fcd52aef5202",
+          "bytes": 51408
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/independent-wine-quiz.png",
+          "sha256": "ad71efbd32079820fea8e7edd70515702cc845afd7078bfaefb0cf1fd55365a8",
+          "bytes": 53701
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/independent-wine.fermentation-detail-ko.png",
+          "sha256": "25f6fd637a133c8a2cee31c76ee12ab6d3863d3e5119850f39806ea2dfeba47f",
+          "bytes": 28833
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/invalid.json",
+          "sha256": "40b5cafe045b9c9e31a1c3fdcfbc89f934906ff06a6276b55c2a0e517be21655",
+          "bytes": 8
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/large-screen.png",
+          "sha256": "38a9ce1174b0cf6341560c7e237f0a9dcdab0824ca32ffa42ea86b98efd2a5a6",
+          "bytes": 56841
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/quiz-feedback.png",
+          "sha256": "4be9e637404cc84cc7f040ab9541cc65d4a4018e4effde8a94132bdc8e0e71f3",
+          "bytes": 41735
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/results.json",
+          "sha256": "fce7abf6672c20b18aeffffbc22af163e603ff2ece0cc25a1e6e2b0f5d3647a3",
+          "bytes": 751
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/save-failure.png",
+          "sha256": "ee5d2e48eba8df6230f04381f262dca156e2ba19205eb827bab0ece150a718d2",
+          "bytes": 58083
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/small-large-text.png",
+          "sha256": "72863929398508bda9d57308a0dac4a29b2c3cca3c413288a0c9445edc8fd04b",
+          "bytes": 31822
+        },
+        {
+          "path": "build/qa-independent/c6d3019/web/today.png",
+          "sha256": "a03ef02e10d88e6773848b1cd47aeee9df12759b36d4de1ad7281d1e3e86943c",
+          "bytes": 29302
+        }
+      ]
+    }
+  ]
+}

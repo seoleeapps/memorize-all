@@ -1,0 +1,48 @@
+{
+  "mode": "apply",
+  "result": {
+    "packageName": "com.seorilabs.memorizeall",
+    "editId": "18216700802690530867",
+    "updated": {
+      "details": true,
+      "listings": [
+        "en-US",
+        "ko-KR"
+      ],
+      "images": [
+        {
+          "imageType": "icon",
+          "path": "play-store/icon.png",
+          "id": "2799199327123342777"
+        },
+        {
+          "imageType": "featureGraphic",
+          "path": "play-store/feature.png",
+          "id": "11101440443366247000"
+        },
+        {
+          "imageType": "phoneScreenshots",
+          "path": "play-store/screenshots/phone/today-en.png",
+          "id": "5898696173567630080"
+        },
+        {
+          "imageType": "phoneScreenshots",
+          "path": "play-store/screenshots/phone/quiz-en.png",
+          "id": "3793895502182604423"
+        },
+        {
+          "imageType": "phoneScreenshots",
+          "path": "play-store/screenshots/phone/card-en.png",
+          "id": "2484772536726129743"
+        },
+        {
+          "imageType": "phoneScreenshots",
+          "path": "play-store/screenshots/phone/explore-en.png",
+          "id": "7807500850039004808"
+        }
+      ]
+    },
+    "changesNotSentForReview": "omitted-after-api-rejection",
+    "committedEditId": "18216700802690530867"
+  }
+}
