@@ -29,7 +29,7 @@ async def main():
   async def button(name):await page.get_by_role('button',name=name,exact=True).click()
   await page.goto(URL)
   await page.get_by_role('button',name='◎  Geography',exact=True).click()
-  await button('Start with 1 topics')
+  await button('Start learning')
   await page.get_by_test_id('start-daily').wait_for()
   await snap('today')
   await page.get_by_test_id('tab-explore').click()

@@ -228,7 +228,7 @@ export default function Main({ screen }: { screen: Screen }) {
         <Button
           label={t(
             choosing ? '관심 분야 저장' : `${selectedInterests.length}개 분야로 시작`,
-            choosing ? 'Save interests' : `Start with ${selectedInterests.length} topics`,
+            choosing ? 'Save interests' : 'Start learning',
           )}
           disabled={!selectedInterests.length || busy}
           onPress={() =>

@@ -15,7 +15,7 @@ async def main():
    context=await browser.new_context(viewport={'width':360,'height':640},device_scale_factor=3,locale='en-US' if language=='en' else 'ko-KR')
    page=await context.new_page();await page.goto('http://127.0.0.1:18766')
    await page.get_by_role('button',name='◎  Geography' if language=='en' else '◎  지리',exact=True).click()
-   await page.get_by_role('button',name='Start with 1 topics' if language=='en' else '1개 분야로 시작',exact=True).click()
+   await page.get_by_role('button',name='Start learning' if language=='en' else '1개 분야로 시작',exact=True).click()
    await page.get_by_test_id('start-daily').wait_for()
    await page.screenshot(path=str(OUT/f'today-{language}.png'))
    await page.get_by_test_id('tab-explore').click()
