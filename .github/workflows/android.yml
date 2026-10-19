@@ -1,0 +1,76 @@
+name: Android checks and release bundle
+on:
+  pull_request:
+  push:
+    branches: [main, 'release/**']
+    tags: ['v*']
+permissions:
+  contents: read
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24.16.0
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: npm run check
+      - run: npm run export:web
+      - name: Browser regression
+        run: |
+          python3 -m venv "$RUNNER_TEMP/playwright"
+          "$RUNNER_TEMP/playwright/bin/pip" install playwright==1.64.0
+          "$RUNNER_TEMP/playwright/bin/python" -m playwright install --with-deps chromium
+          python3 scripts/serve-preview.py > "$RUNNER_TEMP/preview.log" 2>&1 &
+          PREVIEW_PID=$!
+          trap 'kill "$PREVIEW_PID"' EXIT
+          "$RUNNER_TEMP/playwright/bin/python" scripts/test-web.py
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: development-qa-${{ github.sha }}
+          path: build/qa-web/
+          retention-days: 3
+  bundle:
+    if: startsWith(github.ref, 'refs/tags/v') && github.event_name == 'push'
+    needs: checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24.16.0
+          cache: npm
+      - uses: actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad # v6.1.0
+        with:
+          distribution: temurin
+          java-version: '17'
+      - run: npm ci --no-audit --no-fund
+      - name: Resolve registered upload key
+        env:
+          KEY_BASE64: ${{ secrets.ANDROID_UPLOAD_KEY_BASE64 }}
+          SIGNING_JSON: ${{ secrets.ANDROID_UPLOAD_SIGNING_JSON }}
+        run: |
+          node scripts/materialize-signing.mjs
+      - name: Build signed production bundle
+        env:
+          MEMORIZE_ALL_ANDROID_SIGNING_FILE: ${{ runner.temp }}/memorize-all-signing/signing.json
+        run: |
+          test "$GITHUB_REF_NAME" = "v$(node -p 'require("./package.json").version')"
+          npm run build:android:production
+          python3 scripts/verify-android-artifact.py dist/android/memorize-all-production.aab --output dist/android/elf-check.json
+          sha256sum dist/android/memorize-all-production.aab > dist/android/SHA256SUMS
+          git rev-parse HEAD > dist/android/SOURCE_SHA
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: android-production-${{ github.sha }}
+          path: dist/android/
+          retention-days: 3
+      - name: Remove runner signing copy
+        if: always()
+        run: rm -rf "$RUNNER_TEMP/memorize-all-signing"

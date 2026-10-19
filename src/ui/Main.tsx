@@ -201,10 +201,7 @@ export default function Main({ screen }: { screen: Screen }) {
         }
       />
       <Text style={s.muted}>
-        {t(
-          '공개 전 사실·번역 검수용 표본입니다.',
-          'A sample awaiting final factual and language review.',
-        )}
+        {t('학습용 설명입니다. 원문에서 더 알아보세요.', 'Explore the source to learn more.')}
       </Text>
     </View>
   );
@@ -276,10 +273,7 @@ export default function Main({ screen }: { screen: Screen }) {
           </Text>
         </Card>
         <Text style={s.muted}>
-          {t(
-            '5개 분야 · 한영 지식 100개 · 검수용 버전',
-            '5 topics · 100 bilingual facts · Review edition',
-          )}
+          {t('5개 분야, 한국어와 영어 지식 100개', '5 topics, 100 facts in Korean and English')}
         </Text>
       </>
     );
@@ -366,8 +360,8 @@ export default function Main({ screen }: { screen: Screen }) {
         <Text style={s.title}>{t('호기심 따라 탐색', 'Follow your curiosity')}</Text>
         <Text style={s.muted}>
           {t(
-            '16개 분야 중 5개 분야의 입문 표본이 준비되어 있어요.',
-            'Introductory samples are available in 5 of 16 topics.',
+            '5개 분야에서 새로운 지식을 발견해 보세요.',
+            'Discover something new across 5 topics.',
           )}
         </Text>
         <View style={s.grid}>
@@ -383,7 +377,7 @@ export default function Main({ screen }: { screen: Screen }) {
                 <Text style={s.muted}>
                   {count
                     ? t(`입문 · ${count}개`, `Introduction · ${count} facts`)
-                    : t('준비 예정', 'Planned')}
+                    : t('지식 없음', 'No facts')}
                 </Text>
                 {count > 0 && (
                   <Button
@@ -398,6 +392,13 @@ export default function Main({ screen }: { screen: Screen }) {
             );
           })}
         </View>
+      </>
+    );
+  else if (screen === 'pack' && !pack.length)
+    body = (
+      <>
+        <Text style={s.heading}>{t('묶음을 찾을 수 없어요', 'Pack not found')}</Text>
+        <Button label={t('탐색으로', 'Back to Explore')} onPress={() => go('explore')} />
       </>
     );
   else if (screen === 'pack')
@@ -893,6 +894,34 @@ export default function Main({ screen }: { screen: Screen }) {
         <Card>
           <Text style={s.heading}>{t('데이터와 콘텐츠', 'Data & content')}</Text>
           <AdPrivacyControls />
+          {[
+            [
+              '개인정보처리방침',
+              'Privacy policy',
+              'https://www.seorilabs.com/apps/memorize-all/privacy/',
+            ],
+            [
+              '도움과 문의',
+              'Help & support',
+              'https://www.seorilabs.com/apps/memorize-all/support/',
+            ],
+          ].map(([kr, en, url]) => (
+            <Button
+              key={url}
+              secondary
+              label={t(kr, en)}
+              onPress={() =>
+                void Linking.openURL(url).catch(() =>
+                  setNotice(
+                    t(
+                      '페이지를 열 수 없어요. 연결을 확인해 주세요.',
+                      'Could not open the page. Check your connection.',
+                    ),
+                  ),
+                )
+              }
+            />
+          ))}
           <Text style={s.body}>
             {t(
               '학습 기록은 기기에 저장됩니다. 배너광고를 제공하는 Google은 광고 식별자·기기 정보 등을 처리할 수 있습니다.',
@@ -901,8 +930,8 @@ export default function Main({ screen }: { screen: Screen }) {
           </Text>
           <Text style={s.muted}>
             {t(
-              '검수용 표본 · 100개 지식 / 200개 문제 변형. 번역과 변형은 새 지식으로 세지 않습니다.',
-              'Review sample · 100 facts / 200 question variants. Translations and variants do not add to the fact count.',
+              '100개 지식과 200개 문제. 번역과 문제 변형은 같은 지식으로 기록해요.',
+              '100 facts and 200 questions. Translations and variants share the same progress.',
             )}
           </Text>
         </Card>

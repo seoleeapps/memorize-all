@@ -1,48 +1,150 @@
 {
-  "appId": "memorize-all",
-  "version": "0.1.1",
-  "stage": "internal-testing",
-  "deploymentAuthorized": false,
-  "markets": {
-    "google_play": {
-      "nativeArtifact": "dist/android/memorize-all-internal.aab",
-      "uploaded": true,
-      "publicVerified": false,
-      "artifactSha256": "2e4f34ca833cc1563c276bc10edeb5a51ae16585f75ddd2e35e219ad62c6ab7d",
-      "versionCode": 2,
-      "advertisingMode": "test",
-      "processing": "completed",
-      "track": "internal",
-      "trackStatus": "active / available to internal testers / unreviewed",
-      "optInUrl": "https://play.google.com/apps/internaltest/4701156134419290610",
-      "playInstalledQa": false
+  "schemaVersion": 1,
+  "app": {
+    "name": "Memorize All",
+    "repo": "seoleeapps/memorize-all",
+    "sourceRevision": "pending-final-candidate"
+  },
+  "release": {
+    "version": "1.0.0",
+    "tag": "v1.0.0",
+    "objective": "public_live",
+    "countries": [
+      "all-available"
+    ],
+    "rolloutMode": "full",
+    "versionCode": 3
+  },
+  "deploymentApproval": {
+    "status": "pass",
+    "markets": [
+      "google_play"
+    ],
+    "objective": "public_live",
+    "approvedAt": "2026-10-19T15:55:04.988323+00:00",
+    "evidence": [
+      "docs/design/2026-10-20-android-public/design.md",
+      "User explicitly requested implementation and public Google Play launch in conversation 2026-10-20."
+    ]
+  },
+  "commonGates": {
+    "candidate": {
+      "status": "pending",
+      "evidence": [],
+      "checkedAt": null,
+      "blocker": null
     },
-    "app_store": {
-      "nativeArtifact": null,
-      "uploaded": false,
-      "publicVerified": false
+    "quality": {
+      "status": "pending",
+      "evidence": [],
+      "checkedAt": null,
+      "blocker": null
+    },
+    "production_dependencies": {
+      "status": "pending",
+      "evidence": [],
+      "checkedAt": null,
+      "blocker": null
+    },
+    "observability": {
+      "status": "na",
+      "evidence": [
+        "User excludes Firebase, servers and remote analytics. Local error recovery is covered by development QA."
+      ],
+      "checkedAt": "2026-10-19T15:55:04.988323+00:00",
+      "blocker": null
     }
   },
-  "blockers": [
-    "100개 표본의 전수 사실·한영·이용 조건 검수 미완료",
-    "16KB 페이지 호환성: 64비트 라이브러리 37개 RELRO 미정렬, 라이브러리 갱신·재빌드와 16KB 런타임 검수 필요",
-    "지역별 UMP 양식·개인정보 선택 변경과 최초 오프라인 SDK 복구 검수 미완료",
-    "AdMob 스토어 연결·앱 검토와 개인정보 메시지 확인 필요",
-    "Android Play 설치·실기기·시스템 백업 공유 및 iOS·VoiceOver/TalkBack 검증 미완료",
-    "Expo 도구 체인의 npm audit 경고 검토 필요",
-    "스토어 메타데이터·정책·공개 배포 승인 없음"
-  ],
-  "monetization": "banner-only",
-  "evidence": [
-    "docs/qa.md",
-    "docs/content.md",
-    "docs/advertising.md",
-    "docs/android-native-qa.md",
-    "docs/qa-advertising/android-artifact.json",
-    "docs/qa-advertising/play-internal-readback.json",
-    "docs/qa-advertising/elf-check.json"
-  ],
-  "updatedAt": "2026-10-05T05:21:41.683324+00:00",
-  "sourceSha": "29ab776577e02209c7d6a55f2d141441c3e50968",
-  "internalTestingAuthorized": true
+  "markets": {
+    "google_play": {
+      "packageName": "com.seorilabs.memorizeall",
+      "versionCode": 3,
+      "gates": {
+        "candidate": {
+          "status": "pending",
+          "evidence": [],
+          "checkedAt": null,
+          "blocker": null
+        },
+        "artifact": {
+          "status": "pending",
+          "evidence": [],
+          "checkedAt": null,
+          "blocker": null
+        },
+        "upload": {
+          "status": "pending",
+          "evidence": [],
+          "checkedAt": null,
+          "blocker": null
+        },
+        "processing": {
+          "status": "pending",
+          "evidence": [],
+          "checkedAt": null,
+          "blocker": null
+        },
+        "qa": {
+          "status": "pending",
+          "evidence": [],
+          "checkedAt": null,
+          "blocker": null
+        },
+        "metadata": {
+          "status": "pending",
+          "evidence": [],
+          "checkedAt": null,
+          "blocker": null
+        },
+        "policy": {
+          "status": "pending",
+          "evidence": [],
+          "checkedAt": null,
+          "blocker": null
+        },
+        "submission": {
+          "status": "pending",
+          "evidence": [],
+          "checkedAt": null,
+          "blocker": null
+        },
+        "approval": {
+          "status": "pending",
+          "evidence": [],
+          "checkedAt": null,
+          "blocker": null
+        },
+        "release": {
+          "status": "pending",
+          "evidence": [],
+          "checkedAt": null,
+          "blocker": null
+        },
+        "live_smoke": {
+          "status": "pending",
+          "evidence": [],
+          "checkedAt": null,
+          "blocker": null
+        }
+      }
+    }
+  },
+  "nativeValidation": {
+    "status": "unrun",
+    "reason": "User explicitly excludes emulators and physical devices.",
+    "checks": [
+      "native UMP and banner serving",
+      "Android share recipient readback",
+      "Play installation",
+      "16KB runtime"
+    ]
+  },
+  "admob": {
+    "androidAppId": "ca-app-pub-9932778305312246~8005768438",
+    "storeLink": "not found by package search",
+    "approval": "needs review; limited serving",
+    "privacyMessage": "pending inspection",
+    "appAdsTxt": "pending inspection",
+    "checkedAt": "2026-10-19T15:55:04.988323+00:00"
+  }
 }

@@ -2,7 +2,7 @@
   "expo": {
     "name": "Memorize All",
     "slug": "memorize-all",
-    "version": "0.1.1",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,7 +15,7 @@
     "android": {
       "predictiveBackGestureEnabled": true,
       "package": "com.seorilabs.memorizeall",
-      "versionCode": 2
+      "versionCode": 3
     },
     "web": {
       "favicon": "./assets/icon.png",
@@ -32,10 +32,11 @@
         }
       ],
       "expo-router",
-      "expo-system-ui"
+      "expo-system-ui",
+      "expo-sharing"
     ],
     "extra": {
-      "releaseChannel": "content-review",
+      "releaseChannel": "production",
       "publicBrandConfirmed": true
     },
     "scheme": "memorize-all"

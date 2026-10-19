@@ -1,5 +1,8 @@
 {
   "startedAt": "2026-10-19T15:44:35.308683+00:00",
   "timingMethod": "Batch elapsed wall-clock time; no per-item duration measured or imputed.",
-  "status": "in-progress"
+  "status": "complete",
+  "completedAt": "2026-10-19T15:49:48.760309+00:00",
+  "elapsedSeconds": 313.452,
+  "evidence": "content/evidence/editorial-2026-10-20.json"
 }

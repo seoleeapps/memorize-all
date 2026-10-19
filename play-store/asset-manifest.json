@@ -1,0 +1,102 @@
+{
+  "out_dir": "play-store",
+  "background": "#F7F5EF",
+  "items": [
+    {
+      "id": "icon",
+      "kind": "icon",
+      "source": "play-store/icon-source.png",
+      "path": "icon.png",
+      "width": 512,
+      "height": 512,
+      "background": "#245C45"
+    },
+    {
+      "id": "feature",
+      "kind": "feature",
+      "source": "play-store/feature-source.png",
+      "path": "feature.png",
+      "width": 1024,
+      "height": 500,
+      "background": "#245C45"
+    },
+    {
+      "id": "today-en",
+      "kind": "phone",
+      "path": "screenshots/phone/today-en.png",
+      "source": "play-store/screenshots/phone/today-en.png",
+      "width": 1080,
+      "height": 1920,
+      "background": "#F7F5EF"
+    },
+    {
+      "id": "explore-en",
+      "kind": "phone",
+      "path": "screenshots/phone/explore-en.png",
+      "source": "play-store/screenshots/phone/explore-en.png",
+      "width": 1080,
+      "height": 1920,
+      "background": "#F7F5EF"
+    },
+    {
+      "id": "quiz-en",
+      "kind": "phone",
+      "path": "screenshots/phone/quiz-en.png",
+      "source": "play-store/screenshots/phone/quiz-en.png",
+      "width": 1080,
+      "height": 1920,
+      "background": "#F7F5EF"
+    },
+    {
+      "id": "card-en",
+      "kind": "phone",
+      "path": "screenshots/phone/card-en.png",
+      "source": "play-store/screenshots/phone/card-en.png",
+      "width": 1080,
+      "height": 1920,
+      "background": "#F7F5EF"
+    },
+    {
+      "id": "today-ko",
+      "kind": "phone",
+      "path": "screenshots/phone/today-ko.png",
+      "source": "play-store/screenshots/phone/today-ko.png",
+      "width": 1080,
+      "height": 1920,
+      "background": "#F7F5EF"
+    },
+    {
+      "id": "explore-ko",
+      "kind": "phone",
+      "path": "screenshots/phone/explore-ko.png",
+      "source": "play-store/screenshots/phone/explore-ko.png",
+      "width": 1080,
+      "height": 1920,
+      "background": "#F7F5EF"
+    },
+    {
+      "id": "quiz-ko",
+      "kind": "phone",
+      "path": "screenshots/phone/quiz-ko.png",
+      "source": "play-store/screenshots/phone/quiz-ko.png",
+      "width": 1080,
+      "height": 1920,
+      "background": "#F7F5EF"
+    },
+    {
+      "id": "card-ko",
+      "kind": "phone",
+      "path": "screenshots/phone/card-ko.png",
+      "source": "play-store/screenshots/phone/card-ko.png",
+      "width": 1080,
+      "height": 1920,
+      "background": "#F7F5EF"
+    }
+  ],
+  "rules": [
+    {
+      "kind": "phone",
+      "min": 2
+    }
+  ]
+}

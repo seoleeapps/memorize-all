@@ -19,20 +19,35 @@ def add_group(category, rows, source, source_label, usage):
             title=bi(f'{ko}의 수도',f'Capital of {en}')
             explanation=bi(f'{ko}의 수도는 {answer_ko}입니다.',f'{answer_en} is the capital of {en}.')
             prompt=bi(f'{ko}의 수도는 어디일까요?',f'What is the capital of {en}?')
-            reverse=bi(f'{answer_ko}을(를) 수도로 둔 나라는?',f'Which country has {answer_en} as its capital?')
+            reverse=bi(f'수도가 {answer_ko}인 나라는?',f'Which country has {answer_en} as its capital?')
         elif category=='elements':
-            title=bi(f'{ko} · {answer_en}',f'{en} · {answer_en}')
+            title=bi(f'{ko} ({answer_en})',f'{en} ({answer_en})')
             explanation=bi(f'{ko}의 원소 기호는 {answer_en}입니다. 대문자와 소문자를 구별해요.',f'The chemical symbol for {en.lower()} is {answer_en}. Letter case matters.')
             prompt=bi(f'{ko}의 원소 기호는?',f'What is the chemical symbol for {en.lower()}?')
-            reverse=bi(f'{answer_en}은 어떤 원소의 기호일까요?',f'Which element has the symbol {answer_en}?')
+            reverse=bi(f'원소 기호 {answer_en}에 해당하는 원소는?',f'Which element has the symbol {answer_en}?')
         else:
             title=bi(ko,en); explanation=bi(answer_ko,answer_en)
-            prompt=bi(f'“{ko}”에 맞는 설명은?',f'Which description matches “{en}”?')
-            reverse=bi(f'{answer_ko}\n이 설명에 맞는 용어는?',f'{answer_en}\nWhich term matches?')
+            prompt=bi(f'“{ko}”의 뜻으로 가장 알맞은 것은?',f'Which definition best matches “{en}”?')
+            reverse=bi(f'{answer_ko}\n이 뜻을 가장 잘 나타내는 용어는?',f'{answer_en}\nWhich term best matches this definition?')
         catalog['knowledge'].append({'id':id,'category':category,'pack':f'{category}.intro','factRevision':1,'textRevision':1,'title':title,'explanation':explanation,'source':{'url':url,'label':source_label,'checkedAt':None,'usage':usage},'review':'candidate'})
         if category=='elements': catalog['knowledge'][-1]['visual']={'kind':'element','symbol':answer_en,'atomicNumber':i+1}
         if category=='moon' and i<8: catalog['knowledge'][-1]['visual']={'kind':'moonPhase','phase':i}
-        choices=[i,(i+1)%20,(i+7)%20,(i+13)%20]
+        # Do not test a broad concept against one of its subtypes or tools.
+        overlaps = {
+            'coffee.bean': {'coffee.green'},
+            'coffee.extraction': {'coffee.espresso', 'coffee.filter', 'coffee.immersion', 'coffee.french-press', 'coffee.cold-brew'},
+            'coffee.immersion': {'coffee.french-press', 'coffee.cold-brew'},
+            'coffee.espresso': {'coffee.filter', 'coffee.extraction'},
+            'moon.maria': {'moon.crater'},
+        }
+        excluded = overlaps.get(id, set())
+        choices = [i]
+        for offset in [1, 7, 13, *range(2, 20)]:
+            idx = (i + offset) % 20
+            if idx not in choices and f'{category}.{data[idx][0]}' not in excluded:
+                choices.append(idx)
+            if len(choices) == 4:
+                break
         for direction,p in [('forward',prompt),('reverse',reverse)]:
             options=[]
             for idx in choices:
@@ -81,13 +96,13 @@ chlorine|염소|Chlorine|Cl|Cl
 argon|아르곤|Argon|Ar|Ar
 potassium|칼륨|Potassium|K|K
 calcium|칼슘|Calcium|Ca|Ca''','https://iupac.org/what-we-do/periodic-table-of-elements/','IUPAC · Periodic table','Factual names and symbols; no table artwork reproduced')
-add_group('moon','''new|삭|New Moon|지구에서 달의 밝은 면이 거의 보이지 않는 위상|The phase when the lit side is largely hidden from Earth.
+add_group('moon','''new|삭|New Moon|달의 밤인 면이 지구를 향하는 위상|The phase with the Moon's night side facing Earth.
 waxing-crescent|초승달|Waxing crescent|밝은 부분이 커지는 중이며 절반보다 작은 달|An increasing lit fraction smaller than half.
-first-quarter|상현달|First quarter|삭 이후 처음으로 밝은 면이 절반 보이는 달|The first half-lit phase after new Moon.
+first-quarter|상현달|First quarter|삭 이후 달이 처음 반달 모양으로 보이는 위상|The first half-lit phase after new Moon.
 waxing-gibbous|차오르는 볼록달|Waxing gibbous|밝은 부분이 커지는 중이며 절반보다 큰 달|An increasing lit fraction larger than half.
 full|보름달|Full Moon|지구를 향한 면이 거의 전부 밝게 보이는 위상|The phase with the Earth-facing side almost fully lit.
 waning-gibbous|기우는 볼록달|Waning gibbous|밝은 부분이 줄어드는 중이며 절반보다 큰 달|A decreasing lit fraction larger than half.
-last-quarter|하현달|Last quarter|보름달 이후 밝은 면이 절반으로 줄어든 위상|The half-lit phase after full Moon.
+last-quarter|하현달|Last quarter|보름달 이후 달이 반달 모양으로 보이는 위상|The half-lit phase after full Moon.
 waning-crescent|그믐달|Waning crescent|밝은 부분이 줄어드는 중이며 절반보다 작은 달|A decreasing lit fraction smaller than half.
 cycle|위상 주기|Phase cycle|삭에서 다음 삭까지 약 29.5일|About 29.5 days from one new Moon to the next.
 reflected|달빛|Moonlight|달 표면에서 반사된 태양빛|Sunlight reflected by the lunar surface.
@@ -99,8 +114,8 @@ crater|충돌구|Impact crater|천체의 충돌로 생긴 표면의 움푹한 �
 regolith|달의 표토|Lunar regolith|달 표면을 덮은 부서진 암석과 먼지층|Broken rock and dust covering the Moon.|https://science.nasa.gov/moon/facts/
 lunar-eclipse|월식|Lunar eclipse|달이 지구의 그림자를 지나는 현상|The Moon passing through Earth's shadow.|https://science.nasa.gov/moon/eclipses/
 solar-eclipse|일식|Solar eclipse|달이 지구에서 보는 태양을 가리는 현상|The Moon blocking the Sun as seen from Earth.|https://science.nasa.gov/moon/eclipses/
-spring-tide|사리|Spring tide|삭·보름 무렵 조차가 크게 나타나는 때|Larger tidal ranges around new and full Moon.|https://science.nasa.gov/moon/tides/
-neap-tide|조금|Neap tide|상현·하현 무렵 조차가 작게 나타나는 때|Smaller tidal ranges around the quarter moons.|https://science.nasa.gov/moon/tides/''','https://science.nasa.gov/moon/moon-phases/','NASA Science · Moon','Facts in original wording; no NASA media or logos')
+spring-tide|사리|Spring tide|삭과 보름 무렵 조차가 크게 나타나는 때|Larger tidal ranges around new and full Moon.|https://science.nasa.gov/moon/tides/
+neap-tide|조금|Neap tide|상현과 하현 무렵 조차가 작게 나타나는 때|Smaller tidal ranges around the quarter moons.|https://science.nasa.gov/moon/tides/''','https://science.nasa.gov/moon/moon-phases/','NASA Science · Moon','Facts in original wording; no NASA media or logos')
 add_group('coffee','''arabica|아라비카|Arabica|커피나무 종 Coffea arabica를 부르는 이름|The coffee species Coffea arabica.
 robusta|로부스타|Robusta|Coffea canephora 종의 커피를 흔히 부르는 이름|The common name for coffee of the species Coffea canephora.
 cherry|커피 체리|Coffee cherry|커피 씨앗을 감싸고 있는 열매|The fruit surrounding coffee seeds.
@@ -110,13 +125,13 @@ roasting|로스팅|Roasting|열을 가해 생두의 맛과 향을 발달시키�
 grinding|분쇄|Grinding|볶은 원두를 작은 입자로 부수는 과정|Breaking roasted beans into smaller particles.
 extraction|추출|Extraction|물로 커피의 녹는 성분을 끌어내는 과정|Dissolving soluble coffee compounds in water.
 espresso|에스프레소|Espresso|압력을 가한 뜨거운 물로 곱게 간 커피를 통과시켜 내리는 방식|Brewing finely ground coffee with hot water under pressure.
-filter|필터 커피|Filter coffee|필터로 커피 가루를 걸러 내리는 커피|Coffee brewed through a filter that holds back the grounds.
+filter|필터 커피|Filter coffee|물을 커피 가루와 필터에 통과시켜 내리는 커피|Coffee made by passing water through grounds held in a filter.
 immersion|침지 추출|Immersion brewing|커피 가루를 물에 담가 두어 추출하는 방식|Brewing by steeping coffee grounds in water.
 french-press|프렌치 프레스|French press|담가 우린 커피 가루를 누름망으로 분리하는 기구|A brewer with a plunger filter that separates steeped grounds.
 cold-brew|콜드 브루|Cold brew|차갑거나 상온인 물로 오랜 시간 추출하는 방식|A long extraction using cold or room-temperature water.
 americano|아메리카노|Americano|에스프레소에 물을 더한 음료|Espresso diluted with water.
-latte|카페 라테|Caffè latte|에스프레소에 스팀 밀크를 넉넉히 더한 음료|Espresso combined with a generous amount of steamed milk.
-cappuccino|카푸치노|Cappuccino|에스프레소·스팀 밀크와 뚜렷한 우유 거품층의 음료|Espresso with steamed milk and a distinct layer of milk foam.
+latte|카페 라테|Caffè latte|에스프레소에 스팀 밀크를 넉넉히 더하고 얇은 거품을 얹은 음료|Espresso with plenty of steamed milk and a thin topping of foam.
+cappuccino|카푸치노|Cappuccino|에스프레소에 스팀 밀크와 라테보다 두꺼운 우유 거품층을 더한 음료|Espresso with steamed milk and a thicker foam layer than a latte.
 decaf|디카페인|Decaffeinated coffee|카페인의 대부분을 제거한 커피로 완전한 무카페인을 뜻하지 않음|Coffee with most caffeine removed, not necessarily zero caffeine.
 natural|내추럴 가공|Natural processing|커피 열매를 통째로 말리는 가공 방식|Processing in which the whole coffee fruit is dried.
 washed|워시드 가공|Washed processing|건조 전에 과육과 점액질을 제거하는 가공 방식|Processing that removes fruit flesh and mucilage before drying.
@@ -140,24 +155,65 @@ lees|리스|Lees|발효 뒤 가라앉는 효모 등의 침전물|Sediment includ
 oak|오크 숙성|Oak ageing|참나무 용기에서 와인을 숙성하는 과정|Maturing wine in oak containers.
 malolactic|젖산 발효|Malolactic conversion|사과산을 젖산으로 바꾸는 과정|The conversion of malic acid into lactic acid.
 decanting|디캔팅|Decanting|병의 와인을 다른 용기로 옮겨 담는 작업|Pouring wine from its bottle into another vessel.
-appellation|원산지 명칭|Appellation|와인의 지리적 생산지를 나타내는 규정된 명칭|A regulated designation identifying a wine's geographical origin.''','https://www.wsetglobal.com/knowledge-centre/','Wine & Spirit Education Trust','Source identification pending item-level review; original candidate wording')
+appellation|원산지 명칭|Appellation|포도의 지리적 원산지를 나타내는 규정된 명칭|A regulated designation identifying the geographical origin of the grapes.''','https://www.wsetglobal.com/knowledge-centre/','Wine & Spirit Education Trust','Source identification pending item-level review; original candidate wording')
 coffee_sources = {
  'arabica':'beans/varieties/', 'robusta':'beans/varieties/',
  'cherry':'origins/what-is-coffee/', 'bean':'origins/what-is-coffee/',
  'green':'beans/roasts/', 'roasting':'beans/roasts/',
- 'grinding':'brewing/', 'extraction':'brewing/', 'espresso':'brewing/espresso/',
+ 'grinding':'brewing/espresso/', 'espresso':'brewing/espresso/',
  'filter':'brewing/drip-coffee/', 'immersion':'brewing/french-press-coffee/',
  'french-press':'brewing/french-press-coffee/', 'cold-brew':'brewing/cold-brew-coffee/',
  'decaf':'beans/decaf-coffee/', 'natural':'beans/processes/', 'washed':'beans/processes/',
  'blend':'beans/varieties/',
 }
 wine_styles = 'https://www.wsetglobal.com/knowledge-centre/blog/2023/october/03/how-many-wine-types-and-styles-are-there'
+wine_sources = {
+    'fermentation': 'https://www.wsetglobal.com/media/13167/wset_l2wines_specification_en_may2023_issue2.pdf',
+    'vintage': 'https://www.wsetglobal.com/knowledge-centre/videos/3-minute-wine-school',
+    'variety': 'https://www.wsetglobal.com/knowledge-centre/blog/2024/why-do-we-blend-wine/',
+    'blend': 'https://www.wsetglobal.com/knowledge-centre/blog/2024/why-do-we-blend-wine/',
+    'tannin': 'https://www.wsetglobal.com/knowledge-centre/blog/2021/december/14/what-is-wine',
+    'acidity': 'https://www.wsetglobal.com/knowledge-centre/blog/2026/understanding-acidity-in-wine/',
+    'body': wine_styles,
+    'dry': wine_styles,
+    'residual-sugar': 'https://www.wsetglobal.com/knowledge-centre/blog/2021/december/14/what-is-wine',
+    'still': wine_styles, 'sparkling': wine_styles, 'fortified': wine_styles, 'rose': wine_styles,
+    'red': 'https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine',
+    'white': 'https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine',
+    'lees': 'https://www.awri.com.au/industry_support/winemaking_resources/winemaking-practices/winemaking-treatment-lees-contact/',
+    'oak': wine_styles,
+    'malolactic': 'https://www.wsetglobal.com/knowledge-centre/blog/2026/understanding-acidity-in-wine/',
+    'decanting': 'https://www.wsetglobal.com/knowledge-centre/blog/2024/july/21/frequently-asked-questions-about-serving-and-decanting-wine/',
+    'appellation': 'https://www.ttb.gov/regulated-commodities/beverage-alcohol/wine/appellations-of-origin',
+}
 for k in catalog['knowledge']:
     category, key = k['id'].split('.')
-    if category == 'coffee' and key in coffee_sources:
-        k['source']['url'] = 'https://www.aboutcoffee.org/' + coffee_sources[key]
-    if category == 'wine' and key in ['body','dry','still','sparkling','fortified','rose','red','white','oak','variety','tannin']:
-        k['source']['url'] = wine_styles
+    # Korean question grammar, definition prompts and overlapping distractors were revised.
+    k['textRevision'] = 2
+    if category == 'coffee':
+        k['source']['usage'] = 'Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced'
+        if key in coffee_sources:
+            k['source']['url'] = 'https://www.aboutcoffee.org/' + coffee_sources[key]
+        if key == 'extraction':
+            k['source'].update(url='https://sca.coffee/sca-news/coffee-decoded-15-coffee-concentrates', label='Specialty Coffee Association')
+        if key in ['americano', 'latte', 'cappuccino']:
+            urls = {
+                'americano': 'https://www.starbucksathome.com/gb/recipes/caffe-americano',
+                'latte': 'https://www.nespresso.com/ie/en/articles/cappuccino-vs-latte',
+                'cappuccino': 'https://www.starbucksathome.com/gb/recipes/cappuccino',
+            }
+            k['source'].update(url=urls[key], label='Nespresso' if key == 'latte' else 'Starbucks Coffee at Home')
+    if category == 'wine':
+        k['source']['url'] = wine_sources[key]
+        k['source']['usage'] = 'Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced'
+        if key == 'lees':
+            k['source']['label'] = 'Australian Wine Research Institute'
+        if key == 'appellation':
+            k['source'].update(label='Alcohol and Tobacco Tax and Trade Bureau', usage='Factual geographical-origin terminology; no label artwork reproduced')
+    if category == 'elements':
+        k['source']['url'] = 'https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf'
+    if category == 'moon' and key == 'synchronous':
+        k['source']['url'] = 'https://science.nasa.gov/moon/moon-phases/#overview-from-space'
     if category == 'geography':
         evidence_path = ROOT/'content/evidence/geography.json'
         if evidence_path.exists():
@@ -174,4 +230,4 @@ for k in catalog['knowledge']:
         k['review'] = 'approved'
         k['source'].update(url=record['sourceUrl'], usage=record['usage'], checkedAt=record['checkedAt'][:10])
 (ROOT/'src/content/catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
-print(f"{len(catalog['knowledge'])} knowledge / {len(catalog['questions'])} variants (candidates)")
+print(f"{len(catalog['knowledge'])} knowledge / {len(catalog['questions'])} variants; {sum(k['review'] == 'approved' for k in catalog['knowledge'])} approved")

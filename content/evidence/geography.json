@@ -1,11 +1,11 @@
 {
-  "observedAt": "2026-10-04T10:18:16.962162+00:00",
+  "observedAt": "2026-10-19T15:44:56.157657+00:00",
   "license": "CC0",
   "results": [
     {
       "knowledgeId": "geography.france",
       "entity": "Q142",
-      "revision": 2550939492,
+      "revision": 2558491958,
       "property": "P36",
       "capitalIds": [
         "Q90"
@@ -19,7 +19,7 @@
     {
       "knowledgeId": "geography.japan",
       "entity": "Q17",
-      "revision": 2552994031,
+      "revision": 2558486289,
       "property": "P36",
       "capitalIds": [
         "Q1490"
@@ -33,7 +33,7 @@
     {
       "knowledgeId": "geography.canada",
       "entity": "Q16",
-      "revision": 2551371814,
+      "revision": 2558487934,
       "property": "P36",
       "capitalIds": [
         "Q1930"
@@ -47,7 +47,7 @@
     {
       "knowledgeId": "geography.australia",
       "entity": "Q408",
-      "revision": 2552305021,
+      "revision": 2558480157,
       "property": "P36",
       "capitalIds": [
         "Q3114"
@@ -61,7 +61,7 @@
     {
       "knowledgeId": "geography.brazil",
       "entity": "Q155",
-      "revision": 2547610501,
+      "revision": 2558493389,
       "property": "P36",
       "capitalIds": [
         "Q2844"
@@ -75,7 +75,7 @@
     {
       "knowledgeId": "geography.egypt",
       "entity": "Q79",
-      "revision": 2549942388,
+      "revision": 2558493376,
       "property": "P36",
       "capitalIds": [
         "Q85"
@@ -89,7 +89,7 @@
     {
       "knowledgeId": "geography.italy",
       "entity": "Q38",
-      "revision": 2551588933,
+      "revision": 2558492107,
       "property": "P36",
       "capitalIds": [
         "Q220"
@@ -103,7 +103,7 @@
     {
       "knowledgeId": "geography.spain",
       "entity": "Q29",
-      "revision": 2552100888,
+      "revision": 2558491944,
       "property": "P36",
       "capitalIds": [
         "Q2807"
@@ -117,7 +117,7 @@
     {
       "knowledgeId": "geography.portugal",
       "entity": "Q45",
-      "revision": 2548359773,
+      "revision": 2558492047,
       "property": "P36",
       "capitalIds": [
         "Q597"
@@ -131,7 +131,7 @@
     {
       "knowledgeId": "geography.germany",
       "entity": "Q183",
-      "revision": 2550634001,
+      "revision": 2558483149,
       "property": "P36",
       "capitalIds": [
         "Q64",
@@ -147,7 +147,7 @@
     {
       "knowledgeId": "geography.norway",
       "entity": "Q20",
-      "revision": 2552025448,
+      "revision": 2558488047,
       "property": "P36",
       "capitalIds": [
         "Q585"
@@ -161,7 +161,7 @@
     {
       "knowledgeId": "geography.sweden",
       "entity": "Q34",
-      "revision": 2547805093,
+      "revision": 2558491437,
       "property": "P36",
       "capitalIds": [
         "Q1754"
@@ -175,7 +175,7 @@
     {
       "knowledgeId": "geography.finland",
       "entity": "Q33",
-      "revision": 2547805152,
+      "revision": 2558561725,
       "property": "P36",
       "capitalIds": [
         "Q1757"
@@ -189,7 +189,7 @@
     {
       "knowledgeId": "geography.greece",
       "entity": "Q41",
-      "revision": 2547805317,
+      "revision": 2558708518,
       "property": "P36",
       "capitalIds": [
         "Q1524"
@@ -203,7 +203,7 @@
     {
       "knowledgeId": "geography.kenya",
       "entity": "Q114",
-      "revision": 2547884341,
+      "revision": 2558478663,
       "property": "P36",
       "capitalIds": [
         "Q3870"
@@ -217,7 +217,7 @@
     {
       "knowledgeId": "geography.thailand",
       "entity": "Q869",
-      "revision": 2548885763,
+      "revision": 2558494700,
       "property": "P36",
       "capitalIds": [
         "Q1861"
@@ -231,7 +231,7 @@
     {
       "knowledgeId": "geography.vietnam",
       "entity": "Q881",
-      "revision": 2552657909,
+      "revision": 2558491976,
       "property": "P36",
       "capitalIds": [
         "Q1858"
@@ -245,7 +245,7 @@
     {
       "knowledgeId": "geography.argentina",
       "entity": "Q414",
-      "revision": 2547806749,
+      "revision": 2558483540,
       "property": "P36",
       "capitalIds": [
         "Q1486"
@@ -259,7 +259,7 @@
     {
       "knowledgeId": "geography.peru",
       "entity": "Q419",
-      "revision": 2551120082,
+      "revision": 2558494612,
       "property": "P36",
       "capitalIds": [
         "Q2868"
@@ -273,7 +273,7 @@
     {
       "knowledgeId": "geography.new-zealand",
       "entity": "Q664",
-      "revision": 2547959036,
+      "revision": 2558486749,
       "property": "P36",
       "capitalIds": [
         "Q23661"

@@ -48,7 +48,7 @@
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "프랑스의 수도",
         "en": "Capital of France"
@@ -60,17 +60,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q142",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.japan",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "일본의 수도",
         "en": "Capital of Japan"
@@ -82,17 +82,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q17",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.canada",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "캐나다의 수도",
         "en": "Capital of Canada"
@@ -104,17 +104,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q16",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.australia",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "오스트레일리아의 수도",
         "en": "Capital of Australia"
@@ -126,17 +126,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q408",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.brazil",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "브라질의 수도",
         "en": "Capital of Brazil"
@@ -148,17 +148,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q155",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.egypt",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "이집트의 수도",
         "en": "Capital of Egypt"
@@ -170,17 +170,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q79",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.italy",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "이탈리아의 수도",
         "en": "Capital of Italy"
@@ -192,17 +192,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q38",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.spain",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "스페인의 수도",
         "en": "Capital of Spain"
@@ -214,17 +214,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q29",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.portugal",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "포르투갈의 수도",
         "en": "Capital of Portugal"
@@ -236,17 +236,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q45",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.germany",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "독일의 수도",
         "en": "Capital of Germany"
@@ -258,17 +258,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q183",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.norway",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "노르웨이의 수도",
         "en": "Capital of Norway"
@@ -280,17 +280,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q20",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.sweden",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "스웨덴의 수도",
         "en": "Capital of Sweden"
@@ -302,17 +302,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q34",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.finland",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "핀란드의 수도",
         "en": "Capital of Finland"
@@ -324,17 +324,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q33",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.greece",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "그리스의 수도",
         "en": "Capital of Greece"
@@ -346,17 +346,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q41",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.kenya",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "케냐의 수도",
         "en": "Capital of Kenya"
@@ -368,17 +368,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q114",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.thailand",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "태국의 수도",
         "en": "Capital of Thailand"
@@ -390,17 +390,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q869",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.vietnam",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "베트남의 수도",
         "en": "Capital of Vietnam"
@@ -412,17 +412,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q881",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.argentina",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "아르헨티나의 수도",
         "en": "Capital of Argentina"
@@ -434,17 +434,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q414",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.peru",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "페루의 수도",
         "en": "Capital of Peru"
@@ -456,17 +456,17 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q419",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "geography.new-zealand",
       "category": "geography",
       "pack": "geography.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "뉴질랜드의 수도",
         "en": "Capital of New Zealand"
@@ -478,32 +478,32 @@
       "source": {
         "url": "https://www.wikidata.org/wiki/Q664",
         "label": "Wikidata · P36",
-        "checkedAt": "2026-10-04",
+        "checkedAt": "2026-10-19",
         "usage": "CC0 structured facts; original wording"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "elements.hydrogen",
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "수소 · H",
-        "en": "Hydrogen · H"
+        "ko": "수소 (H)",
+        "en": "Hydrogen (H)"
       },
       "explanation": {
         "ko": "수소의 원소 기호는 H입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for hydrogen is H. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "H",
@@ -515,22 +515,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "헬륨 · He",
-        "en": "Helium · He"
+        "ko": "헬륨 (He)",
+        "en": "Helium (He)"
       },
       "explanation": {
         "ko": "헬륨의 원소 기호는 He입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for helium is He. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "He",
@@ -542,22 +542,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "리튬 · Li",
-        "en": "Lithium · Li"
+        "ko": "리튬 (Li)",
+        "en": "Lithium (Li)"
       },
       "explanation": {
         "ko": "리튬의 원소 기호는 Li입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for lithium is Li. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "Li",
@@ -569,22 +569,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "베릴륨 · Be",
-        "en": "Beryllium · Be"
+        "ko": "베릴륨 (Be)",
+        "en": "Beryllium (Be)"
       },
       "explanation": {
         "ko": "베릴륨의 원소 기호는 Be입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for beryllium is Be. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "Be",
@@ -596,22 +596,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "붕소 · B",
-        "en": "Boron · B"
+        "ko": "붕소 (B)",
+        "en": "Boron (B)"
       },
       "explanation": {
         "ko": "붕소의 원소 기호는 B입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for boron is B. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "B",
@@ -623,22 +623,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "탄소 · C",
-        "en": "Carbon · C"
+        "ko": "탄소 (C)",
+        "en": "Carbon (C)"
       },
       "explanation": {
         "ko": "탄소의 원소 기호는 C입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for carbon is C. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "C",
@@ -650,22 +650,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "질소 · N",
-        "en": "Nitrogen · N"
+        "ko": "질소 (N)",
+        "en": "Nitrogen (N)"
       },
       "explanation": {
         "ko": "질소의 원소 기호는 N입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for nitrogen is N. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "N",
@@ -677,22 +677,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "산소 · O",
-        "en": "Oxygen · O"
+        "ko": "산소 (O)",
+        "en": "Oxygen (O)"
       },
       "explanation": {
         "ko": "산소의 원소 기호는 O입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for oxygen is O. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "O",
@@ -704,22 +704,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "플루오린 · F",
-        "en": "Fluorine · F"
+        "ko": "플루오린 (F)",
+        "en": "Fluorine (F)"
       },
       "explanation": {
         "ko": "플루오린의 원소 기호는 F입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for fluorine is F. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "F",
@@ -731,22 +731,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "네온 · Ne",
-        "en": "Neon · Ne"
+        "ko": "네온 (Ne)",
+        "en": "Neon (Ne)"
       },
       "explanation": {
         "ko": "네온의 원소 기호는 Ne입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for neon is Ne. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "Ne",
@@ -758,22 +758,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "나트륨 · Na",
-        "en": "Sodium · Na"
+        "ko": "나트륨 (Na)",
+        "en": "Sodium (Na)"
       },
       "explanation": {
         "ko": "나트륨의 원소 기호는 Na입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for sodium is Na. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "Na",
@@ -785,22 +785,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "마그네슘 · Mg",
-        "en": "Magnesium · Mg"
+        "ko": "마그네슘 (Mg)",
+        "en": "Magnesium (Mg)"
       },
       "explanation": {
         "ko": "마그네슘의 원소 기호는 Mg입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for magnesium is Mg. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "Mg",
@@ -812,22 +812,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "알루미늄 · Al",
-        "en": "Aluminium · Al"
+        "ko": "알루미늄 (Al)",
+        "en": "Aluminium (Al)"
       },
       "explanation": {
         "ko": "알루미늄의 원소 기호는 Al입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for aluminium is Al. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "Al",
@@ -839,22 +839,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "규소 · Si",
-        "en": "Silicon · Si"
+        "ko": "규소 (Si)",
+        "en": "Silicon (Si)"
       },
       "explanation": {
         "ko": "규소의 원소 기호는 Si입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for silicon is Si. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "Si",
@@ -866,22 +866,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "인 · P",
-        "en": "Phosphorus · P"
+        "ko": "인 (P)",
+        "en": "Phosphorus (P)"
       },
       "explanation": {
         "ko": "인의 원소 기호는 P입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for phosphorus is P. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "P",
@@ -893,22 +893,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "황 · S",
-        "en": "Sulfur · S"
+        "ko": "황 (S)",
+        "en": "Sulfur (S)"
       },
       "explanation": {
         "ko": "황의 원소 기호는 S입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for sulfur is S. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "S",
@@ -920,22 +920,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "염소 · Cl",
-        "en": "Chlorine · Cl"
+        "ko": "염소 (Cl)",
+        "en": "Chlorine (Cl)"
       },
       "explanation": {
         "ko": "염소의 원소 기호는 Cl입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for chlorine is Cl. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "Cl",
@@ -947,22 +947,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "아르곤 · Ar",
-        "en": "Argon · Ar"
+        "ko": "아르곤 (Ar)",
+        "en": "Argon (Ar)"
       },
       "explanation": {
         "ko": "아르곤의 원소 기호는 Ar입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for argon is Ar. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "Ar",
@@ -974,22 +974,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "칼륨 · K",
-        "en": "Potassium · K"
+        "ko": "칼륨 (K)",
+        "en": "Potassium (K)"
       },
       "explanation": {
         "ko": "칼륨의 원소 기호는 K입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for potassium is K. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "K",
@@ -1001,22 +1001,22 @@
       "category": "elements",
       "pack": "elements.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
-        "ko": "칼슘 · Ca",
-        "en": "Calcium · Ca"
+        "ko": "칼슘 (Ca)",
+        "en": "Calcium (Ca)"
       },
       "explanation": {
         "ko": "칼슘의 원소 기호는 Ca입니다. 대문자와 소문자를 구별해요.",
         "en": "The chemical symbol for calcium is Ca. Letter case matters."
       },
       "source": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
         "label": "IUPAC · Periodic table",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Factual names and symbols; no table artwork reproduced"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "element",
         "symbol": "Ca",
@@ -1028,22 +1028,22 @@
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "삭",
         "en": "New Moon"
       },
       "explanation": {
-        "ko": "지구에서 달의 밝은 면이 거의 보이지 않는 위상",
-        "en": "The phase when the lit side is largely hidden from Earth."
+        "ko": "달의 밤인 면이 지구를 향하는 위상",
+        "en": "The phase with the Moon's night side facing Earth."
       },
       "source": {
         "url": "https://science.nasa.gov/moon/moon-phases/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "moonPhase",
         "phase": 0
@@ -1054,7 +1054,7 @@
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "초승달",
         "en": "Waxing crescent"
@@ -1066,10 +1066,10 @@
       "source": {
         "url": "https://science.nasa.gov/moon/moon-phases/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "moonPhase",
         "phase": 1
@@ -1080,22 +1080,22 @@
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "상현달",
         "en": "First quarter"
       },
       "explanation": {
-        "ko": "삭 이후 처음으로 밝은 면이 절반 보이는 달",
+        "ko": "삭 이후 달이 처음 반달 모양으로 보이는 위상",
         "en": "The first half-lit phase after new Moon."
       },
       "source": {
         "url": "https://science.nasa.gov/moon/moon-phases/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "moonPhase",
         "phase": 2
@@ -1106,7 +1106,7 @@
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "차오르는 볼록달",
         "en": "Waxing gibbous"
@@ -1118,10 +1118,10 @@
       "source": {
         "url": "https://science.nasa.gov/moon/moon-phases/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "moonPhase",
         "phase": 3
@@ -1132,7 +1132,7 @@
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "보름달",
         "en": "Full Moon"
@@ -1144,10 +1144,10 @@
       "source": {
         "url": "https://science.nasa.gov/moon/moon-phases/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "moonPhase",
         "phase": 4
@@ -1158,7 +1158,7 @@
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "기우는 볼록달",
         "en": "Waning gibbous"
@@ -1170,10 +1170,10 @@
       "source": {
         "url": "https://science.nasa.gov/moon/moon-phases/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "moonPhase",
         "phase": 5
@@ -1184,22 +1184,22 @@
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "하현달",
         "en": "Last quarter"
       },
       "explanation": {
-        "ko": "보름달 이후 밝은 면이 절반으로 줄어든 위상",
+        "ko": "보름달 이후 달이 반달 모양으로 보이는 위상",
         "en": "The half-lit phase after full Moon."
       },
       "source": {
         "url": "https://science.nasa.gov/moon/moon-phases/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "moonPhase",
         "phase": 6
@@ -1210,7 +1210,7 @@
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "그믐달",
         "en": "Waning crescent"
@@ -1222,10 +1222,10 @@
       "source": {
         "url": "https://science.nasa.gov/moon/moon-phases/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate",
+      "review": "approved",
       "visual": {
         "kind": "moonPhase",
         "phase": 7
@@ -1236,7 +1236,7 @@
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "위상 주기",
         "en": "Phase cycle"
@@ -1248,17 +1248,17 @@
       "source": {
         "url": "https://science.nasa.gov/moon/moon-phases/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "moon.reflected",
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "달빛",
         "en": "Moonlight"
@@ -1270,17 +1270,17 @@
       "source": {
         "url": "https://science.nasa.gov/moon/moon-phases/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "moon.near",
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "달의 앞면",
         "en": "Near side"
@@ -1292,17 +1292,17 @@
       "source": {
         "url": "https://science.nasa.gov/moon/facts/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "moon.far",
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "달의 뒷면",
         "en": "Far side"
@@ -1314,17 +1314,17 @@
       "source": {
         "url": "https://science.nasa.gov/moon/facts/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "moon.synchronous",
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "동주기 자전",
         "en": "Synchronous rotation"
@@ -1334,19 +1334,19 @@
         "en": "Rotation matching the orbital period, keeping the same side facing the partner."
       },
       "source": {
-        "url": "https://science.nasa.gov/moon/facts/",
+        "url": "https://science.nasa.gov/moon/moon-phases/#overview-from-space",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "moon.maria",
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "달의 바다",
         "en": "Lunar maria"
@@ -1358,17 +1358,17 @@
       "source": {
         "url": "https://science.nasa.gov/moon/facts/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "moon.crater",
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "충돌구",
         "en": "Impact crater"
@@ -1380,17 +1380,17 @@
       "source": {
         "url": "https://science.nasa.gov/moon/facts/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "moon.regolith",
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "달의 표토",
         "en": "Lunar regolith"
@@ -1402,17 +1402,17 @@
       "source": {
         "url": "https://science.nasa.gov/moon/facts/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "moon.lunar-eclipse",
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "월식",
         "en": "Lunar eclipse"
@@ -1424,17 +1424,17 @@
       "source": {
         "url": "https://science.nasa.gov/moon/eclipses/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "moon.solar-eclipse",
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "일식",
         "en": "Solar eclipse"
@@ -1446,61 +1446,61 @@
       "source": {
         "url": "https://science.nasa.gov/moon/eclipses/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "moon.spring-tide",
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "사리",
         "en": "Spring tide"
       },
       "explanation": {
-        "ko": "삭·보름 무렵 조차가 크게 나타나는 때",
+        "ko": "삭과 보름 무렵 조차가 크게 나타나는 때",
         "en": "Larger tidal ranges around new and full Moon."
       },
       "source": {
         "url": "https://science.nasa.gov/moon/tides/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "moon.neap-tide",
       "category": "moon",
       "pack": "moon.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "조금",
         "en": "Neap tide"
       },
       "explanation": {
-        "ko": "상현·하현 무렵 조차가 작게 나타나는 때",
+        "ko": "상현과 하현 무렵 조차가 작게 나타나는 때",
         "en": "Smaller tidal ranges around the quarter moons."
       },
       "source": {
         "url": "https://science.nasa.gov/moon/tides/",
         "label": "NASA Science · Moon",
-        "checkedAt": null,
+        "checkedAt": "2026-10-19",
         "usage": "Facts in original wording; no NASA media or logos"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.arabica",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "아라비카",
         "en": "Arabica"
@@ -1512,17 +1512,17 @@
       "source": {
         "url": "https://www.aboutcoffee.org/beans/varieties/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.robusta",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "로부스타",
         "en": "Robusta"
@@ -1534,17 +1534,17 @@
       "source": {
         "url": "https://www.aboutcoffee.org/beans/varieties/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.cherry",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "커피 체리",
         "en": "Coffee cherry"
@@ -1556,17 +1556,17 @@
       "source": {
         "url": "https://www.aboutcoffee.org/origins/what-is-coffee/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.bean",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "커피 원두",
         "en": "Coffee bean"
@@ -1578,17 +1578,17 @@
       "source": {
         "url": "https://www.aboutcoffee.org/origins/what-is-coffee/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.green",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "생두",
         "en": "Green coffee"
@@ -1600,17 +1600,17 @@
       "source": {
         "url": "https://www.aboutcoffee.org/beans/roasts/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.roasting",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "로스팅",
         "en": "Roasting"
@@ -1622,17 +1622,17 @@
       "source": {
         "url": "https://www.aboutcoffee.org/beans/roasts/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.grinding",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "분쇄",
         "en": "Grinding"
@@ -1642,19 +1642,19 @@
         "en": "Breaking roasted beans into smaller particles."
       },
       "source": {
-        "url": "https://www.aboutcoffee.org/brewing/",
+        "url": "https://www.aboutcoffee.org/brewing/espresso/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.extraction",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "추출",
         "en": "Extraction"
@@ -1664,19 +1664,19 @@
         "en": "Dissolving soluble coffee compounds in water."
       },
       "source": {
-        "url": "https://www.aboutcoffee.org/brewing/",
-        "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "url": "https://sca.coffee/sca-news/coffee-decoded-15-coffee-concentrates",
+        "label": "Specialty Coffee Association",
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.espresso",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "에스프레소",
         "en": "Espresso"
@@ -1688,39 +1688,39 @@
       "source": {
         "url": "https://www.aboutcoffee.org/brewing/espresso/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.filter",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "필터 커피",
         "en": "Filter coffee"
       },
       "explanation": {
-        "ko": "필터로 커피 가루를 걸러 내리는 커피",
-        "en": "Coffee brewed through a filter that holds back the grounds."
+        "ko": "물을 커피 가루와 필터에 통과시켜 내리는 커피",
+        "en": "Coffee made by passing water through grounds held in a filter."
       },
       "source": {
         "url": "https://www.aboutcoffee.org/brewing/drip-coffee/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.immersion",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "침지 추출",
         "en": "Immersion brewing"
@@ -1732,17 +1732,17 @@
       "source": {
         "url": "https://www.aboutcoffee.org/brewing/french-press-coffee/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.french-press",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "프렌치 프레스",
         "en": "French press"
@@ -1754,17 +1754,17 @@
       "source": {
         "url": "https://www.aboutcoffee.org/brewing/french-press-coffee/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.cold-brew",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "콜드 브루",
         "en": "Cold brew"
@@ -1776,17 +1776,17 @@
       "source": {
         "url": "https://www.aboutcoffee.org/brewing/cold-brew-coffee/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.americano",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "아메리카노",
         "en": "Americano"
@@ -1796,63 +1796,63 @@
         "en": "Espresso diluted with water."
       },
       "source": {
-        "url": "https://www.aboutcoffee.org/",
-        "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "url": "https://www.starbucksathome.com/gb/recipes/caffe-americano",
+        "label": "Starbucks Coffee at Home",
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.latte",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "카페 라테",
         "en": "Caffè latte"
       },
       "explanation": {
-        "ko": "에스프레소에 스팀 밀크를 넉넉히 더한 음료",
-        "en": "Espresso combined with a generous amount of steamed milk."
+        "ko": "에스프레소에 스팀 밀크를 넉넉히 더하고 얇은 거품을 얹은 음료",
+        "en": "Espresso with plenty of steamed milk and a thin topping of foam."
       },
       "source": {
-        "url": "https://www.aboutcoffee.org/",
-        "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "url": "https://www.nespresso.com/ie/en/articles/cappuccino-vs-latte",
+        "label": "Nespresso",
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.cappuccino",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "카푸치노",
         "en": "Cappuccino"
       },
       "explanation": {
-        "ko": "에스프레소·스팀 밀크와 뚜렷한 우유 거품층의 음료",
-        "en": "Espresso with steamed milk and a distinct layer of milk foam."
+        "ko": "에스프레소에 스팀 밀크와 라테보다 두꺼운 우유 거품층을 더한 음료",
+        "en": "Espresso with steamed milk and a thicker foam layer than a latte."
       },
       "source": {
-        "url": "https://www.aboutcoffee.org/",
-        "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "url": "https://www.starbucksathome.com/gb/recipes/cappuccino",
+        "label": "Starbucks Coffee at Home",
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.decaf",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "디카페인",
         "en": "Decaffeinated coffee"
@@ -1864,17 +1864,17 @@
       "source": {
         "url": "https://www.aboutcoffee.org/beans/decaf-coffee/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.natural",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "내추럴 가공",
         "en": "Natural processing"
@@ -1886,17 +1886,17 @@
       "source": {
         "url": "https://www.aboutcoffee.org/beans/processes/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.washed",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "워시드 가공",
         "en": "Washed processing"
@@ -1908,17 +1908,17 @@
       "source": {
         "url": "https://www.aboutcoffee.org/beans/processes/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "coffee.blend",
       "category": "coffee",
       "pack": "coffee.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "블렌드",
         "en": "Blend"
@@ -1930,17 +1930,17 @@
       "source": {
         "url": "https://www.aboutcoffee.org/beans/varieties/",
         "label": "National Coffee Association · About Coffee",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definitions; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.fermentation",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "알코올 발효",
         "en": "Alcoholic fermentation"
@@ -1950,19 +1950,19 @@
         "en": "Yeast converting sugar into alcohol and carbon dioxide."
       },
       "source": {
-        "url": "https://www.wsetglobal.com/knowledge-centre/",
+        "url": "https://www.wsetglobal.com/media/13167/wset_l2wines_specification_en_may2023_issue2.pdf",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.vintage",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "빈티지",
         "en": "Vintage"
@@ -1972,19 +1972,19 @@
         "en": "The year the grapes were harvested."
       },
       "source": {
-        "url": "https://www.wsetglobal.com/knowledge-centre/",
+        "url": "https://www.wsetglobal.com/knowledge-centre/videos/3-minute-wine-school",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.variety",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "포도 품종",
         "en": "Grape variety"
@@ -1994,19 +1994,19 @@
         "en": "A cultivated type of grape, such as Chardonnay or Merlot."
       },
       "source": {
-        "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/october/03/how-many-wine-types-and-styles-are-there",
+        "url": "https://www.wsetglobal.com/knowledge-centre/blog/2024/why-do-we-blend-wine/",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.blend",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "블렌딩",
         "en": "Blending"
@@ -2016,19 +2016,19 @@
         "en": "Combining wines, including wines from different grape varieties."
       },
       "source": {
-        "url": "https://www.wsetglobal.com/knowledge-centre/",
+        "url": "https://www.wsetglobal.com/knowledge-centre/blog/2024/why-do-we-blend-wine/",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.tannin",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "타닌",
         "en": "Tannin"
@@ -2038,19 +2038,19 @@
         "en": "Compounds contributing to a drying, astringent sensation."
       },
       "source": {
-        "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/october/03/how-many-wine-types-and-styles-are-there",
+        "url": "https://www.wsetglobal.com/knowledge-centre/blog/2021/december/14/what-is-wine",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.acidity",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "산도",
         "en": "Acidity"
@@ -2060,19 +2060,19 @@
         "en": "The acidic character associated with tartness in wine."
       },
       "source": {
-        "url": "https://www.wsetglobal.com/knowledge-centre/",
+        "url": "https://www.wsetglobal.com/knowledge-centre/blog/2026/understanding-acidity-in-wine/",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.body",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "바디",
         "en": "Body"
@@ -2084,17 +2084,17 @@
       "source": {
         "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/october/03/how-many-wine-types-and-styles-are-there",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.dry",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "드라이",
         "en": "Dry"
@@ -2106,17 +2106,17 @@
       "source": {
         "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/october/03/how-many-wine-types-and-styles-are-there",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.residual-sugar",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "잔당",
         "en": "Residual sugar"
@@ -2126,19 +2126,19 @@
         "en": "Sugar remaining in wine after fermentation."
       },
       "source": {
-        "url": "https://www.wsetglobal.com/knowledge-centre/",
+        "url": "https://www.wsetglobal.com/knowledge-centre/blog/2021/december/14/what-is-wine",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.still",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "스틸 와인",
         "en": "Still wine"
@@ -2150,17 +2150,17 @@
       "source": {
         "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/october/03/how-many-wine-types-and-styles-are-there",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.sparkling",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "스파클링 와인",
         "en": "Sparkling wine"
@@ -2172,17 +2172,17 @@
       "source": {
         "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/october/03/how-many-wine-types-and-styles-are-there",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.fortified",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "주정 강화 와인",
         "en": "Fortified wine"
@@ -2194,17 +2194,17 @@
       "source": {
         "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/october/03/how-many-wine-types-and-styles-are-there",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.rose",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "로제",
         "en": "Rosé"
@@ -2216,17 +2216,17 @@
       "source": {
         "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/october/03/how-many-wine-types-and-styles-are-there",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.red",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "레드 와인",
         "en": "Red wine"
@@ -2236,19 +2236,19 @@
         "en": "Wine generally gaining colour by fermenting with dark grape skins."
       },
       "source": {
-        "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/october/03/how-many-wine-types-and-styles-are-there",
+        "url": "https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.white",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "화이트 와인",
         "en": "White wine"
@@ -2258,19 +2258,19 @@
         "en": "Light-coloured wine usually fermented from juice separated from skins."
       },
       "source": {
-        "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/october/03/how-many-wine-types-and-styles-are-there",
+        "url": "https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.lees",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "리스",
         "en": "Lees"
@@ -2280,19 +2280,19 @@
         "en": "Sediment including yeast cells that settles after fermentation."
       },
       "source": {
-        "url": "https://www.wsetglobal.com/knowledge-centre/",
-        "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "url": "https://www.awri.com.au/industry_support/winemaking_resources/winemaking-practices/winemaking-treatment-lees-contact/",
+        "label": "Australian Wine Research Institute",
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.oak",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "오크 숙성",
         "en": "Oak ageing"
@@ -2304,17 +2304,17 @@
       "source": {
         "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/october/03/how-many-wine-types-and-styles-are-there",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.malolactic",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "젖산 발효",
         "en": "Malolactic conversion"
@@ -2324,19 +2324,19 @@
         "en": "The conversion of malic acid into lactic acid."
       },
       "source": {
-        "url": "https://www.wsetglobal.com/knowledge-centre/",
+        "url": "https://www.wsetglobal.com/knowledge-centre/blog/2026/understanding-acidity-in-wine/",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.decanting",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "디캔팅",
         "en": "Decanting"
@@ -2346,34 +2346,34 @@
         "en": "Pouring wine from its bottle into another vessel."
       },
       "source": {
-        "url": "https://www.wsetglobal.com/knowledge-centre/",
+        "url": "https://www.wsetglobal.com/knowledge-centre/blog/2024/july/21/frequently-asked-questions-about-serving-and-decanting-wine/",
         "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "checkedAt": "2026-10-19",
+        "usage": "Independently written factual definition; linked source is copyrighted; no source text, images or logos reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     },
     {
       "id": "wine.appellation",
       "category": "wine",
       "pack": "wine.intro",
       "factRevision": 1,
-      "textRevision": 1,
+      "textRevision": 2,
       "title": {
         "ko": "원산지 명칭",
         "en": "Appellation"
       },
       "explanation": {
-        "ko": "와인의 지리적 생산지를 나타내는 규정된 명칭",
-        "en": "A regulated designation identifying a wine's geographical origin."
+        "ko": "포도의 지리적 원산지를 나타내는 규정된 명칭",
+        "en": "A regulated designation identifying the geographical origin of the grapes."
       },
       "source": {
-        "url": "https://www.wsetglobal.com/knowledge-centre/",
-        "label": "Wine & Spirit Education Trust",
-        "checkedAt": null,
-        "usage": "Source identification pending item-level review; original candidate wording"
+        "url": "https://www.ttb.gov/regulated-commodities/beverage-alcohol/wine/appellations-of-origin",
+        "label": "Alcohol and Tobacco Tax and Trade Bureau",
+        "checkedAt": "2026-10-19",
+        "usage": "Factual geographical-origin terminology; no label artwork reproduced"
       },
-      "review": "candidate"
+      "review": "approved"
     }
   ],
   "questions": [
@@ -2420,7 +2420,7 @@
       "id": "geography.france.reverse",
       "knowledgeId": "geography.france",
       "prompt": {
-        "ko": "파리을(를) 수도로 둔 나라는?",
+        "ko": "수도가 파리인 나라는?",
         "en": "Which country has Paris as its capital?"
       },
       "options": [
@@ -2498,7 +2498,7 @@
       "id": "geography.japan.reverse",
       "knowledgeId": "geography.japan",
       "prompt": {
-        "ko": "도쿄을(를) 수도로 둔 나라는?",
+        "ko": "수도가 도쿄인 나라는?",
         "en": "Which country has Tokyo as its capital?"
       },
       "options": [
@@ -2576,7 +2576,7 @@
       "id": "geography.canada.reverse",
       "knowledgeId": "geography.canada",
       "prompt": {
-        "ko": "오타와을(를) 수도로 둔 나라는?",
+        "ko": "수도가 오타와인 나라는?",
         "en": "Which country has Ottawa as its capital?"
       },
       "options": [
@@ -2654,7 +2654,7 @@
       "id": "geography.australia.reverse",
       "knowledgeId": "geography.australia",
       "prompt": {
-        "ko": "캔버라을(를) 수도로 둔 나라는?",
+        "ko": "수도가 캔버라인 나라는?",
         "en": "Which country has Canberra as its capital?"
       },
       "options": [
@@ -2732,7 +2732,7 @@
       "id": "geography.brazil.reverse",
       "knowledgeId": "geography.brazil",
       "prompt": {
-        "ko": "브라질리아을(를) 수도로 둔 나라는?",
+        "ko": "수도가 브라질리아인 나라는?",
         "en": "Which country has Brasília as its capital?"
       },
       "options": [
@@ -2810,7 +2810,7 @@
       "id": "geography.egypt.reverse",
       "knowledgeId": "geography.egypt",
       "prompt": {
-        "ko": "카이로을(를) 수도로 둔 나라는?",
+        "ko": "수도가 카이로인 나라는?",
         "en": "Which country has Cairo as its capital?"
       },
       "options": [
@@ -2888,7 +2888,7 @@
       "id": "geography.italy.reverse",
       "knowledgeId": "geography.italy",
       "prompt": {
-        "ko": "로마을(를) 수도로 둔 나라는?",
+        "ko": "수도가 로마인 나라는?",
         "en": "Which country has Rome as its capital?"
       },
       "options": [
@@ -2966,7 +2966,7 @@
       "id": "geography.spain.reverse",
       "knowledgeId": "geography.spain",
       "prompt": {
-        "ko": "마드리드을(를) 수도로 둔 나라는?",
+        "ko": "수도가 마드리드인 나라는?",
         "en": "Which country has Madrid as its capital?"
       },
       "options": [
@@ -3044,7 +3044,7 @@
       "id": "geography.portugal.reverse",
       "knowledgeId": "geography.portugal",
       "prompt": {
-        "ko": "리스본을(를) 수도로 둔 나라는?",
+        "ko": "수도가 리스본인 나라는?",
         "en": "Which country has Lisbon as its capital?"
       },
       "options": [
@@ -3122,7 +3122,7 @@
       "id": "geography.germany.reverse",
       "knowledgeId": "geography.germany",
       "prompt": {
-        "ko": "베를린을(를) 수도로 둔 나라는?",
+        "ko": "수도가 베를린인 나라는?",
         "en": "Which country has Berlin as its capital?"
       },
       "options": [
@@ -3200,7 +3200,7 @@
       "id": "geography.norway.reverse",
       "knowledgeId": "geography.norway",
       "prompt": {
-        "ko": "오슬로을(를) 수도로 둔 나라는?",
+        "ko": "수도가 오슬로인 나라는?",
         "en": "Which country has Oslo as its capital?"
       },
       "options": [
@@ -3278,7 +3278,7 @@
       "id": "geography.sweden.reverse",
       "knowledgeId": "geography.sweden",
       "prompt": {
-        "ko": "스톡홀름을(를) 수도로 둔 나라는?",
+        "ko": "수도가 스톡홀름인 나라는?",
         "en": "Which country has Stockholm as its capital?"
       },
       "options": [
@@ -3356,7 +3356,7 @@
       "id": "geography.finland.reverse",
       "knowledgeId": "geography.finland",
       "prompt": {
-        "ko": "헬싱키을(를) 수도로 둔 나라는?",
+        "ko": "수도가 헬싱키인 나라는?",
         "en": "Which country has Helsinki as its capital?"
       },
       "options": [
@@ -3434,7 +3434,7 @@
       "id": "geography.greece.reverse",
       "knowledgeId": "geography.greece",
       "prompt": {
-        "ko": "아테네을(를) 수도로 둔 나라는?",
+        "ko": "수도가 아테네인 나라는?",
         "en": "Which country has Athens as its capital?"
       },
       "options": [
@@ -3512,7 +3512,7 @@
       "id": "geography.kenya.reverse",
       "knowledgeId": "geography.kenya",
       "prompt": {
-        "ko": "나이로비을(를) 수도로 둔 나라는?",
+        "ko": "수도가 나이로비인 나라는?",
         "en": "Which country has Nairobi as its capital?"
       },
       "options": [
@@ -3590,7 +3590,7 @@
       "id": "geography.thailand.reverse",
       "knowledgeId": "geography.thailand",
       "prompt": {
-        "ko": "방콕을(를) 수도로 둔 나라는?",
+        "ko": "수도가 방콕인 나라는?",
         "en": "Which country has Bangkok as its capital?"
       },
       "options": [
@@ -3668,7 +3668,7 @@
       "id": "geography.vietnam.reverse",
       "knowledgeId": "geography.vietnam",
       "prompt": {
-        "ko": "하노이을(를) 수도로 둔 나라는?",
+        "ko": "수도가 하노이인 나라는?",
         "en": "Which country has Hanoi as its capital?"
       },
       "options": [
@@ -3746,7 +3746,7 @@
       "id": "geography.argentina.reverse",
       "knowledgeId": "geography.argentina",
       "prompt": {
-        "ko": "부에노스아이레스을(를) 수도로 둔 나라는?",
+        "ko": "수도가 부에노스아이레스인 나라는?",
         "en": "Which country has Buenos Aires as its capital?"
       },
       "options": [
@@ -3824,7 +3824,7 @@
       "id": "geography.peru.reverse",
       "knowledgeId": "geography.peru",
       "prompt": {
-        "ko": "리마을(를) 수도로 둔 나라는?",
+        "ko": "수도가 리마인 나라는?",
         "en": "Which country has Lima as its capital?"
       },
       "options": [
@@ -3902,7 +3902,7 @@
       "id": "geography.new-zealand.reverse",
       "knowledgeId": "geography.new-zealand",
       "prompt": {
-        "ko": "웰링턴을(를) 수도로 둔 나라는?",
+        "ko": "수도가 웰링턴인 나라는?",
         "en": "Which country has Wellington as its capital?"
       },
       "options": [
@@ -3980,7 +3980,7 @@
       "id": "elements.hydrogen.reverse",
       "knowledgeId": "elements.hydrogen",
       "prompt": {
-        "ko": "H은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 H에 해당하는 원소는?",
         "en": "Which element has the symbol H?"
       },
       "options": [
@@ -4058,7 +4058,7 @@
       "id": "elements.helium.reverse",
       "knowledgeId": "elements.helium",
       "prompt": {
-        "ko": "He은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 He에 해당하는 원소는?",
         "en": "Which element has the symbol He?"
       },
       "options": [
@@ -4136,7 +4136,7 @@
       "id": "elements.lithium.reverse",
       "knowledgeId": "elements.lithium",
       "prompt": {
-        "ko": "Li은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 Li에 해당하는 원소는?",
         "en": "Which element has the symbol Li?"
       },
       "options": [
@@ -4214,7 +4214,7 @@
       "id": "elements.beryllium.reverse",
       "knowledgeId": "elements.beryllium",
       "prompt": {
-        "ko": "Be은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 Be에 해당하는 원소는?",
         "en": "Which element has the symbol Be?"
       },
       "options": [
@@ -4292,7 +4292,7 @@
       "id": "elements.boron.reverse",
       "knowledgeId": "elements.boron",
       "prompt": {
-        "ko": "B은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 B에 해당하는 원소는?",
         "en": "Which element has the symbol B?"
       },
       "options": [
@@ -4370,7 +4370,7 @@
       "id": "elements.carbon.reverse",
       "knowledgeId": "elements.carbon",
       "prompt": {
-        "ko": "C은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 C에 해당하는 원소는?",
         "en": "Which element has the symbol C?"
       },
       "options": [
@@ -4448,7 +4448,7 @@
       "id": "elements.nitrogen.reverse",
       "knowledgeId": "elements.nitrogen",
       "prompt": {
-        "ko": "N은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 N에 해당하는 원소는?",
         "en": "Which element has the symbol N?"
       },
       "options": [
@@ -4526,7 +4526,7 @@
       "id": "elements.oxygen.reverse",
       "knowledgeId": "elements.oxygen",
       "prompt": {
-        "ko": "O은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 O에 해당하는 원소는?",
         "en": "Which element has the symbol O?"
       },
       "options": [
@@ -4604,7 +4604,7 @@
       "id": "elements.fluorine.reverse",
       "knowledgeId": "elements.fluorine",
       "prompt": {
-        "ko": "F은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 F에 해당하는 원소는?",
         "en": "Which element has the symbol F?"
       },
       "options": [
@@ -4682,7 +4682,7 @@
       "id": "elements.neon.reverse",
       "knowledgeId": "elements.neon",
       "prompt": {
-        "ko": "Ne은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 Ne에 해당하는 원소는?",
         "en": "Which element has the symbol Ne?"
       },
       "options": [
@@ -4760,7 +4760,7 @@
       "id": "elements.sodium.reverse",
       "knowledgeId": "elements.sodium",
       "prompt": {
-        "ko": "Na은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 Na에 해당하는 원소는?",
         "en": "Which element has the symbol Na?"
       },
       "options": [
@@ -4838,7 +4838,7 @@
       "id": "elements.magnesium.reverse",
       "knowledgeId": "elements.magnesium",
       "prompt": {
-        "ko": "Mg은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 Mg에 해당하는 원소는?",
         "en": "Which element has the symbol Mg?"
       },
       "options": [
@@ -4916,7 +4916,7 @@
       "id": "elements.aluminium.reverse",
       "knowledgeId": "elements.aluminium",
       "prompt": {
-        "ko": "Al은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 Al에 해당하는 원소는?",
         "en": "Which element has the symbol Al?"
       },
       "options": [
@@ -4994,7 +4994,7 @@
       "id": "elements.silicon.reverse",
       "knowledgeId": "elements.silicon",
       "prompt": {
-        "ko": "Si은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 Si에 해당하는 원소는?",
         "en": "Which element has the symbol Si?"
       },
       "options": [
@@ -5072,7 +5072,7 @@
       "id": "elements.phosphorus.reverse",
       "knowledgeId": "elements.phosphorus",
       "prompt": {
-        "ko": "P은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 P에 해당하는 원소는?",
         "en": "Which element has the symbol P?"
       },
       "options": [
@@ -5150,7 +5150,7 @@
       "id": "elements.sulfur.reverse",
       "knowledgeId": "elements.sulfur",
       "prompt": {
-        "ko": "S은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 S에 해당하는 원소는?",
         "en": "Which element has the symbol S?"
       },
       "options": [
@@ -5228,7 +5228,7 @@
       "id": "elements.chlorine.reverse",
       "knowledgeId": "elements.chlorine",
       "prompt": {
-        "ko": "Cl은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 Cl에 해당하는 원소는?",
         "en": "Which element has the symbol Cl?"
       },
       "options": [
@@ -5306,7 +5306,7 @@
       "id": "elements.argon.reverse",
       "knowledgeId": "elements.argon",
       "prompt": {
-        "ko": "Ar은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 Ar에 해당하는 원소는?",
         "en": "Which element has the symbol Ar?"
       },
       "options": [
@@ -5384,7 +5384,7 @@
       "id": "elements.potassium.reverse",
       "knowledgeId": "elements.potassium",
       "prompt": {
-        "ko": "K은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 K에 해당하는 원소는?",
         "en": "Which element has the symbol K?"
       },
       "options": [
@@ -5462,7 +5462,7 @@
       "id": "elements.calcium.reverse",
       "knowledgeId": "elements.calcium",
       "prompt": {
-        "ko": "Ca은 어떤 원소의 기호일까요?",
+        "ko": "원소 기호 Ca에 해당하는 원소는?",
         "en": "Which element has the symbol Ca?"
       },
       "options": [
@@ -5501,15 +5501,15 @@
       "id": "moon.new.forward",
       "knowledgeId": "moon.new",
       "prompt": {
-        "ko": "“삭”에 맞는 설명은?",
-        "en": "Which description matches “New Moon”?"
+        "ko": "“삭”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “New Moon”?"
       },
       "options": [
         {
           "id": "moon.new",
           "text": {
-            "ko": "지구에서 달의 밝은 면이 거의 보이지 않는 위상",
-            "en": "The phase when the lit side is largely hidden from Earth."
+            "ko": "달의 밤인 면이 지구를 향하는 위상",
+            "en": "The phase with the Moon's night side facing Earth."
           }
         },
         {
@@ -5540,8 +5540,8 @@
       "id": "moon.new.reverse",
       "knowledgeId": "moon.new",
       "prompt": {
-        "ko": "지구에서 달의 밝은 면이 거의 보이지 않는 위상\n이 설명에 맞는 용어는?",
-        "en": "The phase when the lit side is largely hidden from Earth.\nWhich term matches?"
+        "ko": "달의 밤인 면이 지구를 향하는 위상\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The phase with the Moon's night side facing Earth.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -5579,8 +5579,8 @@
       "id": "moon.waxing-crescent.forward",
       "knowledgeId": "moon.waxing-crescent",
       "prompt": {
-        "ko": "“초승달”에 맞는 설명은?",
-        "en": "Which description matches “Waxing crescent”?"
+        "ko": "“초승달”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Waxing crescent”?"
       },
       "options": [
         {
@@ -5593,7 +5593,7 @@
         {
           "id": "moon.first-quarter",
           "text": {
-            "ko": "삭 이후 처음으로 밝은 면이 절반 보이는 달",
+            "ko": "삭 이후 달이 처음 반달 모양으로 보이는 위상",
             "en": "The first half-lit phase after new Moon."
           }
         },
@@ -5618,8 +5618,8 @@
       "id": "moon.waxing-crescent.reverse",
       "knowledgeId": "moon.waxing-crescent",
       "prompt": {
-        "ko": "밝은 부분이 커지는 중이며 절반보다 작은 달\n이 설명에 맞는 용어는?",
-        "en": "An increasing lit fraction smaller than half.\nWhich term matches?"
+        "ko": "밝은 부분이 커지는 중이며 절반보다 작은 달\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "An increasing lit fraction smaller than half.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -5657,14 +5657,14 @@
       "id": "moon.first-quarter.forward",
       "knowledgeId": "moon.first-quarter",
       "prompt": {
-        "ko": "“상현달”에 맞는 설명은?",
-        "en": "Which description matches “First quarter”?"
+        "ko": "“상현달”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “First quarter”?"
       },
       "options": [
         {
           "id": "moon.first-quarter",
           "text": {
-            "ko": "삭 이후 처음으로 밝은 면이 절반 보이는 달",
+            "ko": "삭 이후 달이 처음 반달 모양으로 보이는 위상",
             "en": "The first half-lit phase after new Moon."
           }
         },
@@ -5696,8 +5696,8 @@
       "id": "moon.first-quarter.reverse",
       "knowledgeId": "moon.first-quarter",
       "prompt": {
-        "ko": "삭 이후 처음으로 밝은 면이 절반 보이는 달\n이 설명에 맞는 용어는?",
-        "en": "The first half-lit phase after new Moon.\nWhich term matches?"
+        "ko": "삭 이후 달이 처음 반달 모양으로 보이는 위상\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The first half-lit phase after new Moon.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -5735,8 +5735,8 @@
       "id": "moon.waxing-gibbous.forward",
       "knowledgeId": "moon.waxing-gibbous",
       "prompt": {
-        "ko": "“차오르는 볼록달”에 맞는 설명은?",
-        "en": "Which description matches “Waxing gibbous”?"
+        "ko": "“차오르는 볼록달”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Waxing gibbous”?"
       },
       "options": [
         {
@@ -5774,8 +5774,8 @@
       "id": "moon.waxing-gibbous.reverse",
       "knowledgeId": "moon.waxing-gibbous",
       "prompt": {
-        "ko": "밝은 부분이 커지는 중이며 절반보다 큰 달\n이 설명에 맞는 용어는?",
-        "en": "An increasing lit fraction larger than half.\nWhich term matches?"
+        "ko": "밝은 부분이 커지는 중이며 절반보다 큰 달\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "An increasing lit fraction larger than half.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -5813,8 +5813,8 @@
       "id": "moon.full.forward",
       "knowledgeId": "moon.full",
       "prompt": {
-        "ko": "“보름달”에 맞는 설명은?",
-        "en": "Which description matches “Full Moon”?"
+        "ko": "“보름달”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Full Moon”?"
       },
       "options": [
         {
@@ -5852,8 +5852,8 @@
       "id": "moon.full.reverse",
       "knowledgeId": "moon.full",
       "prompt": {
-        "ko": "지구를 향한 면이 거의 전부 밝게 보이는 위상\n이 설명에 맞는 용어는?",
-        "en": "The phase with the Earth-facing side almost fully lit.\nWhich term matches?"
+        "ko": "지구를 향한 면이 거의 전부 밝게 보이는 위상\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The phase with the Earth-facing side almost fully lit.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -5891,8 +5891,8 @@
       "id": "moon.waning-gibbous.forward",
       "knowledgeId": "moon.waning-gibbous",
       "prompt": {
-        "ko": "“기우는 볼록달”에 맞는 설명은?",
-        "en": "Which description matches “Waning gibbous”?"
+        "ko": "“기우는 볼록달”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Waning gibbous”?"
       },
       "options": [
         {
@@ -5905,7 +5905,7 @@
         {
           "id": "moon.last-quarter",
           "text": {
-            "ko": "보름달 이후 밝은 면이 절반으로 줄어든 위상",
+            "ko": "보름달 이후 달이 반달 모양으로 보이는 위상",
             "en": "The half-lit phase after full Moon."
           }
         },
@@ -5919,7 +5919,7 @@
         {
           "id": "moon.spring-tide",
           "text": {
-            "ko": "삭·보름 무렵 조차가 크게 나타나는 때",
+            "ko": "삭과 보름 무렵 조차가 크게 나타나는 때",
             "en": "Larger tidal ranges around new and full Moon."
           }
         }
@@ -5930,8 +5930,8 @@
       "id": "moon.waning-gibbous.reverse",
       "knowledgeId": "moon.waning-gibbous",
       "prompt": {
-        "ko": "밝은 부분이 줄어드는 중이며 절반보다 큰 달\n이 설명에 맞는 용어는?",
-        "en": "A decreasing lit fraction larger than half.\nWhich term matches?"
+        "ko": "밝은 부분이 줄어드는 중이며 절반보다 큰 달\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "A decreasing lit fraction larger than half.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -5969,14 +5969,14 @@
       "id": "moon.last-quarter.forward",
       "knowledgeId": "moon.last-quarter",
       "prompt": {
-        "ko": "“하현달”에 맞는 설명은?",
-        "en": "Which description matches “Last quarter”?"
+        "ko": "“하현달”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Last quarter”?"
       },
       "options": [
         {
           "id": "moon.last-quarter",
           "text": {
-            "ko": "보름달 이후 밝은 면이 절반으로 줄어든 위상",
+            "ko": "보름달 이후 달이 반달 모양으로 보이는 위상",
             "en": "The half-lit phase after full Moon."
           }
         },
@@ -5997,7 +5997,7 @@
         {
           "id": "moon.neap-tide",
           "text": {
-            "ko": "상현·하현 무렵 조차가 작게 나타나는 때",
+            "ko": "상현과 하현 무렵 조차가 작게 나타나는 때",
             "en": "Smaller tidal ranges around the quarter moons."
           }
         }
@@ -6008,8 +6008,8 @@
       "id": "moon.last-quarter.reverse",
       "knowledgeId": "moon.last-quarter",
       "prompt": {
-        "ko": "보름달 이후 밝은 면이 절반으로 줄어든 위상\n이 설명에 맞는 용어는?",
-        "en": "The half-lit phase after full Moon.\nWhich term matches?"
+        "ko": "보름달 이후 달이 반달 모양으로 보이는 위상\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The half-lit phase after full Moon.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -6047,8 +6047,8 @@
       "id": "moon.waning-crescent.forward",
       "knowledgeId": "moon.waning-crescent",
       "prompt": {
-        "ko": "“그믐달”에 맞는 설명은?",
-        "en": "Which description matches “Waning crescent”?"
+        "ko": "“그믐달”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Waning crescent”?"
       },
       "options": [
         {
@@ -6075,8 +6075,8 @@
         {
           "id": "moon.new",
           "text": {
-            "ko": "지구에서 달의 밝은 면이 거의 보이지 않는 위상",
-            "en": "The phase when the lit side is largely hidden from Earth."
+            "ko": "달의 밤인 면이 지구를 향하는 위상",
+            "en": "The phase with the Moon's night side facing Earth."
           }
         }
       ],
@@ -6086,8 +6086,8 @@
       "id": "moon.waning-crescent.reverse",
       "knowledgeId": "moon.waning-crescent",
       "prompt": {
-        "ko": "밝은 부분이 줄어드는 중이며 절반보다 작은 달\n이 설명에 맞는 용어는?",
-        "en": "A decreasing lit fraction smaller than half.\nWhich term matches?"
+        "ko": "밝은 부분이 줄어드는 중이며 절반보다 작은 달\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "A decreasing lit fraction smaller than half.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -6125,8 +6125,8 @@
       "id": "moon.cycle.forward",
       "knowledgeId": "moon.cycle",
       "prompt": {
-        "ko": "“위상 주기”에 맞는 설명은?",
-        "en": "Which description matches “Phase cycle”?"
+        "ko": "“위상 주기”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Phase cycle”?"
       },
       "options": [
         {
@@ -6164,8 +6164,8 @@
       "id": "moon.cycle.reverse",
       "knowledgeId": "moon.cycle",
       "prompt": {
-        "ko": "삭에서 다음 삭까지 약 29.5일\n이 설명에 맞는 용어는?",
-        "en": "About 29.5 days from one new Moon to the next.\nWhich term matches?"
+        "ko": "삭에서 다음 삭까지 약 29.5일\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "About 29.5 days from one new Moon to the next.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -6203,8 +6203,8 @@
       "id": "moon.reflected.forward",
       "knowledgeId": "moon.reflected",
       "prompt": {
-        "ko": "“달빛”에 맞는 설명은?",
-        "en": "Which description matches “Moonlight”?"
+        "ko": "“달빛”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Moonlight”?"
       },
       "options": [
         {
@@ -6231,7 +6231,7 @@
         {
           "id": "moon.first-quarter",
           "text": {
-            "ko": "삭 이후 처음으로 밝은 면이 절반 보이는 달",
+            "ko": "삭 이후 달이 처음 반달 모양으로 보이는 위상",
             "en": "The first half-lit phase after new Moon."
           }
         }
@@ -6242,8 +6242,8 @@
       "id": "moon.reflected.reverse",
       "knowledgeId": "moon.reflected",
       "prompt": {
-        "ko": "달 표면에서 반사된 태양빛\n이 설명에 맞는 용어는?",
-        "en": "Sunlight reflected by the lunar surface.\nWhich term matches?"
+        "ko": "달 표면에서 반사된 태양빛\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Sunlight reflected by the lunar surface.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -6281,8 +6281,8 @@
       "id": "moon.near.forward",
       "knowledgeId": "moon.near",
       "prompt": {
-        "ko": "“달의 앞면”에 맞는 설명은?",
-        "en": "Which description matches “Near side”?"
+        "ko": "“달의 앞면”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Near side”?"
       },
       "options": [
         {
@@ -6320,8 +6320,8 @@
       "id": "moon.near.reverse",
       "knowledgeId": "moon.near",
       "prompt": {
-        "ko": "지구 쪽을 향하는 달의 면\n이 설명에 맞는 용어는?",
-        "en": "The lunar hemisphere that faces Earth.\nWhich term matches?"
+        "ko": "지구 쪽을 향하는 달의 면\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The lunar hemisphere that faces Earth.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -6359,8 +6359,8 @@
       "id": "moon.far.forward",
       "knowledgeId": "moon.far",
       "prompt": {
-        "ko": "“달의 뒷면”에 맞는 설명은?",
-        "en": "Which description matches “Far side”?"
+        "ko": "“달의 뒷면”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Far side”?"
       },
       "options": [
         {
@@ -6380,7 +6380,7 @@
         {
           "id": "moon.spring-tide",
           "text": {
-            "ko": "삭·보름 무렵 조차가 크게 나타나는 때",
+            "ko": "삭과 보름 무렵 조차가 크게 나타나는 때",
             "en": "Larger tidal ranges around new and full Moon."
           }
         },
@@ -6398,8 +6398,8 @@
       "id": "moon.far.reverse",
       "knowledgeId": "moon.far",
       "prompt": {
-        "ko": "지구 반대쪽을 향하며 햇빛도 받는 달의 면\n이 설명에 맞는 용어는?",
-        "en": "The hemisphere facing away from Earth; it also receives sunlight.\nWhich term matches?"
+        "ko": "지구 반대쪽을 향하며 햇빛도 받는 달의 면\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The hemisphere facing away from Earth; it also receives sunlight.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -6437,8 +6437,8 @@
       "id": "moon.synchronous.forward",
       "knowledgeId": "moon.synchronous",
       "prompt": {
-        "ko": "“동주기 자전”에 맞는 설명은?",
-        "en": "Which description matches “Synchronous rotation”?"
+        "ko": "“동주기 자전”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Synchronous rotation”?"
       },
       "options": [
         {
@@ -6458,7 +6458,7 @@
         {
           "id": "moon.neap-tide",
           "text": {
-            "ko": "상현·하현 무렵 조차가 작게 나타나는 때",
+            "ko": "상현과 하현 무렵 조차가 작게 나타나는 때",
             "en": "Smaller tidal ranges around the quarter moons."
           }
         },
@@ -6476,8 +6476,8 @@
       "id": "moon.synchronous.reverse",
       "knowledgeId": "moon.synchronous",
       "prompt": {
-        "ko": "자전 주기와 공전 주기가 같아 같은 면을 향하는 회전\n이 설명에 맞는 용어는?",
-        "en": "Rotation matching the orbital period, keeping the same side facing the partner.\nWhich term matches?"
+        "ko": "자전 주기와 공전 주기가 같아 같은 면을 향하는 회전\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Rotation matching the orbital period, keeping the same side facing the partner.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -6515,8 +6515,8 @@
       "id": "moon.maria.forward",
       "knowledgeId": "moon.maria",
       "prompt": {
-        "ko": "“달의 바다”에 맞는 설명은?",
-        "en": "Which description matches “Lunar maria”?"
+        "ko": "“달의 바다”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Lunar maria”?"
       },
       "options": [
         {
@@ -6527,24 +6527,24 @@
           }
         },
         {
-          "id": "moon.crater",
-          "text": {
-            "ko": "천체의 충돌로 생긴 표면의 움푹한 지형",
-            "en": "A depression left by an impact."
-          }
-        },
-        {
           "id": "moon.new",
           "text": {
-            "ko": "지구에서 달의 밝은 면이 거의 보이지 않는 위상",
-            "en": "The phase when the lit side is largely hidden from Earth."
+            "ko": "달의 밤인 면이 지구를 향하는 위상",
+            "en": "The phase with the Moon's night side facing Earth."
           }
         },
         {
           "id": "moon.last-quarter",
           "text": {
-            "ko": "보름달 이후 밝은 면이 절반으로 줄어든 위상",
+            "ko": "보름달 이후 달이 반달 모양으로 보이는 위상",
             "en": "The half-lit phase after full Moon."
+          }
+        },
+        {
+          "id": "moon.regolith",
+          "text": {
+            "ko": "달 표면을 덮은 부서진 암석과 먼지층",
+            "en": "Broken rock and dust covering the Moon."
           }
         }
       ],
@@ -6554,8 +6554,8 @@
       "id": "moon.maria.reverse",
       "knowledgeId": "moon.maria",
       "prompt": {
-        "ko": "옛 용암이 굳어 형성된 어두운 평원\n이 설명에 맞는 용어는?",
-        "en": "Dark plains formed by ancient lava.\nWhich term matches?"
+        "ko": "옛 용암이 굳어 형성된 어두운 평원\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Dark plains formed by ancient lava.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -6563,13 +6563,6 @@
           "text": {
             "ko": "달의 바다",
             "en": "Lunar maria"
-          }
-        },
-        {
-          "id": "moon.crater",
-          "text": {
-            "ko": "충돌구",
-            "en": "Impact crater"
           }
         },
         {
@@ -6585,6 +6578,13 @@
             "ko": "하현달",
             "en": "Last quarter"
           }
+        },
+        {
+          "id": "moon.regolith",
+          "text": {
+            "ko": "달의 표토",
+            "en": "Lunar regolith"
+          }
         }
       ],
       "answerId": "moon.maria"
@@ -6593,8 +6593,8 @@
       "id": "moon.crater.forward",
       "knowledgeId": "moon.crater",
       "prompt": {
-        "ko": "“충돌구”에 맞는 설명은?",
-        "en": "Which description matches “Impact crater”?"
+        "ko": "“충돌구”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Impact crater”?"
       },
       "options": [
         {
@@ -6632,8 +6632,8 @@
       "id": "moon.crater.reverse",
       "knowledgeId": "moon.crater",
       "prompt": {
-        "ko": "천체의 충돌로 생긴 표면의 움푹한 지형\n이 설명에 맞는 용어는?",
-        "en": "A depression left by an impact.\nWhich term matches?"
+        "ko": "천체의 충돌로 생긴 표면의 움푹한 지형\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "A depression left by an impact.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -6671,8 +6671,8 @@
       "id": "moon.regolith.forward",
       "knowledgeId": "moon.regolith",
       "prompt": {
-        "ko": "“달의 표토”에 맞는 설명은?",
-        "en": "Which description matches “Lunar regolith”?"
+        "ko": "“달의 표토”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Lunar regolith”?"
       },
       "options": [
         {
@@ -6692,7 +6692,7 @@
         {
           "id": "moon.first-quarter",
           "text": {
-            "ko": "삭 이후 처음으로 밝은 면이 절반 보이는 달",
+            "ko": "삭 이후 달이 처음 반달 모양으로 보이는 위상",
             "en": "The first half-lit phase after new Moon."
           }
         },
@@ -6710,8 +6710,8 @@
       "id": "moon.regolith.reverse",
       "knowledgeId": "moon.regolith",
       "prompt": {
-        "ko": "달 표면을 덮은 부서진 암석과 먼지층\n이 설명에 맞는 용어는?",
-        "en": "Broken rock and dust covering the Moon.\nWhich term matches?"
+        "ko": "달 표면을 덮은 부서진 암석과 먼지층\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Broken rock and dust covering the Moon.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -6749,8 +6749,8 @@
       "id": "moon.lunar-eclipse.forward",
       "knowledgeId": "moon.lunar-eclipse",
       "prompt": {
-        "ko": "“월식”에 맞는 설명은?",
-        "en": "Which description matches “Lunar eclipse”?"
+        "ko": "“월식”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Lunar eclipse”?"
       },
       "options": [
         {
@@ -6788,8 +6788,8 @@
       "id": "moon.lunar-eclipse.reverse",
       "knowledgeId": "moon.lunar-eclipse",
       "prompt": {
-        "ko": "달이 지구의 그림자를 지나는 현상\n이 설명에 맞는 용어는?",
-        "en": "The Moon passing through Earth's shadow.\nWhich term matches?"
+        "ko": "달이 지구의 그림자를 지나는 현상\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The Moon passing through Earth's shadow.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -6827,8 +6827,8 @@
       "id": "moon.solar-eclipse.forward",
       "knowledgeId": "moon.solar-eclipse",
       "prompt": {
-        "ko": "“일식”에 맞는 설명은?",
-        "en": "Which description matches “Solar eclipse”?"
+        "ko": "“일식”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Solar eclipse”?"
       },
       "options": [
         {
@@ -6841,7 +6841,7 @@
         {
           "id": "moon.spring-tide",
           "text": {
-            "ko": "삭·보름 무렵 조차가 크게 나타나는 때",
+            "ko": "삭과 보름 무렵 조차가 크게 나타나는 때",
             "en": "Larger tidal ranges around new and full Moon."
           }
         },
@@ -6866,8 +6866,8 @@
       "id": "moon.solar-eclipse.reverse",
       "knowledgeId": "moon.solar-eclipse",
       "prompt": {
-        "ko": "달이 지구에서 보는 태양을 가리는 현상\n이 설명에 맞는 용어는?",
-        "en": "The Moon blocking the Sun as seen from Earth.\nWhich term matches?"
+        "ko": "달이 지구에서 보는 태양을 가리는 현상\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The Moon blocking the Sun as seen from Earth.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -6905,21 +6905,21 @@
       "id": "moon.spring-tide.forward",
       "knowledgeId": "moon.spring-tide",
       "prompt": {
-        "ko": "“사리”에 맞는 설명은?",
-        "en": "Which description matches “Spring tide”?"
+        "ko": "“사리”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Spring tide”?"
       },
       "options": [
         {
           "id": "moon.spring-tide",
           "text": {
-            "ko": "삭·보름 무렵 조차가 크게 나타나는 때",
+            "ko": "삭과 보름 무렵 조차가 크게 나타나는 때",
             "en": "Larger tidal ranges around new and full Moon."
           }
         },
         {
           "id": "moon.neap-tide",
           "text": {
-            "ko": "상현·하현 무렵 조차가 작게 나타나는 때",
+            "ko": "상현과 하현 무렵 조차가 작게 나타나는 때",
             "en": "Smaller tidal ranges around the quarter moons."
           }
         },
@@ -6944,8 +6944,8 @@
       "id": "moon.spring-tide.reverse",
       "knowledgeId": "moon.spring-tide",
       "prompt": {
-        "ko": "삭·보름 무렵 조차가 크게 나타나는 때\n이 설명에 맞는 용어는?",
-        "en": "Larger tidal ranges around new and full Moon.\nWhich term matches?"
+        "ko": "삭과 보름 무렵 조차가 크게 나타나는 때\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Larger tidal ranges around new and full Moon.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -6983,28 +6983,28 @@
       "id": "moon.neap-tide.forward",
       "knowledgeId": "moon.neap-tide",
       "prompt": {
-        "ko": "“조금”에 맞는 설명은?",
-        "en": "Which description matches “Neap tide”?"
+        "ko": "“조금”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Neap tide”?"
       },
       "options": [
         {
           "id": "moon.neap-tide",
           "text": {
-            "ko": "상현·하현 무렵 조차가 작게 나타나는 때",
+            "ko": "상현과 하현 무렵 조차가 작게 나타나는 때",
             "en": "Smaller tidal ranges around the quarter moons."
           }
         },
         {
           "id": "moon.new",
           "text": {
-            "ko": "지구에서 달의 밝은 면이 거의 보이지 않는 위상",
-            "en": "The phase when the lit side is largely hidden from Earth."
+            "ko": "달의 밤인 면이 지구를 향하는 위상",
+            "en": "The phase with the Moon's night side facing Earth."
           }
         },
         {
           "id": "moon.last-quarter",
           "text": {
-            "ko": "보름달 이후 밝은 면이 절반으로 줄어든 위상",
+            "ko": "보름달 이후 달이 반달 모양으로 보이는 위상",
             "en": "The half-lit phase after full Moon."
           }
         },
@@ -7022,8 +7022,8 @@
       "id": "moon.neap-tide.reverse",
       "knowledgeId": "moon.neap-tide",
       "prompt": {
-        "ko": "상현·하현 무렵 조차가 작게 나타나는 때\n이 설명에 맞는 용어는?",
-        "en": "Smaller tidal ranges around the quarter moons.\nWhich term matches?"
+        "ko": "상현과 하현 무렵 조차가 작게 나타나는 때\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Smaller tidal ranges around the quarter moons.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -7061,8 +7061,8 @@
       "id": "coffee.arabica.forward",
       "knowledgeId": "coffee.arabica",
       "prompt": {
-        "ko": "“아라비카”에 맞는 설명은?",
-        "en": "Which description matches “Arabica”?"
+        "ko": "“아라비카”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Arabica”?"
       },
       "options": [
         {
@@ -7100,8 +7100,8 @@
       "id": "coffee.arabica.reverse",
       "knowledgeId": "coffee.arabica",
       "prompt": {
-        "ko": "커피나무 종 Coffea arabica를 부르는 이름\n이 설명에 맞는 용어는?",
-        "en": "The coffee species Coffea arabica.\nWhich term matches?"
+        "ko": "커피나무 종 Coffea arabica를 부르는 이름\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The coffee species Coffea arabica.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -7139,8 +7139,8 @@
       "id": "coffee.robusta.forward",
       "knowledgeId": "coffee.robusta",
       "prompt": {
-        "ko": "“로부스타”에 맞는 설명은?",
-        "en": "Which description matches “Robusta”?"
+        "ko": "“로부스타”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Robusta”?"
       },
       "options": [
         {
@@ -7167,8 +7167,8 @@
         {
           "id": "coffee.latte",
           "text": {
-            "ko": "에스프레소에 스팀 밀크를 넉넉히 더한 음료",
-            "en": "Espresso combined with a generous amount of steamed milk."
+            "ko": "에스프레소에 스팀 밀크를 넉넉히 더하고 얇은 거품을 얹은 음료",
+            "en": "Espresso with plenty of steamed milk and a thin topping of foam."
           }
         }
       ],
@@ -7178,8 +7178,8 @@
       "id": "coffee.robusta.reverse",
       "knowledgeId": "coffee.robusta",
       "prompt": {
-        "ko": "Coffea canephora 종의 커피를 흔히 부르는 이름\n이 설명에 맞는 용어는?",
-        "en": "The common name for coffee of the species Coffea canephora.\nWhich term matches?"
+        "ko": "Coffea canephora 종의 커피를 흔히 부르는 이름\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The common name for coffee of the species Coffea canephora.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -7217,8 +7217,8 @@
       "id": "coffee.cherry.forward",
       "knowledgeId": "coffee.cherry",
       "prompt": {
-        "ko": "“커피 체리”에 맞는 설명은?",
-        "en": "Which description matches “Coffee cherry”?"
+        "ko": "“커피 체리”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Coffee cherry”?"
       },
       "options": [
         {
@@ -7238,15 +7238,15 @@
         {
           "id": "coffee.filter",
           "text": {
-            "ko": "필터로 커피 가루를 걸러 내리는 커피",
-            "en": "Coffee brewed through a filter that holds back the grounds."
+            "ko": "물을 커피 가루와 필터에 통과시켜 내리는 커피",
+            "en": "Coffee made by passing water through grounds held in a filter."
           }
         },
         {
           "id": "coffee.cappuccino",
           "text": {
-            "ko": "에스프레소·스팀 밀크와 뚜렷한 우유 거품층의 음료",
-            "en": "Espresso with steamed milk and a distinct layer of milk foam."
+            "ko": "에스프레소에 스팀 밀크와 라테보다 두꺼운 우유 거품층을 더한 음료",
+            "en": "Espresso with steamed milk and a thicker foam layer than a latte."
           }
         }
       ],
@@ -7256,8 +7256,8 @@
       "id": "coffee.cherry.reverse",
       "knowledgeId": "coffee.cherry",
       "prompt": {
-        "ko": "커피 씨앗을 감싸고 있는 열매\n이 설명에 맞는 용어는?",
-        "en": "The fruit surrounding coffee seeds.\nWhich term matches?"
+        "ko": "커피 씨앗을 감싸고 있는 열매\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The fruit surrounding coffee seeds.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -7295,8 +7295,8 @@
       "id": "coffee.bean.forward",
       "knowledgeId": "coffee.bean",
       "prompt": {
-        "ko": "“커피 원두”에 맞는 설명은?",
-        "en": "Which description matches “Coffee bean”?"
+        "ko": "“커피 원두”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Coffee bean”?"
       },
       "options": [
         {
@@ -7304,13 +7304,6 @@
           "text": {
             "ko": "커피 열매 안의 씨앗",
             "en": "A seed from a coffee fruit."
-          }
-        },
-        {
-          "id": "coffee.green",
-          "text": {
-            "ko": "아직 볶지 않은 커피 씨앗",
-            "en": "Coffee seeds before roasting."
           }
         },
         {
@@ -7326,6 +7319,13 @@
             "ko": "카페인의 대부분을 제거한 커피로 완전한 무카페인을 뜻하지 않음",
             "en": "Coffee with most caffeine removed, not necessarily zero caffeine."
           }
+        },
+        {
+          "id": "coffee.roasting",
+          "text": {
+            "ko": "열을 가해 생두의 맛과 향을 발달시키는 과정",
+            "en": "Heating green coffee to develop flavour and aroma."
+          }
         }
       ],
       "answerId": "coffee.bean"
@@ -7334,8 +7334,8 @@
       "id": "coffee.bean.reverse",
       "knowledgeId": "coffee.bean",
       "prompt": {
-        "ko": "커피 열매 안의 씨앗\n이 설명에 맞는 용어는?",
-        "en": "A seed from a coffee fruit.\nWhich term matches?"
+        "ko": "커피 열매 안의 씨앗\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "A seed from a coffee fruit.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -7343,13 +7343,6 @@
           "text": {
             "ko": "커피 원두",
             "en": "Coffee bean"
-          }
-        },
-        {
-          "id": "coffee.green",
-          "text": {
-            "ko": "생두",
-            "en": "Green coffee"
           }
         },
         {
@@ -7365,6 +7358,13 @@
             "ko": "디카페인",
             "en": "Decaffeinated coffee"
           }
+        },
+        {
+          "id": "coffee.roasting",
+          "text": {
+            "ko": "로스팅",
+            "en": "Roasting"
+          }
         }
       ],
       "answerId": "coffee.bean"
@@ -7373,8 +7373,8 @@
       "id": "coffee.green.forward",
       "knowledgeId": "coffee.green",
       "prompt": {
-        "ko": "“생두”에 맞는 설명은?",
-        "en": "Which description matches “Green coffee”?"
+        "ko": "“생두”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Green coffee”?"
       },
       "options": [
         {
@@ -7412,8 +7412,8 @@
       "id": "coffee.green.reverse",
       "knowledgeId": "coffee.green",
       "prompt": {
-        "ko": "아직 볶지 않은 커피 씨앗\n이 설명에 맞는 용어는?",
-        "en": "Coffee seeds before roasting.\nWhich term matches?"
+        "ko": "아직 볶지 않은 커피 씨앗\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Coffee seeds before roasting.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -7451,8 +7451,8 @@
       "id": "coffee.roasting.forward",
       "knowledgeId": "coffee.roasting",
       "prompt": {
-        "ko": "“로스팅”에 맞는 설명은?",
-        "en": "Which description matches “Roasting”?"
+        "ko": "“로스팅”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Roasting”?"
       },
       "options": [
         {
@@ -7490,8 +7490,8 @@
       "id": "coffee.roasting.reverse",
       "knowledgeId": "coffee.roasting",
       "prompt": {
-        "ko": "열을 가해 생두의 맛과 향을 발달시키는 과정\n이 설명에 맞는 용어는?",
-        "en": "Heating green coffee to develop flavour and aroma.\nWhich term matches?"
+        "ko": "열을 가해 생두의 맛과 향을 발달시키는 과정\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Heating green coffee to develop flavour and aroma.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -7529,8 +7529,8 @@
       "id": "coffee.grinding.forward",
       "knowledgeId": "coffee.grinding",
       "prompt": {
-        "ko": "“분쇄”에 맞는 설명은?",
-        "en": "Which description matches “Grinding”?"
+        "ko": "“분쇄”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Grinding”?"
       },
       "options": [
         {
@@ -7568,8 +7568,8 @@
       "id": "coffee.grinding.reverse",
       "knowledgeId": "coffee.grinding",
       "prompt": {
-        "ko": "볶은 원두를 작은 입자로 부수는 과정\n이 설명에 맞는 용어는?",
-        "en": "Breaking roasted beans into smaller particles.\nWhich term matches?"
+        "ko": "볶은 원두를 작은 입자로 부수는 과정\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Breaking roasted beans into smaller particles.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -7607,8 +7607,8 @@
       "id": "coffee.extraction.forward",
       "knowledgeId": "coffee.extraction",
       "prompt": {
-        "ko": "“추출”에 맞는 설명은?",
-        "en": "Which description matches “Extraction”?"
+        "ko": "“추출”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Extraction”?"
       },
       "options": [
         {
@@ -7619,17 +7619,10 @@
           }
         },
         {
-          "id": "coffee.espresso",
-          "text": {
-            "ko": "압력을 가한 뜨거운 물로 곱게 간 커피를 통과시켜 내리는 방식",
-            "en": "Brewing finely ground coffee with hot water under pressure."
-          }
-        },
-        {
           "id": "coffee.latte",
           "text": {
-            "ko": "에스프레소에 스팀 밀크를 넉넉히 더한 음료",
-            "en": "Espresso combined with a generous amount of steamed milk."
+            "ko": "에스프레소에 스팀 밀크를 넉넉히 더하고 얇은 거품을 얹은 음료",
+            "en": "Espresso with plenty of steamed milk and a thin topping of foam."
           }
         },
         {
@@ -7637,6 +7630,13 @@
           "text": {
             "ko": "커피나무 종 Coffea arabica를 부르는 이름",
             "en": "The coffee species Coffea arabica."
+          }
+        },
+        {
+          "id": "coffee.americano",
+          "text": {
+            "ko": "에스프레소에 물을 더한 음료",
+            "en": "Espresso diluted with water."
           }
         }
       ],
@@ -7646,8 +7646,8 @@
       "id": "coffee.extraction.reverse",
       "knowledgeId": "coffee.extraction",
       "prompt": {
-        "ko": "물로 커피의 녹는 성분을 끌어내는 과정\n이 설명에 맞는 용어는?",
-        "en": "Dissolving soluble coffee compounds in water.\nWhich term matches?"
+        "ko": "물로 커피의 녹는 성분을 끌어내는 과정\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Dissolving soluble coffee compounds in water.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -7655,13 +7655,6 @@
           "text": {
             "ko": "추출",
             "en": "Extraction"
-          }
-        },
-        {
-          "id": "coffee.espresso",
-          "text": {
-            "ko": "에스프레소",
-            "en": "Espresso"
           }
         },
         {
@@ -7677,6 +7670,13 @@
             "ko": "아라비카",
             "en": "Arabica"
           }
+        },
+        {
+          "id": "coffee.americano",
+          "text": {
+            "ko": "아메리카노",
+            "en": "Americano"
+          }
         }
       ],
       "answerId": "coffee.extraction"
@@ -7685,8 +7685,8 @@
       "id": "coffee.espresso.forward",
       "knowledgeId": "coffee.espresso",
       "prompt": {
-        "ko": "“에스프레소”에 맞는 설명은?",
-        "en": "Which description matches “Espresso”?"
+        "ko": "“에스프레소”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Espresso”?"
       },
       "options": [
         {
@@ -7697,17 +7697,10 @@
           }
         },
         {
-          "id": "coffee.filter",
-          "text": {
-            "ko": "필터로 커피 가루를 걸러 내리는 커피",
-            "en": "Coffee brewed through a filter that holds back the grounds."
-          }
-        },
-        {
           "id": "coffee.cappuccino",
           "text": {
-            "ko": "에스프레소·스팀 밀크와 뚜렷한 우유 거품층의 음료",
-            "en": "Espresso with steamed milk and a distinct layer of milk foam."
+            "ko": "에스프레소에 스팀 밀크와 라테보다 두꺼운 우유 거품층을 더한 음료",
+            "en": "Espresso with steamed milk and a thicker foam layer than a latte."
           }
         },
         {
@@ -7715,6 +7708,13 @@
           "text": {
             "ko": "Coffea canephora 종의 커피를 흔히 부르는 이름",
             "en": "The common name for coffee of the species Coffea canephora."
+          }
+        },
+        {
+          "id": "coffee.immersion",
+          "text": {
+            "ko": "커피 가루를 물에 담가 두어 추출하는 방식",
+            "en": "Brewing by steeping coffee grounds in water."
           }
         }
       ],
@@ -7724,8 +7724,8 @@
       "id": "coffee.espresso.reverse",
       "knowledgeId": "coffee.espresso",
       "prompt": {
-        "ko": "압력을 가한 뜨거운 물로 곱게 간 커피를 통과시켜 내리는 방식\n이 설명에 맞는 용어는?",
-        "en": "Brewing finely ground coffee with hot water under pressure.\nWhich term matches?"
+        "ko": "압력을 가한 뜨거운 물로 곱게 간 커피를 통과시켜 내리는 방식\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Brewing finely ground coffee with hot water under pressure.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -7733,13 +7733,6 @@
           "text": {
             "ko": "에스프레소",
             "en": "Espresso"
-          }
-        },
-        {
-          "id": "coffee.filter",
-          "text": {
-            "ko": "필터 커피",
-            "en": "Filter coffee"
           }
         },
         {
@@ -7755,6 +7748,13 @@
             "ko": "로부스타",
             "en": "Robusta"
           }
+        },
+        {
+          "id": "coffee.immersion",
+          "text": {
+            "ko": "침지 추출",
+            "en": "Immersion brewing"
+          }
         }
       ],
       "answerId": "coffee.espresso"
@@ -7763,15 +7763,15 @@
       "id": "coffee.filter.forward",
       "knowledgeId": "coffee.filter",
       "prompt": {
-        "ko": "“필터 커피”에 맞는 설명은?",
-        "en": "Which description matches “Filter coffee”?"
+        "ko": "“필터 커피”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Filter coffee”?"
       },
       "options": [
         {
           "id": "coffee.filter",
           "text": {
-            "ko": "필터로 커피 가루를 걸러 내리는 커피",
-            "en": "Coffee brewed through a filter that holds back the grounds."
+            "ko": "물을 커피 가루와 필터에 통과시켜 내리는 커피",
+            "en": "Coffee made by passing water through grounds held in a filter."
           }
         },
         {
@@ -7802,8 +7802,8 @@
       "id": "coffee.filter.reverse",
       "knowledgeId": "coffee.filter",
       "prompt": {
-        "ko": "필터로 커피 가루를 걸러 내리는 커피\n이 설명에 맞는 용어는?",
-        "en": "Coffee brewed through a filter that holds back the grounds.\nWhich term matches?"
+        "ko": "물을 커피 가루와 필터에 통과시켜 내리는 커피\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Coffee made by passing water through grounds held in a filter.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -7841,8 +7841,8 @@
       "id": "coffee.immersion.forward",
       "knowledgeId": "coffee.immersion",
       "prompt": {
-        "ko": "“침지 추출”에 맞는 설명은?",
-        "en": "Which description matches “Immersion brewing”?"
+        "ko": "“침지 추출”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Immersion brewing”?"
       },
       "options": [
         {
@@ -7850,13 +7850,6 @@
           "text": {
             "ko": "커피 가루를 물에 담가 두어 추출하는 방식",
             "en": "Brewing by steeping coffee grounds in water."
-          }
-        },
-        {
-          "id": "coffee.french-press",
-          "text": {
-            "ko": "담가 우린 커피 가루를 누름망으로 분리하는 기구",
-            "en": "A brewer with a plunger filter that separates steeped grounds."
           }
         },
         {
@@ -7872,6 +7865,13 @@
             "ko": "커피 열매 안의 씨앗",
             "en": "A seed from a coffee fruit."
           }
+        },
+        {
+          "id": "coffee.americano",
+          "text": {
+            "ko": "에스프레소에 물을 더한 음료",
+            "en": "Espresso diluted with water."
+          }
         }
       ],
       "answerId": "coffee.immersion"
@@ -7880,8 +7880,8 @@
       "id": "coffee.immersion.reverse",
       "knowledgeId": "coffee.immersion",
       "prompt": {
-        "ko": "커피 가루를 물에 담가 두어 추출하는 방식\n이 설명에 맞는 용어는?",
-        "en": "Brewing by steeping coffee grounds in water.\nWhich term matches?"
+        "ko": "커피 가루를 물에 담가 두어 추출하는 방식\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Brewing by steeping coffee grounds in water.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -7889,13 +7889,6 @@
           "text": {
             "ko": "침지 추출",
             "en": "Immersion brewing"
-          }
-        },
-        {
-          "id": "coffee.french-press",
-          "text": {
-            "ko": "프렌치 프레스",
-            "en": "French press"
           }
         },
         {
@@ -7911,6 +7904,13 @@
             "ko": "커피 원두",
             "en": "Coffee bean"
           }
+        },
+        {
+          "id": "coffee.americano",
+          "text": {
+            "ko": "아메리카노",
+            "en": "Americano"
+          }
         }
       ],
       "answerId": "coffee.immersion"
@@ -7919,8 +7919,8 @@
       "id": "coffee.french-press.forward",
       "knowledgeId": "coffee.french-press",
       "prompt": {
-        "ko": "“프렌치 프레스”에 맞는 설명은?",
-        "en": "Which description matches “French press”?"
+        "ko": "“프렌치 프레스”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “French press”?"
       },
       "options": [
         {
@@ -7958,8 +7958,8 @@
       "id": "coffee.french-press.reverse",
       "knowledgeId": "coffee.french-press",
       "prompt": {
-        "ko": "담가 우린 커피 가루를 누름망으로 분리하는 기구\n이 설명에 맞는 용어는?",
-        "en": "A brewer with a plunger filter that separates steeped grounds.\nWhich term matches?"
+        "ko": "담가 우린 커피 가루를 누름망으로 분리하는 기구\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "A brewer with a plunger filter that separates steeped grounds.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -7997,8 +7997,8 @@
       "id": "coffee.cold-brew.forward",
       "knowledgeId": "coffee.cold-brew",
       "prompt": {
-        "ko": "“콜드 브루”에 맞는 설명은?",
-        "en": "Which description matches “Cold brew”?"
+        "ko": "“콜드 브루”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Cold brew”?"
       },
       "options": [
         {
@@ -8036,8 +8036,8 @@
       "id": "coffee.cold-brew.reverse",
       "knowledgeId": "coffee.cold-brew",
       "prompt": {
-        "ko": "차갑거나 상온인 물로 오랜 시간 추출하는 방식\n이 설명에 맞는 용어는?",
-        "en": "A long extraction using cold or room-temperature water.\nWhich term matches?"
+        "ko": "차갑거나 상온인 물로 오랜 시간 추출하는 방식\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "A long extraction using cold or room-temperature water.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -8075,8 +8075,8 @@
       "id": "coffee.americano.forward",
       "knowledgeId": "coffee.americano",
       "prompt": {
-        "ko": "“아메리카노”에 맞는 설명은?",
-        "en": "Which description matches “Americano”?"
+        "ko": "“아메리카노”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Americano”?"
       },
       "options": [
         {
@@ -8089,8 +8089,8 @@
         {
           "id": "coffee.latte",
           "text": {
-            "ko": "에스프레소에 스팀 밀크를 넉넉히 더한 음료",
-            "en": "Espresso combined with a generous amount of steamed milk."
+            "ko": "에스프레소에 스팀 밀크를 넉넉히 더하고 얇은 거품을 얹은 음료",
+            "en": "Espresso with plenty of steamed milk and a thin topping of foam."
           }
         },
         {
@@ -8114,8 +8114,8 @@
       "id": "coffee.americano.reverse",
       "knowledgeId": "coffee.americano",
       "prompt": {
-        "ko": "에스프레소에 물을 더한 음료\n이 설명에 맞는 용어는?",
-        "en": "Espresso diluted with water.\nWhich term matches?"
+        "ko": "에스프레소에 물을 더한 음료\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Espresso diluted with water.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -8153,22 +8153,22 @@
       "id": "coffee.latte.forward",
       "knowledgeId": "coffee.latte",
       "prompt": {
-        "ko": "“카페 라테”에 맞는 설명은?",
-        "en": "Which description matches “Caffè latte”?"
+        "ko": "“카페 라테”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Caffè latte”?"
       },
       "options": [
         {
           "id": "coffee.latte",
           "text": {
-            "ko": "에스프레소에 스팀 밀크를 넉넉히 더한 음료",
-            "en": "Espresso combined with a generous amount of steamed milk."
+            "ko": "에스프레소에 스팀 밀크를 넉넉히 더하고 얇은 거품을 얹은 음료",
+            "en": "Espresso with plenty of steamed milk and a thin topping of foam."
           }
         },
         {
           "id": "coffee.cappuccino",
           "text": {
-            "ko": "에스프레소·스팀 밀크와 뚜렷한 우유 거품층의 음료",
-            "en": "Espresso with steamed milk and a distinct layer of milk foam."
+            "ko": "에스프레소에 스팀 밀크와 라테보다 두꺼운 우유 거품층을 더한 음료",
+            "en": "Espresso with steamed milk and a thicker foam layer than a latte."
           }
         },
         {
@@ -8192,8 +8192,8 @@
       "id": "coffee.latte.reverse",
       "knowledgeId": "coffee.latte",
       "prompt": {
-        "ko": "에스프레소에 스팀 밀크를 넉넉히 더한 음료\n이 설명에 맞는 용어는?",
-        "en": "Espresso combined with a generous amount of steamed milk.\nWhich term matches?"
+        "ko": "에스프레소에 스팀 밀크를 넉넉히 더하고 얇은 거품을 얹은 음료\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Espresso with plenty of steamed milk and a thin topping of foam.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -8231,15 +8231,15 @@
       "id": "coffee.cappuccino.forward",
       "knowledgeId": "coffee.cappuccino",
       "prompt": {
-        "ko": "“카푸치노”에 맞는 설명은?",
-        "en": "Which description matches “Cappuccino”?"
+        "ko": "“카푸치노”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Cappuccino”?"
       },
       "options": [
         {
           "id": "coffee.cappuccino",
           "text": {
-            "ko": "에스프레소·스팀 밀크와 뚜렷한 우유 거품층의 음료",
-            "en": "Espresso with steamed milk and a distinct layer of milk foam."
+            "ko": "에스프레소에 스팀 밀크와 라테보다 두꺼운 우유 거품층을 더한 음료",
+            "en": "Espresso with steamed milk and a thicker foam layer than a latte."
           }
         },
         {
@@ -8270,8 +8270,8 @@
       "id": "coffee.cappuccino.reverse",
       "knowledgeId": "coffee.cappuccino",
       "prompt": {
-        "ko": "에스프레소·스팀 밀크와 뚜렷한 우유 거품층의 음료\n이 설명에 맞는 용어는?",
-        "en": "Espresso with steamed milk and a distinct layer of milk foam.\nWhich term matches?"
+        "ko": "에스프레소에 스팀 밀크와 라테보다 두꺼운 우유 거품층을 더한 음료\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Espresso with steamed milk and a thicker foam layer than a latte.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -8309,8 +8309,8 @@
       "id": "coffee.decaf.forward",
       "knowledgeId": "coffee.decaf",
       "prompt": {
-        "ko": "“디카페인”에 맞는 설명은?",
-        "en": "Which description matches “Decaffeinated coffee”?"
+        "ko": "“디카페인”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Decaffeinated coffee”?"
       },
       "options": [
         {
@@ -8337,8 +8337,8 @@
         {
           "id": "coffee.filter",
           "text": {
-            "ko": "필터로 커피 가루를 걸러 내리는 커피",
-            "en": "Coffee brewed through a filter that holds back the grounds."
+            "ko": "물을 커피 가루와 필터에 통과시켜 내리는 커피",
+            "en": "Coffee made by passing water through grounds held in a filter."
           }
         }
       ],
@@ -8348,8 +8348,8 @@
       "id": "coffee.decaf.reverse",
       "knowledgeId": "coffee.decaf",
       "prompt": {
-        "ko": "카페인의 대부분을 제거한 커피로 완전한 무카페인을 뜻하지 않음\n이 설명에 맞는 용어는?",
-        "en": "Coffee with most caffeine removed, not necessarily zero caffeine.\nWhich term matches?"
+        "ko": "카페인의 대부분을 제거한 커피로 완전한 무카페인을 뜻하지 않음\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Coffee with most caffeine removed, not necessarily zero caffeine.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -8387,8 +8387,8 @@
       "id": "coffee.natural.forward",
       "knowledgeId": "coffee.natural",
       "prompt": {
-        "ko": "“내추럴 가공”에 맞는 설명은?",
-        "en": "Which description matches “Natural processing”?"
+        "ko": "“내추럴 가공”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Natural processing”?"
       },
       "options": [
         {
@@ -8426,8 +8426,8 @@
       "id": "coffee.natural.reverse",
       "knowledgeId": "coffee.natural",
       "prompt": {
-        "ko": "커피 열매를 통째로 말리는 가공 방식\n이 설명에 맞는 용어는?",
-        "en": "Processing in which the whole coffee fruit is dried.\nWhich term matches?"
+        "ko": "커피 열매를 통째로 말리는 가공 방식\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Processing in which the whole coffee fruit is dried.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -8465,8 +8465,8 @@
       "id": "coffee.washed.forward",
       "knowledgeId": "coffee.washed",
       "prompt": {
-        "ko": "“워시드 가공”에 맞는 설명은?",
-        "en": "Which description matches “Washed processing”?"
+        "ko": "“워시드 가공”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Washed processing”?"
       },
       "options": [
         {
@@ -8504,8 +8504,8 @@
       "id": "coffee.washed.reverse",
       "knowledgeId": "coffee.washed",
       "prompt": {
-        "ko": "건조 전에 과육과 점액질을 제거하는 가공 방식\n이 설명에 맞는 용어는?",
-        "en": "Processing that removes fruit flesh and mucilage before drying.\nWhich term matches?"
+        "ko": "건조 전에 과육과 점액질을 제거하는 가공 방식\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Processing that removes fruit flesh and mucilage before drying.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -8543,8 +8543,8 @@
       "id": "coffee.blend.forward",
       "knowledgeId": "coffee.blend",
       "prompt": {
-        "ko": "“블렌드”에 맞는 설명은?",
-        "en": "Which description matches “Blend”?"
+        "ko": "“블렌드”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Blend”?"
       },
       "options": [
         {
@@ -8582,8 +8582,8 @@
       "id": "coffee.blend.reverse",
       "knowledgeId": "coffee.blend",
       "prompt": {
-        "ko": "서로 다른 커피를 섞은 것\n이 설명에 맞는 용어는?",
-        "en": "A mixture of different coffees.\nWhich term matches?"
+        "ko": "서로 다른 커피를 섞은 것\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "A mixture of different coffees.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -8621,8 +8621,8 @@
       "id": "wine.fermentation.forward",
       "knowledgeId": "wine.fermentation",
       "prompt": {
-        "ko": "“알코올 발효”에 맞는 설명은?",
-        "en": "Which description matches “Alcoholic fermentation”?"
+        "ko": "“알코올 발효”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Alcoholic fermentation”?"
       },
       "options": [
         {
@@ -8660,8 +8660,8 @@
       "id": "wine.fermentation.reverse",
       "knowledgeId": "wine.fermentation",
       "prompt": {
-        "ko": "효모가 당을 알코올과 이산화탄소로 바꾸는 과정\n이 설명에 맞는 용어는?",
-        "en": "Yeast converting sugar into alcohol and carbon dioxide.\nWhich term matches?"
+        "ko": "효모가 당을 알코올과 이산화탄소로 바꾸는 과정\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Yeast converting sugar into alcohol and carbon dioxide.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -8699,8 +8699,8 @@
       "id": "wine.vintage.forward",
       "knowledgeId": "wine.vintage",
       "prompt": {
-        "ko": "“빈티지”에 맞는 설명은?",
-        "en": "Which description matches “Vintage”?"
+        "ko": "“빈티지”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Vintage”?"
       },
       "options": [
         {
@@ -8738,8 +8738,8 @@
       "id": "wine.vintage.reverse",
       "knowledgeId": "wine.vintage",
       "prompt": {
-        "ko": "와인용 포도를 수확한 해\n이 설명에 맞는 용어는?",
-        "en": "The year the grapes were harvested.\nWhich term matches?"
+        "ko": "와인용 포도를 수확한 해\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The year the grapes were harvested.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -8777,8 +8777,8 @@
       "id": "wine.variety.forward",
       "knowledgeId": "wine.variety",
       "prompt": {
-        "ko": "“포도 품종”에 맞는 설명은?",
-        "en": "Which description matches “Grape variety”?"
+        "ko": "“포도 품종”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Grape variety”?"
       },
       "options": [
         {
@@ -8816,8 +8816,8 @@
       "id": "wine.variety.reverse",
       "knowledgeId": "wine.variety",
       "prompt": {
-        "ko": "샤르도네나 메를로처럼 포도를 구분하는 재배 품종\n이 설명에 맞는 용어는?",
-        "en": "A cultivated type of grape, such as Chardonnay or Merlot.\nWhich term matches?"
+        "ko": "샤르도네나 메를로처럼 포도를 구분하는 재배 품종\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "A cultivated type of grape, such as Chardonnay or Merlot.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -8855,8 +8855,8 @@
       "id": "wine.blend.forward",
       "knowledgeId": "wine.blend",
       "prompt": {
-        "ko": "“블렌딩”에 맞는 설명은?",
-        "en": "Which description matches “Blending”?"
+        "ko": "“블렌딩”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Blending”?"
       },
       "options": [
         {
@@ -8894,8 +8894,8 @@
       "id": "wine.blend.reverse",
       "knowledgeId": "wine.blend",
       "prompt": {
-        "ko": "다른 와인이나 포도 품종의 와인을 섞는 과정\n이 설명에 맞는 용어는?",
-        "en": "Combining wines, including wines from different grape varieties.\nWhich term matches?"
+        "ko": "다른 와인이나 포도 품종의 와인을 섞는 과정\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Combining wines, including wines from different grape varieties.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -8933,8 +8933,8 @@
       "id": "wine.tannin.forward",
       "knowledgeId": "wine.tannin",
       "prompt": {
-        "ko": "“타닌”에 맞는 설명은?",
-        "en": "Which description matches “Tannin”?"
+        "ko": "“타닌”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Tannin”?"
       },
       "options": [
         {
@@ -8972,8 +8972,8 @@
       "id": "wine.tannin.reverse",
       "knowledgeId": "wine.tannin",
       "prompt": {
-        "ko": "입안을 마르게 하는 떫은 감각에 관여하는 성분\n이 설명에 맞는 용어는?",
-        "en": "Compounds contributing to a drying, astringent sensation.\nWhich term matches?"
+        "ko": "입안을 마르게 하는 떫은 감각에 관여하는 성분\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Compounds contributing to a drying, astringent sensation.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -9011,8 +9011,8 @@
       "id": "wine.acidity.forward",
       "knowledgeId": "wine.acidity",
       "prompt": {
-        "ko": "“산도”에 맞는 설명은?",
-        "en": "Which description matches “Acidity”?"
+        "ko": "“산도”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Acidity”?"
       },
       "options": [
         {
@@ -9050,8 +9050,8 @@
       "id": "wine.acidity.reverse",
       "knowledgeId": "wine.acidity",
       "prompt": {
-        "ko": "와인의 신맛과 관련된 산의 특성\n이 설명에 맞는 용어는?",
-        "en": "The acidic character associated with tartness in wine.\nWhich term matches?"
+        "ko": "와인의 신맛과 관련된 산의 특성\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The acidic character associated with tartness in wine.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -9089,8 +9089,8 @@
       "id": "wine.body.forward",
       "knowledgeId": "wine.body",
       "prompt": {
-        "ko": "“바디”에 맞는 설명은?",
-        "en": "Which description matches “Body”?"
+        "ko": "“바디”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Body”?"
       },
       "options": [
         {
@@ -9117,8 +9117,8 @@
         {
           "id": "wine.appellation",
           "text": {
-            "ko": "와인의 지리적 생산지를 나타내는 규정된 명칭",
-            "en": "A regulated designation identifying a wine's geographical origin."
+            "ko": "포도의 지리적 원산지를 나타내는 규정된 명칭",
+            "en": "A regulated designation identifying the geographical origin of the grapes."
           }
         }
       ],
@@ -9128,8 +9128,8 @@
       "id": "wine.body.reverse",
       "knowledgeId": "wine.body",
       "prompt": {
-        "ko": "입안에서 느껴지는 와인의 무게감\n이 설명에 맞는 용어는?",
-        "en": "The perceived weight of wine in the mouth.\nWhich term matches?"
+        "ko": "입안에서 느껴지는 와인의 무게감\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The perceived weight of wine in the mouth.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -9167,8 +9167,8 @@
       "id": "wine.dry.forward",
       "knowledgeId": "wine.dry",
       "prompt": {
-        "ko": "“드라이”에 맞는 설명은?",
-        "en": "Which description matches “Dry”?"
+        "ko": "“드라이”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Dry”?"
       },
       "options": [
         {
@@ -9206,8 +9206,8 @@
       "id": "wine.dry.reverse",
       "knowledgeId": "wine.dry",
       "prompt": {
-        "ko": "단맛이 없거나 거의 느껴지지 않는 스타일\n이 설명에 맞는 용어는?",
-        "en": "A style with little or no perceptible sweetness.\nWhich term matches?"
+        "ko": "단맛이 없거나 거의 느껴지지 않는 스타일\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "A style with little or no perceptible sweetness.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -9245,8 +9245,8 @@
       "id": "wine.residual-sugar.forward",
       "knowledgeId": "wine.residual-sugar",
       "prompt": {
-        "ko": "“잔당”에 맞는 설명은?",
-        "en": "Which description matches “Residual sugar”?"
+        "ko": "“잔당”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Residual sugar”?"
       },
       "options": [
         {
@@ -9284,8 +9284,8 @@
       "id": "wine.residual-sugar.reverse",
       "knowledgeId": "wine.residual-sugar",
       "prompt": {
-        "ko": "발효 후 와인에 남아 있는 당\n이 설명에 맞는 용어는?",
-        "en": "Sugar remaining in wine after fermentation.\nWhich term matches?"
+        "ko": "발효 후 와인에 남아 있는 당\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Sugar remaining in wine after fermentation.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -9323,8 +9323,8 @@
       "id": "wine.still.forward",
       "knowledgeId": "wine.still",
       "prompt": {
-        "ko": "“스틸 와인”에 맞는 설명은?",
-        "en": "Which description matches “Still wine”?"
+        "ko": "“스틸 와인”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Still wine”?"
       },
       "options": [
         {
@@ -9362,8 +9362,8 @@
       "id": "wine.still.reverse",
       "knowledgeId": "wine.still",
       "prompt": {
-        "ko": "스파클링 와인과 달리 뚜렷한 발포가 없는 와인\n이 설명에 맞는 용어는?",
-        "en": "Wine without the noticeable effervescence of sparkling wine.\nWhich term matches?"
+        "ko": "스파클링 와인과 달리 뚜렷한 발포가 없는 와인\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Wine without the noticeable effervescence of sparkling wine.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -9401,8 +9401,8 @@
       "id": "wine.sparkling.forward",
       "knowledgeId": "wine.sparkling",
       "prompt": {
-        "ko": "“스파클링 와인”에 맞는 설명은?",
-        "en": "Which description matches “Sparkling wine”?"
+        "ko": "“스파클링 와인”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Sparkling wine”?"
       },
       "options": [
         {
@@ -9440,8 +9440,8 @@
       "id": "wine.sparkling.reverse",
       "knowledgeId": "wine.sparkling",
       "prompt": {
-        "ko": "용해된 이산화탄소가 기포를 만드는 와인\n이 설명에 맞는 용어는?",
-        "en": "Wine with bubbles produced by dissolved carbon dioxide.\nWhich term matches?"
+        "ko": "용해된 이산화탄소가 기포를 만드는 와인\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Wine with bubbles produced by dissolved carbon dioxide.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -9479,8 +9479,8 @@
       "id": "wine.fortified.forward",
       "knowledgeId": "wine.fortified",
       "prompt": {
-        "ko": "“주정 강화 와인”에 맞는 설명은?",
-        "en": "Which description matches “Fortified wine”?"
+        "ko": "“주정 강화 와인”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Fortified wine”?"
       },
       "options": [
         {
@@ -9518,8 +9518,8 @@
       "id": "wine.fortified.reverse",
       "knowledgeId": "wine.fortified",
       "prompt": {
-        "ko": "알코올 도수를 높이기 위해 증류주를 더한 와인\n이 설명에 맞는 용어는?",
-        "en": "Wine to which spirit has been added to increase alcohol content.\nWhich term matches?"
+        "ko": "알코올 도수를 높이기 위해 증류주를 더한 와인\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Wine to which spirit has been added to increase alcohol content.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -9557,8 +9557,8 @@
       "id": "wine.rose.forward",
       "knowledgeId": "wine.rose",
       "prompt": {
-        "ko": "“로제”에 맞는 설명은?",
-        "en": "Which description matches “Rosé”?"
+        "ko": "“로제”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Rosé”?"
       },
       "options": [
         {
@@ -9578,8 +9578,8 @@
         {
           "id": "wine.appellation",
           "text": {
-            "ko": "와인의 지리적 생산지를 나타내는 규정된 명칭",
-            "en": "A regulated designation identifying a wine's geographical origin."
+            "ko": "포도의 지리적 원산지를 나타내는 규정된 명칭",
+            "en": "A regulated designation identifying the geographical origin of the grapes."
           }
         },
         {
@@ -9596,8 +9596,8 @@
       "id": "wine.rose.reverse",
       "knowledgeId": "wine.rose",
       "prompt": {
-        "ko": "분홍색 계열을 띠는 와인\n이 설명에 맞는 용어는?",
-        "en": "A wine with a pink range of colours.\nWhich term matches?"
+        "ko": "분홍색 계열을 띠는 와인\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "A wine with a pink range of colours.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -9635,8 +9635,8 @@
       "id": "wine.red.forward",
       "knowledgeId": "wine.red",
       "prompt": {
-        "ko": "“레드 와인”에 맞는 설명은?",
-        "en": "Which description matches “Red wine”?"
+        "ko": "“레드 와인”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Red wine”?"
       },
       "options": [
         {
@@ -9674,8 +9674,8 @@
       "id": "wine.red.reverse",
       "knowledgeId": "wine.red",
       "prompt": {
-        "ko": "일반적으로 검은 포도의 껍질과 함께 발효해 색을 얻는 와인\n이 설명에 맞는 용어는?",
-        "en": "Wine generally gaining colour by fermenting with dark grape skins.\nWhich term matches?"
+        "ko": "일반적으로 검은 포도의 껍질과 함께 발효해 색을 얻는 와인\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Wine generally gaining colour by fermenting with dark grape skins.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -9713,8 +9713,8 @@
       "id": "wine.white.forward",
       "knowledgeId": "wine.white",
       "prompt": {
-        "ko": "“화이트 와인”에 맞는 설명은?",
-        "en": "Which description matches “White wine”?"
+        "ko": "“화이트 와인”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “White wine”?"
       },
       "options": [
         {
@@ -9752,8 +9752,8 @@
       "id": "wine.white.reverse",
       "knowledgeId": "wine.white",
       "prompt": {
-        "ko": "보통 껍질과 분리한 포도즙으로 발효하는 밝은 색 와인\n이 설명에 맞는 용어는?",
-        "en": "Light-coloured wine usually fermented from juice separated from skins.\nWhich term matches?"
+        "ko": "보통 껍질과 분리한 포도즙으로 발효하는 밝은 색 와인\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Light-coloured wine usually fermented from juice separated from skins.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -9791,8 +9791,8 @@
       "id": "wine.lees.forward",
       "knowledgeId": "wine.lees",
       "prompt": {
-        "ko": "“리스”에 맞는 설명은?",
-        "en": "Which description matches “Lees”?"
+        "ko": "“리스”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Lees”?"
       },
       "options": [
         {
@@ -9830,8 +9830,8 @@
       "id": "wine.lees.reverse",
       "knowledgeId": "wine.lees",
       "prompt": {
-        "ko": "발효 뒤 가라앉는 효모 등의 침전물\n이 설명에 맞는 용어는?",
-        "en": "Sediment including yeast cells that settles after fermentation.\nWhich term matches?"
+        "ko": "발효 뒤 가라앉는 효모 등의 침전물\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Sediment including yeast cells that settles after fermentation.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -9869,8 +9869,8 @@
       "id": "wine.oak.forward",
       "knowledgeId": "wine.oak",
       "prompt": {
-        "ko": "“오크 숙성”에 맞는 설명은?",
-        "en": "Which description matches “Oak ageing”?"
+        "ko": "“오크 숙성”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Oak ageing”?"
       },
       "options": [
         {
@@ -9908,8 +9908,8 @@
       "id": "wine.oak.reverse",
       "knowledgeId": "wine.oak",
       "prompt": {
-        "ko": "참나무 용기에서 와인을 숙성하는 과정\n이 설명에 맞는 용어는?",
-        "en": "Maturing wine in oak containers.\nWhich term matches?"
+        "ko": "참나무 용기에서 와인을 숙성하는 과정\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Maturing wine in oak containers.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -9947,8 +9947,8 @@
       "id": "wine.malolactic.forward",
       "knowledgeId": "wine.malolactic",
       "prompt": {
-        "ko": "“젖산 발효”에 맞는 설명은?",
-        "en": "Which description matches “Malolactic conversion”?"
+        "ko": "“젖산 발효”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Malolactic conversion”?"
       },
       "options": [
         {
@@ -9986,8 +9986,8 @@
       "id": "wine.malolactic.reverse",
       "knowledgeId": "wine.malolactic",
       "prompt": {
-        "ko": "사과산을 젖산으로 바꾸는 과정\n이 설명에 맞는 용어는?",
-        "en": "The conversion of malic acid into lactic acid.\nWhich term matches?"
+        "ko": "사과산을 젖산으로 바꾸는 과정\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "The conversion of malic acid into lactic acid.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -10025,8 +10025,8 @@
       "id": "wine.decanting.forward",
       "knowledgeId": "wine.decanting",
       "prompt": {
-        "ko": "“디캔팅”에 맞는 설명은?",
-        "en": "Which description matches “Decanting”?"
+        "ko": "“디캔팅”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Decanting”?"
       },
       "options": [
         {
@@ -10039,8 +10039,8 @@
         {
           "id": "wine.appellation",
           "text": {
-            "ko": "와인의 지리적 생산지를 나타내는 규정된 명칭",
-            "en": "A regulated designation identifying a wine's geographical origin."
+            "ko": "포도의 지리적 원산지를 나타내는 규정된 명칭",
+            "en": "A regulated designation identifying the geographical origin of the grapes."
           }
         },
         {
@@ -10064,8 +10064,8 @@
       "id": "wine.decanting.reverse",
       "knowledgeId": "wine.decanting",
       "prompt": {
-        "ko": "병의 와인을 다른 용기로 옮겨 담는 작업\n이 설명에 맞는 용어는?",
-        "en": "Pouring wine from its bottle into another vessel.\nWhich term matches?"
+        "ko": "병의 와인을 다른 용기로 옮겨 담는 작업\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "Pouring wine from its bottle into another vessel.\nWhich term best matches this definition?"
       },
       "options": [
         {
@@ -10103,15 +10103,15 @@
       "id": "wine.appellation.forward",
       "knowledgeId": "wine.appellation",
       "prompt": {
-        "ko": "“원산지 명칭”에 맞는 설명은?",
-        "en": "Which description matches “Appellation”?"
+        "ko": "“원산지 명칭”의 뜻으로 가장 알맞은 것은?",
+        "en": "Which definition best matches “Appellation”?"
       },
       "options": [
         {
           "id": "wine.appellation",
           "text": {
-            "ko": "와인의 지리적 생산지를 나타내는 규정된 명칭",
-            "en": "A regulated designation identifying a wine's geographical origin."
+            "ko": "포도의 지리적 원산지를 나타내는 규정된 명칭",
+            "en": "A regulated designation identifying the geographical origin of the grapes."
           }
         },
         {
@@ -10142,8 +10142,8 @@
       "id": "wine.appellation.reverse",
       "knowledgeId": "wine.appellation",
       "prompt": {
-        "ko": "와인의 지리적 생산지를 나타내는 규정된 명칭\n이 설명에 맞는 용어는?",
-        "en": "A regulated designation identifying a wine's geographical origin.\nWhich term matches?"
+        "ko": "포도의 지리적 원산지를 나타내는 규정된 명칭\n이 뜻을 가장 잘 나타내는 용어는?",
+        "en": "A regulated designation identifying the geographical origin of the grapes.\nWhich term best matches this definition?"
       },
       "options": [
         {
