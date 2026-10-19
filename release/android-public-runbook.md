@@ -8,7 +8,7 @@
 - 코드 SHA와 태그: `ad439207a29b4a8d4c809ef99a0219418e6931cb`, `v1.0.0`
 - 패키지: `com.seorilabs.memorizeall`, 버전 `1.0.0`, versionCode `3`
 - Google Play 개발자: `Seolee Apps`, 개발자 ID `5547060480954653351`
-- 무료, 성인 18세 이상, 제공 가능 국가 178개 전체 선택, 전체 공개 승인
+- 무료, 성인 18세 이상, 제공 가능 국가 및 지역 178개 행 전체 선택, 전체 공개 승인
 - Firebase, 로그인, 서버와 별도 원격 분석은 추가하지 않았다. 기존 하단 배너 한 개를 사용한다.
 
 PR #5와 #2는 현재 HEAD의 CI 통과와 리뷰 지적 처리, 미해결 thread 0개 확인 뒤 병합했다. GitHub 병합 API가 공개용 no-reply 이메일 두 형식을 거부해 개인 이메일 설정을 변경하지 않고 Git의 일반 fast-forward 병합으로 PR 커밋을 반영했다. 강제 push나 검사 우회 없이 검수한 코드 SHA를 유지했고, 두 PR의 MERGED 상태와 원격 main을 다시 읽었다.
@@ -35,13 +35,15 @@ AdMob의 `Memorize All Android GDPR`과 `Memorize All Android US states` 메시�
 
 정확한 Play 패키지 검색에는 아직 앱이 나오지 않는다. 스토어 연결과 앱별 app-ads.txt 인증, 광고 준비 상태 심사는 미완료다. 공개 app-ads.txt는 www와 루트 도메인에서 HTTP 200이고 게시자 행이 일치하며 robots는 크롤링을 허용한다. 이것을 이 앱의 인증 완료로 기록하지 않는다. 공개 후 검색 결과를 다시 확인한다.
 
-## 진행 중인 산출물 단계
+## 산출물 검증과 진행 중인 업로드
 
-Linux 릴리스 실행: https://github.com/seoleeapps/memorize-all/actions/runs/39289597630
+Linux 릴리스 실행 https://github.com/seoleeapps/memorize-all/actions/runs/39289597630 의 검사와 서명 빌드가 모두 성공했다. 최종 AAB는 76,794,738바이트이고 SHA-256은 `fd8a520c86c5a5b23c4401dadb12637852135f5bf5317cb36cd0b00902492e14`다. AAB, SOURCE_SHA, SHA256SUMS와 ELF 검사 결과를 Actions의 3일 보존 기한 전에 체크아웃 밖에 내려받아 파일을 다시 읽고 대조했다.
 
-태그의 검사와 웹 회귀는 통과했고 기존 앱 전용 업로드 키로 서명 AAB를 빌드 중이다. Play에서 직접 내려받은 업로드 키 인증서의 SHA-256이 등록된 앱 키와 일치한다. Actions 산출물은 3일 보존이므로 완료 즉시 AAB, SOURCE_SHA, SHA256SUMS와 ELF 검사 결과를 체크아웃 밖에 내려받아 보관한다. 새 AAB의 검증, 내부 업로드와 처리, 프로덕션 심사 제출, 승인과 공개는 아직 완료로 기록하지 않는다.
+실제 manifest에서 패키지, 버전 `1.0.0 (3)`, minSdk 24와 targetSdk 36, 비디버그 상태와 운영 AdMob 앱 ID를 확인했다. AAB의 Expo native 설정에서 운영 모드와 배너 ID를 확인했다. 업로드 키 서명은 Play에서 직접 내려받은 업로드 인증서와 일치했다. 64비트 ELF 46개와 bundle 16KB 설정을 확인했고, 기기 연결 없이 만든 universal APK의 zipalign 16KB 검사를 통과했다. RELRO에는 공식 예외 조건을 적용했다. 실제 16KB 기기 실행은 미실행이다.
 
-최종 AAB의 manifest, 패키지와 버전, 비디버그 설정, 운영 광고 ID와 서명, 64비트 ELF와 APK의 16KB 정렬을 정적으로 확인한다. 과거 AAB에서 46개 라이브러리가 통과한 결과를 새 AAB의 통과로 이어받지 않는다. RELRO에는 공식 예외 조건을 적용한다. 같은 해시의 AAB를 내부 테스트에 올려 처리 상태를 확인한 다음 프로덕션에 제출한다.
+최초 로컬 keytool 실행은 기본 .keystore 파일 부재로 인증서를 출력한 뒤 실패했다. CI와 같은 `-cacerts` 옵션으로 재실행해 검증했다. 키를 새로 만들거나 원본 키를 변경하지 않았다. 산출물 결함으로 기록하지 않으며 이 실행 이력은 정적 검증 근거에 남겼다.
+
+같은 해시의 AAB를 내부 테스트에 올리고 API의 completed 상태와 해시를 다시 읽었다. 콘솔에서도 1.0.0 (3)이 내부 테스터에게 제공됨으로 표시된다. 기기 설치나 실행을 뜻하지 않는다. 같은 versionCode 3을 프로덕션으로 승급해 한영 출시 노트와 전체 출시를 저장했다. 선택 경고는 가독화 파일 부재 한 개이며, Linux 작업 목록에는 minify나 R8 작업이 없다. 임의의 mapping 파일을 만들지 않았다. 프로덕션과 등록정보, 국가 및 지역, 정책 선언 등 변경사항 12개가 게시 개요에 준비됐다. Google의 제출 전 빠른 검사가 진행 중이므로 실제 심사 제출과 승인은 아직 완료로 기록하지 않는다.
 
 ## 미실행 범위
 

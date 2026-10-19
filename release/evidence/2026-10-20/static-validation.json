@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-19T17:18:26.851912+00:00",
+  "sourceSha": "ad439207a29b4a8d4c809ef99a0219418e6931cb",
+  "artifactSha256": "fd8a520c86c5a5b23c4401dadb12637852135f5bf5317cb36cd0b00902492e14",
+  "packageName": "com.seorilabs.memorizeall",
+  "versionName": "1.0.0",
+  "versionCode": 3,
+  "sdk": {
+    "minSdkVersion": "24",
+    "targetSdkVersion": "36"
+  },
+  "debuggable": false,
+  "certificateSha256": "4E:35:39:69:2D:9D:81:F9:AC:6C:C5:3B:3D:B4:7E:F4:88:DC:28:1F:4C:D1:6F:3D:67:FC:79:88:69:DE:E9:15",
+  "jarSignature": "verified",
+  "admobAppId": "ca-app-pub-9932778305312246~8005768438",
+  "bannerId": "ca-app-pub-9932778305312246/1437414097",
+  "adMode": "live",
+  "expoConfigPath": "base/assets/app.config",
+  "bundlePageAlignment": "PAGE_ALIGNMENT_16K",
+  "elf64LibraryCount": 46,
+  "elf64Passed": true,
+  "universalApkZipalign16K": true,
+  "universalApkSha256": "e577f31395fef5806577eb46294a5fc67a7861a6a73712ed1731fd8482b0c077",
+  "nativeRuntime": "unrun; no devices or emulators used",
+  "toolExecutionNotes": [
+    "Initial local keytool exited after printing the certificate because its default .keystore did not exist. Rerun used -cacerts, matching CI. No keystore was created or changed."
+  ]
+}

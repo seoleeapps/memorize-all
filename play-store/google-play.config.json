@@ -41,7 +41,7 @@
     "koreaGameRating": "not-applicable: non-game app"
   },
   "release": {
-    "track": "internal",
+    "track": "production",
     "versionName": "1.0.0",
     "versionCode": 3,
     "releaseNotes": {
@@ -55,7 +55,10 @@
     "release/evidence/2026-10-20/content-final-readback.json",
     "release/evidence/2026-10-20/iarc-readback.json",
     "release/evidence/2026-10-20/countries-readback.json",
-    "release/evidence/2026-10-20/policy-http.json"
+    "release/evidence/2026-10-20/policy-http.json",
+    "release/evidence/2026-10-20/static-validation.json",
+    "release/evidence/2026-10-20/internal-console-readback.json",
+    "release/evidence/2026-10-20/publishing-before-submission.json"
   ],
   "contactWebsite": "https://www.seorilabs.com/apps/memorize-all/support/"
 }

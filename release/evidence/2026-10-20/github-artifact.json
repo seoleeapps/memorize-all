@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-19T17:16:50.969515+00:00",
+  "runUrl": "https://github.com/seoleeapps/memorize-all/actions/runs/39289597630",
+  "runConclusion": "success",
+  "sourceSha": "ad439207a29b4a8d4c809ef99a0219418e6931cb",
+  "artifact": {
+    "id": 12206146523,
+    "name": "android-production-ad439207a29b4a8d4c809ef99a0219418e6931cb",
+    "digest": "sha256:b3f4e70ed7d9af08ac6e557d7a45ff0b3ed4c361cca06b8a1a6279273cdc0274",
+    "size_in_bytes": 76025218,
+    "created_at": "2026-10-19T17:16:23Z",
+    "expires_at": "2026-10-22T17:16:20Z",
+    "expired": false
+  },
+  "files": {
+    "elf-check.json": {
+      "sha256": "6791148a2653f2769f0fd7f692e50e8f133b528f84a926e0af01194cb29fb6aa",
+      "bytes": 76955
+    },
+    "memorize-all-production.aab": {
+      "sha256": "fd8a520c86c5a5b23c4401dadb12637852135f5bf5317cb36cd0b00902492e14",
+      "bytes": 76794738
+    },
+    "SHA256SUMS": {
+      "sha256": "6d690e5c3809b91f2bf23046314009e145238926d909d9a71126c880e4837b62",
+      "bytes": 94
+    },
+    "SOURCE_SHA": {
+      "sha256": "7b237acad93f018152e03b6583fe65444ef915fde61db6cee3a3fc6f44b3a048",
+      "bytes": 41
+    }
+  },
+  "archiveReadback": "Every downloaded file reread; AAB hash and SOURCE_SHA match CI manifest; retained outside checkout before artifact expiry."
+}

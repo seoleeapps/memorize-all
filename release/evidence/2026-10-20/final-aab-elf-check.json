@@ -1,0 +1,3636 @@
+{
+  "artifactSha256": "fd8a520c86c5a5b23c4401dadb12637852135f5bf5317cb36cd0b00902492e14",
+  "libraries": [
+    {
+      "path": "base/lib/arm64-v8a/libandroidx.graphics.path.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 7232,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 7232,
+          "address": 23616,
+          "size": 912,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 8144,
+          "address": 40912,
+          "size": 16,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 7616,
+          "address": 24000,
+          "size": 448,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 7232,
+          "address": 23616,
+          "size": 960,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 3172,
+          "address": 3172,
+          "size": 52,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libappmodules.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 1786256,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1786256,
+          "address": 1802640,
+          "size": 65136,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1851232,
+          "address": 1884000,
+          "size": 12984,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 1838800,
+          "address": 1855184,
+          "size": 560,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 1786256,
+          "address": 1802640,
+          "size": 65136,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 1049404,
+          "address": 1049404,
+          "size": 27516,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libc++_shared.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 672,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 4,
+          "offset": 0,
+          "address": 0,
+          "size": 634024,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 634032,
+          "address": 650416,
+          "size": 616000,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1250032,
+          "address": 1282800,
+          "size": 40208,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1289792,
+          "address": 1338944,
+          "size": 32016,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 1284032,
+          "address": 1316800,
+          "size": 464,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 1250032,
+          "address": 1282800,
+          "size": 40208,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 495244,
+          "address": 495244,
+          "size": 19436,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 1685382483,
+          "flags": 4,
+          "offset": 928,
+          "address": 928,
+          "size": 32,
+          "alignment": 8
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 736,
+          "address": 736,
+          "size": 188,
+          "alignment": 4
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 928,
+          "address": 928,
+          "size": 32,
+          "alignment": 8
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libexpo-modules-core.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 1453184,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1453184,
+          "address": 1469568,
+          "size": 41856,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1493776,
+          "address": 1526544,
+          "size": 5632,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 1478368,
+          "address": 1494752,
+          "size": 544,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 1453184,
+          "address": 1469568,
+          "size": 41856,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 689240,
+          "address": 689240,
+          "size": 20740,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libfbjni.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 171152,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 171152,
+          "address": 187536,
+          "size": 4976,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 174656,
+          "address": 207424,
+          "size": 3528,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 171864,
+          "address": 188248,
+          "size": 464,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 171152,
+          "address": 187536,
+          "size": 4976,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 71836,
+          "address": 71836,
+          "size": 2748,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libgesturehandler.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 86576,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 86576,
+          "address": 102960,
+          "size": 3536,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 89760,
+          "address": 122528,
+          "size": 2368,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 87968,
+          "address": 104352,
+          "size": 512,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 86576,
+          "address": 102960,
+          "size": 3536,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 39772,
+          "address": 39772,
+          "size": 1476,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libgifimage.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 298608,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 298608,
+          "address": 314992,
+          "size": 20880,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 316016,
+          "address": 348784,
+          "size": 3632,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 314224,
+          "address": 330608,
+          "size": 496,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 298608,
+          "address": 314992,
+          "size": 20880,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 92696,
+          "address": 92696,
+          "size": 5492,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 176,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libhermestooling.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 132944,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 132944,
+          "address": 149328,
+          "size": 6320,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 139040,
+          "address": 171808,
+          "size": 2258,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 137296,
+          "address": 153680,
+          "size": 544,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 132944,
+          "address": 149328,
+          "size": 6320,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 57544,
+          "address": 57544,
+          "size": 3124,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libhermesvm.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 2437104,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 2437104,
+          "address": 2453488,
+          "size": 40976,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 2474504,
+          "address": 2507272,
+          "size": 17328,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 2471792,
+          "address": 2488176,
+          "size": 496,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 2437104,
+          "address": 2453488,
+          "size": 40976,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 396692,
+          "address": 396692,
+          "size": 39788,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libimagepipeline.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 5952,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 5952,
+          "address": 22336,
+          "size": 2240,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 6520,
+          "address": 39288,
+          "size": 216,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 5976,
+          "address": 22360,
+          "size": 448,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 5952,
+          "address": 22336,
+          "size": 2240,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 3024,
+          "address": 3024,
+          "size": 156,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 176,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libjsi.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 400880,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 400880,
+          "address": 417264,
+          "size": 12816,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 410384,
+          "address": 443152,
+          "size": 67960,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 407072,
+          "address": 423456,
+          "size": 448,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 400880,
+          "address": 417264,
+          "size": 12816,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 129540,
+          "address": 129540,
+          "size": 5100,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libnative-filters.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 20960,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 20960,
+          "address": 37344,
+          "size": 3616,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 21544,
+          "address": 54312,
+          "size": 144,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 20984,
+          "address": 37368,
+          "size": 448,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 20960,
+          "address": 37344,
+          "size": 3616,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 4700,
+          "address": 4700,
+          "size": 212,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 176,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libnative-imagetranscoder.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 565168,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 565168,
+          "address": 581552,
+          "size": 20560,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 582872,
+          "address": 615640,
+          "size": 3032,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 580976,
+          "address": 597360,
+          "size": 464,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 565168,
+          "address": 581552,
+          "size": 20560,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 94324,
+          "address": 94324,
+          "size": 7852,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 176,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libreact_codegen_rngesturehandler_codegen.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 357936,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 357936,
+          "address": 374320,
+          "size": 10704,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 368368,
+          "address": 401136,
+          "size": 8816,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 364496,
+          "address": 380880,
+          "size": 496,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 357936,
+          "address": 374320,
+          "size": 10704,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 155944,
+          "address": 155944,
+          "size": 4860,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libreact_codegen_rnscreens.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 1155104,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1155104,
+          "address": 1171488,
+          "size": 45024,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1198168,
+          "address": 1230936,
+          "size": 58888,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 1191072,
+          "address": 1207456,
+          "size": 496,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 1155104,
+          "address": 1171488,
+          "size": 45024,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 539248,
+          "address": 539248,
+          "size": 17660,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libreact_codegen_rnsvg.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 763360,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 763360,
+          "address": 779744,
+          "size": 27168,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 786776,
+          "address": 819544,
+          "size": 74664,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 781520,
+          "address": 797904,
+          "size": 496,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 763360,
+          "address": 779744,
+          "size": 27168,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 254376,
+          "address": 254376,
+          "size": 7284,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libreact_codegen_safeareacontext.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 151568,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 151568,
+          "address": 167952,
+          "size": 8176,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 156960,
+          "address": 189728,
+          "size": 5840,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 154776,
+          "address": 171160,
+          "size": 496,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 151568,
+          "address": 167952,
+          "size": 8176,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 67160,
+          "address": 67160,
+          "size": 2084,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libreactnative.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 6815632,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 6815632,
+          "address": 6832016,
+          "size": 163952,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 6977824,
+          "address": 7010592,
+          "size": 143832,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 6951944,
+          "address": 6968328,
+          "size": 512,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 6815632,
+          "address": 6832016,
+          "size": 163952,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 2197176,
+          "address": 2197176,
+          "size": 107132,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libreanimated.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 1445088,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1445088,
+          "address": 1461472,
+          "size": 54048,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1498560,
+          "address": 1531328,
+          "size": 4976,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 1495368,
+          "address": 1511752,
+          "size": 544,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 1445088,
+          "address": 1461472,
+          "size": 54048,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 301616,
+          "address": 301616,
+          "size": 21372,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/librnscreens.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 94912,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 94912,
+          "address": 111296,
+          "size": 7488,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 98664,
+          "address": 131432,
+          "size": 2464,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 96848,
+          "address": 113232,
+          "size": 512,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 94912,
+          "address": 111296,
+          "size": 7488,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 42212,
+          "address": 42212,
+          "size": 1748,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libstatic-webp.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 482096,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 482096,
+          "address": 498480,
+          "size": 17616,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 498760,
+          "address": 531528,
+          "size": 5544,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 496728,
+          "address": 513112,
+          "size": 496,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 482096,
+          "address": 498480,
+          "size": 17616,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 92880,
+          "address": 92880,
+          "size": 7532,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 176,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libworklets.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 1064992,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1064992,
+          "address": 1081376,
+          "size": 36832,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1098824,
+          "address": 1131592,
+          "size": 2944,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 1091240,
+          "address": 1107624,
+          "size": 544,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 1064992,
+          "address": 1081376,
+          "size": 36832,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 417928,
+          "address": 417928,
+          "size": 18684,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/arm64-v8a/libzstd-kmp.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 712640,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 712640,
+          "address": 729024,
+          "size": 20544,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 729328,
+          "address": 762096,
+          "size": 2864,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 727672,
+          "address": 744056,
+          "size": 448,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 712640,
+          "address": 729024,
+          "size": 20544,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 105876,
+          "address": 105876,
+          "size": 8988,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libandroidx.graphics.path.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 560,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 7872,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 7872,
+          "address": 24256,
+          "size": 936,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 8808,
+          "address": 41576,
+          "size": 16,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 8280,
+          "address": 24664,
+          "size": 448,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 7872,
+          "address": 24256,
+          "size": 4416,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 3368,
+          "address": 3368,
+          "size": 52,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 624,
+          "address": 624,
+          "size": 152,
+          "alignment": 2
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 776,
+          "address": 776,
+          "size": 36,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libappmodules.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 1852016,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1852016,
+          "address": 1868400,
+          "size": 64912,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1916928,
+          "address": 1933312,
+          "size": 12976,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 1904544,
+          "address": 1920928,
+          "size": 528,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 1852016,
+          "address": 1868400,
+          "size": 64912,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 1048996,
+          "address": 1048996,
+          "size": 27372,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libc++_shared.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 560,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 4,
+          "offset": 0,
+          "address": 0,
+          "size": 624944,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 624944,
+          "address": 641328,
+          "size": 584480,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1209424,
+          "address": 1242192,
+          "size": 39856,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1249056,
+          "address": 1298208,
+          "size": 32080,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 1243336,
+          "address": 1276104,
+          "size": 448,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 1209424,
+          "address": 1242192,
+          "size": 39856,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 496920,
+          "address": 496920,
+          "size": 19364,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 624,
+          "address": 624,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libexpo-modules-core.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 1414448,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1414448,
+          "address": 1430832,
+          "size": 43728,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1455160,
+          "address": 1487928,
+          "size": 5624,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 1439616,
+          "address": 1456000,
+          "size": 544,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 1414448,
+          "address": 1430832,
+          "size": 43728,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 691664,
+          "address": 691664,
+          "size": 20804,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libfbjni.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 167120,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 167120,
+          "address": 183504,
+          "size": 4912,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 170608,
+          "address": 203376,
+          "size": 3536,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 167832,
+          "address": 184216,
+          "size": 464,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 167120,
+          "address": 183504,
+          "size": 4912,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 72604,
+          "address": 72604,
+          "size": 2732,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libgesturehandler.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 82656,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 82656,
+          "address": 99040,
+          "size": 3360,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 85752,
+          "address": 118520,
+          "size": 2360,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 84032,
+          "address": 100416,
+          "size": 480,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 82656,
+          "address": 99040,
+          "size": 3360,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 40540,
+          "address": 40540,
+          "size": 1420,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libgifimage.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 282816,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 282816,
+          "address": 299200,
+          "size": 20288,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 300048,
+          "address": 332816,
+          "size": 3616,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 298344,
+          "address": 314728,
+          "size": 464,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 282816,
+          "address": 299200,
+          "size": 20288,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 92748,
+          "address": 92748,
+          "size": 5428,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 176,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libhermestooling.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 129808,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 129808,
+          "address": 146192,
+          "size": 9456,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 135808,
+          "address": 168576,
+          "size": 2242,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 134144,
+          "address": 150528,
+          "size": 512,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 129808,
+          "address": 146192,
+          "size": 9456,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 58272,
+          "address": 58272,
+          "size": 3068,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libhermesvm.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 2551920,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 2551920,
+          "address": 2568304,
+          "size": 40848,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 2589152,
+          "address": 2621920,
+          "size": 17336,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 2586696,
+          "address": 2603080,
+          "size": 496,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 2551920,
+          "address": 2568304,
+          "size": 40848,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 411328,
+          "address": 411328,
+          "size": 39660,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libimagepipeline.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 5632,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 5632,
+          "address": 22016,
+          "size": 2560,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 6208,
+          "address": 38976,
+          "size": 232,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 5656,
+          "address": 22040,
+          "size": 448,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 5632,
+          "address": 22016,
+          "size": 2560,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 3024,
+          "address": 3024,
+          "size": 156,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 176,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libjsi.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 407104,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 407104,
+          "address": 423488,
+          "size": 10688,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 416560,
+          "address": 449328,
+          "size": 67984,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 413280,
+          "address": 429664,
+          "size": 448,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 407104,
+          "address": 423488,
+          "size": 10688,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 131836,
+          "address": 131836,
+          "size": 5108,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libnative-filters.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 27760,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 27760,
+          "address": 44144,
+          "size": 912,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 28352,
+          "address": 61120,
+          "size": 152,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 27784,
+          "address": 44168,
+          "size": 448,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 27760,
+          "address": 44144,
+          "size": 912,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 4928,
+          "address": 4928,
+          "size": 212,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 176,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libnative-imagetranscoder.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 701456,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 701456,
+          "address": 717840,
+          "size": 19440,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 718096,
+          "address": 750864,
+          "size": 2928,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 716824,
+          "address": 733208,
+          "size": 432,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 701456,
+          "address": 717840,
+          "size": 19440,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 227488,
+          "address": 227488,
+          "size": 7380,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 176,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libreact_codegen_rngesturehandler_codegen.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 364816,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 364816,
+          "address": 381200,
+          "size": 12016,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 375168,
+          "address": 407936,
+          "size": 8800,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 371360,
+          "address": 387744,
+          "size": 464,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 364816,
+          "address": 381200,
+          "size": 12016,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 157348,
+          "address": 157348,
+          "size": 4804,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libreact_codegen_rnscreens.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 1180576,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1180576,
+          "address": 1196960,
+          "size": 44128,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1223560,
+          "address": 1256328,
+          "size": 58872,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 1216528,
+          "address": 1232912,
+          "size": 464,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 1180576,
+          "address": 1196960,
+          "size": 44128,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 541000,
+          "address": 541000,
+          "size": 17604,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libreact_codegen_rnsvg.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 857136,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 857136,
+          "address": 873520,
+          "size": 23504,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 880472,
+          "address": 913240,
+          "size": 74648,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 875280,
+          "address": 891664,
+          "size": 464,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 857136,
+          "address": 873520,
+          "size": 23504,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 255932,
+          "address": 255932,
+          "size": 7228,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libreact_codegen_safeareacontext.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 152240,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 152240,
+          "address": 168624,
+          "size": 7504,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 157552,
+          "address": 190320,
+          "size": 5840,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 155432,
+          "address": 171816,
+          "size": 464,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 152240,
+          "address": 168624,
+          "size": 7504,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 68304,
+          "address": 68304,
+          "size": 2028,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libreactnative.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 6928784,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 6928784,
+          "address": 6945168,
+          "size": 165488,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 7090704,
+          "address": 7123472,
+          "size": 143872,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 7065056,
+          "address": 7081440,
+          "size": 512,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 6928784,
+          "address": 6945168,
+          "size": 165488,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 2181580,
+          "address": 2181580,
+          "size": 106972,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libreanimated.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 1482720,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1482720,
+          "address": 1499104,
+          "size": 57376,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1536136,
+          "address": 1568904,
+          "size": 4960,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 1532984,
+          "address": 1549368,
+          "size": 544,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 1482720,
+          "address": 1499104,
+          "size": 57376,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 305984,
+          "address": 305984,
+          "size": 21252,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/librnscreens.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 91760,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 91760,
+          "address": 108144,
+          "size": 6544,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 95456,
+          "address": 128224,
+          "size": 2448,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 93680,
+          "address": 110064,
+          "size": 512,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 91760,
+          "address": 108144,
+          "size": 6544,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 43080,
+          "address": 43080,
+          "size": 1692,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libstatic-webp.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 541808,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 541808,
+          "address": 558192,
+          "size": 19344,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 557936,
+          "address": 590704,
+          "size": 5568,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 556376,
+          "address": 572760,
+          "size": 464,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 541808,
+          "address": 558192,
+          "size": 19344,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 97668,
+          "address": 97668,
+          "size": 8404,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 176,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libworklets.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 1019408,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1019408,
+          "address": 1035792,
+          "size": 37360,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 1053176,
+          "address": 1085944,
+          "size": 2936,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 1045640,
+          "address": 1062024,
+          "size": 544,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 1019408,
+          "address": 1035792,
+          "size": 37360,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 419180,
+          "address": 419180,
+          "size": 18604,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    },
+    {
+      "path": "base/lib/x86_64/libzstd-kmp.so",
+      "problems": [],
+      "headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "address": 64,
+          "size": 504,
+          "alignment": 8
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 0,
+          "address": 0,
+          "size": 797600,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 797600,
+          "address": 813984,
+          "size": 17504,
+          "alignment": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 814096,
+          "address": 846864,
+          "size": 2848,
+          "alignment": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 812552,
+          "address": 828936,
+          "size": 416,
+          "alignment": 8
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 797600,
+          "address": 813984,
+          "size": 17504,
+          "alignment": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 109760,
+          "address": 109760,
+          "size": 9100,
+          "alignment": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "address": 0,
+          "size": 0,
+          "alignment": 0
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 568,
+          "address": 568,
+          "size": 188,
+          "alignment": 4
+        }
+      ]
+    }
+  ],
+  "passed": true,
+  "nativeRuntime": "unrun",
+  "rule": "https://developer.android.com/guide/practices/page-sizes#check-relro"
+}

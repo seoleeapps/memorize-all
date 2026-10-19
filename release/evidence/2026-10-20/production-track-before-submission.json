@@ -1,0 +1,78 @@
+{
+  "bundles": {
+    "kind": "androidpublisher#bundlesListResponse",
+    "bundles": [
+      {
+        "versionCode": 1,
+        "sha1": "b65d7457b1011a6191c75c4f40e5eead6f75e0d3",
+        "sha256": "f4e4536610ced5dcc58eb1592cea2e64f72edb7bd909e96128030a053a1cde80"
+      },
+      {
+        "versionCode": 2,
+        "sha1": "0cba581a8e78fdfbe3f0dc94abd6a0b884a7d56a",
+        "sha256": "2e4f34ca833cc1563c276bc10edeb5a51ae16585f75ddd2e35e219ad62c6ab7d"
+      },
+      {
+        "versionCode": 3,
+        "sha1": "15e08a4d50427b3d26bab64f6d1ebbbbd547e66b",
+        "sha256": "fd8a520c86c5a5b23c4401dadb12637852135f5bf5317cb36cd0b00902492e14"
+      }
+    ]
+  },
+  "tracks": {
+    "kind": "androidpublisher#tracksListResponse",
+    "tracks": [
+      {
+        "track": "production",
+        "releases": [
+          {
+            "name": "1.0.0 (3)",
+            "versionCodes": [
+              "3"
+            ],
+            "releaseNotes": [
+              {
+                "language": "ko-KR",
+                "text": "5개 분야의 지식 100개를 퀴즈와 카드로 배우고 복습하세요. 한국어와 영어, 기기 내 진도 저장과 JSON 백업을 지원합니다."
+              },
+              {
+                "language": "en-US",
+                "text": "Learn and review 100 facts across five topics with quizzes and flashcards. Switch between Korean and English, keep progress on your device and export JSON backups."
+              }
+            ],
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "track": "beta"
+      },
+      {
+        "track": "alpha"
+      },
+      {
+        "track": "internal",
+        "releases": [
+          {
+            "name": "1.0.0 (3)",
+            "versionCodes": [
+              "3"
+            ],
+            "releaseNotes": [
+              {
+                "language": "ko-KR",
+                "text": "5개 분야의 지식 100개를 퀴즈와 카드로 배우고 복습하세요. 한국어와 영어, 기기 내 진도 저장과 JSON 백업을 지원합니다."
+              },
+              {
+                "language": "en-US",
+                "text": "Learn and review 100 facts across five topics with quizzes and flashcards. Switch between Korean and English, keep progress on your device and export JSON backups."
+              }
+            ],
+            "status": "completed"
+          }
+        ]
+      }
+    ]
+  },
+  "note": "API completed is rollout configuration, not evidence of Play review approval or public availability. Console submission and storefront are separate gates."
+}

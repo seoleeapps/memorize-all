@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-19T17:21:46.777911+00:00",
+  "versionCode": 3,
+  "blockingErrors": 0,
+  "warnings": [
+    {
+      "type": "missing deobfuscation mapping",
+      "effect": "Optional crash and ANR analysis support; no arbitrary mapping file generated.",
+      "buildEvidence": "Linux build succeeded, signature verified; 1089 Gradle task entries contain no minify or R8 task. Source does not enable release minification."
+    }
+  ],
+  "body": "Google Play Console 로드 중\nnotifications_unread\n읽지 않은 알림\nmore_vert\nhome\nbadge\nplay_prism\ndashboard\nbar_chart\noverview\nshield\nrocket_launch\nvital_signs\nfinance_mode\nsell\n프로덕션 버전 만들기\nwarning\n버전에 문제가 있습니다.\ncheck\n새 버전 출시하기\n2\n미리보기 및 확인\n임시 출시 삭제\n오류, 경고 및 메시지\nwarning\n경고 1개\n간략히\nexpand_less\n버전 코드 3 메시지 1개\nwarning\n경고\n\n이 App Bundle 유형과 연결된 가독화 파일이 없습니다. 난독화된 코드(R8/proguard)를 사용하는 경우 가독화 파일을 업로드하면 비정상 종료 및 ANR을 더 쉽게 분석하고 디버그할 수 있습니다. R8/proguard를 사용하면 앱 크기를 줄이는 데 도움이 됩니다. 자세히 알아보기\n\n출시 버전 제공\n신규 설치 크기\n27.9MB\n다운로드 시간\n16초\n업데이트 크기\n새 App Bundle\n파일 형식\n버전\nAPI 수준\n타겟 SDK\n화면 레이아웃\nABI\n필수 기능\nApp bundle\nattachment\ninfo\n고급\n3 (1.0.0)\n24 이상\n36\n4\n4\n2\narrow_right_alt\n출시 노트\n기본 언어 - en-US\nLearn and review 100 facts across five topics with quizzes and flashcards. Switch between Korean and English, keep progress on your device and export JSON backups.\n2개 중 2개의 언어로 출시 노트 제공됨\n전체 표시\nexpand_more\n저장하면 변경사항이 게시 개요에 저장되고 검토를 위해 Google에 전송될 준비가 됩니다.\n뒤로\n저장\n제품 업데이트\n상태 대시보드\n도움말\n© 2026 Google\n개인 정보 보호\n개발자 배포 계약\n서비스 약관",
+  "action": "save production release for submission overview"
+}

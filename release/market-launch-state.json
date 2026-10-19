@@ -82,23 +82,30 @@
           "blocker": null
         },
         "artifact": {
-          "status": "pending",
+          "status": "pass",
+          "checkedAt": "2026-10-19T17:18:49.138092+00:00",
           "evidence": [
-            "https://github.com/seoleeapps/memorize-all/actions/runs/39289597630"
+            "release/evidence/2026-10-20/static-validation.json",
+            "release/evidence/2026-10-20/github-artifact.json",
+            "release/evidence/2026-10-20/artifact-validation-archive.json"
           ],
-          "checkedAt": "2026-10-19T16:56:17.388264+00:00",
-          "blocker": "Tag build running on Linux; signed AAB has not been downloaded or verified."
+          "blocker": null
         },
         "upload": {
-          "status": "pending",
-          "evidence": [],
-          "checkedAt": null,
+          "status": "pass",
+          "checkedAt": "2026-10-19T17:20:10.365296+00:00",
+          "evidence": [
+            "release/evidence/2026-10-20/internal-upload-journal.json"
+          ],
           "blocker": null
         },
         "processing": {
-          "status": "pending",
-          "evidence": [],
-          "checkedAt": null,
+          "status": "pass",
+          "checkedAt": "2026-10-19T17:20:10.365296+00:00",
+          "evidence": [
+            "release/evidence/2026-10-20/internal-upload-journal.json",
+            "release/evidence/2026-10-20/internal-console-readback.json"
+          ],
           "blocker": null
         },
         "qa": {
@@ -166,9 +173,25 @@
         "build": "3"
       },
       "objective": "public_live",
-      "state": "candidate",
+      "state": "policy",
       "category": "EDUCATION",
-      "managedPublishing": "disabled; approval automatically publishes approved changes"
+      "managedPublishing": "disabled; approval automatically publishes approved changes",
+      "artifactSha256": "fd8a520c86c5a5b23c4401dadb12637852135f5bf5317cb36cd0b00902492e14",
+      "internalTrack": {
+        "status": "completed",
+        "versionCode": 3,
+        "version": "1.0.0",
+        "artifactSha256": "fd8a520c86c5a5b23c4401dadb12637852135f5bf5317cb36cd0b00902492e14",
+        "readbackAt": "2026-10-19T17:20:10.365296+00:00"
+      },
+      "productionRelease": {
+        "version": "1.0.0",
+        "versionCode": 3,
+        "status": "prepared; not submitted",
+        "rollout": "full",
+        "source": "promoted from internal with identical bundle",
+        "beforeSubmissionEvidence": "release/evidence/2026-10-20/publishing-before-submission.json"
+      }
     }
   },
   "nativeValidation": {
