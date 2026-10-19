@@ -47,15 +47,16 @@
     "test:core": "tsx --test tests/*.test.ts",
     "check:content": "tsx scripts/check-content.ts",
     "check:architecture": "tsx scripts/check-architecture.ts",
-    "check:release": "tsx scripts/check-release.ts",
+    "check:release": "npm run check:catalog && tsx scripts/check-release.ts",
     "build:android:internal": "node scripts/build-android.mjs internal",
     "build:android:production": "node scripts/build-android.mjs production",
-    "check": "npm run lint && npm run typecheck && npm run test:core && npm run test:content && npm run check:content && npm run check:architecture",
+    "check": "npm run lint && npm run typecheck && npm run test:core && npm run test:content && npm run check:content && npm run check:architecture && npm run check:catalog",
     "export:web": "expo export --platform web --output-dir dist/web",
     "export:native": "expo export --platform ios --platform android --output-dir dist/native",
     "lint": "eslint .",
     "format:check": "prettier --check src tests scripts/*.ts app.json package.json tsconfig.json eslint.config.js",
-    "test:content": "python3 -m unittest discover -s tests -p test_*.py -v"
+    "test:content": "python3 -m unittest discover -s tests -p test_*.py -v",
+    "check:catalog": "python3 scripts/check-catalog.py"
   },
   "private": true
 }

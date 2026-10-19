@@ -2,10 +2,12 @@ import { catalog } from '../src/content';
 import app from '../app.json';
 import listing from '../play-store/google-play.config.json';
 import ads from '../config/advertising.json';
+import pkg from '../package.json';
 const blockers: string[] = [];
 const pending = catalog.knowledge.filter((k) => k.review !== 'approved');
 if (pending.length) blockers.push(`${pending.length} content candidates remain`);
 if (app.expo.android.package !== listing.packageName) blockers.push('Package mismatch');
+if (pkg.version !== app.expo.version) blockers.push('Package and app version mismatch');
 if (
   app.expo.version !== listing.release.versionName ||
   app.expo.android.versionCode !== listing.release.versionCode

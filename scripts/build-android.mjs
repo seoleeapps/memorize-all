@@ -4,6 +4,23 @@ import { X509Certificate } from 'node:crypto';
 
 const profile = process.argv[2] ?? 'internal';
 if (!['internal', 'production'].includes(profile)) throw new Error('Use internal or production');
+if (profile === 'production') {
+  const appVersion = JSON.parse(readFileSync('app.json', 'utf8')).expo.version;
+  const revision = spawnSync('git', ['rev-parse', 'HEAD'], { encoding: 'utf8' });
+  const status = spawnSync('git', ['status', '--porcelain'], { encoding: 'utf8' });
+  if (
+    process.env.GITHUB_ACTIONS !== 'true' ||
+    process.env.GITHUB_REF_TYPE !== 'tag' ||
+    process.env.GITHUB_REF_NAME !== `v${appVersion}` ||
+    revision.status !== 0 ||
+    revision.stdout.trim() !== process.env.GITHUB_SHA ||
+    status.status !== 0 ||
+    status.stdout.trim()
+  )
+    throw new Error(
+      'Production bundles require a clean GitHub Actions checkout of the matching release tag and SHA',
+    );
+}
 const signingPath = process.env.MEMORIZE_ALL_ANDROID_SIGNING_FILE;
 if (!signingPath || !existsSync(signingPath))
   throw new Error(

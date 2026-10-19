@@ -2,7 +2,7 @@ name: Android checks and release bundle
 on:
   pull_request:
   push:
-    branches: [main, 'release/**']
+    branches: [main]
     tags: ['v*']
 permissions:
   contents: read
@@ -40,6 +40,7 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/v') && github.event_name == 'push'
     needs: checks
     runs-on: ubuntu-latest
+    environment: android-release
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
@@ -54,17 +55,18 @@ jobs:
       - name: Resolve registered upload key
         env:
           KEY_BASE64: ${{ secrets.ANDROID_UPLOAD_KEY_BASE64 }}
-          SIGNING_JSON: ${{ secrets.ANDROID_UPLOAD_SIGNING_JSON }}
+          STORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: |
           node scripts/materialize-signing.mjs
       - name: Build signed production bundle
         env:
           MEMORIZE_ALL_ANDROID_SIGNING_FILE: ${{ runner.temp }}/memorize-all-signing/signing.json
         run: |
-          test "$GITHUB_REF_NAME" = "v$(node -p 'require("./package.json").version')"
+          test "$GITHUB_REF_NAME" = "v$(node -p 'require("./app.json").expo.version')"
           npm run build:android:production
           python3 scripts/verify-android-artifact.py dist/android/memorize-all-production.aab --output dist/android/elf-check.json
-          sha256sum dist/android/memorize-all-production.aab > dist/android/SHA256SUMS
+          sha256sum dist/android/memorize-all-production.aab | sed 's|dist/android/||' > dist/android/SHA256SUMS
           git rev-parse HEAD > dist/android/SOURCE_SHA
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:

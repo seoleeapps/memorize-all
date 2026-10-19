@@ -24,6 +24,15 @@ class ContentReviewTests(unittest.TestCase):
   script=self.root/'scripts/build-catalog.py';script.write_text(script.read_text().replace('sodium|나트륨|Sodium|Na|Na','sodium|나트륨|Sodium|Xx|Xx'))
   self.run_script('build-catalog.py')
   self.assertEqual(next(k for k in self.data()['knowledge'] if k['id']=='elements.sodium')['review'],'candidate')
+ def test_catalog_tampering_is_rejected_without_overwriting_it(self):
+  shutil.copy(ROOT/'scripts/check-catalog.py',self.root/'scripts/check-catalog.py')
+  self.run_script('review-content.py','record','elements.sodium','--seconds','1','--reviewer','unit-test-fixture','--source-url','https://example.test/fact','--usage','synthetic test only','--fact','--ko','--en','--unique-answer','--rights')
+  self.run_script('build-catalog.py')
+  self.run_script('check-catalog.py')
+  data=self.data();fact=next(k for k in data['knowledge'] if k['id']=='elements.sodium');fact['title']['en']='Unreviewed change'
+  path=self.root/'src/content/catalog.json';path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');before=path.read_bytes()
+  with self.assertRaises(subprocess.CalledProcessError):self.run_script('check-catalog.py')
+  self.assertEqual(path.read_bytes(),before)
  def test_no_review_is_not_zero_cost(self):
   report=json.loads(self.run_script('review-content.py','report').stdout)
   self.assertEqual(report['reviewed'],0);self.assertIsNone(report['projectedHoursFor1000'])
